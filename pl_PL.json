@@ -4,7 +4,7 @@
         "constants": {
             "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Mały Fire Flower|Bubble Flower",
             "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Bubble Flower",
-            "1_map-palettes": "Standardowa/Overworld|Podziemia (ciemny niebieski)|Zamek (szary)|Podwodna (ciemny zielony)|Nieco (jasny zielony)|Lód (jasny niebieski)|Wulkan (czerwony)|Dom Duchów (fioletowy)|Bonus (żółty)",
+            "1_map-palettes": "Standardowa/Overworld|Podziemia (ciemny niebieski)|Zamek (szary)|Podwodna (ciemny zielony)|Niebo (jasny zielony)|Lód (jasny niebieski)|Wulkan (czerwony)|Dom Duchów (fioletowy)|Bonus (żółty)",
             "2_map-palettes": "Standardowa"
         },
         "common": {
