@@ -15,7 +15,8 @@ Below are the languages that have significantly enough translated strings to be 
 ## Currently work-in-progress languages
 These are the languages that have WIP translations, but are not yet ready to be in the game.  
 • _English (Brittain)_  
-• _Russian / Русский_  
+• _Russian / Русский_ (being implemented)  
+• _Polish / Polski_ (being implemented)  
 
 ## General Rule of Thumb
 • Do not use Google Translate to localize the text/strings. Google Translate is not always accurate and does not know context.  
