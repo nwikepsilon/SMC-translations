@@ -784,7 +784,7 @@
                 },
                 "tooltips": {
                     "jump-strength": "La velocidad vertical inicial, en píxeles/segundos, al inicio del salto.",
-                    "blend-modes": "ADITIVO\n[sub]Añade los colores de {0} sobre otros píxeles superpuestos[/sub]\n\nAPARECER POR ENCIMA DE OBJETOS\n[sub]{0} aparecerá sólo en los objetos que estén detrás de él (por ejemplo, en una capa inferior.)[/sub]\n\nCAMUFLAJE\n[sub]Lo mismo, ¡Pero es completamente invisible y "atraviesa" los bloques y sprites![/sub]",
+                    "blend-modes": "ADITIVO\n[sub]Añade los colores de {0} sobre otros píxeles superpuestos[/sub]\n\nAPARECER POR ENCIMA DE OBJETOS\n[sub]{0} aparecerá sólo en los objetos que estén detrás de él (por ejemplo, en una capa inferior.)[/sub]\n\nCAMUFLAJE\n[sub]Lo mismo, ¡Pero es completamente invisible y 'atraviesa' los bloques y sprites![/sub]",
                     "expanding-obj-cycle-info": "Expansión y reducción con el tiempo, con opciones de personalización de la longitud y la duración.",
                     "expanding-obj-size-change-tiles": "La cantidad de bloques a expandir/encoger.",
                     "expanding-obj-size-change-duration": "El tiempo (en segundos) que tarda en completarse la expansión/encogimiento.",
