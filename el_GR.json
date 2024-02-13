@@ -4,8 +4,8 @@
         "constants": {
             "1_power-ups": "Μανιτάρι|Λουλούδι της Φωτιάς|Σούπερ Φύλλο|Λουλούδι του Πάγου|Μικρό Λουλούδι της Φωτιάς|Λουλούδι της Φούσκας",
             "2_power-ups": "Μανιτάρι|Λουλούδι της Φωτιάς|Σούπερ Φύλλο|Λουλούδι του Πάγου|Λουλούδι της Φούσκας",
-            "1_map-palettes": "Προκαθορισμένο/Overworld|Σπηλιά (σκούρο μπλε)|Κάστρο (γκρι)|Υποβρύχιο (σκούρο πράσινο)|Ουρανός (light green)|Πάγος (ανοιχτό μπλε)|Ηφαίστειο (κόκκινο)|Στοιχειωμένο Σπίτι (μωβ)|Bonus (κίντρινο)",
-            "2_map-palettes": "Standard"
+            "1_map-palettes": "Προκαθορισμένο/Λιβάδι|Σπηλιά (σκούρο μπλε)|Κάστρο (γκρι)|Υποβρύχιο (σκούρο πράσινο)|Ουρανός (ανοιχτό πράσινο)|Πάγος (ανοιχτό μπλε)|Ηφαίστειο (κόκκινο)|Στοιχειωμένο Σπίτι (μωβ)|Bonus (κίντρινο)",
+            "2_map-palettes": "Πρότυπο"
         },
         "common": {
             "buttons": {
@@ -16,7 +16,7 @@
                 "next": "Επόμενο",
 				"confirm": "Επιβεβαίωση",
 				"cancel": "Άκυρο",
-				"play": "Παίξτε",
+				"play": "Έναρξη",
 				"load": "Φόρτωση",
                 "go-back": "Πίσω",
                 "delete": "Διαγραφή",
@@ -53,7 +53,7 @@
                 "decibells": "ντεσιμπέλ",
                 "volume": "ένταση",
                 "name": "όνομα",
-                "custom": "custom",
+                "custom": "προσαρμοσμένο",
                 "width": "πλάτος",
                 "height": "ύψος",
                 "layers": {
@@ -92,21 +92,21 @@
             "labels": {
                 "press-again-to-confirm": "Ξαναπατήστε για επιβεβαίωση",
                 "press-x-again-to-confirm": "Ξαναπατήστε το {0} για επιβεβαίωση",
-                "x-settings": "{0} settings",
-                "x-tags": "{0} tags",
+                "x-settings": "{0} ρυθμίσεις",
+                "x-tags": "{0} ετικέτες",
                 "active-on-start": "Ενεργό στην αρχή",
-				"additional-x-settings": "Additional {0} settings",
+				"additional-x-settings": "{0} επιπλέον ρυθμίσεις",
                 "above-all-layers": "πάνω από όλες τις στρώσεις",
                 "on-layer": "στην στρώση",
-                "puts-player": "Puts player",
-                "warps-to": "Warps to",
-                "this-map": "This map",
-                "new-x-name": "New {0} name",
-                "one-screen": "one screen",
-                "surface-area": "Surface area",
-                "max-tiles": "{0} tiles max",
-                "min-tiles": "Minimum size is {0}",
-                "current-map-size": "Current map size",
+                "puts-player": "Τοποθετεί τον παίκτη",
+                "warps-to": "Μεταφέρει στο",
+                "this-map": "Αυτή η περιοχή",
+                "new-x-name": "Όνομα νέας {0}",
+                "one-screen": "μίας οθόνης",
+                "surface-area": "Εμβαδόν",
+                "max-tiles": "το πολύ {0} πλακίδια",
+                "min-tiles": "Το ελάχιστο μέγεθος είναι {0}",
+                "current-map-size": "Τωρινό μέγεθος περιοχής",
                 "select-x": "Select {0}"
             },
             "menu-options": {
@@ -115,13 +115,13 @@
 				"disabled": "Απενεργοποιημένο",
 				"empty": "Άδειο",
                 "none": "Κανένα",
-                "horizontal": "Horizontal",
-                "vertical": "Vertical",
-                "both-axes": "Both axes",
-                "standard": "Standard",
-                "custom-music-url": "Custom music URL",
-                "more-buttons": "More buttons",
-                "reset-to-default": "Reset to default"
+                "horizontal": "Οριζόντια",
+                "vertical": "Κάθετα",
+                "both-axes": "Και στους δύο άξονες",
+                "standard": "Προκαθορισμένο",
+                "custom-music-url": "URL προσαρμοσμένης μουσικής",
+                "more-buttons": "Περισσότερα κουμπιά",
+                "reset-to-default": "Επαναφορά στο προκαθορισμένο"
             }
         },
         "title-screen": {
@@ -133,7 +133,7 @@
             "tooltips": {
                 "join-lss": "Επισκεφθείτε την Level Share Square!",
                 "lss-yt": "Κάντε εγγραφή στην Level Share Square!",
-                "smc-discord": "Join our Discord!"
+                "smc-discord": "Συμμετέχετε στο Discord μας!"
             }
         },
         "level-select": {
@@ -141,7 +141,7 @@
                 "level-select": "ΕΠΙΛΟΓΗ ΕΠΙΠΕΔΟΥ",
                 "pick-gamestyle": "ΔΙΑΛΕΞΤΕ ΤΟ ΣΤΥΛ",
                 "pick-theme": "ΔΙΑΛΕΞΤΕ ΤΟ ΘΕΜΑ",
-                "empty-card": "EMPTY LEVEL CARD",
+                "empty-card": "ΑΔΕΙΑ ΚΑΡΤΑ ΕΠΙΠΕΔΟΥ",
                 "level-name": "Όνομα επιπέδου",
                 "size-preset": "Προκαθορισμένο μέγεθος"
             },
@@ -170,7 +170,7 @@
                 "delete-warning": "Σίγουρα θέλετε να διαγράψετε αυτό το επίπεδο;\nΣε περίπτωση που θέλετε να το παίξετε ή να το επεξεργαστείτε αργότερα, αποθηκεύστε πρώτα τον κωδικό του στον υπολογιστή σας.",
                 "code-notice": "Μπορείτε να μοιραστήτε αυτόν τον κωδικό με άλλους, ώστε να παίξουν το επίπεδό σας! Συνιστάται να αποθηκεύετε τους κωδικούς ως back-up.",
                 "compact-notice": "Οι συντομευμένοι κωδικοί περιέχουν μόνο τα απαραίτητα δεδομένα για την κατασκευή του επιπέδου σας, χωρίς τα δεδομένα για τους σχεδιαστές των επιπέδων.",
-                "production-notice": "Ο κωδικός παραγωγής αποθηκεύει επιπλέον δεδομένα χρήσιμα για την επεξεργασία του επιπέδου, π.χ. τα αντικείμενα που βρίσκονται στην μπάρα αγαπημένων.",
+                "production-notice": "Ο κωδικός παραγωγής αποθηκεύει επιπλέον δεδομένα χρήσιμα για την επεξεργασία του επιπέδου, π.χ. τα αντικείμενα που βρίσκονται στην γραμμή αγαπημένων.",
                 "import-code-notice": "Επικολλήστε τον κωδικό ενός επιπέδου εδώ, και το επίπεδο θα αποθηκευτεί στο παιχνίδι. Συνιστάται να κάνετε συχνά back-up του επιπέδου, αποθηκεύοντας τον κωδικό στον υπολογιστή σας ή/και στην Level Share Square."
             }
         },
@@ -181,7 +181,7 @@
                 "time": "ΧΡΟΝΟΣ"
             },
             "html": {
-                "level-code-placeholder": "Επικολλήστε έναν κωδικό εδώ και πατήστε ΠΑΙΞΤΕ!"
+                "level-code-placeholder": "Επικολλήστε έναν κωδικό εδώ και πατήστε ΕΝΑΡΞΗ!"
             }
         },
         "toolbar": {
@@ -195,7 +195,7 @@
                 "effects": "Εφφέ",
                 "maps": "Περιοχές",
                 "settings" : "Ρυθμίσεις",
-                "playtest": "Δοκιμή",
+                "playtest": "Δοκιμαστική εκτέλεση",
                 "save-quit": "Αποθήκευση & Κλείσιμο"
             },
             "sidebar": {
@@ -213,12 +213,12 @@
                 "powerUps": "Power-ups & mounts",
                 "platforms": "Πλατφόρμες",
                 "switches": "Διακόπτες",
-                "goals": "Goals & checkpoints",
+                "goals": "Τέρματα & checkpoints",
                 "advanced": "Advanced tiles",
                 "mainEnemies": "Κοινοί εχθροί",
                 "koopas": "Εχθροί με καβούκια",
                 "waterEnemies": "Θαλασσινοί εχθροί",
-                "castleEnemies": "Castle enemies",
+                "castleEnemies": "Εχθροί κάστρων",
                 "ghostEnemies": "Φαντάσματα",
                 "artillery": "Πυροβολικό",
                 "plantEnemies": "Φυτά",
@@ -231,12 +231,12 @@
 				"music-settings": "Επεξεργασία μουσικής",
 				"level-desc": "Επεξεργασία περιγραφής",
 				"level-stats": "Πληροφορίες & Στατισικά επιπέδου",
-				"toolbar-settings": "Toolbar settings",
-				"backup-settings": "Αυτόματη αποθήκευση & Back-up"
+				"toolbar-settings": "Ρυθμίσεις γραμμής εργαλείων",
+				"backup-settings": "Αυτόματη αποθήκευση & Backup"
             },
             "tileset-menu": {
-                "footer": "Click on a tileset icon to open its page.[scale=0.5]\n\n[/scale]Drag a tileset icon to the favorites bar to access it from anywhere in the editor.",
-                "go-back": "Back to all tilesets"
+                "footer": "Πατήστε ένα σετ για να ανοίξετε τη σελίδα του.[scale=0.5]\n\n[/scale]Σύρτε το εικονίδιο ενός σετ στην γραμμή αγαπημένων για να το έχετε άμεσα προσβάσιμο.",
+                "go-back": "Πίσω σε όλα τα σετ"
             },
             "mini-toolbar": {
                 "expand-palettes": "Περισσότερα χρώματα",
@@ -256,11 +256,11 @@
                 "backup-settings": "Ρυθμίσεις backup\n[scale=0.5](Ισχύει για όλα τα επίπεδα)[/scale]"
             },
             "labels": {
-                "new-destination-name": "[scale=0.5]New destination[/scale]\n[scale=0.75]name:[/scale]",
-                "new-destination-output-layer": "[scale=0.7]Move player\nto layer[/scale]",
-                "delete-destination-prompt": "Delete destination?\n[scale=0.5](Also deletes its entryways)[/scale]",
+                "new-destination-name": "[scale=0.5]Νέος προορισμός[/scale]\n[scale=0.75]όνομα:[/scale]",
+                "new-destination-output-layer": "[scale=0.7]Μετακίνησε τον παίκτη\nστη στρώση[/scale]",
+                "delete-destination-prompt": "Διαγραφή προορισμού;\n[scale=0.5](Θα διαγραφούν και οι είδοδοί του)[/scale]",
                 "layer-darkness": "Cast darkness",
-                "add-effect": "Add an effect",
+                "add-effect": "Προσθήκη εφφέ",
                 "start-with": "[scale=0.75]Start with[/scale]",
                 "inventory": "[scale=0.75]Inventory[/scale]",
                 "level-name": "Όνομα επιπέδου",
@@ -343,7 +343,7 @@
                 "water-mode": "When set to always, sprites will always act like they're in water, without the need for water tiles.",
                 "screenwrap": "When enabled, the player (and other sprites) will wrap to the other sides of the level when leaving the level's bounds.",
                 "change-bg": "Change\nbackground",
-                "change-bg-palette": "Change\nbackground palette",
+                "change-bg-palette": "Αλλαγή\nbackground palette",
                 "bg-loop-notice": "Most backgrounds should only loop horizontally, but there are backgrounds that could also loop verticaly (e.g. castle interiors). You can adjust this setting here.",
                 "playtest-music": "Playtest music",
                 "text-formatting": "[scale=0.8]You can wrap text into these BBCodes to alter their appearance.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]text color[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]background color[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Scale text[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
@@ -357,9 +357,9 @@
                 "destination-name-example": "Π.χ. 'έξοδος από σπηλιά'",
                 "entryway-name-example": "Π.χ. 'είσοδος κάστρου'",
                 "darkness-values": "Off|25% (Ambient darkness)|50%|75%|100% (Blindness)",
-                "1_water-modes": "Disabled|Always (don't need water tiles)|Layered water (classic)|Layered water (modern)",
-                "2_water-modes": "Disabled|Always (don't need water tiles)|Layered water",
-                "bg-loop-methods": "Disabled|Loop horizontally|Loop vertically|Loop all|Loop none|Only horizontal|Only vertical",
+                "1_water-modes": "Απενεργοποιημένο|Always (don't need water tiles)|Layered water (classic)|Layered water (modern)",
+                "2_water-modes": "Απενεργοποιημένο|Always (don't need water tiles)|Layered water",
+                "bg-loop-methods": "Απενεργοποιημένο|Loop horizontally|Loop vertically|Loop all|Loop none|Only horizontal|Only vertical",
                 "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|Off|→ Slow|→ Medium|→ Fast|→→ VERY fast",
                 "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|Off|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
                 "level-desc-placeholder": "Enter an (optional) short summary of your level, its story, or anything the player should know that may come in handy.",
@@ -422,7 +422,7 @@
 				"gray-coin": "Gray Coin",
 				"exclamation-switch": "!-Switch",
 				"exclamation-switch-reusable": "!-Switch (re-usable)",
-                "axe": "Axe",
+                "axe": "Τσεκούρι",
                 "baddie-box": "Baddie Box",
                 "flagpole": "Flagpole",
                 "checkpoint-flag": "Checkpoint Flag",
@@ -440,12 +440,12 @@
 				"big-ice-cube-with-coins": "Big ice cube with coins",
 				"tall-ice-cube-with-coin": "Tall ice cube with coin",
 				"long-ice-cube-with-coin": "Long ice cube with coin",
-                "floating-clock-10": "Floating clock (+10)",
-				"floating-clock-100": "Floating clock (+100)",
-				"gravity-clock-10": "Gravity clock (+10)",
-				"gravity-clock-100": "Gravity clock (+100)",
-                "key": "Key",
-                "keyhole": "Keyhole (goal)",
+                "floating-clock-10": "Αιωρούμενο ρολόι (+10)",
+				"floating-clock-100": "Αιωρούμενο ρολόι (+100)",
+				"gravity-clock-10": "Ρολόι (+10)",
+				"gravity-clock-100": "Ρολόι (+100)",
+                "key": "Κλειδί",
+                "keyhole": "Κλειδαρότρυπα (τέρμα)",
                 "pow-block": "POW Block",
                 "midway-gate": "Midway Gate",
                 "dolphin": "Dolphin",
@@ -464,26 +464,26 @@
                 "flip-panel": "Flip Panel",
                 "snowball": "Snowball",
                 "gift-box": "Gift box",
-                "bubble": "Bubble",
-                "parachute": "Parachute",
-                "moving-coin": "Moving Coin",
-                "hidden-coin": "Hidden Coin",
-                "red-coin-ring": "Red Coin Ring",
-                "red-coin": "Red Coin",
+                "bubble": "Φούσκα",
+                "parachute": "Αλεξίπτωτο",
+                "moving-coin": "Κινούμενο Νόμισμα",
+                "hidden-coin": "Κρυμένο Νόμισμα",
+                "red-coin-ring": "Δακτύλιος Κόκκινων Νομισμάτων",
+                "red-coin": "Κόκκινο Νόμισμα",
                 "flame-pumpkin": "Flame Pumpkin",
-                "pepper": "Pepper",
+                "pepper": "Πιπεριά",
                 "detached-bill-blaster": "Detached Bullet Bill Blaster",
-				"green-palace-switch": "Green Palace Switch",
-                "yellow-palace-switch": "Yellow Palace Switch",
-                "red-palace-switch": "Red Palace Switch",
-                "blue-palace-switch": "Blue Palace Switch",
-				"goomba": "Goomba",
-				"galoomba": "Galoomba",
-				"goombrat": "Goombrat",
-				"goombud": "Goombud",
-				"green-koopa": "Green Koopa Troopa",
-				"green-koopa-shell": "Green Koopa shell",
-				"green-koopa-shell-moving": "Green Koopa shell[s]Already moving",
+				"green-palace-switch": "Διακόπτης Πράσινου Παλατιού",
+                "yellow-palace-switch": "Διακόπτης Κίτρινου Παλατιού",
+                "red-palace-switch": "Διακόπτης Κόκκινου Παλατιού",
+                "blue-palace-switch": "Διακόπτης Μπλε Παλατιού",
+				"goomba": "Γκούμπα",
+				"galoomba": "Γκαλούμπα",
+				"goombrat": "Γκούμπρατ",
+				"goombud": "Γκούμπαντ",
+				"green-koopa": "Πράσινο Κούπα Τρούπα",
+				"green-koopa-shell": "Πράσινο Καβούκι Κούπα",
+				"green-koopa-shell-moving": "Πράσινο Καβούκι Κούπα[s]Κινούμενο",
 				"green-koopa-jumping": "Green Jumping Paratroopa",
 				"green-koopa-flying": "Green Flying Paratroopa",
 				"green-koopa-flying-no-turn": "Green Flying Paratroopa[s]Doesn't turn on their own",
@@ -721,17 +721,17 @@
             "shared": {
                 "buttons": {
                     "change-initial-direction": "Change initial direction",
-                    "playtest-from-here": "Playtest from here"    
+                    "playtest-from-here": "Δοκιμαστική εκτέλεση από εδώ"    
                 }
             },
             "startpoint": {
                 "labels": {
-                    "start-layer": "Start layer",
-                    "start-powerup": "Start [scale=0.7]power-up[/scale]"
+                    "start-layer": "Στρώση εκκίνησης",
+                    "start-powerup": "Power-up [scale=0.7]εκκίνησης[/scale]"
                 },
                 "tooltips": {
-                    "start-layer": "The layer where the player will start on.",
-                    "start-powerup": "The power-up the player will start with."
+                    "start-layer": "Η στρώση στην οποία θα ξεκινήσει ο παίκτης.",
+                    "start-powerup": "Το power-up με το οποίο θα ξεκινήσει ο παίκτης."
                 }
             },
             "warps": {
@@ -743,7 +743,7 @@
                     "destination-own-layer": "[scale=0.65]Own[/scale]\nlayer",
                     "destination-output-layer": "[scale=0.65]Output[/scale]\nlayer",
                     "door-type": "Deurtype",
-                    "door-type-list": "Standard|Locked|P-Door|Locked P-Door"
+                    "door-type-list": "Προκαθορισμένη|Κλειδωμένη|P-Door|Locked P-Door"
                 },
                 "tooltips": {
                     "warp-name-tips": "Give this {0} a name of your choice. This will allow you to easily identify different {1}.",
@@ -776,15 +776,15 @@
             "properties": {
                 "intensity": "Ένταση",
                 "movement-angle": "Movement angle",
-                "downfall-tilt": "Κλίση",
-                "upwards-tilt": "Κλίση",
+                "downfall-tilt": "Κλίση πτώσης",
+                "upwards-tilt": "Κλίση ανόδου",
                 "environment-collisions": "Μην αλληλεπιδράς με το περιβάλλον",
                 "movement-speed": "Ταχύτητα κίνησης",
                 "flash-type": "Είδος λάμψης",
                 "flash-thunder": "Ηχητικό εφφέ κεραυνού",
                 "fade-duration": "[scale=0.8]Διάρκεια εμφάνισης/εξαφάνισης[/scale]",
                 "additive-blend": "Additive blending",
-                "color-hex": "Custom color",
+                "color-hex": "Προσαρμοσμένο χρώμα",
                 "palette": "Χρώμα"
             },
             "html": {
@@ -795,7 +795,7 @@
             },
             "tooltips": {
                 "tags": "Optional tag or tags (separated by spaces) used to reference this effect. You can for example use Tag Blocks to toggle this effect.",
-                "intensity": "Intensity of the effect, usually resulting in more particles at higher settings.[/color]",
+                "intensity": "Η ένταση του εφφέ, usually resulting in more particles at higher settings.[/color]",
                 "movement-angle": "Angle/degree of the movement.",
                 "downfall-tilt": "Make downfall move slightly to the left or right, to simulate affection by wind.",
                 "upwards-tilt": "Make the rising particles move slightly to the left or right, to simulate affection by wind.",
@@ -807,7 +807,7 @@
                 "fade-duration": "The time (in seconds) it takes for the effect to fade-in/out when one of its tags are toggled.",
                 "additive-blend": "Additive blending adds the color of the overlay on top of the pixels the overlay is covering. This effect is much more noticeable with bright colors.",
                 "color-hex": "Custom color in HEX format.\n\nExamples:\n[scale=0.75][color=#C8C8C8]C8C8C8 for light gray[/color]\n[color=#F8C0F0]F8C0F0 for pastel pink[/color][scale=0.5][/scale]\n\nIt is recommended to use a color picker to find your preferred HEX values.[/scale]",
-                "palette": "Palette of the effect, which is purely cosmetic."
+                "palette": "Το χρώμα του εφφέ, που είναι τελείως διακοσμητικό."
             },
             "palettes": {
                 "1_rain": "Default Rain",
@@ -827,13 +827,13 @@
                 "code-size": "Μέγεθος κωδικού",
                 "restore": "Επαναφορά",
                 "download": "Λήψη στιγμιοτύπου επαναφοράς\nκωδικός επιπέδου",
-                "header": "Σε αυτό το μενού, μπορείτε να επαναφέρετε ή να κατεβάσετε ένα back-up μιας προηγούμενης έκδοσης του επιπέδου σας.",
+                "header": "Σε αυτό το μενού, μπορείτε να επαναφέρετε ή να κατεβάσετε ένα backup μιας προηγούμενης έκδοσης του επιπέδου σας.",
 				"none-found": "Δεν υπάρχουν στιγμιότυπα επαναφοράς για αυτό το επίπεδο ακόμα.\nΚαθώς επεξεργάζεστε το επίπεδό σας, στιγμιότυπα επαναφοράς θα δημιουργηθούν αυτόματα.",
 				"confirm-prompt": "Επαναφορά από αυτή την ημερομηνία;"
             },
             "startpoint-missing": {
                 "message-edit": "Μια στιγμή - αυτό το επίπεδο δεν έχει σημείο εκκίνησης! Πιθανώς η περιοχή στην οποία βρισκόταν το σημείο εκκίνησης έχει διαγραφεί.\n\nΘέλετε να ορίσετε νέο σημείο εκκίνησης τώρα;",
-                "message-play": Μια στιγμή! Αυτό το επίπεδο δεν έχει έγκυρο σημείο εκκίνησης! Πηγαίνετε στον editor, ανοίξτε το μενού ρυθμίσεων και τοποθετήστε ένα από εκεί.",
+                "message-play": "Μια στιγμή! Αυτό το επίπεδο δεν έχει έγκυρο σημείο εκκίνησης! Πηγαίνετε στον editor, ανοίξτε το μενού ρυθμίσεων και τοποθετήστε ένα από εκεί.",
                 "open-editor": "Open editor"
             }
         },
@@ -854,14 +854,14 @@
             },
             "toolbox": {
                 "camera": "Λήψη στιγμιότυπου",
-                "record": "Record",
+                "record": "Εγγραφή",
                 "invincibility": "Invincibility",
                 "moonjump": "Moonjump",
                 "flashlight": "Fullbright",
                 "spyglass": "Spyglass",
                 "trail": "Ίχνος παίκτη",
                 "clock": "Αργή κίνηση",
-                "frameadvance": "Frame Advance",
+                "frameadvance": "Εκτέλεση ανά καρέ",
                 "debug": "Debugger"
             }
         }
