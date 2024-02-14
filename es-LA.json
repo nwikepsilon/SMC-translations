@@ -28,7 +28,10 @@
                 "create": "Crear",
                 "edit": "Editar",
                 "exit": "Salir",
-                "editor": "Editor"
+                "editor": "Editor",
+                "confirm-click": "[!]Click again to confirm",
+                "proceed": "[!]Proceed",
+                "click-configure": "[!]Click to configure"
             },
             "time": {
                 "days": {
@@ -48,7 +51,8 @@
                 "seconds": {
                     "one": "segundo",
                     "other": "segundos"
-                }
+                },
+                "just-now": "[!]Just now"
             },
             "words": {
                 "keyboard": "teclado",
@@ -110,7 +114,10 @@
                 "degrees": {
                     "one": "grado",
                     "other": "grados"
-                }
+                },
+                "active": "[!]active",
+                "inactive": "[!]inactive",
+                "paused": "[!]paused"
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -137,7 +144,8 @@
                 "advanced": "Avanzado",
                 "tagging": "Etiquetado",
                 "behavior": "Comportamiento",
-                "other": "Otro"
+                "other": "Otro",
+                "how-it-works": "[!]How it works"
             },
             "menu-options": {
                 "default": "Por defecto",
@@ -182,7 +190,8 @@
                 "import-code": "IMPORTAR CÓDIGO DEL NIVEL",
                 "compact": "Compacto",
                 "production": "Para producción",
-                "create-level": "Create level!"
+                "create-level": "Create level!",
+                "create-lss-entry": "[!]Also create a private LSS-entry"
             },
             "tooltips": {
                 "play": "Jugar",
@@ -324,7 +333,9 @@
                 "autosave-interval": "Los autoguardados se producen cada 5 min.",
                 "restore-point-header": "Opciones de punto de restauración",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
-                "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]"
+                "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
+                "lss-level-sync": "[!]LSS cloud synchronization",
+                "sync-on-exit": "[!]Synchronizes on exit"
             },
             "buttons": {
                 "new-destination": "Haz clic para añadir un nuevo destino",
@@ -360,7 +371,8 @@
                 "prompt-backup-notice": "[scale=0.75]Preguntar cada ... para descargar copia de seguridad[/scale]\n[scale=0.5][color=#CCCCCC](Recomendado en versión web de SMC)[/color][/scale]",
                 "create-restore-point": "[scale=0.75]Crear manualmente\npunto de restauración[/scale]",
                 "view-restore-points": "[scale=0.75]Mostrar/Usar\npuntos de restauración[/scale]",
-                "download-level": "[scale=0.75]Descargar nivel actual[/scale]"
+                "download-level": "[scale=0.75]Descargar nivel actual[/scale]",
+                "edit-sync-settings": "[!]Edit synchronization settings"
             },
             "tooltips": {
                 "add-entryway": "Agregar entrada",
@@ -384,7 +396,8 @@
                 "mini-toolbar": "Esta barra de herramientas pequeña siempre se mostrará cuando esté activada, y permite principalmente cambiar de capa rápidamente.\n[scale=0.75][color=#CCCCCC]Tecla de acceso directo para activar/desactivar: M[/color][/scale]",
                 "inactive-layer-opacity": "Al editar una capa de bloques, otras capas se volverán translúcidas. Si introduces 100 las capas serán completamente visibles, y si introduces 0 las capas serán totalmente invisibles.",
                 "trail-tool-frame-count": "Al probar el nivel, Mario dejará un rastro visible en el editor. Este es el número de fotogramas que dejará Mario.\nLa función de rastro se encuentra en la caja de herramientas de la parte inferior izquierda (durante la prueba de nivel).",
-                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor"
+                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor",
+                "last-sync": "[!]Last synchronization"
             },
             "html": {
                 "destination-name-example": "Ejemplo 'salida de la cueva'",
@@ -1162,6 +1175,32 @@
                 "message-edit": "¡Espera - Este nivel aún no tiene punto de inicio! Esto posiblemente se deba a que el mapa que contienía el punto de inicio haya sido eliminado.\n\n¿Quieres establecer ahora un nuevo punto de inicio?",
                 "message-play": "¡Espera! - Este nivel no tiene un punto de inicio válido - Ve al editor, abre el menú de ajustes, y coloca uno desde allí.",
                 "open-editor": "Abre el editor"
+            },
+            "level-sync-new": {
+                "enter-link": "[!]Enter the link to your level on Level Share Square that you want to synchronize the level code with.",
+                "info-label-1": "[!]With this feature enabled, when you save your level in-game, it will also be updated on the Level Share Square website automatically.",
+                "info-label-2": "[!]When opening up the editor, the game will also alert you if the level code on the site is newer, which is useful when editing on multiple devices.",
+                "sync-success": "[!]Your level is synchronized with its entry on Level Share Square! Hoozah!"
+            },
+            "level-sync-edit": {
+                "sync-select": "[!]Select when you want to synchronize.",
+                "cooldown-notice": "[!]Note: synchronizations have a 20-second cooldown.",
+                "sync-options": "[!]Pause synchronization|Whenever the game saves|When I exit out of the editor",
+                "desync": "[!]Desynchronize",
+                "cancel-sync": "[!]Cancel synchronization",
+                "cancel-notice-1": "[!]When you cancel synchronization, the game will stop communication between Level Share Square for this specific level.",
+                "cancel-notice-2": "[!]De-synchronizing does not delete your level either in-game or on Level Share Square. You can always re-enable synchronization at a later date.",
+                "sync-cancelled": "[!]This level is no longer being synchronized with Level Share Square."
+            },
+            "level-sync-compare": {
+                "new-ver-on-site": "[!]It looks like a newer version of this level is on Level Share Square. Would you like to synchronize?",
+                "restore-point-notice": "[!]A local restore point will be made in case you want to go back.",
+                "local-version": "[!]Local version",
+                "cloud-version": "[!]Cloud version",
+                "last-edited": "[!]Last edited",
+                "keep-local-version": "[!]Keep local version",
+                "use-cloud-version": "[!]Use cloud version",
+                "download-copy": "[!]Download a copy"
             }
         },
         "misc-labels": {
@@ -1211,7 +1250,8 @@
                 "x-levels-on-lss": "{0} niveles en Level Share Square",
                 "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
                 "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
-                "accessibility": "accesibilidad"
+                "accessibility": "accesibilidad",
+                "logout": "[!]Log out"
             },
             "buttons": {
                 "restart": "Reiniciar",

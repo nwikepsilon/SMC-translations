@@ -15,6 +15,8 @@
                 "download": "Downloaden",
                 "next": "Volgende",
                 "confirm": "Bevestig",
+                "confirm-click": "Klik opnieuw om te bevestigen",
+                "proceed": "Ga door",
                 "cancel": "Annuleer",
                 "play": "Speel",
                 "load": "Laad",
@@ -27,7 +29,9 @@
                 "view": "Bekijk",
                 "create": "Maak",
                 "edit": "Bewerken",
-                "exit": "Verlaten"
+                "exit": "Verlaten",
+                "editor": "Editor",
+                "click-configure": "Klik om te configureren"
             },
             "time": {
                 "days": {
@@ -42,7 +46,12 @@
                     "one": "minuut",
                     "other": "minuten"
                 },
+                "seconds": {
+                    "one": "seconde",
+                    "other": "seconden"
+                },
                 "ago": "geleden",
+                "just-now": "Zojuist",
                 "notation": "{0} {1}"
             },
             "words": {
@@ -50,10 +59,23 @@
                 "controller": "controller",
                 "language": "taal",
                 "characters": "karakters",
-                "decibells": "decibellen",
+                "music": "muziek",
+                "decibels": "decibellen",
                 "volume": "volume",
+                "frequency": "frequentie",
+                "rotation": "rotatie",
+                "active": "actief",
+                "inactive": "inactief",
+                "paused": "gepauzeerd",
                 "name": "naam",
+                "main": "algemeen",
+                "wait": "wacht",
                 "custom": "op maat",
+                "left": "links",
+                "middle": "midden",
+                "right": "rechts",
+                "up": "omhoog",
+                "down": "omlaag",
                 "width": "breedte",
                 "height": "hoogte",
                 "layers": {
@@ -87,6 +109,14 @@
                 "themes": {
                     "one": "thema",
                     "other": "themas"
+                },
+                "tags": {
+                    "one": "tag",
+                    "other": "tags"
+                },
+                "degrees": {
+                    "one": "graad",
+                    "other": "graden"
                 }
             },
             "labels": {
@@ -107,11 +137,20 @@
                 "max-tiles": "Maximaal {0} tegels",
                 "min-tiles": "Minimale oppervlakte is {0}",
                 "current-map-size": "Huidig mapoppervlak",
-                "select-x": "Selecteer {0}"
+                "select-x": "Selecteer {0}",
+                "appearance": "Uiterlijk",
+                "activity": "Activity",
+                "activation": "Activatie",
+                "advanced": "Geadvanceerd",
+                "tagging": "Tagging",
+                "behavior": "Gedrag",
+                "how-it-works": "Hoe het werkt",
+                "other": "Overig"
             },
             "menu-options": {
                 "default": "Standaard",
                 "no-power-up": "Geen power-up",
+                "enabled": "Ingeschakeld",
                 "disabled": "Uitgeschakeld",
                 "empty": "Leeg",
                 "none": "Geen",
@@ -121,7 +160,8 @@
                 "standard": "Standaard",
                 "custom-music-url": "Eigen music URL",
                 "more-buttons": "Meer knoppen",
-                "reset-to-default": "Terug naar standaardswaarden"
+                "reset-to-default": "Terug naar standaardswaarden",
+                "unapplicable": "Niet toepasbaar"
             }
         },
         "title-screen": {
@@ -150,7 +190,8 @@
                 "import-code": "IMPORTEER EEN LEVEL CODE",
                 "compact": "Compact",
                 "production": "Productie",
-                "create-level": "Begin met maken!"
+                "create-level": "Begin met maken!",
+                "create-lss-entry": "Creeër ook een privé LSS-level pagina"
             },
             "tooltips": {
                 "play": "Spelen",
@@ -208,21 +249,22 @@
                 "cryo": "Cryo",
                 "spikes": "Stekels & dodelijke tegels",
                 "climbables": "Beklimbare objecten",
-                "doors": "Decorative deuren",
+                "doors": "Decoratieve deuren",
                 "mainObjects": "Algemene objecten",
                 "powerUps": "Power-ups & bestuurbare objecten",
                 "platforms": "Platformen",
                 "switches": "Schakelaars",
                 "goals": "Goal & checkpunten",
-                "advanced": "Geadvanceerde tegels",
+                "advanced": "Geavanceerde tegels",
                 "mainEnemies": "Algemene vijanden",
                 "koopas": "Vijanden met schilden",
-                "waterEnemies": "Aquatischische vijanden",
+                "waterEnemies": "Aquatische vijanden",
                 "castleEnemies": "Kasteel vijanden",
                 "ghostEnemies": "Spookachtige vijanden",
                 "artillery": "Artillerie",
                 "plantEnemies": "Plantaardige vijanden",
                 "dinoEnemies": "Dinosaurus vijanden",
+                "fieryEnemies": "Vurige & electrische vijanden",
                 "bosses": "Eindbazen & gerelateede vijanden",
                 "general-level-settings": "Algemene level instellingen",
                 "map-settings": "Map instellingen",
@@ -289,6 +331,8 @@
                 "trail-tool-frame-count": "[offsety=-8][scale=0.66]Spoor gereedschap\nframe aantal[/scale][/offsety]",
                 "autosave-header": "Autosave opties",
                 "autosave-interval": "Autosaves gebeuren elke 5 min.",
+                "lss-level-sync": "LSS cloud-synchronisatie",
+                "sync-on-exit": "Verlaat editor om te synchroniseren",
                 "restore-point-header": "Herstel Punt opties",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Herstel Punten zijn automatische backups van je level, gemaakt om de tijd bij het opslaan.\nJe kan hier teruggaan naar een vorige versie van je level.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Herstel Punt creatie interval[/scale]"
@@ -324,6 +368,7 @@
                 "cursor-coords-toggle": "Toon muis coordinaten",
                 "autosave-toggle": "[scale=0.75]Voer autosaves uit[/scale]",
                 "autosave-notif": "[scale=0.75]Breng me op de hoogte van autosaves[/scale]",
+                "edit-sync-settings": "Edit synchronisatie instellingen",
                 "prompt-backup-notice": "[scale=0.66]Herinner mij elke ... om een backup te downloaden[/scale]\n[scale=0.5][color=#CCCCCC](Aanbevolen op web SMC)[/color][/scale]",
                 "create-restore-point": "[scale=0.75]Maak herstel punt zelf[/scale]",
                 "view-restore-points": "[scale=0.75]Bekijk/gebruik restore points[/scale]",
@@ -351,6 +396,7 @@
                 "mini-toolbar": "Wanneer ingeschakeld, deze kleine toolbar is altijd beschikbaar, en dient vooral om snel van lagen te wisselen.\n[scale=0.75][color=#CCCCCC]Sneltoets voor aan-/uitzetten: M[/color][/scale]",
                 "inactive-layer-opacity": "Wanneer je werkt met een tegel-laag, kunnen andere tegel-lagen iets doorzichtbaar worden. Voer 100 in om dit uit te schakelen, of 0 om andere lagen compleet onzichtbaar te maken.",
                 "trail-tool-frame-count": "Tijdens het testen van je level, kan Mario sporen achterlaten. Dit is hoeveel sporen er zullen worden vertoond.\nJe kan deze functie vinden in de gereedschapskist tijdens het testen van je level.",
+                "last-sync": "Laatste synchronisatie",
                 "backup-interval-notice": "Let op: dit is niet in echte minuten, maar in minuten die voorbij gaan terwijl je in de bewerk-mode bent."
             },
             "html": {
@@ -423,7 +469,7 @@
 				"exclamation-switch": "!-Schakelaar",
 				"exclamation-switch-reusable": "!-Schakelaar (herbruikbaar)",
                 "axe": "Bijl",
-                "baddie-box": "Slechterikken Doos",
+                "baddie-box": "Slechterik Doos",
                 "flagpole": "Vlaggenstok",
                 "checkpoint-flag": "Checkpointvlag",
                 "goal-tape": "Doellint",
@@ -445,7 +491,7 @@
 				"gravity-clock-10": "Gravitatieve klok (+10)",
 				"gravity-clock-100": "Gravitatieve klok (+100)",
                 "key": "Sleutel",
-                "keyhole": "Keyhole (goal)",
+                "keyhole": "Sleutelgat (goal)",
                 "pow-block": "POW-blok",
                 "midway-gate": "Halverwegen Punt",
                 "dolphin": "Dolfijn",
@@ -527,7 +573,7 @@
 				"buzzy-beetle-shell-upsidedown": "Ondersteboven-Buzzy Beetle Schild",
 				"buzzy-beetle-shell-upsidedown-moving": "Ondersteboven-Buzzy Beetle Schild[s]Al in beweging",
 				"piranha-plant": "Piranha Plant",
-				"red-piranha-plant": "Red Piranha Plant",
+				"red-piranha-plant": "Rode Piranha Plant",
 				"venus-fire-trap": "Venus-Vuurval",
 				"red-venus-fire-trap": "Rode Venus-vuurval",
 				"muncher": "Muncher",
@@ -620,8 +666,8 @@
 				"spike-top": "Spike Top",
 				"fuzzy": "Fuzzy",
 				"big-fuzzy": "Reuze-Fuzzy",
-				"sparkie": "Lil Sparkie",
-				"hothead": "Hothead",
+				"sparkie": "Kleine Sparkie",
+				"hothead": "Heethoofd",
 				"rex": "Rex",
 				"rex-squished": "Verpletterde Rex",
 				"ninji": "Ninji",
@@ -629,19 +675,22 @@
 				"pokey-nsmb": "Pokey[s]Beweegt lineair",
 				"snow-pokey-smw": "Sneeuw Pokey[s]Jaagt op de speler",
 				"snow-pokey-nsmb": "Sneeuw Pokey[s]Beweegt lineair",
+				"spike": "Spike",
+				"spike-ball": "Spijkerbal",
 				"dino-torch": "Dino-Torch",
 				"dino-rhino": "Dino Rhino",
+				"chain-chomp": "Chain Chomp",
 				"ball-n-chain": "Stekelbal",
 				"grinder": "Grinder",
 				"grinder-stationary": "Grinder (Stationary)",
 				"thwimp": "Thwimp",
-				"falling-spike": "Falling spike",
+				"falling-spike": "Vallende Stekel",
 				"mechakoopa": "Mechakoopa",
-				"green-climbing-koopa": "Green Climbing Koopa",
-				"red-climbing-koopa": "Red Climbing Koopa",
-				"yellow-climbing-koopa": "Yellow Climbing Koopa",
-				"blue-climbing-koopa": "Blue Climbing Koopa",
-				"bombshell-climbing-koopa": "Bombshell Climbing Koopa",
+				"green-climbing-koopa": "Groene Klimmende Koopa",
+				"red-climbing-koopa": "Rode Klimmende Koopa",
+				"yellow-climbing-koopa": "Gele Klimmende Koopa",
+				"blue-climbing-koopa": "Blauwe Klimmende Koopa",
+				"bombshell-climbing-koopa": "Klimmende Nobokon",
 				"urchin-stationary": "Zee-egel[s]Stationair",
 				"urchin-back-and-forth": "Zee-egel[s]Zwermt heen-en-weer",
 				"urchin-walled": "Zee-egel[s]Vastgeklampt aan muur",
@@ -675,6 +724,7 @@
 				"small-falling-icicle": "Kleine Vallende IJspegel",
 				"big-falling-stalactite": "Grote Vallende Stalactiet",
 				"small-falling-stalactite": "Kleine Vallende Stalactiet",
+                "amp": "Amp",
 				"boom-boom": "Boom Boom",
 				"bowser": "Bowser",
 				"king-boo": "Koning Boo",
@@ -719,9 +769,49 @@
         },
         "customizers": {
             "shared": {
+                "labels": {
+                    "object-cap": "Object maximum",
+                    "spawn-delay": "Spawn vertraging",
+                    "start-delay": "Start vertraging",
+                    "delay-in-sec": "Vertraging (in seconden)",
+                    "speed": "Snelheid",
+                    "jump-strength": "Sprong sterkte",
+                    "firing-rate": "Vuursnelheid",
+                    "size-changing": "Wijzig grootte",
+                    "size-change-tiles": "Verandering (in tegels)",
+                    "grow-shrink-duration": "Groei/krimp tijdsduur",
+                    "attached-to": "Gehecht aan",
+                    "tag-is-active": "Tag is active on start"
+                },
+                "separators": {
+                    "spawn-intervals": "Spawn intervallen",
+                    "grow-and-shrink": "Groei & krimp"
+                },
                 "buttons": {
                     "change-initial-direction": "Verander oorspronkelijke richting",
-                    "playtest-from-here": "Test vanaf dit punt"
+                    "playtest-from-here": "Test vanaf dit punt",
+                    "preview": "Voorbeeld",
+                    "edit-range": "Bereik bewerken",
+                    "edit-palette": "Kies een kleur",
+                    "edit-item": "Item bewerken"
+                },
+                "tooltips": {
+                    "jump-strength": "De verticale snelheid aan het begin van de sprong, in pixels / sec.",
+                    "blend-modes": "ADDITIEF\n[sub]Voegt {0}'s kleuren bovenop die van de overlappende pixels.[/sub]\n\nVERSCHIJN BOVEN OBJECTEN\n[sub]{0} zal alleen zichtbaar zijn bovenop objecten onderop. (bijv. op een laag beneden.)[/sub]\n\nCAMOUFLATIE\n[sub]Zelfde als boven, maar is volledig onzichtbaar and 'snijdt door' tegels en objecten![/sub]",
+                    "expanding-obj-cycle-info": "Groei en krimp om de zoveel tijd, met aanpasbare opties voor lengte & tijdsduur daarvan.",
+                    "expanding-obj-size-change-tiles": "Het aantal tegels dat gegroeid/gekrompen wordt.",
+                    "expanding-obj-size-change-duration": "De tijd (in seconden) dat het groeien/krimpen opneemt.",
+                    "expanding-obj-size-change-delay": "Na het groeien of krimpen, wacht deze tijd even uit."
+                },
+                "html": {
+                    "additive": "Additief",
+                    "appear-above-objects": "Verschijn boven objecten",
+                    "camouflage": "Camouflatie",
+                    "size-change-modes": "Uitgeschakeld|Groei|Krimp",
+                    "attachment-options": "Niks|Vloer|Muur links|Plafond|Muur rechts"
+                },
+                "text": {
+                    "tagging-notice": "Wanneer uitgeschakeld, kan de spawner worden gestart als een van deze tags geactiveerd worden (bijv. via een Tag-Tegel)."
                 }
             },
             "startpoint": {
@@ -735,15 +825,15 @@
                 }
             },
             "warps": {
-                "buttons": {
-                    "warp-type": "[scale=0.75]Bewerk warp type[/scale]",
-                    "reset-warp-toggle": "Reset huidige map bij entree"
-                },
                 "labels": {
                     "destination-own-layer": "[scale=0.65]Eigen[/scale]\nlaag",
                     "destination-output-layer": "[scale=0.65]Uitvoer[/scale]\nlaag",
                     "door-type": "Deurtype",
                     "door-type-list": "Standaard|Vergrendeld|P-Deur|Vergrendelde P-Deur"
+                },
+                "buttons": {
+                    "warp-type": "[scale=0.75]Bewerk warp type[/scale]",
+                    "reset-warp-toggle": "Reset huidige map bij entree"
                 },
                 "tooltips": {
                     "warp-name-tips": "Verzin een naam voor deze {0}. Dit zal het mogelijk maken om verschillende {1} makelijk te identificeren.",
@@ -751,6 +841,305 @@
                     "destination-output-layer": "Nadat de warp-animatie compleet is en de speler weer controle in handen heeft, zal de speler naar deze laag gaan",
                     "entryway-layer": "De laag van het entree-punt, net zoals hoe tegels en objecten op lagen zitten. Als de speler het entree-punt in gaat, is de speler tijdelijk op deze laag."
                 }
+            },
+            "music": {
+                "headers": {
+                    "boss-start-common": "Als het gevecht begint...\n[scale=0.75][color=#CCCCCC]Deze muziek zal worden gespeeld zodra {0} in beeld is[/color][/scale]",
+                    "boss-start-kb": "Als het gevecht begint...\n[scale=0.75][color=#CCCCCC]Deze muziek zal spelen na Koning Boo's entree-animatie[/color][/scale]",
+                    "boss-defeat-common": "Als het gevecht voorbij is...\n[scale=0.75][color=#CCCCCC]Deze muziek zal worden gespeeld zodra {0} is verslagen[/color][/scale]"
+                },
+                "labels": {
+                    "source-url": "URL van bron",
+                    "loop-point-and-volume": "Herhaalpunt & volume"
+                },
+                "tooltips": {
+                    "music-to-pick": "Selecteer de muziek dat je wilt afspelen. Je kan ook instellen dat de muziek niet wijzigt.",
+                    "cm-url-info": "Wanneer de 'Aangepast' optie geselecteerd is , kan je een URL invoeren naar een muziek bron.\n\n[sub]Let op: het moet direct naar het muziekbestand lijden, niet de pagina waar het misschien op zit.[/sub]"
+                },
+                "html": {
+                    "misc-music-options": "Niet veranderen|Map standaard|Stil|Aangepast"
+                }
+            },
+            "sines": {
+                "select-target-position": "Selecteer een bestemming",
+                "magnitude": "Omvang\n[color=#CCCCCC](in tegels)[/color]",
+                "period": "Sinus periode",
+                "period-offset": "Periode offset",
+                "magnitude-info": "Lengte dat {0} zal reizen, voordat het omkeert.\n[sub]Positieve nummers bewegen {1}\nNegatieve nummbers bewegen {2}[/sub]",
+                "cycle-duration-info": "Tijd (in seconden) dat het duurt voor een volledig {0} sinus-cyclus (inclusief de terugreis).\n[sub](Dit kan niet kleiner zijn dan de helft van de omvang)[/sub]",
+                "period-offset-example": "Spoel door naar een specific punt in de sinus-cyclus. Je kan bijvoorbeeld de platform aan de andere kant laten beginnen door de helft van de periode hier in te voeren.",
+                "the-platform": "de platform",
+                "the-amp": "de Amp"
+            },
+            "text": {
+                "text-content": "Tekstinhoud",
+                "text-formatting": "Tekstopmaak",
+                "previewing-text": "Voorvertoning tekst\n[sub]Sluit voorbeeld om te bewerken[/sub]",
+                "red-text": "Rode tekst",
+                "blue-background": "Blauwe achtergrond",
+                "small-text": "Kleine tekst",
+                "appearance-separator": "Tekst verschijning opties",
+                "text-orientation": "Tekstoriëntatie",
+                "display-text-at": "Geef tekst weer bij",
+                "text-area-options": "Midden van scherm|Gebied op maat (bereik-editor)"
+            },
+            "blocks": {
+                "labels": {
+                    "object-count": "Aantal objecten",
+                    "timer-optional": "Tijd [scale=0.5](Optioneel)[/scale]",
+                    "coins-before-item": "Aantal munten voor item",
+                    "tags-entered-below": "Als dit blok geactiveerd is, gaan deze tags aan of uit."
+                },
+                "separators": {
+                    "tag-toggling": "Schakelen tussen tags"
+                },
+                "buttons": {
+                    "progressive": "Progressief",
+                    "star-chainer": "Sterren-chainer",
+                    "invisible": "Onzichtbaar",
+                    "object-breaks-nearby-player": "Laat object eruit als speler dichtbij is",
+                    "is-on-default": "Standaard ingeschakeld"
+                },
+                "tooltips": {
+                    "amount-in-block": "Aantal objecten binnen het blok.",
+                    "timer-info": "Wanneer de blok geraakt wordt, een timer wordt gestart. Zodra het tot 0 komt, heeft het blok maar 1 object.\n[scale=0.75][color=#CCCCCC]Laat staan op 0 om de timer uitgeschakeld te laten.[/color][/scale]",
+                    "progressive-info": "Als Mario klein is, geef een paddenstoel - zo niet, de item in het blok.",
+                    "star-chainer-info": "Wanneer de speler sterren-kracht heeft, geef nog een Super Ster in plaats van de item in het blok.",
+                    "invisible-info": "Het blok kan niet worden gezien, maar wel worden geraakt.",
+                    "coins-before-item-info": "Geef dit aantal munten voordat het item in het blok eruit kan komen.",
+                    "object-breaks-nearby-player-info": "Wanneer de speler dichtbij het blok komt, zal het item eruit springen. Wanneer [color=#4CFF00]aan[/color], zal de timer attribuut gebruikt worden voor de tijd dat het duurt tot het item eruitspringt.",
+                    "tag-block-toggle": "Wanneer het blok geactiveerd wordt, zal het tags aan- of uit zetten.\n[color=#CCCCCC][scale=0.75]Je kan bijvoorbeeld stromingen met de tag '[color=#58A8F0]schakelStroming[/color]' hervatten of pauzeren als je ook '[color=#58A8F0]schakelStroming[/color]' in dit veld invoegt.[/color][/scale]"
+                }
+            },
+            "objects": {
+                "obj-pipes": {
+                    "resize-when": "Verander grootte wanneer...",
+                    "resize-when-options": "Altijd|Inbeeld|Binnen berijk op maat",
+                    "resize-options-info": "Wanneer gezet naar 'Altijd', zal de buis ook groeien & krimpem als de speler niet dichtbij is. Met berijk op maat, kan je zelf een bereik zetten waar de speler in moet zijn."
+                },
+                "baddie-box": {
+                    "launch-vectors": "Lanceer vectoren",
+                    "launch-vector": "Lanceer vector {0}",
+                    "random-vector": "+ willekeurige vector {0}",
+                    "cosmetic-notice": "Met uitzondering van de grotere hitbox, zijn alle types puur cosmetisch.",
+                    "object-cap": "Het maximaal aantal objecten, gespawned door de doos, dat tegelijk kan bestaan. Als vijanden die gespawnd zijn door deze doos verslagen zijn, kunnen er weer nieuwe spawnen.",
+                    "delays": "Spawn vertraging is de tijd in seconden tussen elke spawn cyclus, start vertraging het aantal seconden dat de Baddie Doos nodig heeft om het spawnen te beginnen.",
+                    "launch-velocity": "Snelheid van de lancering, als de doos een object spawnt.",
+                    "random-velocity": "Optionele willekeurige snelheden voor bovenop de basis snelheid (gebruik negatieve getallen om af te trekken).",
+                    "appearances": "Slechterik Doos|Grote Slechterik Doos|Goedheidsdoos|Grote Goedheidsdoos"
+                },
+                "invis-spawner": {
+                    "spawn-delay-info": "Tijd in seconden tussen elke spawn-cyclus.",
+                    "start-delay-info": "Wanneer de speler binnen bereik is, wacht dit aantal in seconden voordat de eerste sprite wordt gespawnd.",
+                    "sprite-cap-info": "Maximum aantal objecten dat tegelijk kan bestaan van deze spawner. Als vijanden gespawned door deze spawner verslagen worden, kan er weer meer gespawned worden.\n[sub]Om dit volledig uit te schakelen, stel dit in op 0.[/sub]",
+                    "tagging-info": "One or more tags (separated by spaces) to reference this spawner during gameplay.",
+                    "spawning-objects": "Spawning objects...",
+                    "spawn-conditions": "When loaded in|When on-screen|When player is in custom range",
+                    "spawn-conditions-info": "The condition required for the spawner to create new sprites. P-Tiles will also work on option 1."
+                },
+                "goal-and-checkpoints": {
+                    "rightwards-pole-layer": "Rechterpool laag",
+                    "respawn-point-determination": "Respawn-punt bepaling",
+                    "target-map": "Doelmap",
+                    "pole-layering": "Pool laag",
+                    "remove-default-base-tile": "Verwijder standaard basis-tegel",
+                    "flagpole-skip-prevention": "Automatische vlaggenstok oversprong voorkomen",
+                    "extend-hitbox-upwards": "Verleng de hitbox van het doellint bovenop",
+                    "flagpole-hard-block": "Of er wel of niet al een standaard harde blok aan de vlaggenstok vastzit.",
+                    "flagpole-skip-notice": "Probeer automatisch te voorkomen dat de speler boven de vlaggenstok springt door het plaatsen van een onzichtbare barrière (15 blokken hoog).",
+                    "rightwards-pole-layering": "De laag van de rechterpaal, typisch liggend boven de speler en andere sprites.\n[sub]Je kan de poollaag veranderen om rekening te houden met decoratie.[/sub]",
+                    "extend-hitbox-upwards-info": "Wanneer de speler springt (maximaal 15 tegels) boven het Doellint, zal de goal ook worden geactiveerd.\n[sub]Tegels boven het Doellint kunnen dit voorkomen.[/sub]",
+                    "player-respawn-points-info": "Je kan de checkpunt's eigen draagbare doel verplaatsen om het respawn-punt te bepalen, maar je kan ook een bestemming gebruiken.\n[sub]Dat laatste is handig voor lange afstanden, of om de speler in een andere map te laten respawnen.[/sub]",
+                    "respawning-map": "De map waar de speler in respawnt na het verliezen.",
+                    "respawning-destination": "De bestemming in de desbetreffende map.",
+                    "player-respawn-points": "Gebruik eigen respawn-punt|Gebruik bestemming als respawn-punt"
+                },
+                "bill-blasters": {
+                    "cannon-type": "Type kanon",
+                    "sniper-notice": "Sniper-kanonnen zullen altijd schieten richting de speler.",
+                    "fire-rate-notice": "Hoe snel een Bullet Bill-Kanon zijn Bullet Bills schiet!",
+                    "types-info": "Het type Bullet Bills dat deze kanon zal shieten.\n[sub]Missile Bills richten hun koers op spelers.[/sub]",
+                    "aiming": "Standaard|Sniper",
+                    "fire-rates": "Super traag|Langzaam|Normaal|Snel|Razendsnel|Machine-kanon"
+                },
+                "cannon": {
+                    "ammo": "Munitie",
+                    "cannonballs-per-shot": "Kanonskogels per schot",
+                    "fire-rotation-delay": "Vuur/draai vertraging",
+                    "rotations-in-cycle": "Rotaties in cyclus",
+                    "max-rotations-from-init-pos": "Maximale rotaties vanaf standaard positie",
+                    "rotation-intervals": "Rotatie intervallen",
+                    "artillery": "Artillerie",
+                    "base-info": "Optionele houder-sprite dat deel wordt van de kanon. Het is puur cosmetisch, het heeft geen effect op het gedrag van de kanon.",
+                    "ammo-info": "De type minutie dat door de kanon wordt afgevuurd. Kanonskogels bewegen in een rechte lijn, Bob-ombs exploderen enkele seconden nadat ze gevuurd zijn.",
+                    "cannonballs-per-shot-info": "Het aantal kanonskogels dat wordt geschoten voordat er naar de volgende positie bewegen wordt.\n[sub]Is niet van toepassing op Bob-ombs.[/sub]",
+                    "delay": "De vertraging tussen schieten & draaien. Er wordt geschoten in het midden van 2 rotaties.",
+                    "mode-info": "The beweging van de kanon. De onderste 2 opties zijn not van toepassing op de stationaire modus.",
+                    "rotation-count-1": "Het aantal rotaties (het bewegen naar de volgende positie) de kanon zal doen, voordat ie omdraait en de cyclus herstart in de omgekeerde volgorde.",
+                    "rotation-count-2": "Het aantal dat het kan draaien links OF rechts, vanaf de kanon's start-positie.\n[sub]Bijv. wanneer ingesteld op 2, kan de kanon maximaal 2 keer naar links of rechts draaien, voordat het weer moet terugdraaien om diezelfe draaiing te doen.[/sub]",
+                    "degrees-travel-rotation": "Het aantal graden om te draaien bij een rotatie.",
+                    "modes": "Blijf stilhangen|Draai met de klok mee|Draai tegen de klok in|Draai naar de speler"
+                },
+                "advanced-platform": {
+                    "sines": "Sinussen",
+                    "actions": "Acties",
+                    "edit-platform-appearance": "Bewerk platform uiterlijk",
+                    "platform-length": "Platform lengte",
+                    "platform-width-info": "De lengte van de platform, in tegels.",
+                    "linear-movement": "Lineaire beweging",
+                    "linear-movement-info": "Lineaire beweging is de beweging in een rechte lijn. Gebruik de knoppen links om makkelijk een richting te kiezen, of gebruik het hoek-tekstveld om een nauwkeurige hoek uit te zoeken.",
+                    "angle-of-movement": "Bewegingshoek",
+                    "angle-of-movement-info": "Je kan makkelijk een bewegingsrichting kiezen met de knoppen links van het menu, of hier een eigen hoek invoegen van 0 tot 359.",
+                    "platform-speed": "Platform snelheid",
+                    "platform-speed-info": "De lineaire bewegings snelheid van de platform, in pixels / sec.\n[sub]Elke tegel is 16 pixels, dus om een platform bijvoorbeeld 3 tegels per seconden te laten reizen, gebruik 48.[/sub]",
+                    "player-activation": "Speler kan platform activeren",
+                    "player-activation-info": "Wanneer de speler op een platform stapt, is het mogelijk om hem te activeren en/of een actie uit te voeren. De lijst van acties is hieronder!",
+                    "action-setup": "Actie-setup",
+                    "action-then": "Dan\n[scale=0.75]Gaat het platform...[/scale]",
+                    "action-options": "Niks|Stoppen|Stoppen (geen re-activatie)|Omkeren|Vallen",
+                    "tagging-info": "Een of meer tags (door spaties gescheiden) om te verwijzen naar deze platform tijdens het spelen.\n[sub]Met gebruik van tags, kan je dit platform aan- of uitschakelen, met bijvoorbeeld een Aan-Uit Tag Schakelaar.[/sub]",
+                    "optional-movement-notice": "De bewegingsopties onderop zijn optioneel.",
+                    "acceleration-length": "Optrek tijd",
+                    "acceleration-info": "Optionele tijd (in seconden) dat de platform nodig heeft om top-snelheid te bereiken.\n[sub]Laat staan op 0 voor onmiddelijke top-snelheid.[/sub]",
+                    "deceleration-length": "Afrem tijd",
+                    "deceleration-info": "Optionele tijd (in seconden) dat de platform nodig heeft om volledig te stoppen.\n[sub]Laat staan op 0 om onmiddelijke te stoppen.[/sub]",
+                    "angle-change": "Hoek wijziging per seconde",
+                    "angle-change-info": "Verander de bewegingshoek door elke seconde deze waarde bij de huidige hoek op te tellen.\n[sub]Negatieve waardes werken ook.[/sub]",
+                    "only-move-with-player": "Beweeg alleen met speler",
+                    "dont-unload": "Niet despawnen",
+                    "screenwrap-h": "Horizontale schermwikkeling",
+                    "screenwrap-v": "Verticale schermwikkeling"
+                },
+                "npc": {
+                    "skins": "Skins",
+                    "pop-up-msg": "Pop-up bericht",
+                    "keep-this-short": "(Houd dit kort!)",
+                    "keep-this-short-too": "(Houd dit ook kort!)",
+                    "speech-bubble-info": "Een kort stukje tekst, dat wordt weergegeven in een tekstballon als je bij de NPC bent.",
+                    "after-dialogue": "Na het dialoog...\n[scale=0.5](Stel dialoog in het 🗨 tabblad)[/scale]",
+                    "second-pop-up-msg": "Inhoud van de tekstballon nadat de speler interactie had met de NPC.",
+                    "pop-up-options": "Verwijder pop-up|Behoud pop-up|Vervang pop-up",
+                    "pop-up-update-info": "Verwijder, behoud of vervang het bestaande pop-up bericht wanneer de player praat met de NPC.",
+                    "npc-attributes": "NPC attributen",
+                    "item-stock-info": "Of geen een item één keer, of de NPC kan je voortdurend nieuwe items geven wanneer het gebruikt of vernielt is.",
+                    "give-item": "Geef item...",
+                    "item-options": "Één keer|Wanneer de item is gebruikt of vernietigd",
+                    "behavior-info": "Het gedrag van de NPC, in beweging en/of animatie.\n[sub]Ieder NPC kan zijn eigen opties hebben, maar sommige kunnen alleen maar idle staan.[/sub]",
+                    "dialogue-placeholder": "Wat heeft je NPC te zeggen?",
+                    "stay-idle": "Blijf stilstaan",
+                    "hop-repeatedly": "Spring herhaardelijk",
+                    "peace-after-dialogue": "Peace-teken na dialoog",
+                    "wander-around": "Rondwandelen",
+                    "sit-face-left": "Zit (kijk links)",
+                    "sit-face-right": "Zit (kijk rechts)",
+                    "float-in-place": "Zweef (op dezelfde plek)",
+                    "glad": "Blij"
+                }
+            },
+            "bosses": {
+                "labels": {
+                    "attack-phase": "Aanvals fase",
+                    "attack-frequency": "Aanvals frequentie",
+                    "traction": "Tractie",
+                    "takeoff-strength": "Lanceerings kracht",
+                    "wings": "Vleugels",
+                    "invincibility-period": "Onkwetsbare periode",
+                    "attack-delay": "Vertraging tussen aanvallen",
+                    "base-speed": "Basis snelheid",
+                    "darkness-boost": "Duisternis boost",
+                    "king-boo-blend-info": "King Boo kan zich op verschillende manieren verschuilen rondom het terrein",
+                    "when-hurt": "Wanneer geraakt",
+                    "viewing-attack": "Aanval bekijken",
+                    "attack-frequency-info": "Het is mogelijk om een aanval vaker voort te laten komen! Kijk eens hier:",
+                    "spew-flame": "Spuug Vlam",
+                    "homing-dash": "Homing Dash",
+                    "pumpkins-and-pepper": "Pompoenen met Peper",
+                    "protective-flames": "Aanval-werende vlammen",
+                    "kb-attack-descriptions": "Spugt een spookachtige vlam naar de speler | Razendsnelle beweging naar de speler | Spuugt pompoenen en een peper. Gooi de peper terug om Koning Boo kwetsbaar te maken voor pompoenen! | Creëer een ring van vlammen rondom koning Boo, die hem beschermt tegen projectielen",
+                    "ring-count": "Ring aantal",
+                    "kb-intro-anim-info": "Koning Boo kan zich laten zien in stijl! Kies een intro-animatie die je leuk vind."
+                },
+                "separators": {
+                    "chase-stats": "Achtervolgings statistieken",
+                    "jumping-stats": "Sprong statistieken",
+                    "environmental-blending": "Terrein vermenging",
+                    "attack-info": "Aanvalsinfo",
+                    "browse-attacks": "Blader door aanvallen",
+                    "set-animation": "Kies animatie"
+                },
+                "buttons": {
+                    "attacks": "Aanvallen"
+                },
+                "tooltips": {
+                    "hp-info": "HP (Health Points / Levens Punten) zijn het aantal keer dat {0} geraakt moet worden om te verslaan.",
+                    "hp-info-fireball": "Let op: 5 vuurballen is gelijk aan 1 HP",
+                    "attack-delay-info": "Tijd (in seconden) tussen aanvallen.",
+                    "attack-cycle-info": "Wanneer meerdere aanvallen zijn ingeschakeld, gaat Koning Boo door zijn aanvallen op een willekeurige volgorde. Daarna begint een nieuwe cyclus, met een nieuwe willekeuige volgorde.\n\n[sub]Met de 'aanvalsfrequencie' optie, kan je een or meerdere aanvallen meer laten voorkomen in een cyclus![/sub]",
+                    "bb-attack-phase": "Boom Boom kan of zijn aanvalsfase automatisch laten veranderen tijdens het gevecht, of hij kan blijven bij een bepaalde aanvalsfase.",
+                    "bb-attack-frequency": "Vaker voorkomende aanvallen kunnen het gevecht moeilijker maken, en de speler heeft minder kans om Boom Boom te stompen.\n[sub]Let op: bij de dash-aanval en de 'Bijna onmiddellijk'-optie, heeft de speler nog steeds een mogelijkheid van 1-seconde om de eindbaas te stompen.[/sub]",
+                    "bb-movement-speed": "Maximale bewegingssnelheid, in pixels / sec.\n[sub]In de laatste fase (Paniek-modus), is de snelheid vergroot met 50%[/sub]",
+                    "bb-traction": "Hogere tracties laat Boom Boom sneller omdraaien, terwijl lage tracties dat juist moeilijker voor hem maakt.",
+                    "bb-takeoff-strength": "Sprong-sterkte bij de lancering.\n[sub]Let op: alleen van toepassing in de vleugel-modus.[/sub]",
+                    "bb-wings": "Als Boom Boom vleugels heeft, kan hij naar de speler duiken vanuit de lucht.\n[sub]Wanneer 'Wissel wanneer gewond' is gekozen, zal Boom Boom vleugels krijgen of verliezen wanneer hij schade oploopt.[/sub]",
+                    "kb-invincibility-period": "Tijd in seconden totdat Koning Boo weer kwetsbaar wordt voor aanvallen van de speler, na geraakt te zijn. Koning Boo zal transparant worden tijdens deze onzichtbaarheids fase.\n[sub]Voeg 0 in om de onkwetsbaarheid-periode helemaal uit te schakelen.[/sub]",
+                    "kb-base-speed": "Basis (minimale) bewegingssnelheid, in pixels / sec.\n\n[sub]Koning Boo kan sneller worden wanneer hij zich in duisternis bevind met de andere snelheid-optie rechts.[/sub]",
+                    "kb-darkness-boost": "Maximale extra snelheid dat toegevoegd wordt als Koning Boo zich in duisternis bevind, in pixels / sec.\n\n[sub]Let op dat de snelheids-waarde af hangt van de sterkte van de duisternis, dat zich bij Koning Boo's ogen bevindt: bij 50% duisternis, bijvoorbeeld, zal 50% van de opgegeven snelheid toegevoegd worden op de basissnelheid.[/sub]"
+                },
+                "html": {
+                    "bb-attack-phases": "Neem toe automatisch|Fase 1 (Dash)|Fase 2 (Springen)|Fase 3 (Paniek)",
+                    "bb-attack-frequencies": "(Bijna) onmiddellijk|Regelmatig|Standaard|Lange vertragingen",
+                    "switch-when-hit": "Wissel wanneer gewond",
+                    "kb-intro-animations": "Geen enkel|Squash 'N' Stretch|Stoffige Introductie|Nep-Boo"
+                }
+            }
+        },
+        "pause-options": {
+            "labels": {
+                "game-paused": "SPEL GEPAUZEERD",
+                "close-menu-to-return": "Sluit menu om terug te keren",
+                "editing-control-keybinds": "Besturingsknoppen aan het bewerken",
+                "viewing-debugger": "Debugger aan het bekijken",
+                "control-config-k": "Besturings configuratie",
+                "control-config-g": "Besturings configuratie\n[scale=0.65][color=#CCCCCC]Gamepad knoppen gebruiken numerieken IDs[/color][/scale]",
+                "graphics-settings": "Prestatitie & Grafische instellingen",
+                "fullscreen-scaling": "[scale=0.5]Schalen op volledig scherm[/scale]",
+                "fill-screen": "Scherm vullen",
+                "perfect-resolution": "Perfecte resolutie",
+                "account-settings": "Verbind je LSS account",
+                "email": "Email",
+                "password": "Wachtwoord",
+                "logout": "Uitloggen",
+                "logged-in-as": "Ingelogd als {0}",
+                "x-levels-on-lss": "{0} levels op Level Share Square",
+                "log-out-confirmation": "Weet je zeker dat je wilt uitloggen?",
+                "offline-notice": "Je bent offline, LSS-functionaliteiten zijn nu niet beschikbaar.",
+                "accessibility": "toegangelijkheid"
+            },
+            "buttons": {
+                "restart": "Herstart",
+                "restart-c": "Herstart\n[scale=0.65](checkpunt)[/scale]",
+                "main-menu": "Hoofdmenu",
+                "frame-skip": "Frames overslaan",
+                "reduced-particles": "Minder particles",
+                "crt-filter": "Beeldbuis modus",
+                "smooth-lighting": "Moderne verlichting",
+                "log-in": "Inloggen",
+                "lss-profile": "LSS profiel",
+                "colorblind-mode": "Kleurenblind modus",
+                "disable-screenshake": "Schermshudden uitschakelen",
+                "visualized-timers": "Gevisualiseerde timers"
+            },
+            "tooltips": {
+                "enable-fullscreen": "Zet volledig scherm aan",
+                "disable-fullscreen": "Zet volledig scherm uit",
+                "skip-death-anim": "Sla doodsanimatie over",
+                "play-death-anim": "Doodsanimatie niet overslaan",
+                "edit-keybinds": "Bewerk besturingsknoppen",
+                "graphics-settings": "Grafische instellingen",
+                "account-settings": "LSS-account verbindingen",
+                "accessibility-options": "Toegankelijkheids opties",
+                "frame-skip": "Sla frames over wanneer de framesnelheid laag is, om vertraging tegen te gaan.\n[scale=0.75][color=#CCCCCC]Let op: bij erg lage framesnelheden kunnen problemen met botsingen voortdoen. Als deze optie uit is, is 60 FPS de minimum-framesnelheid.[/color][/scale=0.75]",
+                "reduced-particles": "Hanteer een stricter limiet voor particles, om lag te veel mogelijk te voorkomen."
             }
         },
         "themes": {
@@ -811,7 +1200,7 @@
             },
             "palettes": {
                 "1_rain": "Standaard Regen",
-                "2_rain": "Standaard Regen|Giftig Zuur|Kleverigge Modder|IJzige Cryofluid|Chocoladedrank|Olielek|Gouden Douche|Metaalgesmolten",
+                "2_rain": "Standaard Regen|Giftig Zuur|Kleverigge Modder|IJzige Cryofluid|Chocoladedrank|Olielek|Gouden Douche|Metaalgesmolten|[!]Poisonous Ooze|[!]Monochrome Mixture",
                 "1_snow": "Standaard Sneeuw",
                 "2_snow": "Standaard Sneeuw|Munt van Winter|Pure Kou|Ijskoud Wit|Aardbei-rood|Sneeuwstormnacht|Ijslimonade",
                 "1_sand": "Standaard Zandstorm",
@@ -835,6 +1224,32 @@
                 "message-edit": "Wacht eens even - dit level heeft nergens een startpunt! Waarschijnlijk is de map met het startpunt verwijdert.\n\nWil je nu een nieuw startpunt zetten?",
                 "message-play": "Wacht eens even! Dit level heeft geen geldig startpunt - ga in bewerk modus, open de level instellingen, and plaats vanuit daar een startpunt.",
                 "open-editor": "Open de editor"
+            },
+            "level-sync-new": {
+                "enter-link": "Voeg een link naar een Level Share Square level-pagina met de level die je wil synchroniseren.",
+                "info-label-1": "Met de level synchronisatie-functie, zal je level tussen het spel en Level Share Square gesynchroniseerd worden.",
+                "info-label-2": "Wanneer je de level-editor opent, zal het spel je ook vertellen als de level code op de website nieuwer is, handig als je je level bewerkt op meerdere apparaten.",
+                "sync-success": "Je level wordt nu gesynchroniseerd met Level Share Square! Hiep hiep hoera!"
+            },
+            "level-sync-edit": {
+                "sync-select": "Kies wanneer je wil synchroniseren.",
+                "cooldown-notice": "Let op: synchronisaties gebeuren maximaal één keer per 20 seconden.",
+                "sync-options": "Pauzeer synchronisatie|Wanneer het spel opslaat|Als ik zelf de level-editor verlaat",
+                "desync": "Desynchroniseer",
+                "cancel-sync": "Synchronisatie annuleren",
+                "cancel-notice-1": "Wanneer je synchronisatie annuleert, wordt communicatie (voor dit level) tussen het spel en Level Share Square gestopt.",
+                "cancel-notice-2": "Bij het desynchroniseren wordt je level niet verwijdered in het spel of op Level Share Square. Je kan het altijd weer her-instellen in de toekomst.",
+                "sync-cancelled": "Dit level wordt nu niet langer gesynchroniseerd met Level Share Square."
+            },
+            "level-sync-compare": {
+                "new-ver-on-site": "Het lijkt erop dat er een nieuwere versie van dit level beschikbaar is op Level Share Square. Wil je synchroniseren?",
+                "restore-point-notice": "Een lokaal herstel-punt zal gemaakt worden indien je terug wil gaan.",
+                "local-version": "Lokale versie",
+                "cloud-version": "Cloud versie",
+                "last-edited": "Laatst bewerkt",
+                "keep-local-version": "Behoud lokale versie",
+                "use-cloud-version": "Gebruik cloud versie",
+                "download-copy": "Download een kopie"
             }
         },
         "misc-labels": {
