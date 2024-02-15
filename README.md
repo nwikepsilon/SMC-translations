@@ -8,13 +8,14 @@ In case you'd like to contribute, be sure to give the information below a read, 
 ## Available in-game languages
 Below are the languages that have significantly enough translated strings to be in-game, but remember that they are still worthy maintaining due to new strings being added after a large SMC update!  
 • _English (North America)_  
+• _English (Brittain)_  
 • _German / Deutsch_  
 • _Dutch / Nederlands_  
 • _Portuguese / Português_  
+• _Spanish / Español_  
 
 ## Currently work-in-progress languages
 These are the languages that have WIP translations, but are not yet ready to be in the game.  
-• _English (Brittain)_  
 • _Russian / Русский_ (being implemented)  
 • _Polish / Polski_ (being implemented)  
 
