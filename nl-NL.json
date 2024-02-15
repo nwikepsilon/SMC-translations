@@ -1118,6 +1118,7 @@
             "buttons": {
                 "restart": "Herstart",
                 "restart-c": "Herstart\n[scale=0.65](checkpunt)[/scale]",
+                "extra-options-tools": "Extra opties & hulpmiddelen",
                 "main-menu": "Hoofdmenu",
                 "frame-skip": "Frames overslaan",
                 "reduced-particles": "Minder particles",

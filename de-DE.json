@@ -1118,6 +1118,7 @@
             "buttons": {
                 "restart": "Neustarten",
                 "restart-c": "Neustarten\n[scale=0.65](Zwischenpunkt)[/scale]",
+                "extra-options-tools": "[!]Extra options & tools",
                 "main-menu": "Hauptmenü",
                 "frame-skip": "Überspringe Einzelbilder",
                 "reduced-particles": "Reduzierte Partikel",

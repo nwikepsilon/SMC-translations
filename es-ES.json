@@ -1,5 +1,5 @@
 {
-    "locale": "es-LA",
+    "locale": "es-ES",
     "strings": {
         "constants": {
             "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
@@ -1256,6 +1256,7 @@
             "buttons": {
                 "restart": "Reiniciar",
                 "restart-c": "Reiniciar\n[scale=0.65](desde último puesto de control)[/scale]",
+                "extra-options-tools": "[!]Extra options & tools",
                 "main-menu": "Menú principal",
                 "frame-skip": "Salto de fotogramas",
                 "reduced-particles": "Reducción de artículas",

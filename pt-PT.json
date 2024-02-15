@@ -1118,6 +1118,7 @@
             "buttons": {
                 "restart": "[!]Restart",
                 "restart-c": "[!]Restart\n[scale=0.65](checkpoint)[/scale]",
+                "extra-options-tools": "[!]Extra options & tools",
                 "main-menu": "[!]Main menu",
                 "frame-skip": "[!]Frame skipping",
                 "reduced-particles": "[!]Reduced particles",
