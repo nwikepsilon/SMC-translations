@@ -31,22 +31,27 @@
                 "editor": "[!]Editor",
                 "confirm-click": "[!]Clique denovo para confirmar",
                 "proceed": "[!]Proceder",
-                "click-configure": "[!]Clique para configurar"
+                "click-configure": "[!]Clique para configurar",
+                "remove": "[!]Remove"
             },
             "time": {
                 "days": {
+                    "many": "[!]days",
                     "one": "dia",
                     "other": "dias"
                 },
                 "hours": {
+                    "many": "[!]hours",
                     "one": "hora",
                     "other": "horas"
                 },
                 "minutes": {
+                    "many": "[!]minutes",
                     "one": "minuto",
                     "other": "minutos"
                 },
                 "seconds": {
+                    "many": "[!]seconds",
                     "one": "[!]segundo",
                     "other": "[!]segundos"
                 },
@@ -76,48 +81,59 @@
                 "width": "largura",
                 "height": "altura",
                 "layers": {
+                    "many": "[!]layers",
                     "one": "camada",
                     "other": "camadas"
                 },
                 "effects": {
+                    "many": "[!]effects",
                     "one": "efeito",
                     "others": "efeitos"
                 },
                 "objects": {
+                    "many": "[!]objects",
                     "one": "objeto",
                     "other": "objetos"
                 },
                 "tiles": {
+                    "many": "[!]tiles",
                     "one": "bloco",
                     "other": "blocos"
                 },
                 "destination": {
+                    "many": "[!]destinations",
                     "one": "destino",
                     "other": "destinos"
                 },
                 "entryway": {
+                    "many": "[!]entryways",
                     "one": "entrada",
                     "other": "entradas"
                 },
                 "maps": {
+                    "many": "[!]maps",
                     "one": "mapa",
                     "other": "mapas"
                 },
                 "themes": {
+                    "many": "[!]themes",
                     "one": "tema",
                     "other": "temas"
                 },
                 "tags": {
+                    "many": "[!]tags",
                     "one": "tag",
                     "other": "tags"
                 },
                 "degrees": {
+                    "many": "[!]degrees",
                     "one": "[!]degree",
                     "other": "[!]degrees"
                 },
                 "active": "[!]activo",
                 "inactive": "[!]inativo",
-                "paused": "[!]pausado"
+                "paused": "[!]pausado",
+                "unavailable": "[!]unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Clique novamente para confirmar",
@@ -212,7 +228,10 @@
                 "code-notice": "Você pode compartilhar este código de nível com outras pessoas, para que possam jogar o seu nível! Também é recomendável manter os códigos de nível armazenados como backup.",
                 "compact-notice": "Códigos compactos apenas guardam toda a data necessária para construir seu nível, deixando de parte data armazenada para somente os criadores de níveis.",
                 "production-notice": "O código de produção guarda data extra que se torna útil quando se constrói um nível, como quais items estão na barra de favoritos.",
-                "import-code-notice": "Cole um código de nível aqui, e o nível será gravado dentro do jogo. Contudo, é recomendável que faça backups regulares do seu nível ao guardando o código no seu dispositivo ou em Level Share Square."
+                "import-code-notice": "Cole um código de nível aqui, e o nível será gravado dentro do jogo. Contudo, é recomendável que faça backups regulares do seu nível ao guardando o código no seu dispositivo ou em Level Share Square.",
+                "first-paste-code": "[!]You first have to paste in your level code.",
+                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +354,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Pontos de Restauro são backups do seu nível, automaticamente feitos quando o nível é guardado após um período de tempo determinado.\nPode voltar a uma versão anterior do seu nível a partir de um ponto de restauro aqui.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Intervalo de criação de Ponto de Restauro[/scale]",
                 "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit"
+                "sync-on-exit": "[!]Synchronizes on exit",
+                "currently-offline": "[!]Currently offline",
+                "not-logged-in": "[!]Not logged in"
             },
             "buttons": {
                 "new-destination": "Clique para adicionar um novo destino",
@@ -1057,7 +1078,13 @@
                     "protective-flames": "[!]Protective Flames",
                     "kb-attack-descriptions": "[!]Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
                     "ring-count": "[!]Ring count",
-                    "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking."
+                    "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking.",
+                    "magic-bottles": "[!]Magic Bottles",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles"
                 },
                 "separators": {
                     "chase-stats": "[!]Chase stats",
@@ -1113,7 +1140,8 @@
                 "offline-notice": "[!]You're offline, so LSS features are currently unavailable.",
                 "accessibility": "[!]accessibility",
                 "logout": "[!]Log out",
-                "x-levels-on-lss": "[!]{0} levels on Level Share Square"
+                "x-levels-on-lss": "[!]{0} levels on Level Share Square",
+                "in-game-username": "[!]In-game username"
             },
             "buttons": {
                 "restart": "[!]Restart",

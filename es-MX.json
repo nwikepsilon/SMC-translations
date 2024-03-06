@@ -1,5 +1,5 @@
 {
-    "locale": "es-ES",
+    "locale": "es-MX",
     "strings": {
         "constants": {
             "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
@@ -31,24 +31,29 @@
                 "editor": "Editor",
                 "confirm-click": "[!]Click again to confirm",
                 "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure"
+                "click-configure": "[!]Click to configure",
+                "remove": "[!]Remove"
             },
             "time": {
                 "days": {
+                    "many": "[!]days",
                     "one": "día",
                     "other": "días"
                 },
                 "hours": {
+                    "many": "[!]hours",
                     "one": "hora",
                     "other": "horas"
                 },
                 "minutes": {
+                    "many": "[!]minutes",
                     "one": "minuto",
                     "other": "minutos"
                 },
                 "ago": "hace",
                 "notation": "{1} {0}",
                 "seconds": {
+                    "many": "[!]seconds",
                     "one": "segundo",
                     "other": "segundos"
                 },
@@ -66,34 +71,42 @@
                 "width": "anchura",
                 "height": "altura",
                 "layers": {
+                    "many": "[!]layers",
                     "one": "capa",
                     "other": "capas"
                 },
                 "effects": {
+                    "many": "[!]effects",
                     "one": "efecto",
                     "others": "efectos"
                 },
                 "objects": {
+                    "many": "[!]objects",
                     "one": "objeto",
                     "other": "objetos"
                 },
                 "tiles": {
+                    "many": "[!]tiles",
                     "one": "bloque",
                     "other": "bloques"
                 },
                 "destination": {
+                    "many": "[!]destination",
                     "one": "destino",
                     "other": "destinos"
                 },
                 "entryway": {
+                    "many": "[!]entryway",
                     "one": "entrada",
                     "other": "entradas"
                 },
                 "maps": {
+                    "many": "[!]maps",
                     "one": "mapa",
                     "other": "mapas"
                 },
                 "themes": {
+                    "many": "[!]themes",
                     "one": "tema",
                     "other": "temas"
                 },
@@ -108,16 +121,19 @@
                 "up": "arriba",
                 "down": "abajo",
                 "tags": {
+                    "many": "[!]tags",
                     "one": "etiqueta",
                     "other": "etiquetas"
                 },
                 "degrees": {
+                    "many": "[!]degrees",
                     "one": "grado",
                     "other": "grados"
                 },
                 "active": "[!]active",
                 "inactive": "[!]inactive",
-                "paused": "[!]paused"
+                "paused": "[!]paused",
+                "unavailable": "[!]unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -212,7 +228,10 @@
                 "code-notice": "¡Puedes compartir este código con otras personas para que puedan jugar tu nivel! También se recomienda guardar los códigos de los niveles como copia de seguridad.",
                 "compact-notice": "Los códigos compactos unicamente contienen los datos para construir tu nivel, eliminando los datos almacenados exclusivamente para los diseñadores del nivel.",
                 "production-notice": "El código para producción guarda datos adicionales que son útiles durante el diseño de los niveles, como los elementos de la barra de favoritos.",
-                "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Aún así se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square."
+                "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Aún así se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square.",
+                "first-paste-code": "[!]You first have to paste in your level code.",
+                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +354,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
                 "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit"
+                "sync-on-exit": "[!]Synchronizes on exit",
+                "currently-offline": "[!]Currently offline",
+                "not-logged-in": "[!]Not logged in"
             },
             "buttons": {
                 "new-destination": "Haz clic para añadir un nuevo destino",
@@ -1053,9 +1074,14 @@
                     "attack-frequency-info": "¡Es posible que un ataque ocurra más a menudo! Mírame:",
                     "spew-flame": "Arrojar Flamas",
                     "homing-dash": "Embestida",
+                    "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
                     "protective-flames": "Generar Flamas Protectoras",
-                    "kb-attack-descriptions": "Lanza una Llama Fantasma hacia el jugador | Mira y se dirige al jugador | Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas! | Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
+                    "kb-attack-desc-flame": "Lanza una Llama Fantasma hacia el jugador",
+                    "kb-attack-desc-dash": "Mira y se dirige al jugador",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
+                    "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "ring-count": "Número de Llamas en el anillo",
                     "kb-intro-anim-info": "¡El Rey Bú puede entrar con estilo! Elige una animación de introducción a tu gusto."
                 },
@@ -1251,7 +1277,8 @@
                 "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
                 "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
                 "accessibility": "accesibilidad",
-                "logout": "[!]Log out"
+                "logout": "[!]Log out",
+                "in-game-username": "[!]In-game username"
             },
             "buttons": {
                 "restart": "Reiniciar",

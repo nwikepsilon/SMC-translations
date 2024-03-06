@@ -29,6 +29,7 @@
                 "view": "View",
                 "create": "Create",
                 "edit": "Edit",
+                "remove": "Remove",
                 "exit": "Exit",
                 "editor": "Editor",
                 "click-configure": "Click to configure"
@@ -66,6 +67,7 @@
                 "rotation": "rotation",
                 "active": "active",
                 "inactive": "inactive",
+                "unavailable": "unavailable",
                 "paused": "paused",
                 "name": "name",
                 "wait": "wait",
@@ -212,7 +214,10 @@
                 "code-notice": "You can share this level code with others, so they can play your level! It's also recommended to keep level codes stored as a back-up.",
                 "compact-notice": "Compact codes only contain all the data needed to construct your level, stripping out data stored for the level designers only.",
                 "production-notice": "The production code saves extra data that is handy during level designing, such as what items are in the favorites bar.",
-                "import-code-notice": "Paste a level code here, and the level will be saved within the game. It is still recommended to make regular backups of your level by saving the code on your device and/or on Level Share Square."
+                "import-code-notice": "Paste a level code here, and the level will be saved within the game. It is still recommended to make regular backups of your level by saving the code on your device and/or on Level Share Square.",
+                "first-paste-code": "You first have to paste in your level code.",
+                "unrecognized-code": "Sorry, this level code could not be recognized.",
+                "outdated-version": "This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -333,6 +338,8 @@
                 "autosave-interval": "Autosaves occur every 5 min.",
                 "lss-level-sync": "LSS cloud synchronization",
                 "sync-on-exit": "Synchronizes on exit",
+                "currently-offline": "Currently offline",
+                "not-logged-in": "Not logged in",
                 "restore-point-header": "Restore Point options",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Restore Points are backups of your level, made automatically when the level is saved after a set amount of time.\nYou can go back to a past version of your level from a restore point here.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Restore Point creation interval[/scale]"
@@ -1054,8 +1061,13 @@
                     "spew-flame": "Spew Flame",
                     "homing-dash": "Homing Dash",
                     "pumpkins-and-pepper": "Pumpkins & Pepper",
+                    "magic-bottles": "Magic Bottles",
                     "protective-flames": "Protective Flames",
-                    "kb-attack-descriptions": "Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
+                    "kb-attack-desc-flame": "Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "Create a ring of flames around King Boo, that protect him from projectiles",
                     "ring-count": "Ring count",
                     "kb-intro-anim-info": "King Boo can enter in style! Pick an intro animation of your liking."
                 },
@@ -1102,6 +1114,7 @@
                 "control-config-k": "Control configuration",
                 "control-config-g": "Control configuration\n[scale=0.65][color=#CCCCCC]Gamepad buttons use numeric IDs[/color][/scale]",
                 "graphics-settings": "Performance & Graphics settings",
+                "in-game-username": "In-game username",
                 "fullscreen-scaling": "Fullscreen scaling",
                 "fill-screen": "Fill screen",
                 "perfect-resolution": "Perfect resolution",

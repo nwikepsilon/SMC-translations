@@ -31,24 +31,33 @@
                 "confirm-click": "[!]Click again to confirm",
                 "proceed": "[!]Proceed",
                 "editor": "[!]Editor",
-                "click-configure": "[!]Click to configure"
+                "click-configure": "[!]Click to configure",
+                "remove": "[!]Remove"
             },
             "time": {
                 "days": {
+                    "few": "[!]days",
+                    "many": "[!]days",
                     "one": "dzień",
                     "other": "dni"
                 },
                 "hours": {
+                    "few": "[!]hours",
+                    "many": "[!]hours",
                     "one": "godzinę",
                     "other": "godzin"
                 },
                 "minutes": {
+                    "few": "[!]minutes",
+                    "many": "[!]minutes",
                     "one": "minutę",
                     "other": "minut"
                 },
                 "ago": "temu",
                 "notation": "{0} {1}",
                 "seconds": {
+                    "few": "[!]seconds",
+                    "many": "[!]seconds",
                     "one": "[!]second",
                     "other": "[!]seconds"
                 },
@@ -65,34 +74,50 @@
                 "width": "szerokość",
                 "height": "wysokość",
                 "layers": {
+                    "few": "[!]layers",
+                    "many": "[!]layers",
                     "one": "warstwa",
                     "other": "warstwy"
                 },
                 "effects": {
+                    "few": "[!]effects",
+                    "many": "[!]effects",
                     "one": "efekt",
                     "others": "efekty"
                 },
                 "objects": {
+                    "few": "[!]objects",
+                    "many": "[!]objects",
                     "one": "obiekt",
                     "other": "obiekty"
                 },
                 "tiles": {
+                    "few": "[!]tiles",
+                    "many": "[!]tiles",
                     "one": "płytka",
                     "other": "płytki"
                 },
                 "destination": {
+                    "few": "[!]destination",
+                    "many": "[!]destination",
                     "one": "destynacja",
                     "other": "destynacje"
                 },
                 "entryway": {
+                    "few": "[!]entryway",
+                    "many": "[!]entryway",
                     "one": "wejście",
                     "other": "wejścia"
                 },
                 "maps": {
+                    "few": "[!]maps",
+                    "many": "[!]maps",
                     "one": "mapa",
                     "other": "mapy"
                 },
                 "themes": {
+                    "few": "[!]themes",
+                    "many": "[!]themes",
                     "one": "motyw",
                     "other": "motywy"
                 },
@@ -111,13 +136,18 @@
                 "up": "[!]up",
                 "down": "[!]down",
                 "tags": {
+                    "few": "[!]tags",
+                    "many": "[!]tags",
                     "one": "[!]tag",
                     "other": "[!]tags"
                 },
                 "degrees": {
+                    "few": "[!]degrees",
+                    "many": "[!]degrees",
                     "one": "[!]degree",
                     "other": "[!]degrees"
-                }
+                },
+                "unavailable": "[!]unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Wciśnij ponownie by potwierdzić",
@@ -212,7 +242,10 @@
                 "code-notice": "Możesz dzielić się tym kodem poziomu z innymi, żeby mogli zagrać w twój poziom! Zaleca się przechowywać kody poziomów na komputerze jako back-up.",
                 "compact-notice": "Kody kompaktowe zawierają tylko dane potrzebne do stworzenia poziomu, usuwając dane zebrane tylko dla twórców poziomów.",
                 "production-notice": "Kody produkcyjne zapisują dodatkowe dane przydatne przy tworzeniu poziomów, takie jak obiekty w sekcji ulubione.",
-                "import-code-notice": "Wklej kod poziomu tutaj a poziom będzie zapisany w grze. Mimo wszystko zaleca się robić regularne backup'y swoich poziomów zapisując kody na komputerze i/lub na Level Share Square."
+                "import-code-notice": "Wklej kod poziomu tutaj a poziom będzie zapisany w grze. Mimo wszystko zaleca się robić regularne backup'y swoich poziomów zapisując kody na komputerze i/lub na Level Share Square.",
+                "first-paste-code": "[!]You first have to paste in your level code.",
+                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +368,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Punkty przywracania to backup'y twojego poziomu. Są tworzone automatycznie gdy poziom jest zapisywany po ustawionej ilości czasu.\nMożesz powrócić do wcześniejszych wersji swojego poziomu z punktów przywracania w tym miejscu.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Interwały tworzenia punktów przywracania[/scale]",
                 "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit"
+                "sync-on-exit": "[!]Synchronizes on exit",
+                "currently-offline": "[!]Currently offline",
+                "not-logged-in": "[!]Not logged in"
             },
             "buttons": {
                 "new-destination": "Kliknij by dodać nową destynację",
@@ -1053,10 +1088,14 @@
                     "attack-frequency-info": "[!]It's possible for one attack to occur more often! Check me out:",
                     "spew-flame": "[!]Spew Flame",
                     "homing-dash": "[!]Homing Dash",
+                    "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "[!]Pumpkins & Pepper",
                     "protective-flames": "[!]Protective Flames",
-                    "kb-attack-descriptions": "[!]Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
-                    "ring-count": "[!]Ring count",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",                    "ring-count": "[!]Ring count",
                     "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking."
                 },
                 "separators": {
@@ -1251,7 +1290,8 @@
                 "x-levels-on-lss": "[!]{0} levels on Level Share Square",
                 "log-out-confirmation": "[!]Are you sure you want to log out?",
                 "offline-notice": "[!]You're offline, so LSS features are currently unavailable.",
-                "accessibility": "[!]accessibility"
+                "accessibility": "[!]accessibility",
+                "in-game-username": "[!]In-game username"
             },
             "buttons": {
                 "restart": "[!]Restart",

@@ -31,7 +31,8 @@
                 "editor": "Editor",
                 "confirm-click": "Click again to confirm",
                 "proceed": "Proceed",
-                "click-configure": "Click to configure"
+                "click-configure": "Click to configure",
+                "remove": "Remove"
             },
             "time": {
                 "days": {
@@ -117,7 +118,8 @@
                 },
                 "active": "active",
                 "inactive": "inactive",
-                "paused": "paused"
+                "paused": "paused",
+                "unavailable": "unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Press again to confirm",
@@ -212,7 +214,10 @@
                 "code-notice": "You can share this level code with others, so they can play your level! It's also recommended to keep level codes stored as a back-up.",
                 "compact-notice": "Compact codes only contain all the data needed to construct your level, stripping out data stored for the level designers only.",
                 "production-notice": "The production code saves extra data that is handy during level designing, such as what items are in the favourites bar.",
-                "import-code-notice": "Paste a level code here, and the level will be saved within the game. It is still recommended to make regular backups of your level by saving the code on your device and/or on Level Share Square."
+                "import-code-notice": "Paste a level code here, and the level will be saved within the game. It is still recommended to make regular backups of your level by saving the code on your device and/or on Level Share Square.",
+                "first-paste-code": "You first have to paste in your level code.",
+                "unrecognized-code": "Sorry, this level code could not be recognized.",
+                "outdated-version": "This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +340,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Restore Points are backups of your level, made automatically when the level is saved after a set amount of time.\nYou can go back to a past version of your level from a restore point here.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Restore Point creation interval[/scale]",
                 "lss-level-sync": "LSS cloud synchronisation",
-                "sync-on-exit": "Synchronises on exit"
+                "sync-on-exit": "Synchronises on exit",
+                "currently-offline": "Currently offline",
+                "not-logged-in": "Not logged in"
             },
             "buttons": {
                 "new-destination": "Click to add new destination",
@@ -1053,9 +1060,14 @@
                     "attack-frequency-info": "It's possible for one attack to occur more often! Check me out:",
                     "spew-flame": "Spew Flame",
                     "homing-dash": "Homing Dash",
+                    "magic-bottles": "Magic Bottles",
                     "pumpkins-and-pepper": "Pumpkins & Pepper",
                     "protective-flames": "Protective Flames",
-                    "kb-attack-descriptions": "Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
+                    "kb-attack-desc-flame": "Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "Create a ring of flames around King Boo, that protect him from projectiles",
                     "ring-count": "Ring count",
                     "kb-intro-anim-info": "King Boo can enter in style! Pick an intro animation of your liking."
                 },
@@ -1113,7 +1125,8 @@
                 "log-out-confirmation": "Are you sure you want to log out?",
                 "offline-notice": "You're offline, so LSS features are currently unavailable.",
                 "accessibility": "accessibility",
-                "logout": "Log out"
+                "logout": "Log out",
+                "in-game-username": "In-game username"
             },
             "buttons": {
                 "restart": "Restart",

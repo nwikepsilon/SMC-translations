@@ -31,22 +31,31 @@
                 "editor": "[!]Editor",
                 "confirm-click": "[!]Click again to confirm",
                 "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure"
+                "click-configure": "[!]Click to configure",
+                "remove": "[!]Remove"
             },
             "time": {
                 "days": {
+                    "few": "[!]days",
+                    "many": "[!]days",
                     "one": "д.",
                     "other": "д."
                 },
                 "hours": {
+                    "few": "[!]hours",
+                    "many": "[!]hours",
                     "one": "ч.",
                     "other": "ч."
                 },
                 "minutes": {
+                    "few": "[!]minutes",
+                    "many": "[!]minutes",
                     "one": "мин.",
                     "other": "мин."
                 },
                 "seconds": {
+                    "few": "[!]seconds",
+                    "many": "[!]seconds",
                     "one": "[!]second",
                     "other": "[!]seconds"
                 },
@@ -76,48 +85,69 @@
                 "width": "ширина",
                 "height": "длина",
                 "layers": {
+                    "few": "[!]layers",
+                    "many": "[!]layers",
                     "one": "слой",
                     "other": "слои"
                 },
                 "effects": {
+                    "few": "[!]effects",
+                    "many": "[!]effects",
                     "one": "эффект",
                     "others": "эффекты"
                 },
                 "objects": {
+                    "few": "[!]objects",
+                    "many": "[!]objects",
                     "one": "объект",
                     "other": "объекты"
                 },
                 "tiles": {
+                    "few": "[!]tiles",
+                    "many": "[!]tiles",
                     "one": "тайл",
                     "other": "тайлы"
                 },
                 "destination": {
+                    "few": "[!]destination",
+                    "many": "[!]destination",
                     "one": "направление",
                     "other": "направления"
                 },
                 "entryway": {
+                    "few": "[!]entryway",
+                    "many": "[!]entryway",
                     "one": "вход",
                     "other": "входы"
                 },
                 "maps": {
+                    "few": "[!]maps",
+                    "many": "[!]maps",
                     "one": "карта",
                     "other": "карты"
                 },
                 "themes": {
+                    "few": "[!]themes",
+                    "many": "[!]themes",
                     "one": "тема",
                     "other": "темы"
                 },
                 "tags": {
+                    "few": "[!]tags",
+                    "many": "[!]tags",
                     "one": "[!]tag",
                     "other": "[!]tags"
                 },
                 "degrees": {
+                    "few": "[!]degrees",
+                    "many": "[!]degrees",
                     "one": "[!]degree",
                     "other": "[!]degrees"
                 },
                 "active": "[!]active",
                 "inactive": "[!]inactive",
-                "paused": "[!]paused"
+                "paused": "[!]paused",
+                "unavailable": "[!]unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Нажмите ещё раз для подтверждения",
@@ -212,7 +242,10 @@
                 "code-notice": "Вы можете поделиться этим кодом с другими, тогда и они смогут сыграть! Также рекомендуется создавать резервные копии кодов.",
                 "compact-notice": "Компактные коды содержат информацию только для создания уровня, данные только для дизайнеров будут удалены.",
                 "production-notice": "Расширенные коды хранят больше информации, полезной при созданиях уровней, например, предметы в панели избранного.",
-                "import-code-notice": "Вставьте код уровня сюда и он будет сохранён в игре. Всё ещё рекомендуется делать резервные копии уровней, сохраняя их на компьютер и/или на Level Share Square."
+                "import-code-notice": "Вставьте код уровня сюда и он будет сохранён в игре. Всё ещё рекомендуется делать резервные копии уровней, сохраняя их на компьютер и/или на Level Share Square.",
+                "first-paste-code": "[!]You first have to paste in your level code.",
+                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +368,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Точки восстановления - резервные копии вашего уровня, которые создаются автоматически в момент сохранения.\nЗдесь вы можете восстановить уровень из точек восстановления. [/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Интервал до создания точки восстановления[/scale]",
                 "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit"
+                "sync-on-exit": "[!]Synchronizes on exit",
+                "currently-offline": "[!]Currently offline",
+                "not-logged-in": "[!]Not logged in"
             },
             "buttons": {
                 "new-destination": "Нажмите для добавления направления",
@@ -1053,10 +1088,14 @@
                     "attack-frequency-info": "[!]It's possible for one attack to occur more often! Check me out:",
                     "spew-flame": "[!]Spew Flame",
                     "homing-dash": "[!]Homing Dash",
+                    "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "[!]Pumpkins & Pepper",
                     "protective-flames": "[!]Protective Flames",
-                    "kb-attack-descriptions": "[!]Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
-                    "ring-count": "[!]Ring count",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",                    "ring-count": "[!]Ring count",
                     "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking."
                 },
                 "separators": {
@@ -1251,7 +1290,8 @@
                 "x-levels-on-lss": "[!]{0} levels on Level Share Square",
                 "log-out-confirmation": "[!]Are you sure you want to log out?",
                 "offline-notice": "[!]You're offline, so LSS features are currently unavailable.",
-                "accessibility": "[!]accessibility"
+                "accessibility": "[!]accessibility",
+                "in-game-username": "[!]In-game username"
             },
             "buttons": {
                 "restart": "[!]Restart",

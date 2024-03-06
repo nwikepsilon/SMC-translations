@@ -31,7 +31,8 @@
                 "editor": "Editor",
                 "confirm-click": "[!]Click again to confirm",
                 "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure"
+                "click-configure": "[!]Click to configure",
+                "remove": "[!]Remove"
             },
             "time": {
                 "days": {
@@ -117,7 +118,8 @@
                 },
                 "active": "[!]active",
                 "inactive": "[!]inactive",
-                "paused": "[!]paused"
+                "paused": "[!]paused",
+                "unavailable": "[!]unavailable"
             },
             "labels": {
                 "press-again-to-confirm": "Drücke erneut zum Bestätigen",
@@ -212,7 +214,10 @@
                 "code-notice": "Teile diesen Level Code mit anderen Spielern, sodass diese dein Level spielen können! Es wird außerdem empfohlen, deinen Level Code separat zu speichern.",
                 "compact-notice": "Kompakte Level Codes beinhalten nur die Daten, welche notwendig sind, um dein Level zu konstruieren. Somit werden spezifische Daten zu dem Bau des Levels nicht gesehen werden können.",
                 "production-notice": "Der Produktionscode deines Levels enthält extra Daten, welche nützlich während des Designs des Levels sein könnten. Zum Beispiel können die Items in der Favoritenleiste betrachtet werden, die während dem Bau des Levels benutzt worden sind.",
-                "import-code-notice": "Kopiere deinen Level Code hier, um dein Level in dem Spiel selbst zu speichern. Trotzdem sollten von dir reguläre Sicherungskopien erschaffen werden, welche separat auf deinem System oder auf Level Share Square gespeichert werden."
+                "import-code-notice": "Kopiere deinen Level Code hier, um dein Level in dem Spiel selbst zu speichern. Trotzdem sollten von dir reguläre Sicherungskopien erschaffen werden, welche separat auf deinem System oder auf Level Share Square gespeichert werden.",
+                "first-paste-code": "[!]You first have to paste in your level code.",
+                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
             }
         },
         "regular-play": {
@@ -335,7 +340,9 @@
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Wiederherstellungspunkte sind Sicherungskopien deines Levels, welche automatisch hergestellt werden, wenn dein Level seit einer geraumen Zeit nicht mehr gespeichert worden ist.\nDu kannst hier zu einer älteren Version deines Level zurückkehren, indem du einen der Wiederherstellungpunkte benutzt.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Kreationsintervall des Wiederherstellungspunktes[/scale]",
                 "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit"
+                "sync-on-exit": "[!]Synchronizes on exit",
+                "currently-offline": "[!]Currently offline",
+                "not-logged-in": "[!]Not logged in"
             },
             "buttons": {
                 "new-destination": "Klicke, um einen neuen Zielpunkt hinzuzufügen",
@@ -1053,9 +1060,14 @@
                     "attack-frequency-info": "[!]It's possible for one attack to occur more often! Check me out:",
                     "spew-flame": "[!]Spew Flame",
                     "homing-dash": "[!]Homing Dash",
+                    "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "[!]Pumpkins & Pepper",
                     "protective-flames": "[!]Protective Flames",
-                    "kb-attack-descriptions": "[!]Spews out a ghostly flame towards the player | Targets and homes in on the player | Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins! | Create a ring of flames around King Boo, that protect him from projectiles",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
                     "ring-count": "[!]Ring count",
                     "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking."
                 },
@@ -1113,7 +1125,8 @@
                 "log-out-confirmation": "Bist du sicher, dass du dich ausloggen möchtest?",
                 "offline-notice": "Du bist offline. LSS Features sind somit nicht verfügbar.",
                 "accessibility": "Zugänglichkeit",
-                "logout": "[!]Log out"
+                "logout": "[!]Log out",
+                "in-game-username": "[!]In-game username"
             },
             "buttons": {
                 "restart": "Neustarten",

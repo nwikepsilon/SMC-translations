@@ -29,6 +29,7 @@
                 "view": "Bekijk",
                 "create": "Maak",
                 "edit": "Bewerken",
+                "remove": "Weghalen",
                 "exit": "Verlaten",
                 "editor": "Editor",
                 "click-configure": "Klik om te configureren"
@@ -66,6 +67,7 @@
                 "rotation": "rotatie",
                 "active": "actief",
                 "inactive": "inactief",
+                "unavailable": "niet beschikbaar",
                 "paused": "gepauzeerd",
                 "name": "naam",
                 "main": "algemeen",
@@ -212,7 +214,10 @@
                 "code-notice": "Je kan deze code delen met anderen, zodat ze jouw level kunnen spelen! Het wordt ook aangeraden om je code op te slaan op je computer als back-up.",
                 "compact-notice": "Compacte codes bevatten alleen informatie over hoe je level eruitziet, niet instellingen van bijvoorbeeld de editor.",
                 "production-notice": "De productie codes bevatten ook informatie over de editor, bijvoorbeeld je favorieten items.",
-                "import-code-notice": "Plak een level code, and het zal voortaan hier te vinden zijn. Het is alsnog zeer aangeraden om back-ups lokaal te maken naar je apparaat en/of naar Level Share Square."
+                "import-code-notice": "Plak een level code, and het zal voortaan hier te vinden zijn. Het is alsnog zeer aangeraden om back-ups lokaal te maken naar je apparaat en/of naar Level Share Square.",
+                "first-paste-code": "Je moet eerst een level code invoegen.",
+                "unrecognized-code": "Sorry, maar deze level code kan niet worden gelezen.",
+                "outdated-version": "Deze level code is bedoelt voor een nieuwere versie van Super Mario Construct."
             }
         },
         "regular-play": {
@@ -333,6 +338,8 @@
                 "autosave-interval": "Autosaves gebeuren elke 5 min.",
                 "lss-level-sync": "LSS cloud-synchronisatie",
                 "sync-on-exit": "Verlaat editor om te synchroniseren",
+                "currently-offline": "Je bent offline",
+                "not-logged-in": "Niet ingelogd",
                 "restore-point-header": "Herstel Punt opties",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Herstel Punten zijn automatische backups van je level, gemaakt om de tijd bij het opslaan.\nJe kan hier teruggaan naar een vorige versie van je level.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Herstel Punt creatie interval[/scale]"
@@ -1053,9 +1060,14 @@
                     "attack-frequency-info": "Het is mogelijk om een aanval vaker voort te laten komen! Kijk eens hier:",
                     "spew-flame": "Spuug Vlam",
                     "homing-dash": "Homing Dash",
+                    "magic-bottles": "Magische Flessen",
                     "pumpkins-and-pepper": "Pompoenen met Peper",
                     "protective-flames": "Aanval-werende vlammen",
-                    "kb-attack-descriptions": "Spugt een spookachtige vlam naar de speler | Razendsnelle beweging naar de speler | Spuugt pompoenen en een peper. Gooi de peper terug om Koning Boo kwetsbaar te maken voor pompoenen! | Creëer een ring van vlammen rondom koning Boo, die hem beschermt tegen projectielen",
+                    "kb-attack-desc-flame": "Spuugt een spookachtige vlam naar de speler",
+                    "kb-attack-desc-dash": "Razendsnelle beweging naar de speler",
+                    "kb-attack-desc-bottle": "Gooit meerdere magische flessen. Sommige laten spookvuur vrij, eentje zal een fee spawnen die King Boo tijdelijk verblind!",
+                    "kb-attack-desc-pepper": "Spuugt pompoenen en een peper. Gooi de peper terug om Koning Boo kwetsbaar te maken voor pompoenen!",
+                    "kb-attack-desc-ring": "Creëer een ring van vlammen rondom koning Boo, die hem beschermt tegen projectielen",
                     "ring-count": "Ring aantal",
                     "kb-intro-anim-info": "Koning Boo kan zich laten zien in stijl! Kies een intro-animatie die je leuk vind."
                 },
@@ -1102,6 +1114,7 @@
                 "control-config-k": "Besturings configuratie",
                 "control-config-g": "Besturings configuratie\n[scale=0.65][color=#CCCCCC]Gamepad knoppen gebruiken numerieken IDs[/color][/scale]",
                 "graphics-settings": "Prestatitie & Grafische instellingen",
+                "in-game-username": "Spel gebruikersnaam",
                 "fullscreen-scaling": "[scale=0.5]Schalen op volledig scherm[/scale]",
                 "fill-screen": "Scherm vullen",
                 "perfect-resolution": "Perfecte resolutie",
@@ -1201,7 +1214,7 @@
             },
             "palettes": {
                 "1_rain": "Standaard Regen",
-                "2_rain": "Standaard Regen|Giftig Zuur|Kleverigge Modder|IJzige Cryofluid|Chocoladedrank|Olielek|Gouden Douche|Metaalgesmolten|[!]Poisonous Ooze|[!]Monochrome Mixture",
+                "2_rain": "Standaard Regen|Giftig Zuur|Kleverigge Modder|IJzige Cryofluid|Chocoladedrank|Olielek|Gouden Douche|Metaalgesmolten|Giftige Substantie|Zwart-wit mengsel",
                 "1_snow": "Standaard Sneeuw",
                 "2_snow": "Standaard Sneeuw|Munt van Winter|Pure Kou|Ijskoud Wit|Aardbei-rood|Sneeuwstormnacht|Ijslimonade",
                 "1_sand": "Standaard Zandstorm",
