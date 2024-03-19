@@ -133,7 +133,8 @@
                 "active": "[!]active",
                 "inactive": "[!]inactive",
                 "paused": "[!]paused",
-                "unavailable": "[!]unavailable"
+                "unavailable": "[!]unavailable",
+                "movement": "[!]movement"
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -161,7 +162,8 @@
                 "tagging": "Etiquetado",
                 "behavior": "Comportamiento",
                 "other": "Otro",
-                "how-it-works": "[!]How it works"
+                "how-it-works": "[!]How it works",
+                "mode": "[!]Mode"
             },
             "menu-options": {
                 "default": "Por defecto",
@@ -544,6 +546,9 @@
                 "yellow-palace-switch": "Interruptor Amarillo",
                 "red-palace-switch": "Interruptor Rojo",
                 "blue-palace-switch": "Interruptor Azul",
+                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
+                "cursed-bottle": "[!]Cursed Bottle",
+                "fairy-bottle": "[!]Fairy Bottle",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -1077,13 +1082,19 @@
                     "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
                     "protective-flames": "Generar Flamas Protectoras",
-                    "kb-attack-desc-flame": "Lanza una Llama Fantasma hacia el jugador",
-                    "kb-attack-desc-dash": "Mira y se dirige al jugador",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
-                    "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
-                    "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "ring-count": "Número de Llamas en el anillo",
-                    "kb-intro-anim-info": "¡El Rey Bú puede entrar con estilo! Elige una animación de introducción a tu gusto."
+                    "walking-mode": "[!]Walking mode",
+                    "attacking": "[!]Attacking",
+                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
+                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
+                    "attack-speed": "[!]Attack speed",
+                    "rocking-hammer": "[!]Rockin' Hammers",
+                    "blazing-hammer": "[!]Blazin' Hammers",
+                    "mecha-wand": "[!]Mecha Wand",
+                    "shell-dash": "[!]Shell Dash",
+                    "projectile-count": "[!]Projectile count",
+                    "extra-random-projectiles": "[!]Extra random projectiles",
+                    "on-defeated": "[!]On defeated"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1091,7 +1102,8 @@
                     "environmental-blending": "Mezcla con el ambiente",
                     "attack-info": "Información del ataque",
                     "browse-attacks": "Explorar ataques",
-                    "set-animation": "Establecer animación"
+                    "set-animation": "Establecer animación",
+                    "disguised-enemy": "[!]Disguised enemy"
                 },
                 "buttons": {
                     "attacks": "Ataques"
@@ -1109,13 +1121,38 @@
                     "bb-wings": "Si se le dan alas, Bum Bum será capaz de volar y lanzarse sobre el jugador.\n[sub]Si se estableció la opción de 'Alternar al golpear', Bum Bum cambiará de modo terrestre a modo con alas (y viceversa) cada vez que pierda HP.[/sub]",
                     "kb-invincibility-period": "Tiempo en segundos antes de que el Rey Bú vuelva a ser vulnerable a los ataques, después de ser golpeado. El Rey Bú se volverá transparente durante esta fase de invencibilidad.\n[sub]Escribe 0 para quitar el periodo de invencibilidad.[/sub]",
                     "kb-base-speed": "Velocidad de movimiento base (mínima), en píxeles/segundos.\n\n[sub]La velocidad con la que el Rey Bú se mueve puede opcionalmente acelerarse en la oscuridad con el valor definido a la derecha.[/sub]",
-                    "kb-darkness-boost": "Velocidad máxima extra que se añade al Rey Bú cuando se sumerge en la oscuridad, en píxeles/segundo.\n\n[sub]Ten en cuenta que este valor se divide por el nivel de oscuridad que está cubriendo los ojos del Rey Bú: si el nivel de oscuridad es del 50%, por ejemplo, añadirá el 50% de este valor de velocidad además de la velocidad base.[/sub]"
+                    "kb-darkness-boost": "Velocidad máxima extra que se añade al Rey Bú cuando se sumerge en la oscuridad, en píxeles/segundo.\n\n[sub]Ten en cuenta que este valor se divide por el nivel de oscuridad que está cubriendo los ojos del Rey Bú: si el nivel de oscuridad es del 50%, por ejemplo, añadirá el 50% de este valor de velocidad además de la velocidad base.[/sub]",
+                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
+                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
+                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
+                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
+                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
+                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!"
                 },
                 "html": {
                     "bb-attack-phases": "Incrementar automáticamente|Fase 1 (Embestida)|Fase 2 (Brinco)|Fase 3 (Persecución)",
                     "bb-attack-frequencies": "(Casi) instantáneo|Frecuente|Estándar|Con demoras largas",
                     "switch-when-hit": "Alternar al golpear",
-                    "kb-intro-animations": "Ninguna|Susto Repentino|Formación de Polvo|Bú Sorpresivo"
+                    "kb-intro-animations": "Ninguna|Susto Repentino|Formación de Polvo|Bú Sorpresivo",
+                    "bw-modes": "[!]Classic (SMB1)",
+                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
+                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
+                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
+                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach"
+                },
+                "text": {
+                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
+                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
+                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
+                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
+                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
+                    "kb-attack-desc-flame": "Lanza una Llama Fantasma hacia el jugador",
+                    "kb-attack-desc-dash": "Mira y se dirige al jugador",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
+                    "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
+                    "boss-intro-anim-info": "¡El {0} puede entrar con estilo! Elige una animación de introducción a tu gusto.",
+                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat."
                 }
             }
         },

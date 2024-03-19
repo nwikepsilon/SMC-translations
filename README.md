@@ -13,11 +13,12 @@ Below are the languages that have significantly enough translated strings to be 
 • _Dutch / Nederlands_  
 • _Portuguese / Português_  
 • _Spanish / Español_  
+• _Russian / Русский_  
+• _Polish / Polski_  
 
 ## Currently work-in-progress languages
 These are the languages that have WIP translations, but are not yet ready to be in the game.  
-• _Russian / Русский_ (being implemented)  
-• _Polish / Polski_ (being implemented)  
+(None at the moment.)
 
 ## General Rule of Thumb
 • Do not use Google Translate to localize the text/strings. Google Translate is not always accurate and does not know context.  

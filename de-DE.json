@@ -119,7 +119,8 @@
                 "active": "[!]active",
                 "inactive": "[!]inactive",
                 "paused": "[!]paused",
-                "unavailable": "[!]unavailable"
+                "unavailable": "[!]unavailable",
+                "movement": "[!]movement"
             },
             "labels": {
                 "press-again-to-confirm": "Drücke erneut zum Bestätigen",
@@ -147,7 +148,8 @@
                 "tagging": "[!]Tagging",
                 "behavior": "[!]Behavior",
                 "other": "[!]Other",
-                "how-it-works": "[!]How it works"
+                "how-it-works": "[!]How it works",
+                "mode": "[!]Mode"
             },
             "menu-options": {
                 "default": "Standard",
@@ -530,6 +532,9 @@
                 "yellow-palace-switch": "Gelber Palastschalter",
                 "red-palace-switch": "Roter Palastschalter",
                 "blue-palace-switch": "Blauer Palastschalter",
+                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
+                "cursed-bottle": "[!]Cursed Bottle",
+                "fairy-bottle": "[!]Fairy Bottle",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
                 "goombrat": "Gumbalg",
@@ -1063,13 +1068,19 @@
                     "magic-bottles": "[!]Magic Bottles",
                     "pumpkins-and-pepper": "[!]Pumpkins & Pepper",
                     "protective-flames": "[!]Protective Flames",
-                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
-                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
-                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
-                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
                     "ring-count": "[!]Ring count",
-                    "kb-intro-anim-info": "[!]King Boo can enter in style! Pick an intro animation of your liking."
+                    "walking-mode": "[!]Walking mode",
+                    "attacking": "[!]Attacking",
+                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
+                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
+                    "attack-speed": "[!]Attack speed",
+                    "rocking-hammer": "[!]Rockin' Hammers",
+                    "blazing-hammer": "[!]Blazin' Hammers",
+                    "mecha-wand": "[!]Mecha Wand",
+                    "shell-dash": "[!]Shell Dash",
+                    "projectile-count": "[!]Projectile count",
+                    "extra-random-projectiles": "[!]Extra random projectiles",
+                    "on-defeated": "[!]On defeated"
                 },
                 "separators": {
                     "chase-stats": "[!]Chase stats",
@@ -1077,7 +1088,8 @@
                     "environmental-blending": "[!]Environmental blending",
                     "attack-info": "[!]Attack info",
                     "browse-attacks": "[!]Browse attacks",
-                    "set-animation": "[!]Set animation"
+                    "set-animation": "[!]Set animation",
+                    "disguised-enemy": "[!]Disguised enemy"
                 },
                 "buttons": {
                     "attacks": "[!]Attacks"
@@ -1095,13 +1107,38 @@
                     "bb-wings": "[!]If given wings, Boom Boom is able to fly and dive in on the player.\n[sub]When 'Switch when hit' is set, Boom Boom will switch from ground to winged mode (and vice versa) every time he loses HP.[/sub]",
                     "kb-invincibility-period": "[!]Time in seconds before King Boo becomes vulnerable to attacks again, after being hit. King Boo will become transparent during this invincibility phase.\n[sub]Enter 0 to skip the invincibility period.[/sub]",
                     "kb-base-speed": "[!]Base (minimum) movement speed, in pixels / sec.\n\n[sub]King Boo can optionally speed up in darkness with the value defined on the right.[/sub]",
-                    "kb-darkness-boost": "[!]Maximum extra speed that gets added to King Boo when submerged in darkness, in pixels / sec.\n\n[sub]Note that this value is divided by the level of darkness that is covering King Boo's eyes: if the darkness level is 50%, for example, it will add 50% of this speed value on top of the base speed.[/sub]"
+                    "kb-darkness-boost": "[!]Maximum extra speed that gets added to King Boo when submerged in darkness, in pixels / sec.\n\n[sub]Note that this value is divided by the level of darkness that is covering King Boo's eyes: if the darkness level is 50%, for example, it will add 50% of this speed value on top of the base speed.[/sub]",
+                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
+                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
+                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
+                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
+                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
+                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!"
                 },
                 "html": {
                     "bb-attack-phases": "[!]Auto increase|Phase 1 (Dash)|Phase 2 (Leap)|Phase 3 (Pinch)",
                     "bb-attack-frequencies": "[!](Near) instant|Frequent|Standard|Long delays",
                     "switch-when-hit": "[!]Switch when hit",
-                    "kb-intro-animations": "[!]None|Squash 'N' Stretch|Dust Introduction|Dummy Boo"
+                    "kb-intro-animations": "[!]None|Squash 'N' Stretch|Dust Introduction|Dummy Boo",
+                    "bw-modes": "[!]Classic (SMB1)",
+                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
+                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
+                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
+                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach"
+                },
+                "text": {
+                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
+                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
+                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
+                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
+                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
+                    "boss-intro-anim-info": "[!]{0} can enter in style! Pick an intro animation of your liking.",
+                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat."
                 }
             }
         },
