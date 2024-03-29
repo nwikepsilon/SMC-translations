@@ -29,35 +29,35 @@
                 "edit": "Editar",
                 "exit": "Salir",
                 "editor": "Editor",
-                "confirm-click": "[!]Click again to confirm",
-                "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure",
-                "remove": "[!]Remove"
+                "confirm-click": "Haz clic de nuevo para confirmar",
+                "proceed": "Continuar",
+                "click-configure": "Haz clic para configurar",
+                "remove": "Eliminar"
             },
             "time": {
                 "days": {
-                    "many": "[!]days",
+                    "many": "días",
                     "one": "día",
                     "other": "días"
                 },
                 "hours": {
-                    "many": "[!]hours",
+                    "many": "horas",
                     "one": "hora",
                     "other": "horas"
                 },
                 "minutes": {
-                    "many": "[!]minutes",
+                    "many": "minutos",
                     "one": "minuto",
                     "other": "minutos"
                 },
                 "ago": "hace",
                 "notation": "{1} {0}",
                 "seconds": {
-                    "many": "[!]seconds",
+                    "many": "segundos",
                     "one": "segundo",
                     "other": "segundos"
                 },
-                "just-now": "[!]Just now"
+                "just-now": "Ahora mismo"
             },
             "words": {
                 "keyboard": "teclado",
@@ -71,42 +71,42 @@
                 "width": "anchura",
                 "height": "altura",
                 "layers": {
-                    "many": "[!]layers",
+                    "many": "capas",
                     "one": "capa",
                     "other": "capas"
                 },
                 "effects": {
-                    "many": "[!]effects",
+                    "many": "efectos",
                     "one": "efecto",
                     "others": "efectos"
                 },
                 "objects": {
-                    "many": "[!]objects",
+                    "many": "objetos",
                     "one": "objeto",
                     "other": "objetos"
                 },
                 "tiles": {
-                    "many": "[!]tiles",
+                    "many": "bloques",
                     "one": "bloque",
                     "other": "bloques"
                 },
                 "destination": {
-                    "many": "[!]destination",
+                    "many": "destinos",
                     "one": "destino",
                     "other": "destinos"
                 },
                 "entryway": {
-                    "many": "[!]entryway",
+                    "many": "entradas",
                     "one": "entrada",
                     "other": "entradas"
                 },
                 "maps": {
-                    "many": "[!]maps",
+                    "many": "mapas",
                     "one": "mapa",
                     "other": "mapas"
                 },
                 "themes": {
-                    "many": "[!]themes",
+                    "many": "temas",
                     "one": "tema",
                     "other": "temas"
                 },
@@ -121,20 +121,20 @@
                 "up": "arriba",
                 "down": "abajo",
                 "tags": {
-                    "many": "[!]tags",
+                    "many": "etiquetas",
                     "one": "etiqueta",
                     "other": "etiquetas"
                 },
                 "degrees": {
-                    "many": "[!]degrees",
+                    "many": "grados",
                     "one": "grado",
                     "other": "grados"
                 },
-                "active": "[!]active",
-                "inactive": "[!]inactive",
-                "paused": "[!]paused",
-                "unavailable": "[!]unavailable",
-                "movement": "[!]movement"
+                "active": "activo(a)",
+                "inactive": "inactivo(a)",
+                "paused": "en pausa",
+                "unavailable": "no disponible",
+                "movement": "movimiento"
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -162,8 +162,8 @@
                 "tagging": "Etiquetado",
                 "behavior": "Comportamiento",
                 "other": "Otro",
-                "how-it-works": "[!]How it works",
-                "mode": "[!]Mode"
+                "how-it-works": "Cómo funciona",
+                "mode": "Modo"
             },
             "menu-options": {
                 "default": "Por defecto",
@@ -208,8 +208,8 @@
                 "import-code": "IMPORTAR CÓDIGO DEL NIVEL",
                 "compact": "Compacto",
                 "production": "Para producción",
-                "create-level": "Create level!",
-                "create-lss-entry": "[!]Also create a private LSS-entry"
+                "create-level": "¡Crear nivel!",
+                "create-lss-entry": "Crear también una entrada privada en LSS"
             },
             "tooltips": {
                 "play": "Jugar",
@@ -231,9 +231,9 @@
                 "compact-notice": "Los códigos compactos unicamente contienen los datos para construir tu nivel, eliminando los datos almacenados exclusivamente para los diseñadores del nivel.",
                 "production-notice": "El código para producción guarda datos adicionales que son útiles durante el diseño de los niveles, como los elementos de la barra de favoritos.",
                 "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Aún así se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square.",
-                "first-paste-code": "[!]You first have to paste in your level code.",
-                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
-                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
+                "first-paste-code": "Primero tienes que pegar el código de tu nivel.",
+                "unrecognized-code": "Lo sentimos, no se ha podido reconocer este código de nivel.",
+                "outdated-version": "Este código de nivel está pensado para una versión más reciente de Super Mario Construct."
             }
         },
         "regular-play": {
@@ -355,10 +355,10 @@
                 "restore-point-header": "Opciones de punto de restauración",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
-                "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit",
-                "currently-offline": "[!]Currently offline",
-                "not-logged-in": "[!]Not logged in"
+                "lss-level-sync": "Sincronización en la nube de LSS",
+                "sync-on-exit": "Sincroniza al salir",
+                "currently-offline": "Actualmente desconectado",
+                "not-logged-in": "No conectado"
             },
             "buttons": {
                 "new-destination": "Haz clic para añadir un nuevo destino",
@@ -395,7 +395,7 @@
                 "create-restore-point": "[scale=0.75]Crear manualmente\npunto de restauración[/scale]",
                 "view-restore-points": "[scale=0.75]Mostrar/Usar\npuntos de restauración[/scale]",
                 "download-level": "[scale=0.75]Descargar nivel actual[/scale]",
-                "edit-sync-settings": "[!]Edit synchronization settings"
+                "edit-sync-settings": "Editar los ajustes de sincronización"
             },
             "tooltips": {
                 "add-entryway": "Agregar entrada",
@@ -420,7 +420,7 @@
                 "inactive-layer-opacity": "Al editar una capa de bloques, otras capas se volverán translúcidas. Si introduces 100 las capas serán completamente visibles, y si introduces 0 las capas serán totalmente invisibles.",
                 "trail-tool-frame-count": "Al probar el nivel, Mario dejará un rastro visible en el editor. Este es el número de fotogramas que dejará Mario.\nLa función de rastro se encuentra en la caja de herramientas de la parte inferior izquierda (durante la prueba de nivel).",
                 "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor",
-                "last-sync": "[!]Last synchronization"
+                "last-sync": "Última sincronización"
             },
             "html": {
                 "destination-name-example": "Ejemplo 'salida de la cueva'",
@@ -546,9 +546,9 @@
                 "yellow-palace-switch": "Interruptor Amarillo",
                 "red-palace-switch": "Interruptor Rojo",
                 "blue-palace-switch": "Interruptor Azul",
-                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
-                "cursed-bottle": "[!]Cursed Bottle",
-                "fairy-bottle": "[!]Fairy Bottle",
+                "magic-bottle": "Frasco Mágico[s]67% fuego | 33% hada",
+                "cursed-bottle": "Frasco Maldito",
+                "fairy-bottle": "Frasco de Hada",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -1079,22 +1079,22 @@
                     "attack-frequency-info": "¡Es posible que un ataque ocurra más a menudo! Mírame:",
                     "spew-flame": "Arrojar Flamas",
                     "homing-dash": "Embestida",
-                    "magic-bottles": "[!]Magic Bottles",
+                    "magic-bottles": "Frascos Mágicos",
                     "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
                     "protective-flames": "Generar Flamas Protectoras",
                     "ring-count": "Número de Llamas en el anillo",
-                    "walking-mode": "[!]Walking mode",
-                    "attacking": "[!]Attacking",
-                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
-                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
-                    "attack-speed": "[!]Attack speed",
-                    "rocking-hammer": "[!]Rockin' Hammers",
-                    "blazing-hammer": "[!]Blazin' Hammers",
-                    "mecha-wand": "[!]Mecha Wand",
-                    "shell-dash": "[!]Shell Dash",
-                    "projectile-count": "[!]Projectile count",
-                    "extra-random-projectiles": "[!]Extra random projectiles",
-                    "on-defeated": "[!]On defeated"
+                    "walking-mode": "Tipo de caminata",
+                    "attacking": "Ataque",
+                    "min-attacks-for-jump": "Ataques mínimos antes de saltar",
+                    "chance-of-jumping-minimum": "Posibilidad de saltar (tras saltos mínimos)",
+                    "attack-speed": "Velocidad de ataque",
+                    "rocking-hammer": "Martillos de Piedra",
+                    "blazing-hammer": "Martillos Candentes",
+                    "mecha-wand": "Cetro de Invocación",
+                    "shell-dash": "Embestida de Caparazón",
+                    "projectile-count": "Número de proyectiles",
+                    "extra-random-projectiles": "Proyectiles aleatorios adicionales",
+                    "on-defeated": "Al derrotar"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1103,7 +1103,7 @@
                     "attack-info": "Información del ataque",
                     "browse-attacks": "Explorar ataques",
                     "set-animation": "Establecer animación",
-                    "disguised-enemy": "[!]Disguised enemy"
+                    "disguised-enemy": "Enemigo encubierto"
                 },
                 "buttons": {
                     "attacks": "Ataques"
@@ -1122,37 +1122,37 @@
                     "kb-invincibility-period": "Tiempo en segundos antes de que el Rey Bú vuelva a ser vulnerable a los ataques, después de ser golpeado. El Rey Bú se volverá transparente durante esta fase de invencibilidad.\n[sub]Escribe 0 para quitar el periodo de invencibilidad.[/sub]",
                     "kb-base-speed": "Velocidad de movimiento base (mínima), en píxeles/segundos.\n\n[sub]La velocidad con la que el Rey Bú se mueve puede opcionalmente acelerarse en la oscuridad con el valor definido a la derecha.[/sub]",
                     "kb-darkness-boost": "Velocidad máxima extra que se añade al Rey Bú cuando se sumerge en la oscuridad, en píxeles/segundo.\n\n[sub]Ten en cuenta que este valor se divide por el nivel de oscuridad que está cubriendo los ojos del Rey Bú: si el nivel de oscuridad es del 50%, por ejemplo, añadirá el 50% de este valor de velocidad además de la velocidad base.[/sub]",
-                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
-                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
-                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
-                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
-                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
-                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!"
+                    "bw-defeat-events": "Cuando Bowser es derrotado, este evento (opcional) se realiza automáticamente.",
+                    "bw-movement-speed": "Velocidad de movimiento de Bowser cuando camina entre ataques, en píxeles / seg.",
+                    "bw-walking-mode": "Bowser puede quedarse quieto o pasearse. La opción de patrullar zona es útil para, por ejemplo, mantener a Bowser en un puente, mientras que la opción final está pensada para arenas grandes.",
+                    "bw-minimum-jumps": "La cantidad de ataques que Bowser tiene que realizar antes de tener una oportunidad de saltar, la probabilidad de que se puede establecer en la opción de abajo.",
+                    "bw-jumping-chance": "La probabilidad de saltar oscila entre 0% y 100%.\n[sub]0% desactiva el salto por completo, mientras que 100% garantiza un salto en todo momento.[/sub]",
+                    "bw-attack-speed": "La velocidad de los ataques de Bowser, ¡Desde escupir fuego tranquilamente hasta lanzar martillos de forma salvaje!"
                 },
                 "html": {
                     "bb-attack-phases": "Incrementar automáticamente|Fase 1 (Embestida)|Fase 2 (Brinco)|Fase 3 (Persecución)",
                     "bb-attack-frequencies": "(Casi) instantáneo|Frecuente|Estándar|Con demoras largas",
                     "switch-when-hit": "Alternar al golpear",
                     "kb-intro-animations": "Ninguna|Susto Repentino|Formación de Polvo|Bú Sorpresivo",
-                    "bw-modes": "[!]Classic (SMB1)",
-                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
-                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
-                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
-                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach"
+                    "bw-modes": "Clásico (SMB1)",
+                    "bw-defeat-events": "Sin evento especial|Terminar nivel|Caminar al PNJ más cercano",
+                    "bw-walk-modes": "Quedarse quieto|Patrullar zona|Caminar hasta el jugador",
+                    "bw-attack-speeds": "Incremento automático|Lento|Medio|Rápido",
+                    "bw-intro-animations": "Ninguno|Saltar desde abajo|Saltar del Koopayaso|Disfrazarse de Peach"
                 },
                 "text": {
-                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
-                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
-                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
-                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
-                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
+                    "bw-attack-desc-flame": "Lanza una o varias llamas en dirección al jugador",
+                    "bw-attack-desc-rocking-hammers": "Lanza varios martillazos en rápida sucesión",
+                    "bw-attack-desc-blazing-hammers": "Lanza martillos ardientes hacia el jugador",
+                    "bw-attack-desc-mecha-wand": "Bowser usa su cetro para generar Mechakoopas, ¡Pero puedes usarlos contra él!",
+                    "bw-attack-desc-shell-dash": "Bowser se esconde en su caparazón, el cual girará rápidamente. ¡Cuidado por donde pisas!",
                     "kb-attack-desc-flame": "Lanza una Llama Fantasma hacia el jugador",
                     "kb-attack-desc-dash": "Mira y se dirige al jugador",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-bottle": "Lanza varios frascos mágicos. Algunos estallan en llamas, ¡Pero uno de ellos libera a un hada al destruirlo para aturdir al Rey Bú!",
                     "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
                     "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "boss-intro-anim-info": "¡El {0} puede entrar con estilo! Elige una animación de introducción a tu gusto.",
-                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat."
+                    "disguised-enemy": "¡Un enemigo puede disfrazarse de Bowser! Su disfraz se revela al ser derrotado."
                 }
             }
         },
@@ -1240,30 +1240,30 @@
                 "open-editor": "Abre el editor"
             },
             "level-sync-new": {
-                "enter-link": "[!]Enter the link to your level on Level Share Square that you want to synchronize the level code with.",
-                "info-label-1": "[!]With this feature enabled, when you save your level in-game, it will also be updated on the Level Share Square website automatically.",
-                "info-label-2": "[!]When opening up the editor, the game will also alert you if the level code on the site is newer, which is useful when editing on multiple devices.",
-                "sync-success": "[!]Your level is synchronized with its entry on Level Share Square! Hoozah!"
+                "enter-link": "Introduce el enlace a tu nivel en Level Share Square con el que quieres sincronizar el código de nivel.",
+                "info-label-1": "Con esta función activada, cuando guardes tu nivel en el juego, también se actualizará automáticamente en el sitio web de Level Share Square.",
+                "info-label-2": "Al abrir el editor, el juego también te avisará si el código de nivel del sitio es más reciente, lo que resulta útil cuando se edita en varios dispositivos.",
+                "sync-success": "¡Tu nivel se sincroniza con su entrada en Level Share Square! ¡Hurra!"
             },
             "level-sync-edit": {
-                "sync-select": "[!]Select when you want to synchronize.",
-                "cooldown-notice": "[!]Note: synchronizations have a 20-second cooldown.",
-                "sync-options": "[!]Pause synchronization|Whenever the game saves|When I exit out of the editor",
-                "desync": "[!]Desynchronize",
-                "cancel-sync": "[!]Cancel synchronization",
-                "cancel-notice-1": "[!]When you cancel synchronization, the game will stop communication between Level Share Square for this specific level.",
-                "cancel-notice-2": "[!]De-synchronizing does not delete your level either in-game or on Level Share Square. You can always re-enable synchronization at a later date.",
-                "sync-cancelled": "[!]This level is no longer being synchronized with Level Share Square."
+                "sync-select": "Selecciona cuándo quieres sincronizar.",
+                "cooldown-notice": "Nota: las sincronizaciones tienen un tiempo de espera de 20 segundos.",
+                "sync-options": "Pausar la sincronización|Cuando se guarde el juego|Cuando salga del editor",
+                "desync": "Desincronizar",
+                "cancel-sync": "Cancelar sincronización",
+                "cancel-notice-1": "Cuando canceles la sincronización, el juego detendrá la comunicación entre el Level Share Square para este nivel específico.",
+                "cancel-notice-2": "La desincronización no borra tu nivel ni en el juego ni en Level Share Square. Siempre puedes volver a activar la sincronización más adelante.",
+                "sync-cancelled": "Este nivel ya no está sincronizado con Level Share Square."
             },
             "level-sync-compare": {
-                "new-ver-on-site": "[!]It looks like a newer version of this level is on Level Share Square. Would you like to synchronize?",
-                "restore-point-notice": "[!]A local restore point will be made in case you want to go back.",
-                "local-version": "[!]Local version",
-                "cloud-version": "[!]Cloud version",
-                "last-edited": "[!]Last edited",
-                "keep-local-version": "[!]Keep local version",
-                "use-cloud-version": "[!]Use cloud version",
-                "download-copy": "[!]Download a copy"
+                "new-ver-on-site": "Parece que hay una versión más reciente de este nivel en Level Share Square. ¿Quieres sincronizarlo?",
+                "restore-point-notice": "Se creará un punto de restauración local por si deseas volver a una versión anterior.",
+                "local-version": "Versión local",
+                "cloud-version": "Versión de la nube",
+                "last-edited": "Última edición",
+                "keep-local-version": "Conservar la versión local",
+                "use-cloud-version": "Utilizar la versión de la nube",
+                "download-copy": "Descargar una copia"
             }
         },
         "misc-labels": {
@@ -1314,13 +1314,13 @@
                 "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
                 "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
                 "accessibility": "accesibilidad",
-                "logout": "[!]Log out",
-                "in-game-username": "[!]In-game username"
+                "logout": "Cerrar sesión",
+                "in-game-username": "Nombre de usuario en el juego"
             },
             "buttons": {
                 "restart": "Reiniciar",
                 "restart-c": "Reiniciar\n[scale=0.65](desde último puesto de control)[/scale]",
-                "extra-options-tools": "[!]Extra options & tools",
+                "extra-options-tools": "Opciones y herramientas adicionales",
                 "main-menu": "Menú principal",
                 "frame-skip": "Salto de fotogramas",
                 "reduced-particles": "Reducción de artículas",
