@@ -36,18 +36,26 @@
             },
             "time": {
                 "days": {
+                    "few": "[!]days",
+                    "many": "[!]days",
                     "one": "д.",
                     "other": "д."
                 },
                 "hours": {
+                    "few": "[!]hours",
+                    "many": "[!]hours",
                     "one": "ч.",
                     "other": "ч."
                 },
                 "minutes": {
+                    "few": "[!]minutes",
+                    "many": "[!]minutes",
                     "one": "мин.",
                     "other": "мин."
                 },
                 "seconds": {
+                    "few": "[!]seconds",
+                    "many": "[!]seconds",
                     "one": "сек.",
                     "other": "сек."
                 },
@@ -77,43 +85,62 @@
                 "width": "ширина",
                 "height": "длина",
                 "layers": {
+                    "few": "[!]layers",
+                    "many": "[!]layers",
                     "one": "слой",
                     "other": "слои"
                 },
                 "effects": {
+                    "few": "[!]effects",
+                    "many": "[!]effects",
                     "one": "эффект",
-                    "others": "эффектов",
                     "other": "эффекты"
                 },
                 "objects": {
+                    "few": "[!]objects",
+                    "many": "[!]objects",
                     "one": "объект",
                     "other": "объекты"
                 },
                 "tiles": {
+                    "few": "[!]tiles",
+                    "many": "[!]tiles",
                     "one": "тайл",
                     "other": "тайлы"
                 },
                 "destination": {
+                    "few": "[!]destination",
+                    "many": "[!]destination",
                     "one": "направление",
                     "other": "направления"
                 },
                 "entryway": {
+                    "few": "[!]entryway",
+                    "many": "[!]entryway",
                     "one": "вход",
                     "other": "входы"
                 },
                 "maps": {
+                    "few": "[!]maps",
+                    "many": "[!]maps",
                     "one": "карта",
                     "other": "карты"
                 },
                 "themes": {
+                    "few": "[!]themes",
+                    "many": "[!]themes",
                     "one": "тема",
                     "other": "темы"
                 },
                 "tags": {
+                    "few": "[!]tags",
+                    "many": "[!]tags",
                     "one": "тег",
                     "other": "теги"
                 },
                 "degrees": {
+                    "few": "[!]degrees",
+                    "many": "[!]degrees",
                     "one": "градус",
                     "other": "градусов"
                 },

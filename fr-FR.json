@@ -4,7 +4,7 @@
         "constants": {
             "1_power-ups": "Champignon|Fleur de Feu|Super Feuille|Fleur Glaciale|Petite Fleur de Feu|Fleur à Bulles",
             "2_power-ups": "Champignon|Fleur de Feu|Super Feuille|Fleur Glaciale|Fleur à Bulles",
-            "1_map-palettes": "Par défaut/Á l'extérieur|Souterrain (bleu foncé)|Château (gris)|Environnement Sous-marin (vert foncé)|Le ciel (vert clair)|Pays Glace (bleu ciel)|Volcan (rouge)|Maison Hantée (violet)|Salle Bonus (jaune)",
+            "1_map-palettes": "Par défaut/Á l'extérieur|Souterrain (bleu foncé)|Château (gris)|Environnement Sous-marin (vert foncé)|Le ciel (vert clair)|Pays Glace (bleu ciel)|Volcan (rouge)|Maison Hantée (violet)|Salle Bonus (jaune)|[!]Beach (light brown)|[!]Star World (pastel blue)|[!]Forest (earthy brown)",
             "2_map-palettes": "Par défaut"
         },
         "common": {
@@ -82,7 +82,7 @@
                 },
                 "effects": {
                     "one": "effet",
-                    "others": "effets"
+                    "other": "effets"
                 },
                 "objects": {
                     "one": "objet",
@@ -120,7 +120,7 @@
                 "inactive": "inactif(ve)",
                 "unavailable": "indisponible",
                 "paused": "en pause",
-                "movement": "mouvement"
+                "movement": "[!]movement"
             },
             "labels": {
                 "press-again-to-confirm": "Appuyer à nouveau pour confirmer",
@@ -149,7 +149,7 @@
                 "behavior": "Comportement",
                 "other": "Autre",
                 "how-it-works": "Comment ça marche ?",
-                "mode": "Mode"
+                "mode": "[!]Mode"
             },
             "menu-options": {
                 "default": "Par défaut",
@@ -418,7 +418,7 @@
                 "bg-scroll-speed-h": "←← TRÈS rapide|← Rapide|← Moyenne|← Lente|Éteint|→ Lente|→ Moyenne|→ Rapide|→→ TRÈS rapide",
                 "bg-scroll-speed-v": "↑↑ TRÈS rapide|↑ Rapide|↑ Moyenne|↑ Lente|Éteint|↓ Lente|↓ Moyenne|↓ Rapide|↓↓ TRÈS rapide",
                 "level-desc-placeholder": "Ajoute un court résumé (facultatif) de ton niveau, de son histoire, ou toute autre chose que le joueur devrait savoir et qui pourrait s'avérer utile.",
-                "editor-music": "Aucune (silencieuse)|Musique du niveau|Musique du niveau (Atténuée)|The Road is Full Of Dangers (SMRPG)|Creative Exercise (Mario Paint)"
+                "editor-music": "Aucune (silencieuse)|Musique du niveau|Musique du niveau (Atténuée)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]Les tuyaux de cette page sont traités comme [/scale]des objets[scale=0.75] (et non comme [/scale]des blocs[scale=0.75]), et sont placés sur des couches d'objets. Ces tuyaux peuvent être étendus et personnalisés pour se dilater et se rétrécir au fil du temps.[/scale]",
@@ -774,9 +774,9 @@
                 "small-one-way-wall-right": "Mur à Sens Unique Petit (Droit)",
                 "small-one-way-wall-down": "Mur à Sens Unique Petit (Bas)",
                 "small-one-way-wall-left": "Mur à Sens Unique Petit (Gauche)",
-                "magic-bottle": "Pot Magique[s]67 % feu | 33 % fée",
-                "cursed-bottle": "Pot Maudit",
-                "fairy-bottle": "Pot de Fée"
+                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
+                "cursed-bottle": "[!]Cursed Bottle",
+                "fairy-bottle": "[!]Fairy Bottle"
             }
         },
         "customizers": {
@@ -1070,21 +1070,21 @@
                     "kb-attack-descriptions": "Crache une Flamme Fantôme vers le joueur | Cible et se dirige vers le joueur | Crache des citrouilles et un poivre. Lance le poivre dans la bouche pour rendre Roi Boo vulnérable aux citrouilles ! | Crée un anneau de flammes autour de Roi Boo, qui le protège des projectiles",
                     "ring-count": "Nombre de flammes",
                     "kb-intro-anim-info": "Roi Boo peut entrer en scène avec style ! Choisis une animation d'introduction de ton choix.",
-                    "walking-mode": "Type de promenade",
-                    "attacking": "Attaque",
-                    "min-attacks-for-jump": "Nombre minimum d'attaques avant de sauter",
-                    "chance-of-jumping-minimum": "Chance de saut (après un nombre minimum de sauts)",
-                    "attack-speed": "Vitesse d'attaque",
-                    "rocking-hammer": "Marteaux de Roche",
-                    "blazing-hammer": "Marteaux Brûlants",
-                    "mecha-wand": "Sceptre d'Invocation",
-                    "shell-dash": "Charge de Carapace",
-                    "magic-bottles": "Pots Magiques",
-                    "projectile-count": "Nombre de projectiles",
-                    "extra-random-projectiles": "Projectiles aléatoires supplémentaires",
-                    "dash-duration": "Durée de la charge (en secondes)",
-                    "random-dash-duration": "Durée aléatoire supplémentaire",
-                    "on-defeated": "Lorsqu'il est vaincu"
+                    "walking-mode": "[!]Walking mode",
+                    "attacking": "[!]Attacking",
+                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
+                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
+                    "attack-speed": "[!]Attack speed",
+                    "rocking-hammer": "[!]Rockin' Hammers",
+                    "blazing-hammer": "[!]Blazin' Hammers",
+                    "mecha-wand": "[!]Mecha Wand",
+                    "shell-dash": "[!]Shell Dash",
+                    "magic-bottles": "[!]Magic Bottles",
+                    "projectile-count": "[!]Projectile count",
+                    "extra-random-projectiles": "[!]Extra random projectiles",
+                    "dash-duration": "[!]Dash duration (in sec)",
+                    "random-dash-duration": "[!]Extra random duration",
+                    "on-defeated": "[!]On defeated"
                 },
                 "separators": {
                     "chase-stats": "Statistiques de la chasse",
@@ -1093,7 +1093,7 @@
                     "attack-info": "Infos sur l'attaque",
                     "browse-attacks": "Naviguer les attaques",
                     "set-animation": "Définir l'animation",
-                    "disguised-enemy": "Ennemi déguisé"
+                    "disguised-enemy": "[!]Disguised enemy"
                 },
                 "buttons": {
                     "attacks": "Attaques"
@@ -1112,39 +1112,46 @@
                     "kb-invincibility-period": "Temps en secondes avant que Roi Boo ne redevienne vulnérable aux attaques, après avoir été touché. Roi Boo devient transparent pendant cette phase d'invincibilité.\n[sub]Entre 0 pour sauter la période d'invincibilité.[/sub]",
                     "kb-base-speed": "Vitesse de déplacement de base (minimale), en pixels / sec.\n\n[sub]Roi Boo peut éventuellement accélérer dans l'obscurité avec la valeur définie à droite.[/sub]",
                     "kb-darkness-boost": "Vitesse maximale ajoutée au Roi Boo lorsqu'il est plongé dans l'obscurité, en pixels / sec.\n\n[sub]Note que cette valeur est divisée par le niveau d'obscurité qui couvre les yeux de Roi Boo : si le niveau d'obscurité est de 50 %, par exemple, il ajoutera 50 % de cette valeur de vitesse en plus de la vitesse de base.[/sub]",
-                    "bw-defeat-events": "Lorsque Bowser est vaincu, cet événement (facultatif) est exécuté automatiquement.",
-                    "bw-movement-speed": "Vitesse de déplacement de Bowser lorsqu'il marche entre deux attaques, en pixels / sec.",
-                    "bw-walking-mode": "Bowser peut rester sur place ou se promener. L'option de patrouiller dans la zone est utile pour, par exemple, garder Bowser sur un pont, tandis que la dernière option est conçue pour les grandes arènes.",
-                    "bw-minimum-jumps": "Le nombre d'attaques que Bowser doit effectuer avant d'avoir une chance de sauter, la chance de sauter peut être réglée dans l'option ci-dessous.",
-                    "bw-jumping-chance": "Chance de sauter allant de 0% à 100%.\n[sub]Le 0% désactive complètement le saut, tandis que le 100% garantit un saut à chaque fois.[/sub]",
-                    "bw-attack-speed": "La vitesse des attaques de Bowser, du feu calmement craché aux marteaux sauvagement lancés !"
+                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
+                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
+                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
+                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
+                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
+                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!"
                 },
                 "html": {
                     "bb-attack-phases": "Augmentation automatique|Phase 1 (Assaut)|Phase 2 (Bond)|Phase 3 (Poursuite)",
                     "bb-attack-frequencies": "Quasi instantanée|Instantanée|Par défaut|Longs retards",
                     "switch-when-hit": "Changer lorsque piétiné",
                     "kb-intro-animations": "Aucune|Coup d'Effroi|Formation de poussière|Boo Surprise",
-                    "bw-modes": "Classique (SMB1)",
-                    "bw-defeat-events": "Pas d'événement spécial|Fin de niveau|Marche vers le PNJ le plus proche",
-                    "bw-walk-modes": "Rester sur place|Patrouiller dans la zone|Marcher vers le joueur",
-                    "bw-attack-speeds": "Augmentation automatique|Lente|Moyenne|Rapide",
-                    "bw-intro-animations": "Aucune|Sauter par le bas|Sauter du Koopa-Mobile|Déguiser en Peach"
+                    "bw-modes": "[!]Classic (SMB1)",
+                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
+                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
+                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
+                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach"
                 },
                 "text": {
-                    "bw-attack-desc-flame": "Projette une ou plusieurs flammes en direction du joueur",
-                    "bw-attack-desc-rocking-hammers": "Lance plusieurs marteaux en succession rapide",
-                    "bw-attack-desc-blazing-hammers": "Lance des marteaux brûlants en direction du joueur",
-                    "bw-attack-desc-mecha-wand": "Bowser utilise son sceptre pour faire apparaître des Mechakoopas. Mais tu peux les utiliser contre lui !",
-                    "bw-attack-desc-shell-dash": "Bowser se cache dans sa carapace, qui va alors tourner rapidement. Attention !",
-                    "kb-attack-desc-flame": "Projette une flamme fantomatique vers le joueur",
-                    "kb-attack-desc-dash": "Cible et se dirige vers le joueur",
-                    "kb-attack-desc-bottle": "Libère plusieurs pots magiques. Certains s'enflamment, l'un d'entre eux libère une fée lorsqu'il est frappé pour assommer Roi Boo !",
-                    "kb-attack-desc-pepper": "Il crache des citrouilles et un poivre. Lance le poivre dans la bouche pour rendre Roi Boo vulnérable aux citrouilles !",
-                    "kb-attack-desc-ring": "Il crée un anneau de flammes autour de Roi Boo, qui le protège des projectiles",
-                    "boss-intro-anim-info": "{0} peut entrer en scène avec style ! Choisis une animation d'introduction de ton choix.",
-                    "disguised-enemy": "Un ennemi peut se déguiser en Bowser ! Son déguisement est révélé en cas de victoire.",
-                    "intro-anim-unavailable": "Les animations d'introduction de ce boss ne sont actuellement pas disponibles dans ce style de jeu."
+                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
+                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
+                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
+                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
+                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
+                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
+                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
+                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
+                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
+                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
+                    "boss-intro-anim-info": "[!]{0} can enter in style! Pick an intro animation of your liking.",
+                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat.",
+                    "intro-anim-unavailable": "[!]Intro animations for this boss are currently unavailable in this gamestyle."
                 }
+            },
+            "mapsnap": {
+                "info": "[!]MapSnap Tool - Resolution Options",
+                "default-button": "[!]Default",
+                "fixed-button": "[!]Fixed",
+                "default-info": "[!]Less errors, but usually has a larger image resolution and a larger filesize. \n\n Images taken of maps with a level width or level height above 510 blocks will have incomplete data.",
+                "fixed-info": "[!]More errors, but usually has a smaller image resolution and a smaller filesize. \n\n Images taken of maps with a level width or level height above 1020 blocks will have reduced image quality."
             }
         },
         "pause-options": {
@@ -1255,13 +1262,13 @@
                 "palette": "Palette de l'effet, qui est purement cosmétique."
             },
             "palettes": {
-                "1_rain": "Pluie Ordinaire",
+                "1_rain": "Pluie Ordinaire|[!]Radioactive Waste|[!]Slushy Slurry|[!]Jungle Juice|[!]Sewage Soup|[!]Deep Dark",
                 "2_rain": "Pluie Ordinaire|Pluie Acide|Pluie Boueuse|Pluie Cryogénique|Lait Chocolaté|Déversement d'Huile|Pluie d'Or|Argent Fondu|Pluie Empoisonnée|Monochrome",
                 "1_snow": "Niege Ordinaire",
                 "2_snow": "Niege Ordinaire|Menthe d'Hiver|Froid Glaciale|Brigide Blanc|Rouge Fraise|Nuit de Blizzard|Limonade Glacée",
-                "1_sand": "Tempête de Sable Ordinaire",
+                "1_sand": "Tempête de Sable Ordinaire|[!]Scorching Spice|[!]Dusty Draft|[!]Golden Gale|[!]Somber Sand|[!]Abundant Ashes",
                 "2_sand": "Tempête de Sable Ordinaire|Jaune Soleil|Blanc Neige|Marron Chocolat|Boue Marécageuse|Violet de Minuit",
-                "1_embers": "Braises Ordinaires",
+                "1_embers": "Braises Ordinaires|[!]Glowing Blight|[!]Violet Void|[!]Searing Sapphire|[!]Ceaseless Crimson|[!]Treacherous Tar",
                 "2_embers": "Braises Ordinaires|Noir Ténébreux|Pourpre Vénéneux|Substance Vide|Bleu Sombre|Or Royal",
                 "1_leaf": "Feuilles Vertes Ordinaires",
                 "2_leaf": "Feuilles Vertes Ordinaires|Feuilles d'Automne Ordinaires|Feuillage Scandaleux|Gris Illusoire|Chocolat Croustillant|Pourpre Insolent|Brosse Cendrée|Gris Grisâtre|Marais Sombre|Délicatesse Dorée|Hiver Précoce|Cacao Croustillant|Crépuscule Sérénissime"

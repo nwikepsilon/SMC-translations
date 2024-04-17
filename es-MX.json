@@ -4,7 +4,7 @@
         "constants": {
             "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
             "2_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor Burbuja",
-            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)",
+            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|[!]Beach (light brown)|[!]Star World (pastel blue)|[!]Forest (earthy brown)",
             "2_map-palettes": "Estándar"
         },
         "common": {
@@ -78,7 +78,7 @@
                 "effects": {
                     "many": "efectos",
                     "one": "efecto",
-                    "others": "efectos"
+                    "other": "efectos"
                 },
                 "objects": {
                     "many": "objetos",
@@ -432,7 +432,7 @@
                 "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido",
                 "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido",
                 "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que ele jugador deba saber y que le resulte últil",
-                "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|The Road is Full Of Dangers (SMRPG)|Creative Exercise (Mario Paint)"
+                "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]Las tuberías de esta página se consideran [/scale]objetos[scale=0.75] (no [/scale]bloques[scale=0.75]), y se almacenan en capas de objetos. Estos tubos pueden ampliarse y personalizarse para expandirse y encogerse con el tiempo.[/scale]",
@@ -1094,7 +1094,9 @@
                     "shell-dash": "Embestida de Caparazón",
                     "projectile-count": "Número de proyectiles",
                     "extra-random-projectiles": "Proyectiles aleatorios adicionales",
-                    "on-defeated": "Al derrotar"
+                    "on-defeated": "Al derrotar",
+                    "dash-duration": "[!]Dash duration (in sec)",
+                    "random-dash-duration": "[!]Extra random duration"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1152,8 +1154,16 @@
                     "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
                     "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "boss-intro-anim-info": "¡El {0} puede entrar con estilo! Elige una animación de introducción a tu gusto.",
-                    "disguised-enemy": "¡Un enemigo puede disfrazarse de Bowser! Su disfraz se revela al ser derrotado."
+                    "disguised-enemy": "¡Un enemigo puede disfrazarse de Bowser! Su disfraz se revela al ser derrotado.",
+                    "intro-anim-unavailable": "[!]Intro animations for this boss are currently unavailable in this gamestyle."
                 }
+            },
+            "mapsnap": {
+                "info": "[!]MapSnap Tool - Resolution Options",
+                "default-button": "[!]Default",
+                "fixed-button": "[!]Fixed",
+                "default-info": "[!]Less errors, but usually has a larger image resolution and a larger filesize. \n\n Images taken of maps with a level width or level height above 510 blocks will have incomplete data.",
+                "fixed-info": "[!]More errors, but usually has a smaller image resolution and a smaller filesize. \n\n Images taken of maps with a level width or level height above 1020 blocks will have reduced image quality."
             }
         },
         "themes": {
@@ -1213,13 +1223,13 @@
                 "palette": "Paleta del efecto, que es puramente cosmética."
             },
             "palettes": {
-                "1_rain": "Lluvia Predeterminada",
-                "2_rain": "Lluvia Predeterminada|Lluvia Ácida|Lluvia Enlodada|Lluvia Criogénica|Leche Chocolatada|Derrame de Petróleo|Lluvia Dorada|Metal Fundido",
+                "1_rain": "Lluvia Predeterminada|[!]Radioactive Waste|[!]Slushy Slurry|[!]Jungle Juice|[!]Sewage Soup|[!]Deep Dark",
+                "2_rain": "Lluvia Predeterminada|Lluvia Ácida|Lluvia Enlodada|Lluvia Criogénica|Leche Chocolatada|Derrame de Petróleo|Lluvia Dorada|Metal Fundido|[!]Poisonous Ooze|[!]Monochrome Mixture",
                 "1_snow": "Nieve Predeterminada",
                 "2_snow": "Nieve Predeterminada|Mental de Invierno|Frío Glacial|Blanco Gélido|Rojo Fresa|Noche de Ventisca|Limonada Helada",
-                "1_sand": "Tormenta de Arena Predeterminada",
+                "1_sand": "Tormenta de Arena Predeterminada|[!]Scorching Spice|[!]Dusty Draft|[!]Golden Gale|[!]Somber Sand|[!]Abundant Ashes",
                 "2_sand": "Tormenta de Arena Predeterminada|Amarilla Soleada|Blanca Nevada|Chocolate Marrón|Lodo Pantanoso|Violeta de Medianoche",
-                "1_embers": "Brasas predeterminadas",
+                "1_embers": "Brasas predeterminadas|[!]Glowing Blight|[!]Violet Void|[!]Searing Sapphire|[!]Ceaseless Crimson|[!]Treacherous Tar",
                 "2_embers": "Brasas predeterminadas|Negras Tenebrosas|Violetas Venenosas|Esencia del Vacío|Azul Tinta|Oro Realeza",
                 "1_leaf": "Hojas Verdes predeterminadas",
                 "2_leaf": "Hojas Verdes predeterminadas|Hojas de Otoño predeterminadas|Hojas Extravagantes|Gris Ilusorio|Chocolate Crujiente|Violeta Vibrante|Pincel Ceniciento|Gris Llamativo|Ciénaga Turbia|Delicia Dorada|Principios de Invierno|Cacao Crujiente|Sereno Atardecer"
