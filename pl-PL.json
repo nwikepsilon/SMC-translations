@@ -83,8 +83,7 @@
                     "few": "efekty",
                     "many": "efekty",
                     "one": "efekt",
-                    "others": "efekty",
-                    "other": "[!]effects"
+                    "other": "efekty"
                 },
                 "objects": {
                     "few": "obiekty",
