@@ -2,8 +2,8 @@
     "locale": "en-GB",
     "strings": {
         "constants": {
-            "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Small Fire Flower|Bubble Flower",
-            "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Bubble Flower",
+            "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Small Fire Flower|Bubble Flower",
+            "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Carrot|Bubble Flower",
             "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (grey)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)",
             "2_map-palettes": "Standard"
         },
@@ -120,7 +120,9 @@
                 "inactive": "inactive",
                 "paused": "paused",
                 "unavailable": "unavailable",
-                "movement": "movement"
+                "movement": "movement",
+                "opacity": "opacity",
+                "stationary": "stationary"
             },
             "labels": {
                 "press-again-to-confirm": "Press again to confirm",
@@ -415,8 +417,8 @@
                 "1_water-modes": "Disabled|Always (don't need water tiles)|Layered water (classic)|Layered water (modern)",
                 "2_water-modes": "Disabled|Always (don't need water tiles)|Layered water",
                 "bg-loop-methods": "Disabled|Loop horizontally|Loop vertically|Loop all|Loop none|Only horizontal|Only vertical",
-                "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|Off|→ Slow|→ Medium|→ Fast|→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|Off|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|← Minimal|Off|→ Minimal|→ Slow|→ Medium|→ Fast|→→ VERY fast",
+                "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|↑ Minimal|Off|↓ Minimal|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
                 "level-desc-placeholder": "Enter an (optional) short summary of your level, its story, or anything the player should know that may come in handy.",
                 "editor-music": "None (silent)|Level music|Level music (muffled)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -745,6 +747,7 @@
                 "super-leaf": "Super Leaf",
                 "hammer-flower": "Hammer Flower",
                 "ice-flower": "Ice Flower",
+                "carrot": "Carrot",
                 "small-fire-flower": "Small Fire Flower",
                 "bubble-flower": "Bubble Flower",
                 "super-star": "Super Star",
@@ -776,7 +779,34 @@
                 "small-one-way-wall-up": "Small One-Way Wall (Up)",
                 "small-one-way-wall-right": "Small One-Way Wall (Right)",
                 "small-one-way-wall-down": "Small One-Way Wall (Down)",
-                "small-one-way-wall-left": "Small One-Way Wall (Left)"
+                "small-one-way-wall-left": "Small One-Way Wall (Left)",
+                "grab-block": "Grab Block",
+                "object-sign": "Object Sign",
+                "firebar": "Fire Bar",
+                "icebar": "Ice Bar",
+                "fire-snake": "Fire Snake",
+                "bounding-fire": "Boundin' Fire",
+                "small-flame": "Small flame",
+                "hammer-suit": "Hammer Suit",
+                "mount-blockade": "Mount Blockade"
+            },
+            "tile-tooltips": {
+                "invisible-solid-tile": "Invisible solid tile[s]Not visible during gameplay",
+                "solid-player-tile": "Solid player tile[s]Only tangible to players",
+                "solid-sprite-tile": "Solid sprite tile[s]Only tangible to sprites",
+                "semisolid-player-tile": "Semi-solid player tile[s]Only tangible to players",
+                "semisolid-sprite-tile": "Semi-solid sprite tile[s]Only tangible to sprites",
+                "boss-gate": "Boss gate[s]Becomes visible during bossfights",
+                "boss-bridge": "Boss bridge[s]Collapses when Axe is touched",
+                "donut-block": "Standard Donut Block[s]Solid, respawns & can re-stabilise",
+                "donut-block-red": "Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-wood": "Wooden Donut Block[s]Solid, no-respawn, can re-stabilise",
+                "donut-block-metal": "Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-semi": "Standard Donut Block[s]Semi-solid, respawns & can re-stabilise",
+                "donut-block-red-semi": "Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-wood-semi": "Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilise",
+                "donut-block-metal-semi": "Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "chomp-post": "Chomp Post[s]Place a Chain Chomp on top to attach"
             }
         },
         "customizers": {
@@ -793,11 +823,14 @@
                     "size-change-tiles": "Size change (in tiles)",
                     "grow-shrink-duration": "Grow/shrink duration",
                     "attached-to": "Attached to",
-                    "tag-is-active": "Tag is active on start"
+                    "tag-is-active": "Tag is active on start",
+                    "period": "Period",
+                    "movement-mode-sinewave-independent": "Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Spawn intervals",
-                    "grow-and-shrink": "Grow & shrink"
+                    "grow-and-shrink": "Grow & shrink",
+                    "sinewave-movement": "Sinewave movement"
                 },
                 "buttons": {
                     "change-initial-direction": "Change initial direction",
@@ -805,7 +838,8 @@
                     "preview": "Preview",
                     "edit-range": "Edit range",
                     "edit-palette": "Edit palette",
-                    "edit-item": "Edit item"
+                    "edit-item": "Edit item",
+                    "enable-sinewave-motion": "Enable sinewave motion"
                 },
                 "tooltips": {
                     "jump-strength": "The initial vertical speed, in pixels / sec, at the start of the jump.",
@@ -813,17 +847,25 @@
                     "expanding-obj-cycle-info": "Expand and shrink over time, with customization options over the length & durations.",
                     "expanding-obj-size-change-tiles": "The amount of tiles to expand/shrink.",
                     "expanding-obj-size-change-duration": "The time (in seconds) it takes for the expansion/shrinking to complete.",
-                    "expanding-obj-size-change-delay": "When it has grown or shrunk, wait this time out before growing/shrinking again"
+                    "expanding-obj-size-change-delay": "When it has grown or shrunk, wait this time out before growing/shrinking again",
+                    "movement-speed": "Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
+                    "period": "Time (in seconds) for a complete sine-wave cycle.",
+                    "opacity": "Lower opacities can make the sprite less obvious to spot."
                 },
                 "html": {
                     "additive": "Additive",
                     "appear-above-objects": "Appear above objects",
                     "camouflage": "Camouflage",
                     "size-change-modes": "Disabled|Expand|Shrink",
-                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall"
+                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall",
+                    "linear": "Linear",
+                    "linear-dynamic": "Linear (dynamic)",
+                    "chase-player": "Chase player",
+                    "evade-player": "Evade player"
                 },
                 "text": {
-                    "tagging-notice": "When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile)."
+                    "tagging-notice": "When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile).",
+                    "sinewave-tool": "The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
                 }
             },
             "startpoint": {
@@ -914,6 +956,7 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Amount of objects in the block.",
+                    "amount-in-block-optional": "If the block has an object assigned, it will store a maximum of this value inside.",
                     "timer-info": "Start a timer when hit for the first time. Once it reaches 0, the block will only have 1 object left.\n[scale=0.75][color=#CCCCCC]Leave 0 to disable the timer.[/color][/scale]",
                     "progressive-info": "If Mario is small Mario, always give a mushroom, regardless of what item inside.",
                     "star-chainer-info": "When the block is hit when the player has star power, always give a star regardless of what's inside the block.",
@@ -1268,7 +1311,7 @@
                 "2_sand": "Default Sandstorm|Sunny Yellow|Snowy White|Chocolate Brown|Swampy Sludge|Midnight Violet",
                 "1_embers": "Default Embers|Glowing Blight|Violet Void|Searing Sapphire|Ceaseless Crimson|Treacherous Tar",
                 "2_embers": "Default Embers|Murky Black|Venomous Purple|Void Substance|Inky Blue|Royal Gold",
-                "1_leaf": "Default Green",
+                "1_leaf": "Default Green|Red Autumn|Yellow Dryness|White Winter|Green Summer|Lime Spring",
                 "2_leaf": "Default Green|Default Autumn|Outrageous Leafage|Illusionary Grey|Chrunchy Chocolate|Funky Purple|Ashy Brush|Garish Grey|Murky Swamp|Golden Delight|Winter's Early|Crispy Cocoa|Serene Sunset"
             }
         },

@@ -2,8 +2,8 @@
     "locale": "pt-PT",
     "strings": {
         "constants": {
-            "1_power-ups": "Cogumelo|Flor de Fogo|Super Folha|Flor de Gelo|Flor de Fogo pequena|Flor de Bolha",
-            "2_power-ups": "Cogumelo|Flor de Fogo|Super Folha|Flor de Gelo|Flor de Bolha",
+            "1_power-ups": "Cogumelo|Flor de Fogo|Super Folha|[!]Hammer Flower!Flor de Gelo|Flor de Fogo pequena|Flor de Bolha|[!]Bubble Flower",
+            "2_power-ups": "Cogumelo|Flor de Fogo|Super Folha|[!]Hammer Flower|Flor de Gelo|[!]Carrot|Flor de Bolha",
             "1_map-palettes": "Padrão/Principal|Caverna (azul escuro)|Castelo (cinzento)|Subaquático (verde escuro)|Céu (verde claro)|Gelo (azul claro)|Vulcão (vermelho)|Casa Assombrada (roxo)|Bónus (amarelo)|[!]Beach (light brown)|[!]Star World (pastel blue)|[!]Forest (earthy brown)",
             "2_map-palettes": "Padrão"
         },
@@ -134,7 +134,9 @@
                 "inactive": "[!]inativo",
                 "paused": "[!]pausado",
                 "unavailable": "[!]unavailable",
-                "movement": "[!]movement"
+                "movement": "[!]movement",
+                "opacity": "[!]opacity",
+                "stationary": "[!]stationary"
             },
             "labels": {
                 "press-again-to-confirm": "Clique novamente para confirmar",
@@ -429,8 +431,8 @@
                 "1_water-modes": "Desativado|Sempre (não são precisos blocos de água)|Água em camadas (clássico)|Água em camadas (moderno)",
                 "2_water-modes": "Desativado|Sempre (não são precisos blocos de água)|Água em camadas",
                 "bg-loop-methods": "Desativado|Loop na horizontal|Loop na vertical|Loop em ambos|Loop em nenhum|Apenas na horizontal|Apenas na vertical",
-                "bg-scroll-speed-h": "←← MUITO rápido|← Rápido|← Médio|← Lento|Desligado|→ Lento|→ Médio|→ Rápido|→→ MUITO rápido",
-                "bg-scroll-speed-v": "↑↑ MUITO rápido|↑ Rápido|↑ Médio|↑ Lento|Desligado|↓ Lento|↓ Médio|↓ Rápido|↓↓ MUITO rápido",
+                "bg-scroll-speed-h": "←← MUITO rápido|← Rápido|← Médio|← Lento|[!]← Minimal|Desligado|[!]→ Minimal|→ Lento|→ Médio|→ Rápido|→→ MUITO rápido",
+                "bg-scroll-speed-v": "↑↑ MUITO rápido|↑ Rápido|↑ Médio|↑ Lento|[!]↑ Minimal|Desligado|[!]↓ Minimal|↓ Lento|↓ Médio|↓ Rápido|↓↓ MUITO rápido",
                 "level-desc-placeholder": "Introduza um breve resumo (opcional) do seu nível, sua história, ou algo que o jogador deva saber que poderá vir a ser útil.",
                 "editor-music": "Nenhuma (silêncio)|Música do nível|Música do nível (abafada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -759,6 +761,7 @@
                 "super-leaf": "Super Folha",
                 "hammer-flower": "Flor de martelo",
                 "ice-flower": "Flor de Gelo",
+                "carrot": "[!]Carrot",
                 "small-fire-flower": "Flor de Fogo pequena",
                 "bubble-flower": "Flor de Bolha",
                 "super-star": "Superestrela",
@@ -790,7 +793,34 @@
                 "small-one-way-wall-up": "[!]Pequena Parede de sentido único (Cima)",
                 "small-one-way-wall-right": "[!]Pequena Parede de sentido único (Direita)",
                 "small-one-way-wall-down": "[!]Pequena Parede de sentido único (Baixo)",
-                "small-one-way-wall-left": "[!]Pequena Parede de sentido único (Esquerda)"
+                "small-one-way-wall-left": "[!]Pequena Parede de sentido único (Esquerda)",
+                "grab-block": "[!]Grab Block",
+                "object-sign": "[!]Object Sign",
+                "firebar": "[!]Fire Bar",
+                "icebar": "[!]Ice Bar",
+                "fire-snake": "[!]Fire Snake",
+                "bounding-fire": "[!]Boundin' Fire",
+                "small-flame": "[!]Small flame",
+                "hammer-suit": "[!]Hammer Suit",
+                "mount-blockade": "[!]Mount Blockade"
+            },
+            "tile-tooltips": {
+                "invisible-solid-tile": "[!]Invisible solid tile[s]Not visible during gameplay",
+                "solid-player-tile": "[!]Solid player tile[s]Only tangible to players",
+                "solid-sprite-tile": "[!]Solid sprite tile[s]Only tangible to sprites",
+                "semisolid-player-tile": "[!]Semi-solid player tile[s]Only tangible to players",
+                "semisolid-sprite-tile": "[!]Semi-solid sprite tile[s]Only tangible to sprites",
+                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
+                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
+                "donut-block": "[!]Standard Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-red": "[!]Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-wood": "[!]Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-metal": "[!]Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-semi": "[!]Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-red-semi": "[!]Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-wood-semi": "[!]Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-metal-semi": "[!]Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "chomp-post": "[!]Chomp Post[s]Place a Chain Chomp on top to attach"
             }
         },
         "customizers": {
@@ -807,11 +837,14 @@
                     "size-change-tiles": "[!]Alteração de tamanho (em blocos)",
                     "grow-shrink-duration": "[!]Duração de Crescimento/encolhimento",
                     "attached-to": "[!]Attached to",
-                    "tag-is-active": "Tag é ativa no início"
+                    "tag-is-active": "Tag é ativa no início",
+                    "period": "[!]Period",
+                    "movement-mode-sinewave-independent": "[!]Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "[!]Intervalo de Invocação",
-                    "grow-and-shrink": "[!]Crescer & Encolher"
+                    "grow-and-shrink": "[!]Crescer & Encolher",
+                    "sinewave-movement": "[!]Sinewave movement"
                 },
                 "buttons": {
                     "change-initial-direction": "[!]Mudar direção inicial",
@@ -819,7 +852,8 @@
                     "preview": "Previsualizar",
                     "edit-range": "[!]Editar área",
                     "edit-palette": "[!]Editar palete",
-                    "edit-item": "[!]Editar item"
+                    "edit-item": "[!]Editar item",
+                    "enable-sinewave-motion": "[!]Enable sinewave motion"
                 },
                 "tooltips": {
                     "jump-strength": "[!]The initial vertical speed, in pixels / sec, at the start of the jump.",
@@ -827,17 +861,25 @@
                     "expanding-obj-cycle-info": "[!]Expand and shrink over time, with customization options over the length & durations.",
                     "expanding-obj-size-change-tiles": "[!]The amount of tiles to expand/shrink.",
                     "expanding-obj-size-change-duration": "[!]The time (in seconds) it takes for the expansion/shrinking to complete.",
-                    "expanding-obj-size-change-delay": "[!]When it has grown or shrunk, wait this time out before growing/shrinking again"
+                    "expanding-obj-size-change-delay": "[!]When it has grown or shrunk, wait this time out before growing/shrinking again",
+                    "movement-speed": "[!]Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
+                    "period": "[!]Time (in seconds) for a complete sine-wave cycle.",
+                    "opacity": "[!]Lower opacities can make the sprite less obvious to spot."
                 },
                 "html": {
                     "additive": "Additive",
                     "appear-above-objects": "Appear above objects",
                     "camouflage": "Camouflage",
                     "size-change-modes": "Disabled|Expand|Shrink",
-                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall"
+                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall",
+                    "linear": "[!]Linear",
+                    "linear-dynamic": "[!]Linear (dynamic)",
+                    "chase-player": "[!]Chase player",
+                    "evade-player": "[!]Evade player"
                 },
                 "text": {
-                    "tagging-notice": "[!]When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile)."
+                    "tagging-notice": "[!]When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile).",
+                    "sinewave-tool": "[!]The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
                 }
             },
             "startpoint": {
@@ -928,6 +970,7 @@
                 },
                 "tooltips": {
                     "amount-in-block": "[!]Amount of objects in the block.",
+                    "amount-in-block-optional": "[!]If the block has an object assigned, it will store a maximum of this value inside.",
                     "timer-info": "[!]Start a timer when hit for the first time. Once it reaches 0, the block will only have 1 object left.\n[scale=0.75][color=#CCCCCC]Leave 0 to disable the timer.[/color][/scale]",
                     "progressive-info": "[!]If Mario is small Mario, always give a mushroom, regardless of what item inside.",
                     "star-chainer-info": "[!]When the block is hit when the player has star power, always give a star regardless of what's inside the block.",
@@ -1283,7 +1326,7 @@
                 "2_sand": "Tempestade de areia Padrão|Amarelo Solar|Branco de Neve|Castanho Chocolate|Resíduo Pantanal|Violeta Noturno",
                 "1_embers": "Brasa Padrão|[!]Glowing Blight|[!]Violet Void|[!]Searing Sapphire|[!]Ceaseless Crimson|[!]Treacherous Tar",
                 "2_embers": "Brasa Padrão|Preto Obscuro|Roxo Veneno|Substância do Vazio|Indigo|Amarelo Real",
-                "1_leaf": "Verde Padrão",
+                "1_leaf": "Verde Padrão|[!]Red Autumn|[!]Yellow Dryness|[!]White Winter|[!]Green Summer|[!]Lime Spring",
                 "2_leaf": "Verde Padrão|Outono Padrão|Folhagem Revoltante|Cinzento Ilusório|Chocolate Crocante|Roxo Maneiro|Pincel de Cinza|Cinzento Insípido|Pântano Obscuro|Delícia Dourada|Amanhecer de Inverno|Cacau Solto|Pôr-do-Sol Sereno"
             }
         },
