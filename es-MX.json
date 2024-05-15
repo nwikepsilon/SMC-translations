@@ -4,7 +4,7 @@
         "constants": {
             "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
             "2_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor Burbuja",
-            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|[!]Beach (light brown)|[!]Star World (pastel blue)|[!]Forest (earthy brown)",
+            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|Playa (marrón claro)|Mundo Estelar (azul pastel)|Bosque (café terroso)",
             "2_map-palettes": "Estándar"
         },
         "common": {
@@ -63,7 +63,7 @@
                 "keyboard": "teclado",
                 "controller": "mando",
                 "language": "idioma",
-                "characters": "personajes",
+                "characters": "carácteres",
                 "decibels": "decibeles",
                 "volume": "volumen",
                 "name": "nombre",
@@ -113,7 +113,7 @@
                 "music": "música",
                 "frequency": "frecuencia",
                 "rotation": "rotación",
-                "wait": "espera",
+                "wait": "esperar",
                 "main": "principal",
                 "left": "izquierda",
                 "middle": "centro",
@@ -160,7 +160,7 @@
                 "activation": "Activación",
                 "advanced": "Avanzado",
                 "tagging": "Etiquetado",
-                "behavior": "Comportamiento",
+                "behavior": "Acción",
                 "other": "Otro",
                 "how-it-works": "Cómo funciona",
                 "mode": "Modo"
@@ -185,7 +185,7 @@
         "title-screen": {
             "buttons": {
                 "play-level": "[scale=0.8]Jugar nivel[/scale]",
-                "level-editor": "[scale=0.8]Editor de niveles[/scale]",
+                "level-editor": "[scale=0.8]Editor[/scale]",
                 "extras": "[scale=0.8]Minijuegos[/scale][scale=0.5]\n[color=#CCCCCC]En progreso[/color][/scale]"
             },
             "tooltips": {
@@ -298,7 +298,7 @@
                 "fieryEnemies": "Enemigos de fuego y eléctricos"
             },
             "tileset-menu": {
-                "footer": "Haz clic sobre el ícono de un conjunto para abrir su página.[scale=0.5]\n\n[/scale]Arrastre el ícono de una colección a la barra de favoritos para acceder a ella desde cualquier parte del editor.",
+                "footer": "Haz clic sobre el ícono de un conjunto para abrir su página.[scale=0.5]\n\n[/scale]Arrastra el ícono de una colección a la barra de favoritos para acceder a ella desde cualquier parte del editor.",
                 "go-back": "Retroceder a todos los conjuntos"
             },
             "mini-toolbar": {
@@ -328,16 +328,16 @@
                 "inventory": "[scale=0.75]Inventario[/scale]",
                 "level-name": "Nombre del nivel",
                 "authors": "Autor(ra/res)",
-                "water-mode": "Modo bajo agua",
+                "water-mode": "[scale=0.75]Modo bajo agua[/scale]",
                 "screenwrap": "Screenwrap",
-                "map-palette": "Paleta del mapa",
+                "map-palette": "[scale=0.75]Paleta del mapa[/scale]",
                 "origin": "Origen",
-                "scroll-loop-method": "Método de\ndesplazamiento/blucle",
-                "h-autoscroll": "Autodesplazamiento\nhorizontal",
-                "v-autoscroll": "Autodesplazamiento\nvertical",
+                "scroll-loop-method": "[scale=0.5]Método de\ndesplazamiento/blucle[/scale]",
+                "h-autoscroll": "[scale=0.75]Autodesplazamiento\nhorizontal[/scale]",
+                "v-autoscroll": "[scale=0.75]Autodesplazamiento\nvertical[/scale]",
                 "bg-color-header": "Elige un color de fondo",
                 "pick-color": "Elige un\ncolor:",
-                "custom-rgb": "RVA\npersonalizado:",
+                "custom-rgb": "RVA:",
                 "bg-gradient-header": "¡O selecciona un degradado!",
                 "pick-gradient": "Elige un\ndegradado",
                 "offset-y": "Offset Y[scale=0.5]\nPíxeles antes de comenzar el degradado[/scale]",
@@ -349,13 +349,13 @@
                 "text-formatting": "[scale=0.8]Formato\nde texto[/scale]",
                 "inactive-layer-opacity": "[offsety=-8][scale=0.85]Opacidad de capas inactivas[/scale][/offsety]",
                 "editor-music": "[offsety=-8][scale=0.85]\nMúsica del editor[/scale][/offsety]",
-                "trail-tool-frame-count": "[offsety=-8][scale=0.85]Recuento de fotogramas\nde herramienta de rastreo[/scale][/offsety]",
+                "trail-tool-frame-count": "[offsety=-8][scale=0.6]Recuento de fotogramas\nde herramienta de rastreo[/scale][/offsety]",
                 "autosave-header": "Opciones de autoguardado",
                 "autosave-interval": "Los autoguardados se producen cada 5 min.",
                 "restore-point-header": "Opciones de punto de restauración",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
-                "lss-level-sync": "Sincronización en la nube de LSS",
+                "lss-level-sync": "Sincronización con la nube de LSS",
                 "sync-on-exit": "Sincroniza al salir",
                 "currently-offline": "Actualmente desconectado",
                 "not-logged-in": "No conectado"
@@ -372,28 +372,28 @@
                 "foreground": "Primer plano",
                 "middleground": "Segundo plano",
                 "background": "Fondo",
-                "music-echo": "Efecto de eco",
+                "music-echo": "[scale=0.85]Efecto de eco[/scale]",
                 "music-water-muffle": "[scale=0.65]Amortiguar bajo\nel agua[/scale]",
                 "switch-timer": "Música del Interruptor P",
                 "starman-theme": "Música de Superestrella",
-                "metal-theme": "Música de Steethan",
+                "metal-theme": "Música de MetEtán",
                 "editing": "Edición",
                 "preview": "Vista previa",
                 "main-stats": "[scale=0.8]Estadísticas principales[/scale]",
                 "object-stats": "[scale=0.8]Objetos[/scale]",
                 "tilemap-stats": "[scale=0.8]Bloques[/scale]",
                 "misc-stats": "[scale=0.9]Otros[/scale]",
-                "grid-toggle": "[scale=0.75]Cuadrícula[/scale]\n[scale=0.5](G)[/scale]",
-                "favorites-bar-toggle": "Barra de favoritos",
-                "mini-toolbar-toggle": "[scale=0.5]Minibarra\n[/scale]de herramientas",
-                "toolbar-animations-toggle": "Animaciones de la barra de herramientos",
+                "grid-toggle": "[scale=0.5]Cuadrícula[/scale]\n[scale=0.5](G)[/scale]",
+                "favorites-bar-toggle": "[scale=0.75]Barra de favoritos[/scale]",
+                "mini-toolbar-toggle": "[scale=0.5]Minibarra\nde herramientas[/scale]",
+                "toolbar-animations-toggle": "[scale=0.85]Animaciones de la barra de herramientas[/scale]",
                 "editor-sounds-toggle": "Sonidos\ndel editor",
                 "cursor-coords-toggle": "Mostrar coordenadas del cursor",
                 "autosave-toggle": "Habilitar autoguardado",
-                "autosave-notif": "Notificarme los\nautoguardados",
+                "autosave-notif": "[scale=0.9]Notificarme los\nautoguardados[/scale]",
                 "prompt-backup-notice": "[scale=0.75]Preguntar cada ... para descargar copia de seguridad[/scale]\n[scale=0.5][color=#CCCCCC](Recomendado en versión web de SMC)[/color][/scale]",
-                "create-restore-point": "[scale=0.75]Crear manualmente\npunto de restauración[/scale]",
-                "view-restore-points": "[scale=0.75]Mostrar/Usar\npuntos de restauración[/scale]",
+                "create-restore-point": "[scale=0.4]Crear manualmente\npunto de restauración[/scale]",
+                "view-restore-points": "[scale=0.5]Mostrar/Usar\npuntos de restauración[/scale]",
                 "download-level": "[scale=0.75]Descargar nivel actual[/scale]",
                 "edit-sync-settings": "Editar los ajustes de sincronización"
             },
@@ -439,14 +439,14 @@
                 "pipe-sprite-spawner": "[scale=0.75]Este objeto es un generador de sprites invisible. Si quieres que una tubería actue como generador, ¡Sólo debes arrastrar este objeto a una! Asegúrate de configurarlo primero.[/scale]",
                 "scenery-doors": "Nota: éstas son puertas de decorado. Si buscas puertas de acceso, ve al menú de teletransportadores al presionar el ícono de tuberías en la parte inferior.",
                 "advanced-platform": "Plataforma avanzada\n[scale=0.75]¡Estas plataformas son altamente personalizables! Los bloques junto a ellos pueden influir en su comportamiento.[/scale]",
-                "persistent-area-tile": "Mantener sprites cargados en un área",
+                "persistent-area-tile": "Mantener sprites cargados",
                 "area-object-loader": "Precargar sprites en un área",
-                "tag-tile": "Realizar acciones en sprites y elementos con etiquetas",
+                "tag-tile": "[scale=0.75]Realizar acciones en sprites y elementos con etiquetas[/scale]",
                 "light-caster": "Iluminar un área en la oscuridad",
                 "darkness-caster": "Proyectar una sombra de oscuridad en un área",
-                "invis-sprite-spawner": "Generador de sprites invisible, que puede arrastrarse a tuberías",
-                "current-gen": "Crear una corriente que sople o succione sprites",
-                "tag-block": "Bloque que activa o desactiva acciones de objetos de las etiquetas indicadas al pulsarlo",
+                "invis-sprite-spawner": "Generador de sprites invisible",
+                "current-gen": "Crear una corriente que sople o succione",
+                "tag-block": "[scale=0.4]Bloque que activa o desactiva acciones de objetos de las etiquetas indicadas al tocarlo[/scale]",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Los Cheep Cheeps tienen varios movimientos de IA. ¡Pasa el ratón por encima de ellos para saber más![/scale]",
                 "stretch-tiles": "[scale=0.75]¡Desplázate hacia abajo para ver más bloques de Bú Estirado![/scale]",
                 "artillery-tiles": "Bloques adicionales relacionados\n[scale=0.75]Éstos son bloques opcionales que se asemejan a partes de los objetos de arriba.[/scale]",
@@ -758,7 +758,7 @@
                 "small-fire-flower": "Flor de Fuego Chica",
                 "bubble-flower": "Flor Burbuja",
                 "super-star": "Superestrella",
-                "steethan": "Steethan",
+                "steethan": "MetEtán",
                 "one-up-mushroom": "Champiñón Vida Extra",
                 "three-up-moon": "Luna 3UP",
                 "yoshi": "Yoshi",
@@ -805,8 +805,8 @@
                 },
                 "labels": {
                     "object-cap": "Tope de objetos",
-                    "spawn-delay": "Demora de generación",
-                    "start-delay": "Demora de inicio",
+                    "spawn-delay": "[scale=0.8]Demora de generación[/scale]",
+                    "start-delay": "[scale=0.8]Demora de inicio[/scale]",
                     "delay-in-sec": "Demora (en segundos)",
                     "speed": "Velocidad",
                     "jump-strength": "Fuerza de salto",
@@ -815,7 +815,7 @@
                     "size-change-tiles": "Cambio de tamaño (en bloques)",
                     "grow-shrink-duration": "Duración de crecimiento/encogimiento",
                     "attached-to": "Vinculado a",
-                    "tag-is-active": "La etiqueta está activa al comienzo del nivel"
+                    "tag-is-active": "[scale=0.75]La etiqueta está activa al comienzo del nivel[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Intervalos de generación",
@@ -891,11 +891,11 @@
                 "magnitude": "Magnitud\n[color=#CCCCCC](en bloques)[/color]",
                 "period": "Período sinusoidal",
                 "period-offset": "Offset del período",
-                "magnitude-info": "La distancia {0} será sinusoidal, antes de retroceder.\n[sub]Los valores positivos se mueven {1}\nLos negativos se mueven {2}[/sub]",
+                "magnitude-info": "La distancia de {0} será sinusoidal, antes de retroceder.\n[sub]Los valores positivos se mueven {1}\nLos negativos se mueven {2}[/sub]",
                 "cycle-duration-info": "Tiempo (en segundos) que tarda un ciclo sinusoidal {0} completo (incluye el tiempo de ida y vuelta).\n[sub](No puede ser inferior a la mitad de la magnitud)[/sub]",
                 "period-offset-example": "Saltar a un punto específico del ciclo sinusoidal, ejemplo: al introducir aquí la mitad del periodo hará que {0} comience en el extremo opuesto del seno",
                 "the-platform": "la plataforma",
-                "the-amp": "la amplitud"
+                "the-amp": "chispayaso"
             },
             "text": {
                 "text-content": "Contenido textual",
@@ -1018,10 +1018,10 @@
                     "angle-of-movement-info": "Puedes ajustar el ángulo utilizando los botones de la izquierda, o introduciendo aquí un ángulo más preciso para el movimiento lineal de la plataforma, de 0 a 359.",
                     "platform-speed": "Velocidad de la plataforma",
                     "platform-speed-info": "La velocidad del movimiento lineal de la plataforma, en píxeles/segundos\n[sub]Un bloque es igual a 16 pixeles, Each tile is 16 pixels, así por ejemplo, al introducir 48 la plataforma se moverá en 3 bloques por segundo.[/sub]",
-                    "player-activation": "El jugador puede activar la plataforma",
+                    "player-activation": "El jugador puede activarla",
                     "player-activation-info": "Cuando el jugador se posicione sobre una plataforma, será posible activarla y/o realizar una acción. ¡Consulta la lista de acciones a continuación!",
                     "action-setup": "Configuración de acciones",
-                    "action-then": "Entonces\n[scale=0.75]La plataforma...[/scale]",
+                    "action-then": "[scale=0.9]Entonces[/scale]\n[scale=0.75]La plataforma...[/scale]",
                     "action-options": "No hará nada|Se detendrá|Se detendrá (sin reactivarse)|Retrocederá|Se caerá",
                     "tagging-info": "Agrega una o más etiquetas (separadas por espacios) para hacer referencia a esta plataforma durante el juego.\n[sub]Mediante etiquetas, puedes activar o desactivar esta plataforma con, por ejemplo, Bloques de Activado-Desactivado para Etiquetas.[/sub]",
                     "optional-movement-notice": "Los siguientes ajustes de movimiento son opcionales.",
@@ -1042,13 +1042,13 @@
                     "keep-this-short": "(¡Que sea breve!)",
                     "keep-this-short-too": "(¡También que esto sea breve!)",
                     "speech-bubble-info": "Pequeño fragmento de texto que se mostrará en un globo de diálogo cuando se esté cerca del PNJ",
-                    "after-dialogue": "Después de la interacción...\n[scale=0.5](Establecer diálogo en la pestaña: 🗨)[/scale]",
+                    "after-dialogue": "[scale=0.5]Después de la interacción...[/scale]\n[scale=0.4](Establecer diálogo en: 🗨)[/scale]",
                     "second-pop-up-msg": "Globo de dialogo despúes de que el jugador haya interactuado con el PNJ",
                     "pop-up-options": "Quitar mensaje en pantalla|Mantener mensaje en pantalla|Reemplazar mensaje en pantalla",
                     "pop-up-update-info": "Elimina, conserva o sustituye el mensaje emergente existente cuando el jugador interactúa con el PNJ.",
                     "npc-attributes": "Atributos del PNJ",
                     "item-stock-info": "Hacer que el PNJ dé un objeto una sóla vez, o darle al PNJ un inventario infinito para reaparecer un objeto cuando éste se agote o destruya.",
-                    "give-item": "Dar objeto...",
+                    "give-item": "Dar...",
                     "item-options": "Una sóla vez|Cuando el objeto se use o destruya",
                     "behavior-info": "El comportamiento del PNJ, en movimiento y/o animación.\n[sub]Cada PNJ puede tener diferentes opciones de comportamiento, pero algunos sólo pueden permanecer inactivos.[/sub]",
                     "dialogue-placeholder": "¿Qué dirá tu PNJ?",
@@ -1095,8 +1095,8 @@
                     "projectile-count": "Número de proyectiles",
                     "extra-random-projectiles": "Proyectiles aleatorios adicionales",
                     "on-defeated": "Al derrotar",
-                    "dash-duration": "[!]Dash duration (in sec)",
-                    "random-dash-duration": "[!]Extra random duration"
+                    "dash-duration": "Duración de la embestida (en segundos)",
+                    "random-dash-duration": "Duración aleatoria extra"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1155,15 +1155,15 @@
                     "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "boss-intro-anim-info": "¡El {0} puede entrar con estilo! Elige una animación de introducción a tu gusto.",
                     "disguised-enemy": "¡Un enemigo puede disfrazarse de Bowser! Su disfraz se revela al ser derrotado.",
-                    "intro-anim-unavailable": "[!]Intro animations for this boss are currently unavailable in this gamestyle."
+                    "intro-anim-unavailable": "Las animaciones de introducción para este jefe no están actualmente disponibles en este estilo de juego."
                 }
             },
             "mapsnap": {
-                "info": "[!]MapSnap Tool - Resolution Options",
-                "default-button": "[!]Default",
-                "fixed-button": "[!]Fixed",
-                "default-info": "[!]Less errors, but usually has a larger image resolution and a larger filesize. \n\n Images taken of maps with a level width or level height above 510 blocks will have incomplete data.",
-                "fixed-info": "[!]More errors, but usually has a smaller image resolution and a smaller filesize. \n\n Images taken of maps with a level width or level height above 1020 blocks will have reduced image quality."
+                "info": "Herramienta MapSnap - Opciones de resolución",
+                "default-button": "Por defecto",
+                "fixed-button": "Inalterable",
+                "default-info": "Menos errores, pero normalmente tiene una mayor resolución de imagen y un mayor tamaño de archivo. \n\n Las imágenes tomadas de mapas con una anchura de nivel o una altura de nivel superior a 510 bloques tendrán datos incompletos.",
+                "fixed-info": "Más errores, pero normalmente tiene una resolución de imagen y un tamaño de archivo menores. \n\n Las imágenes tomadas de mapas con una anchura de nivel o una altura de nivel superior a 1020 bloques tendrán una calidad de imagen reducida."
             }
         },
         "themes": {
@@ -1223,13 +1223,13 @@
                 "palette": "Paleta del efecto, que es puramente cosmética."
             },
             "palettes": {
-                "1_rain": "Lluvia Predeterminada|[!]Radioactive Waste|[!]Slushy Slurry|[!]Jungle Juice|[!]Sewage Soup|[!]Deep Dark",
-                "2_rain": "Lluvia Predeterminada|Lluvia Ácida|Lluvia Enlodada|Lluvia Criogénica|Leche Chocolatada|Derrame de Petróleo|Lluvia Dorada|Metal Fundido|[!]Poisonous Ooze|[!]Monochrome Mixture",
+                "1_rain": "Lluvia Predeterminada|Desechos Radioactivos|Lodo Líquido|Lluvia de Jungla|Aguas Residuales|Negro Profundo",
+                "2_rain": "Lluvia Predeterminada|Lluvia Ácida|Lluvia Enlodada|Lluvia Criogénica|Leche Chocolatada|Derrame de Petróleo|Lluvia Dorada|Metal Fundido|Gotas Tóxicas|Mezcla Monocromática",
                 "1_snow": "Nieve Predeterminada",
                 "2_snow": "Nieve Predeterminada|Mental de Invierno|Frío Glacial|Blanco Gélido|Rojo Fresa|Noche de Ventisca|Limonada Helada",
-                "1_sand": "Tormenta de Arena Predeterminada|[!]Scorching Spice|[!]Dusty Draft|[!]Golden Gale|[!]Somber Sand|[!]Abundant Ashes",
+                "1_sand": "Tormenta de Arena Predeterminada|Brisa Caliente|Polvo Peligroso|Vendaval Dorado|Arena Sombría|Ceniza Abundante",
                 "2_sand": "Tormenta de Arena Predeterminada|Amarilla Soleada|Blanca Nevada|Chocolate Marrón|Lodo Pantanoso|Violeta de Medianoche",
-                "1_embers": "Brasas predeterminadas|[!]Glowing Blight|[!]Violet Void|[!]Searing Sapphire|[!]Ceaseless Crimson|[!]Treacherous Tar",
+                "1_embers": "Brasas predeterminadas|Deterioro Brillante|Vacío Violeta|Zafiro Abrasador|Carmesí Incesante|Alquitrán ascendente",
                 "2_embers": "Brasas predeterminadas|Negras Tenebrosas|Violetas Venenosas|Esencia del Vacío|Azul Tinta|Oro Realeza",
                 "1_leaf": "Hojas Verdes predeterminadas",
                 "2_leaf": "Hojas Verdes predeterminadas|Hojas de Otoño predeterminadas|Hojas Extravagantes|Gris Ilusorio|Chocolate Crujiente|Violeta Vibrante|Pincel Ceniciento|Gris Llamativo|Ciénaga Turbia|Delicia Dorada|Principios de Invierno|Cacao Crujiente|Sereno Atardecer"
@@ -1310,7 +1310,7 @@
                 "close-menu-to-return": "Cierra el menú para volver",
                 "editing-control-keybinds": "Editando combinaciones de teclas de control",
                 "viewing-debugger": "Viendo el depurador",
-                "control-config-k": "Configuración del mando",
+                "control-config-k": "Configuración del teclado",
                 "control-config-g": "Configuración del mando\n[scale=0.65][color=#CCCCCC]Los botones del mando usan identificadores numéricos[/color][/scale]",
                 "graphics-settings": "Ajustes de rendimiento y gráficos",
                 "fullscreen-scaling": "Escalado a pantalla completa",
@@ -1328,9 +1328,9 @@
                 "in-game-username": "Nombre de usuario en el juego"
             },
             "buttons": {
-                "restart": "Reiniciar",
-                "restart-c": "Reiniciar\n[scale=0.65](desde último puesto de control)[/scale]",
-                "extra-options-tools": "Opciones y herramientas adicionales",
+                "restart": "[scale=0.9]Reiniciar[/scale]",
+                "restart-c": "[scale=0.5]Reiniciar\n(desde último puesto de control)[/scale]",
+                "extra-options-tools": "Opciones adicionales",
                 "main-menu": "Menú principal",
                 "frame-skip": "Salto de fotogramas",
                 "reduced-particles": "Reducción de artículas",
@@ -1340,7 +1340,7 @@
                 "lss-profile": "Perfil de LSS",
                 "colorblind-mode": "Modo daltónico",
                 "disable-screenshake": "Desactivar vibración de pantalla",
-                "visualized-timers": "Temporizadores visualizados"
+                "visualized-timers": "Mostrar temporizadores"
             },
             "tooltips": {
                 "enable-fullscreen": "Activar pantalla completa",
