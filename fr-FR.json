@@ -2,8 +2,8 @@
     "locale": "fr-FR",
     "strings": {
         "constants": {
-            "1_power-ups": "Avec un Champignon|Avec une Fleur de Feu|Avec une Super Feuille|[!]Hammer Flower|Avec une Fleur Glaciale|Avec une Petite Fleur de Feu|Fleur à Bulles|[!]Bubble Flower",
-            "2_power-ups": "Avec un Champignon|Avec une Fleur de Feu|Avec une Super Feuille|[!]Hammer Flower|Avec une Fleur Glaciale|[!]Carrot|Avec une Fleur à Bulles",
+            "1_power-ups": "Ac.un Champignon|Ac.une Fleur de Feu|Ac.une Super Feuille|Ac.une Fleur à Marteau|Ac.une Fleur Glaciale|Ac.une Petite Fleur de Feu||Ac.une Fleur à Bulles",
+            "2_power-ups": "Ac.un Champignon|Ac.une Fleur de Feu|Ac.une Super Feuille|Ac.une Fleur à Marteau|Ac.une Fleur Glaciale|Ac.une Carrote|Ac.une Fleur à Bulles",
             "1_map-palettes": "Par défaut/Á l'extérieur|Souterrain (bleu foncé)|Château (gris)|Environnement Sous-marin (vert foncé)|Le ciel (vert clair)|Pays Glace (bleu ciel)|Volcan (rouge)|Maison Hantée (violet)|Salle Bonus (jaune)|Plage (marron clair)|Monde Étoile (bleu pastel)|Forêt (marron)",
             "2_map-palettes": "Par défaut"
         },
@@ -121,8 +121,8 @@
                 "unavailable": "indisponible",
                 "paused": "en pause",
                 "movement": "mouvement",
-                "opacity": "[!]opacity",
-                "stationary": "[!]stationary"
+                "opacity": "opacité",
+                "stationary": "immobile"
             },
             "labels": {
                 "press-again-to-confirm": "Appuyer à nouveau pour confirmer",
@@ -417,8 +417,8 @@
                 "1_water-modes": "Désactivé|Toujours (pas besoin de blocs d'eau)|Couche d'eau (classique)|Couche d'eau (moderne)",
                 "2_water-modes": "Désactivé|Toujours (pas besoin de blocs d'eau)|Couche d'eau",
                 "bg-loop-methods": "Désactivé|Boucle horizontale|Boucle verticale|Boucler toute|Boucler aucune|Seulement horizontale|Seulement verticale",
-                "bg-scroll-speed-h": "←← TRÈS rapide|← Rapide|← Moyenne|← Lente|Éteint|→ Lente|→ Moyenne|→ Rapide|→→ TRÈS rapide|[!]→ Fast|[!]→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ TRÈS rapide|↑ Rapide|↑ Moyenne|↑ Lente|Éteint|↓ Lente|↓ Moyenne|↓ Rapide|↓↓ TRÈS rapide|[!]↓ Fast|[!]↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← TRÈS rapide|← Rapide|← Moyenne|← Lente|Éteint|→ Lente|→ Moyenne|→ Rapide|→→ TRÈS rapide",
+                "bg-scroll-speed-v": "↑↑ TRÈS rapide|↑ Rapide|↑ Moyenne|↑ Lente|Éteint|↓ Lente|↓ Moyenne|↓ Rapide|↓↓ TRÈS rapide",
                 "level-desc-placeholder": "Ajoute un court résumé (facultatif) de ton niveau, de son histoire, ou toute autre chose que le joueur devrait savoir et qui pourrait s'avérer utile.",
                 "editor-music": "Aucune (silencieuse)|Musique du niveau|Musique du niveau (Atténuée)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -779,34 +779,34 @@
                 "magic-bottle": "Bocal Magique[s]67 % feu | 33 % fée",
                 "cursed-bottle": "Bocal Maudite",
                 "fairy-bottle": "Bocal de Fée",
-                "grab-block": "[!]Grab Block",
-                "object-sign": "[!]Object Sign",
-                "firebar": "[!]Fire Bar",
-                "icebar": "[!]Ice Bar",
-                "fire-snake": "[!]Fire Snake",
-                "bounding-fire": "[!]Boundin' Fire",
-                "small-flame": "[!]Small flame",
-                "hammer-suit": "[!]Hammer Suit",
-                "carrot": "[!]Carrot",
-                "mount-blockade": "[!]Mount Blockade"
+                "grab-block": "Bloc à empoigner",
+                "object-sign": "Panneau",
+                "firebar": "Barre de Feu",
+                "icebar": "Barre de Glace",
+                "fire-snake": "Serpenflamme",
+                "bounding-fire": "Boundin' Fire",
+                "small-flame": "Petite flamme",
+                "hammer-suit": "Tenue Marteau",
+                "carrot": "Carotte",
+                "mount-blockade": "Mount Blockade"
             },
             "tile-tooltips": {
-                "invisible-solid-tile": "[!]Invisible solid tile[s]Not visible during gameplay",
-                "solid-player-tile": "[!]Solid player tile[s]Only tangible to players",
-                "solid-sprite-tile": "[!]Solid sprite tile[s]Only tangible to sprites",
-                "semisolid-player-tile": "[!]Semi-solid player tile[s]Only tangible to players",
-                "semisolid-sprite-tile": "[!]Semi-solid sprite tile[s]Only tangible to sprites",
-                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
-                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
-                "donut-block": "[!]Standard Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-red": "[!]Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-wood": "[!]Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-metal": "[!]Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-semi": "[!]Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-red-semi": "[!]Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-wood-semi": "[!]Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-metal-semi": "[!]Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
-                "chomp-post": "[!]Chomp Post[s]Place a Chain Chomp on top to attach"
+                "invisible-solid-tile": "Bloc solide invisible[s]Non visible pendant le jeu",
+                "solid-player-tile": "Délimiteur solide[s]Uniquement tangible pour les joueurs",
+                "solid-sprite-tile": "Délimiteur solide[s]Uniquement tangible pour les sprites",
+                "semisolid-player-tile": "Délimiteur semi-solide[s]Uniquement tangible pour les joueurs",
+                "semisolid-sprite-tile": "Délimiteur semi-solide[s]Uniquement tangible pour les sprites",
+                "boss-gate": "Barrière de boss[s]Devient tangible lors d'un combat contre un boss",
+                "boss-bridge": "Pont de boss[s]S'effondre lorsqu'une Hache est touchée",
+                "donut-block": "Bloc Beigne Standard[s]Solide, réapparaît et peut se stabiliser à nouveau",
+                "donut-block-red": "Bloc Beigne Instable[s]Solide, réapparaît, tombe après avoir été secoué",
+                "donut-block-wood": "Bloc Beigne de Bois[s]Solide, pas de réapparition, peut se stabiliser à nouveau",
+                "donut-block-metal": "Bloc Beigne Métallique[s]Solide, sans réapparition, tombera après avoir été secoué",
+                "donut-block-semi": "Bloc Beigne Standard[s]Semi-solide, réapparaît et peut se stabiliser à nouveau",
+                "donut-block-red-semi": "Bloc Beigne Instable[s]Semi-solide, réapparaît, tombe après avoir été secoué",
+                "donut-block-wood-semi": "Bloc Beigne de Bois[s]Semi-solide, pas de réapparition, peut se stabiliser à nouveau",
+                "donut-block-metal-semi": "Bloc Beigne Métallique[s]Semi-solide, sans réapparition, tombera après avoir été secoué",
+                "chomp-post": "Poteau de Chomp[s]Placer un Chomp Enchaîné sur le dessus pour l'attacher"
             }
         },
         "customizers": {
@@ -824,13 +824,13 @@
                     "grow-shrink-duration": "Durée de croissance/rétrécissement",
                     "attached-to": "Attaché à",
                     "tag-is-active": "L'étiquette est active au démarrage",
-                    "period": "[!]Period",
-                    "movement-mode-sinewave-independent": "[!]Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
+                    "period": "Période",
+                    "movement-mode-sinewave-independent": "Mode de déplacement\n[scale=0.5](Indépendant de l'onde sinusoïdale)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Intervalles d'aparition",
                     "grow-and-shrink": "Croissance et rétraction",
-                    "sinewave-movement": "[!]Sinewave movement"
+                    "sinewave-movement": "Mouvement sinusoïdal"
                 },
                 "buttons": {
                     "change-initial-direction": "Changer la direction initiale",
@@ -839,7 +839,7 @@
                     "edit-range": "Modifier la gamme",
                     "edit-palette": "Modifier la palette",
                     "edit-item": "Modifier l'item",
-                    "enable-sinewave-motion": "[!]Enable sinewave motion"
+                    "enable-sinewave-motion": "Activer le mouvement sinusoïdal"
                 },
                 "tooltips": {
                     "jump-strength": "La vitesse verticale initiale, en pixels / sec, au début du saut.",
@@ -848,9 +848,9 @@
                     "expanding-obj-size-change-tiles": "Le nombre de blocs à étendre/réduire.",
                     "expanding-obj-size-change-duration": "Le temps (en secondes) nécessaire pour que l'expansion/rétrécissement soit terminé(e).",
                     "expanding-obj-size-change-delay": "Lorsqu'il a grandi ou rétréci, il faut attendre ce délai avant de le faire à nouveau.",
-                    "movement-speed": "[!]Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
-                    "period": "[!]Time (in seconds) for a complete sine-wave cycle.",
-                    "opacity": "[!]Lower opacities can make the sprite less obvious to spot."
+                    "movement-speed": "Vitesse de déplacement en pixels / sec.\n[sub]Un bloc équivaut à 16 pixels.[/sub]",
+                    "period": "Durée (en secondes) d'un cycle sinusoïdal complet.",
+                    "opacity": "Des opacités plus faibles peuvent rendre le sprite moins évident à repérer."
                 },
                 "html": {
                     "additive": "Additif",
@@ -858,14 +858,14 @@
                     "camouflage": "Camouflage",
                     "size-change-modes": "Désactivé|Étendre|Réduire",
                     "attachment-options": "Rien|Sol|Mur gauche|Plafond|Mur droit",
-                    "linear": "[!]Linear",
-                    "linear-dynamic": "[!]Linear (dynamic)",
-                    "chase-player": "[!]Chase player",
-                    "evade-player": "[!]Evade player"
+                    "linear": "Linéaire",
+                    "linear-dynamic": "Linéaire (dynamique)",
+                    "chase-player": "Poursuivre le joueur",
+                    "evade-player": "Échapper au joueur"
                 },
                 "text": {
                     "tagging-notice": "Lorsqu'il est coché, le générateur peut être rendu actif en appelant l'une de ses étiquettes (par exemple, par un Bloc d'Étiquette).",
-                    "sinewave-tool": "[!]The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
+                    "sinewave-tool": "L'angle et l'amplitude de l'onde sinusoïdale peuvent être définis en faisant glisser l'outil \\[---]."
                 }
             },
             "startpoint": {
@@ -963,7 +963,7 @@
                     "coins-before-item-info": "Libérer ce montant de pièces du bloc avant qu'il ne distribue l'article en question.",
                     "object-breaks-nearby-player-info": "Lorsque le joueur s'approche du bloc, l'objet qu'il contient se libère. Lorsque l'option [color=#4CFF00]est activée[/color], la propriété minuterie est utilisée pour la durée de l'animation de la pause.",
                     "tag-block-toggle": "En frappant ce bloc, les étiquettes s'activeront ou se désactiveront.\n[scale=0.75][color=#CCCCCC]Par exemple, tu peux faire alterner les courants sous-marins avec l'étiquette « [color=#58A8F0]switchCurrent[/color] » en saisissant également « [color=#58A8F0]switchCurrent[/color] » dans ce champ.[/color][/scale]",
-                    "amount-in-block-optional": "[!]If the block has an object assigned, it will store a maximum of this value inside."
+                    "amount-in-block-optional": "Si un objet est assigné au bloc, il stockera un maximum de cette valeur à l'intérieur."
                 }
             },
             "objects": {
@@ -1313,7 +1313,7 @@
                 "2_sand": "Tempête de Sable Ordinaire|Jaune Joyeux|Escapade Enneigée|Cyclone Chocolaté|Brun Boueux|Navigation Nocturne",
                 "1_embers": "Braises Ordinaires|Dépérissement Doré|Vide Violet|Saphir Surchauffé|Cendres Carminées|Goudron Grimpant",
                 "2_embers": "Braises Ordinaires|Trace Ténébreuse|Violette Venimeuse|Spectacle Surnaturel|Indigo Intemporel|Sauna Solaire",
-                "1_leaf": "Feuilles Vertes Ordinaires|[!]Red Autumn|[!]Yellow Dryness|[!]White Winter|[!]Green Summer|[!]Lime Spring",
+                "1_leaf": "Feuilles Vertes Ordinaires|[Amarante Automne|Sécheresse du Safran|Feuilles Frappés|Vert Vif|Printemps Pâle",
                 "2_leaf": "Feuilles Vertes Ordinaires|Feuilles d'Automne Ordinaires|Feuillage Fantastique|Feuilles Fantasmagoriques|Chocolat Croquant|Améthyste Apaisante|Restes Recuits|Vétusté Voyante|Marais Sombre|Délicatesse Dorée|Hiver Prématuré|Cacao Croustillant|Crépuscule Sérénissime"
             }
         },
