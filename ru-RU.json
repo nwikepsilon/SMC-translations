@@ -149,8 +149,8 @@
                 "paused": "пауза",
                 "unavailable": "недоступно",
                 "movement": "движение",
-                "opacity": "[!]opacity",
-                "stationary": "[!]stationary"
+                "opacity": "непрозрачность",
+                "stationary": "статичный"
             },
             "labels": {
                 "press-again-to-confirm": "Нажмите ещё раз для подтверждения",
@@ -808,33 +808,35 @@
                 "magic-bottle": "Магическая бутылка[s]67% шанс огня | 33% шанс феи",
                 "cursed-bottle": "Проклятая бутылка",
                 "fairy-bottle": "Бутылка с феей",
-                "grab-block": "[!]Grab Block",
-                "object-sign": "[!]Object Sign",
-                "firebar": "[!]Fire Bar",
-                "icebar": "[!]Ice Bar",
-                "fire-snake": "[!]Fire Snake",
-                "bounding-fire": "[!]Boundin' Fire",
-                "small-flame": "[!]Small flame",
-                "hammer-suit": "[!]Hammer Suit",
-                "mount-blockade": "[!]Mount Blockade"
+                "grab-block": "Перетаскиваемый блок",
+                "object-sign": "Табличка",
+                "firebar": "Огненное препятствие",
+                "icebar": "Ледяное препятствие",
+                "fire-snake": "Огненный змей",
+                "bounding-fire": "Скачущий огонь",
+                "small-flame": "Огонёк",
+                "hammer-suit": "Костюм молота",
+                "carrot": "Морковь",
+                "mount-blockade": "Блокада"
             },
             "tile-tooltips": {
-                "invisible-solid-tile": "[!]Invisible solid tile[s]Not visible during gameplay",
-                "solid-player-tile": "[!]Solid player tile[s]Only tangible to players",
-                "solid-sprite-tile": "[!]Solid sprite tile[s]Only tangible to sprites",
-                "semisolid-player-tile": "[!]Semi-solid player tile[s]Only tangible to players",
-                "semisolid-sprite-tile": "[!]Semi-solid sprite tile[s]Only tangible to sprites",
-                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
-                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
-                "donut-block": "[!]Standard Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-red": "[!]Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-wood": "[!]Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-metal": "[!]Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-semi": "[!]Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-red-semi": "[!]Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-wood-semi": "[!]Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-metal-semi": "[!]Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
-                "chomp-post": "[!]Chomp Post[s]Place a Chain Chomp on top to attach"
+                "invisible-solid-tile": "Невидимый блок[s]Не виден во время игры",
+                "solid-player-tile": "Блок только для игрока[s]Непрозрачен для игрока",
+                "solid-sprite-tile": "Блок только для объектов[s]Непрозрачен для объектов",
+                "semisolid-player-tile": "Полупрозрачный блок только для игрока[s]Непрозрачен для игрока",
+                "semisolid-sprite-tile": "Полупрозрачный блок только для объектов[s]Непрозрачен для объектов",
+                "boss-gate": "Ворота босса[s]Становятся видны во время битвы с боссом",
+                "boss-bridge": "Мост босса[s]Ломается после подбора Топора",
+                "donut-block": "Обычный блок-пончик[s]Непрозрачен, восстанавливается и его падение можно остановить",
+                "donut-block-red": "Нестабильный блок-пончик[s]Непрозрачен, восстанавливается, нельзя остановить падение",
+                "donut-block-wood": "Деревянный блок-пончик[s]Непрозрачен, не восстанавливается, его падение можно остановить",
+                "donut-block-metal": "Металлический блок-пончик[s]Непрозрачен, не восстанавливается, нельзя остановить падение",
+                "donut-block-semi": "Обычный блок-пончик[s]Непрозрачен, восстанавливается и его падение можно остановить",
+                "donut-block-red-semi": "Нестабильный блок-пончик[s]Непрозрачен, восстанавливается, нельзя остановить падение",
+                "donut-block-wood-semi": "Деревянный блок-пончик[s]Непрозрачен, не восстанавливается, его падение можно остановить",
+                "donut-block-metal-semi": "Металлический блок-пончик[s]Непрозрачен, не восстанавливается, нельзя остановить падение",
+                "chomp-post": "Столбик Кусалкина[s]Поставьте над ним Кусалкина, чтобы прикрепить его к столбику"
+
             }
         },
         "customizers": {
@@ -846,7 +848,7 @@
                     "edit-range": "Изменить расстояние",
                     "edit-palette": "Изменить палитру",
                     "edit-item": "Изменить предмет",
-                    "enable-sinewave-motion": "[!]Enable sinewave motion"
+                    "enable-sinewave-motion": "Включить движение волной"
                 },
                 "labels": {
                     "object-cap": "Максимум объектов",
@@ -861,13 +863,13 @@
                     "grow-shrink-duration": "Длительность роста/уменьшения",
                     "attached-to": "Прикреплён к",
                     "tag-is-active": "Тег сразу активен",
-                    "period": "[!]Period",
-                    "movement-mode-sinewave-independent": "[!]Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
+                    "period": "Периодичность",
+                    "movement-mode-sinewave-independent": "Режим движения\n[scale=0.5](Независим от волны)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Промежуток спауна",
                     "grow-and-shrink": "Рост и уменьшение",
-                    "sinewave-movement": "[!]Sinewave movement"
+                    "sinewave-movement": "Движение волны"
                 },
                 "tooltips": {
                     "jump-strength": "Начальная вертикальная скорость в пикс/сек.",
@@ -876,9 +878,9 @@
                     "expanding-obj-size-change-tiles": "Количество тайлов для роста/уменьшения.",
                     "expanding-obj-size-change-duration": "Время (в секундах), необходимое для полного уменьшения/роста.",
                     "expanding-obj-size-change-delay": "Промежуток между циклами роста/уменьшения",
-                    "movement-speed": "[!]Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
-                    "period": "[!]Time (in seconds) for a complete sine-wave cycle.",
-                    "opacity": "[!]Lower opacities can make the sprite less obvious to spot."
+                    "movement-speed": "Скорость перемещения в пикс / сек.\n[sub]Одна клетка равна 16ти пикселям.[/sub]",
+                    "period": "Время (в секундах) для полного цикла волны.",
+                    "opacity": "Меньшая непрозрачность сделает объект труднозаметным."
                 },
                 "html": {
                     "additive": "Добавка",
@@ -886,14 +888,14 @@
                     "camouflage": "Маскировка",
                     "size-change-modes": "Откл.|Рост|Уменьш.",
                     "attachment-options": "Ничего|Пол|Лево|Потолок|Право",
-                    "linear": "[!]Linear",
-                    "linear-dynamic": "[!]Linear (dynamic)",
-                    "chase-player": "[!]Chase player",
-                    "evade-player": "[!]Evade player"
+                    "linear": "Линейно",
+                    "linear-dynamic": "Линейно (динамически)",
+                    "chase-player": "Преследовать игрока",
+                    "evade-player": "Избегать игрока"
                 },
                 "text": {
                     "tagging-notice": "Когда выключено, спаунер можно активировать, вызвав любой его тег (например через блок тегов).",
-                    "sinewave-tool": "[!]The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
+                    "sinewave-tool": "Угол и сила регулируется перемещением \\[---] инструмента."
                 }
             },
             "startpoint": {
@@ -991,7 +993,8 @@
                     "invisible-info": "Этот блок нельзя сразу увидеть, но он появится при ударе.",
                     "coins-before-item-info": "Количество монет, которые выдаст блок перед выдачей предмета.",
                     "object-breaks-nearby-player-info": "Когда игрок подходит к блоку, объект внутри выберется наружу. Когда [color=#4CFF00]отмечено[/color], таймер будет считать длительность анимации появления.",
-                    "tag-block-toggle": "При ударе по блоку, указанные теги будут включаться/выключаться.\n[scale=0.75][color=#CCCCCC]К примеру, можно управлять потоком воздуха тегом '[color=#58A8F0]switchCurrent[/color]', введя '[color=#58A8F0]switchCurrent[/color]' в поле.[/color][/scale]"
+                    "tag-block-toggle": "При ударе по блоку, указанные теги будут включаться/выключаться.\n[scale=0.75][color=#CCCCCC]К примеру, можно управлять потоком воздуха тегом '[color=#58A8F0]switchCurrent[/color]', введя '[color=#58A8F0]switchCurrent[/color]' в поле.[/color][/scale]",
+                    "amount-in-block-optional": "Если объект прикреплён к блоку, то он будет хранить максимум значения."
                 }
             },
             "objects": {
@@ -1290,7 +1293,7 @@
                 "2_sand": "Обычная песчанная буря|Солнечный жёлтый|Снежный белый|Шоколад|Болотный ил|Полуночный фиолетовый",
                 "1_embers": "Обычные угли|Яркое свечение|Жестокая пустота|Сапфир|Багрянец|Коварная смола",
                 "2_embers": "Обычные угли|Мрачный чёрный|Ядовитый фиолетовый|Пустотная субстанция|Чернильный синий|Королевский золотой",
-                "1_leaf": "Обычный зелёный|[!]Red Autumn|[!]Yellow Dryness|[!]White Winter|[!]Green Summer|[!]Lime Spring",
+                "1_leaf": "Обычный зелёный|Красная осень|Сухой жёлтый|Белоснежная зима|Зелёное лето|Лаймовая весна",
                 "2_leaf": "Обычный зелёный|Обычная осень|Возмутительная листва|Иллюзорный серый|Хрустящий шоколад|Фанк-фиолетовый|Пепельная кисть|Гариш Грей|Мрачное болото|Золотое наслаждение|Ранняя зима|Хрустящий какао|Безмятежный закат"
             }
         },
