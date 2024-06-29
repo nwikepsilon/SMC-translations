@@ -2,9 +2,9 @@
     "locale": "en-US",
     "strings": {
         "constants": {
-            "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Small Fire Flower|Bubble Flower",
-            "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Ice Flower|Bubble Flower",
-            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (gray)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)",
+            "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Small Fire Flower|Bubble Flower",
+            "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Carrot|Bubble Flower",
+            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (gray)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)",
             "2_map-palettes": "Standard"
         },
         "common": {
@@ -81,13 +81,15 @@
                 "down": "down",
                 "width": "width",
                 "height": "height",
+                "opacity": "opacity",
+                "stationary": "stationary",
                 "layers": {
                     "one": "layer",
                     "other": "layers"
                 },
                 "effects": {
                     "one": "effect",
-                    "others": "effects"
+                    "other": "effects"
                 },
                 "objects": {
                     "one": "object",
@@ -415,10 +417,10 @@
                 "1_water-modes": "Disabled|Always (don't need water tiles)|Layered water (classic)|Layered water (modern)",
                 "2_water-modes": "Disabled|Always (don't need water tiles)|Layered water",
                 "bg-loop-methods": "Disabled|Loop horizontally|Loop vertically|Loop all|Loop none|Only horizontal|Only vertical",
-                "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|Off|→ Slow|→ Medium|→ Fast|→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|Off|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|← Minimal|Off|→ Minimal|→ Slow|→ Medium|→ Fast|→→ VERY fast",
+                "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|↑ Minimal|Off|↓ Minimal|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
                 "level-desc-placeholder": "Enter an (optional) short summary of your level, its story, or anything the player should know that may come in handy.",
-                "editor-music": "None (silent)|Level music|Level music (muffled)|The Road is Full Of Dangers (SMRPG)|Creative Exercise (Mario Paint)"
+                "editor-music": "None (silent)|Level music|Level music (muffled)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]The pipes on this pages are treated as [/scale]objects[scale=0.75] (not [/scale]tiles[scale=0.75]), and go on object layers. These pipes can be extended and customised to expand and shrink over time.[/scale]",
@@ -535,6 +537,8 @@
                 "magic-bottle": "Magic Bottle[s]67% fire | 33% fairy",
                 "cursed-bottle": "Cursed Bottle",
                 "fairy-bottle": "Fairy Bottle",
+				"grab-block": "Grab Block",
+				"object-sign": "Object Sign",
 				"goomba": "Goomba",
 				"galoomba": "Galoomba",
 				"goombrat": "Goombrat",
@@ -607,6 +611,8 @@
 				"fire-flame": "Fiery Flame",
 				"ice-flame": "Freeze Flame",
 				"ghost-flame": "Ghostly Flame",
+				"firebar": "Fire Bar",
+				"icebar": "Ice Bar",
 				"eerie": "Eerie",
 				"ember-eerie": "Ember Eerie",
 				"boo": "Boo",
@@ -737,6 +743,9 @@
 				"big-falling-stalactite": "Big Falling Stalactite",
 				"small-falling-stalactite": "Small Falling Stalactite",
                 "amp": "Amp",
+                "fire-snake": "Fire Snake",
+				"bounding-fire": "Boundin' Fire",
+				"small-flame": "Small flame",
 				"boom-boom": "Boom Boom",
 				"bowser": "Bowser",
 				"king-boo": "King Boo",
@@ -744,7 +753,9 @@
                 "fire-flower": "Fire Flower",
 				"super-leaf": "Super Leaf",
 				"hammer-flower": "Hammer Flower",
+				"hammer-suit": "Hammer Suit",
 				"ice-flower": "Ice Flower",
+				"carrot": "Carrot",
 				"small-fire-flower": "Small Fire Flower",
 				"bubble-flower": "Bubble Flower",
 				"super-star": "Super Star",
@@ -776,7 +787,26 @@
 				"small-one-way-wall-up": "Small One-Way Wall (Up)",
 				"small-one-way-wall-right": "Small One-Way Wall (Right)",
 				"small-one-way-wall-down": "Small One-Way Wall (Down)",
-				"small-one-way-wall-left": "Small One-Way Wall (Left)"
+				"small-one-way-wall-left": "Small One-Way Wall (Left)",
+				"mount-blockade": "Mount Blockade"
+            },
+            "tile-tooltips": {
+                "invisible-solid-tile": "Invisible solid tile[s]Not visible during gameplay",
+                "solid-player-tile": "Solid player tile[s]Only tangible to players",
+                "solid-sprite-tile": "Solid sprite tile[s]Only tangible to sprites",
+                "semisolid-player-tile": "Semi-solid player tile[s]Only tangible to players",
+                "semisolid-sprite-tile": "Semi-solid sprite tile[s]Only tangible to sprites",
+                "boss-gate": "Boss gate[s]Becomes visible during bossfights",
+                "boss-bridge": "Boss bridge[s]Collapses when Axe is touched",
+                "donut-block": "Standard Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-red": "Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-wood": "Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-metal": "Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-semi": "Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-red-semi": "Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-wood-semi": "Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-metal-semi": "Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+				"chomp-post": "Chomp Post[s]Place a Chain Chomp on top to attach"
             }
         },
         "customizers": {
@@ -793,11 +823,14 @@
                     "size-change-tiles": "Size change (in tiles)",
                     "grow-shrink-duration": "Grow/shrink duration",
                     "attached-to": "Attached to",
-                    "tag-is-active": "Tag is active on start"
+                    "tag-is-active": "Tag is active on start",
+                    "period": "Period",
+                    "movement-mode-sinewave-independent": "Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Spawn intervals",
-                    "grow-and-shrink": "Grow & shrink"
+                    "grow-and-shrink": "Grow & shrink",
+                    "sinewave-movement": "Sinewave movement"
                 },
                 "buttons": {
                     "change-initial-direction": "Change initial direction",
@@ -805,25 +838,34 @@
                     "preview": "Preview",
                     "edit-range": "Edit range",
                     "edit-palette": "Edit palette",
-                    "edit-item": "Edit item"
+                    "edit-item": "Edit item",
+                    "enable-sinewave-motion": "Enable sinewave motion"
                 },
                 "tooltips": {
+                    "movement-speed": "Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
                     "jump-strength": "The initial vertical speed, in pixels / sec, at the start of the jump.",
                     "blend-modes": "ADDITIVE\n[sub]Adds {0}'s colors on top of other overlapping pixels[/sub]\n\nAPPEAR ABOVE OBJECTS\n[sub]{0} will appear only on objects that are behind him (e.g. on a lower layer.)[/sub]\n\nCAMOUFLAGE\n[sub]Same, but is completely invisible and 'cuts through' tiles and sprites![/sub]",
                     "expanding-obj-cycle-info": "Expand and shrink over time, with customization options over the length & durations.",
                     "expanding-obj-size-change-tiles": "The amount of tiles to expand/shrink.",
                     "expanding-obj-size-change-duration": "The time (in seconds) it takes for the expansion/shrinking to complete.",
-                    "expanding-obj-size-change-delay": "When it has grown or shrunk, wait this time out before growing/shrinking again"
+                    "expanding-obj-size-change-delay": "When it has grown or shrunk, wait this time out before growing/shrinking again",
+                    "period": "Time (in seconds) for a complete sine-wave cycle.",
+                    "opacity": "Lower opacities can make the sprite less obvious to spot."
                 },
                 "html": {
                     "additive": "Additive",
                     "appear-above-objects": "Appear above objects",
                     "camouflage": "Camouflage",
                     "size-change-modes": "Disabled|Expand|Shrink",
-                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall"
+                    "attachment-options": "Nothing|Floor|Left wall|Ceiling|Right wall",
+                    "linear": "Linear",
+                    "linear-dynamic": "Linear (dynamic)",
+                    "chase-player": "Chase player",
+                    "evade-player": "Evade player"
                 },
                 "text": {
-                    "tagging-notice": "When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile)."
+                    "tagging-notice": "When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile).",
+                    "sinewave-tool": "The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
                 }
             },
             "startpoint": {
@@ -914,6 +956,7 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Amount of objects in the block.",
+                    "amount-in-block-optional": "If the block has an object assigned, it will store a maximum of this value inside.",
                     "timer-info": "Start a timer when hit for the first time. Once it reaches 0, the block will only have 1 object left.\n[scale=0.75][color=#CCCCCC]Leave 0 to disable the timer.[/color][/scale]",
                     "progressive-info": "If Mario is small Mario, always give a mushroom, regardless of what item inside.",
                     "star-chainer-info": "When the block is hit when the player has star power, always give a star regardless of what's inside the block.",
@@ -1079,6 +1122,8 @@
                     "protective-flames": "Protective Flames",
                     "projectile-count": "Projectile count",
                     "extra-random-projectiles": "Extra random projectiles",
+                    "dash-duration": "Dash duration (in sec)",
+                    "random-dash-duration": "Extra random duration",
                     "ring-count": "Ring count",
                     "on-defeated": "On defeated"
                 },
@@ -1098,7 +1143,7 @@
                     "hp-info": "HP (Health Points) are the amount of hits needed to take out {0}.",
                     "hp-info-fireball": "Note: 5 fireballs equates to 1 HP",
                     "attack-delay-info": "Time (in seconds) between attacks.",
-                    "attack-cycle-info": "If multiple attacks are enabled, King Boo will go through each attack in a random order. After that, a new attack cycle begins, where the attack order is randomized again.\n\n[sub]With the 'attack frequency' option, you can have one or more attacks play out multiple times per cycle![/sub]",
+                    "attack-cycle-info": "If multiple attacks are enabled, {0} will go through each attack in a random order. After that, a new attack cycle begins, where the attack order is randomized again.\n\n[sub]With the 'attack frequency' option, you can have one or more attacks play out multiple times per cycle![/sub]",
                     "bb-attack-phase": "Boom Boom can either increase his attack phase automatically as he loses HP, or he can stick to one specific phase during the fight.",
                     "bb-attack-frequency": "More frequent attacks can add more difficulty to the fight, and the stomp opportunity is shorter on the dash attack.\n[sub]Note that on the dash attack, even when set to 'Near instant', there is a 1 second opportunity for the player to stomp the boss.[/sub]",
                     "bb-movement-speed": "Maximum movement speed, in pixels / sec.\n[sub]In the final phase (Pinch mode), this is multiplied by 50%[/sub]",
@@ -1138,9 +1183,17 @@
                     "kb-attack-desc-pepper": "Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
                     "kb-attack-desc-ring": "Create a ring of flames around King Boo, that protect him from projectiles",
                     "boss-intro-anim-info": "{0} can enter in style! Pick an intro animation of your liking.",
-                    "disguised-enemy": "An enemy can disguise as Bowser! Their disguise is revealed on defeat."
+                    "disguised-enemy": "An enemy can disguise as Bowser! Their disguise is revealed on defeat.",
+                    "intro-anim-unavailable": "Intro animations for this boss are currently unavailable in this gamestyle."
                 }
-            }
+            },
+			"mapsnap":{
+				"info": "MapSnap Tool - Resolution Options",
+				"default-button": "Default",
+				"fixed-button": "Fixed",
+				"default-info": "Less errors, but usually has a larger image resolution and a larger filesize. \n\n Images taken of maps with a level width or level height above 510 blocks will have incomplete data.",
+				"fixed-info": "More errors, but usually has a smaller image resolution and a smaller filesize. \n\n Images taken of maps with a level width or level height above 1020 blocks will have reduced image quality."
+			}
         },
         "pause-options": {
             "labels": {
@@ -1250,15 +1303,15 @@
                 "palette": "Palette of the effect, which is purely cosmetic."
             },
             "palettes": {
-                "1_rain": "Default Rain",
+                "1_rain": "Default Rain|Radioactive Waste|Slushy Slurry|Jungle Juice|Sewage Soup|Deep Dark",
                 "2_rain": "Default Rain|Toxic Acid|Viscous Sludge|Frosty Cryofluid|Chocolate Drink|Oil Spill|Golden Shower|Molten Metal|Poisonous Ooze|Monochrome Mixture",
                 "1_snow": "Default Snow",
                 "2_snow": "Default Snow|Winter Mint|Sheer Cold|Frigid White|Strawberry Red|Blizzard Night|Iced Lemonade",
-                "1_sand": "Default Sandstorm",
+                "1_sand": "Default Sandstorm|Scorching Spice|Dusty Draft|Golden Gale|Somber Sand|Abundant Ashes",
                 "2_sand": "Default Sandstorm|Sunny Yellow|Snowy White|Chocolate Brown|Swampy Sludge|Midnight Violet",
-                "1_embers": "Default Embers",
+                "1_embers": "Default Embers|Glowing Blight|Violet Void|Searing Sapphire|Ceaseless Crimson|Treacherous Tar",
                 "2_embers": "Default Embers|Murky Black|Venomous Purple|Void Substance|Inky Blue|Royal Gold",
-                "1_leaf": "Default Green",
+                "1_leaf": "Default Green|Red Autumn|Yellow Dryness|White Winter|Green Summer|Lime Spring",
                 "2_leaf": "Default Green|Default Autumn|Outrageous Leafage|Illusionary Grey|Chrunchy Chocolate|Funky Purple|Ashy Brush|Garish Grey|Murky Swamp|Golden Delight|Winter's Early|Crispy Cocoa|Serene Sunset"
             }
         },

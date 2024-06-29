@@ -2,9 +2,9 @@
     "locale": "nl-NL",
     "strings": {
         "constants": {
-            "1_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Ijsbloem|Kleine Vuurbloem|Bubbelbloem",
-            "2_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Ijsbloem|Bubbelbloem",
-            "1_map-palettes": "Standaard/Bovenwereld|Ondergronds (donkerblauw)|Kasteel (grijs)|Onderwater (donkergroen)|In de wolken (lightgroen)|Ijs (lichtblauw)|Vulkaan (rood)|Spookhuis (paars)|Bonus (geel)",
+            "1_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Hamerbloem|Ijsbloem|Kleine Vuurbloem|Bubbelbloem",
+            "2_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Hamerbloem|Ijsbloem|Wortel|Bubbelbloem",
+            "1_map-palettes": "Standaard/Bovenwereld|Ondergronds (donkerblauw)|Kasteel (grijs)|Onderwater (donkergroen)|In de wolken (lightgroen)|Ijs (lichtblauw)|Vulkaan (rood)|Spookhuis (paars)|Bonus (geel)|Strand (lichtbruin)|Sterrewereld (pastel-blauw)|Bos (aards-bruin)",
             "2_map-palettes": "Standaard"
         },
         "common": {
@@ -81,6 +81,8 @@
                 "down": "omlaag",
                 "width": "breedte",
                 "height": "hoogte",
+                "opacity": "doorzichtigheid",
+                "stationary": "stationair",
                 "layers": {
                     "one": "laag",
                     "other": "lagen"
@@ -415,10 +417,10 @@
                 "1_water-modes": "Uitgeschakeld|Altijd (geen water tegels nodig)|Horizontaal water (classic)|Horizontaal water (modern)",
                 "2_water-modes": "Uitgeschakeld|Altijd (geen water tegels nodig)|Horizontaal water",
                 "bg-loop-methods": "Uitgeschakeld|Herhaal horizontaal|Herhaal verticaal|Herhaal beide assen|Herhaal niks|Alleen horizontaal|Alleen verticaal",
-                "bg-scroll-speed-h": "←← ERG snel|← Snel|← Middelmatig|← Sloom|Uit|→ Sloom|→ Middelmatig|→ Snel|→→ ERG snel",
-                "bg-scroll-speed-v": "↑↑ ERG snel|↑ Snel|↑ Middelmatig|↑ Sloom|Uit|↓ Sloom|↓ Middelmatig|↓ Snel|↓↓ ERG snel",
+                "bg-scroll-speed-h": "←← ERG snel|← Snel|← Middelmatig|← Sloom|← Minimaal|Uit|→ Minimaal|→ Sloom|→ Middelmatig|→ Snel|→→ ERG snel",
+                "bg-scroll-speed-v": "↑↑ ERG snel|↑ Snel|↑ Middelmatig|↑ Sloom|↑ Minimaal|Uit|↓ Minimaal|↓ Sloom|↓ Middelmatig|↓ Snel|↓↓ ERG snel",
                 "level-desc-placeholder": "Voeg een (optionele) beschrijving over jouw level, zoals een verhaal of iets dat de speler zou moeten weten over het level.",
-                "editor-music": "Niks (stil)|Level muziek|Level muziek (licht gedempt)|The Road is Full Of Dangers (SMRPG)|Creative Exercise (Mario Paint)"
+                "editor-music": "Niks (stil)|Level muziek|Level muziek (licht gedempt)|★ Verander eigen BGM (elke dag)|♪ Brothers At Home (Eigen liedje #1)|♪ Morning Drive (Eigen liedje #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]De buizen op deze pagina zijn [/scale]objecten[scale=0.75] (niet [/scale]tegels[scale=0.75]), and gaan op object lagen. Deze buizen kunnen worden verlengd en automatisch groeien/krimpen.[/scale]",
@@ -533,6 +535,8 @@
                 "red-palace-switch": "Rode Palace-Schakelaar",
                 "blue-palace-switch": "Blauwe Palace-Schakelaar",
                 "magic-bottle": "Magische Fles[s]67% vuur | 33% fee",
+				"grab-block": "Oppak-blok",
+				"object-sign": "Object bord",
                 "cursed-bottle": "Vervloekte Fles",
                 "fairy-bottle": "Fles met Fee",
 				"goomba": "Goomba",
@@ -607,6 +611,8 @@
 				"fire-flame": "Vurige Vlam",
 				"ice-flame": "Bevriezende Vlam",
 				"ghost-flame": "Geestelijke Vlam",
+				"firebar": "Vuurbalk",
+				"icebar": "Ijsbalk",
 				"eerie": "Eerie",
 				"ember-eerie": "Ember Eerie",
 				"boo": "Boo",
@@ -718,7 +724,7 @@
 				"swoop-homing": "Homing Swoop",
 				"crowber": "Kraai",
 				"stretch": "Stretch",
-				"green-bubble": "Groene Luchtbel",
+				"green-bubble": "Groene Bubbel",
 				"fishbone-smw": "Fishbone[s]SMW AI",
 				"fishbone-nsmb": "Fishbone[s]NSMB AI",
 				"fishbone-leaping": "Fishbone[s]Leaping AI",
@@ -737,6 +743,9 @@
 				"big-falling-stalactite": "Grote Vallende Stalactiet",
 				"small-falling-stalactite": "Kleine Vallende Stalactiet",
                 "amp": "Amp",
+                "fire-snake": "Vuurslang",
+				"bounding-fire": "Springvlam",
+				"small-flame": "Klein vlammetje",
 				"boom-boom": "Boom Boom",
 				"bowser": "Bowser",
 				"king-boo": "Koning Boo",
@@ -744,7 +753,9 @@
                 "fire-flower": "Vuurbloem",
 				"super-leaf": "Superblaadje",
 				"hammer-flower": "Hamerbloem",
+				"hammer-suit": "Hamer Outfit",
 				"ice-flower": "Ijsbloem",
+				"carrot": "Wortel",
 				"small-fire-flower": "Kleine Vuurbloem",
 				"bubble-flower": "Bubbelbloem",
 				"super-star": "Superster",
@@ -776,7 +787,26 @@
 				"small-one-way-wall-up": "Kleine Eenrichtingswand (Omhoog)",
 				"small-one-way-wall-right": "Kleine Eenrichtingswand (Rechts)",
 				"small-one-way-wall-down": "Kleine Eenrichtingswand (Omlaag)",
-				"small-one-way-wall-left": "Kleine Eenrichtingswand (Links)"
+				"small-one-way-wall-left": "Kleine Eenrichtingswand (Links)",
+				"mount-blockade": "Blokkeer bestuurbare objecten"
+            },
+            "tile-tooltips": {
+                "invisible-solid-tile": "Onzichtbare vaste block[s]Niet zichtbaar tijdens het spelen",
+                "solid-player-tile": "Vaste speler-tegel[s]Alleen tastbaar voor spelers",
+                "solid-sprite-tile": "Vaste sprite-tegel[s]Alleen tastbaar voor sprites",
+                "semisolid-player-tile": "Semi-solid player tile[s]Alleen tastbaar voor spelers",
+                "semisolid-sprite-tile": "Semi-solid sprite tile[s]Alleen tastbaar voor sprites",
+                "boss-gate": "Eindbaas-poort[s]Wordt zichtbaar tijdens eindbaas-gevechten",
+                "boss-bridge": "Eindbaas-brug[s]Stort in als de Bijl is aangeraakt",
+                "donut-block": "Standard Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-red": "Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-wood": "Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-metal": "Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-semi": "Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-red-semi": "Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-wood-semi": "Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-metal-semi": "Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+				"chomp-post": "Chomp Post[s]Plaats hier een Chain Chomp op om hem vast te zetten"
             }
         },
         "customizers": {
@@ -793,11 +823,14 @@
                     "size-change-tiles": "Verandering (in tegels)",
                     "grow-shrink-duration": "Groei/krimp tijdsduur",
                     "attached-to": "Gehecht aan",
-                    "tag-is-active": "Tag is active on start"
+                    "tag-is-active": "Tag is active on start",
+                    "period": "Periode",
+                    "movement-mode-sinewave-independent": "Bewegingsmethode\n[scale=0.5](Onafhankelijk van sinus-beweging)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Spawn intervallen",
-                    "grow-and-shrink": "Groei & krimp"
+                    "grow-and-shrink": "Groei & krimp",
+                    "sinewave-movement": "Sinus beweging"
                 },
                 "buttons": {
                     "change-initial-direction": "Verander oorspronkelijke richting",
@@ -805,25 +838,34 @@
                     "preview": "Voorbeeld",
                     "edit-range": "Bereik bewerken",
                     "edit-palette": "Kies een kleur",
-                    "edit-item": "Item bewerken"
+                    "edit-item": "Item bewerken",
+                    "enable-sinewave-motion": "Sinus-beweging inschakelen"
                 },
                 "tooltips": {
+                    "movement-speed": "Bewegingsnelheid in pixels / sec.\n[sub]Een tegel bestaat uit 16 pixels.[/sub]",
                     "jump-strength": "De verticale snelheid aan het begin van de sprong, in pixels / sec.",
                     "blend-modes": "ADDITIEF\n[sub]Voegt {0}'s kleuren bovenop die van de overlappende pixels.[/sub]\n\nVERSCHIJN BOVEN OBJECTEN\n[sub]{0} zal alleen zichtbaar zijn bovenop objecten onderop. (bijv. op een laag beneden.)[/sub]\n\nCAMOUFLATIE\n[sub]Zelfde als boven, maar is volledig onzichtbaar and 'snijdt door' tegels en objecten![/sub]",
                     "expanding-obj-cycle-info": "Groei en krimp om de zoveel tijd, met aanpasbare opties voor lengte & tijdsduur daarvan.",
                     "expanding-obj-size-change-tiles": "Het aantal tegels dat gegroeid/gekrompen wordt.",
                     "expanding-obj-size-change-duration": "De tijd (in seconden) dat het groeien/krimpen opneemt.",
-                    "expanding-obj-size-change-delay": "Na het groeien of krimpen, wacht deze tijd even uit."
+                    "expanding-obj-size-change-delay": "Na het groeien of krimpen, wacht deze tijd even uit.",
+                    "period": "Tijd (in seconden) dat een complete sinus-cyclus duurt.",
+                    "opacity": "Een lagere doorzichtigheid kan het minder duidelijker maken waar de sprite zich bevindt."
                 },
                 "html": {
                     "additive": "Additief",
                     "appear-above-objects": "Verschijn boven objecten",
                     "camouflage": "Camouflatie",
                     "size-change-modes": "Uitgeschakeld|Groei|Krimp",
-                    "attachment-options": "Niks|Vloer|Muur links|Plafond|Muur rechts"
+                    "attachment-options": "Niks|Vloer|Muur links|Plafond|Muur rechts",
+                    "linear": "Lineair",
+                    "linear-dynamic": "Lineair (dynamisch)",
+                    "chase-player": "Volg speler",
+                    "evade-player": "Vermijd speler"
                 },
                 "text": {
-                    "tagging-notice": "Wanneer uitgeschakeld, kan de spawner worden gestart als een van deze tags geactiveerd worden (bijv. via een Tag-Tegel)."
+                    "tagging-notice": "Wanneer uitgeschakeld, kan de spawner worden gestart als een van deze tags geactiveerd worden (bijv. via een Tag-Tegel).",
+                    "sinewave-tool": "De sinus hoek & amplitude kan worden bewerkt via de \\[---] tool."
                 }
             },
             "startpoint": {
@@ -914,6 +956,7 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Aantal objecten binnen het blok.",
+                    "amount-in-block-optional": "Wanneer het block een object bevat, zal dit aantal daarvan erin zitten.",
                     "timer-info": "Wanneer de blok geraakt wordt, een timer wordt gestart. Zodra het tot 0 komt, heeft het blok maar 1 object.\n[scale=0.75][color=#CCCCCC]Laat staan op 0 om de timer uitgeschakeld te laten.[/color][/scale]",
                     "progressive-info": "Als Mario klein is, geef een paddenstoel - zo niet, de item in het blok.",
                     "star-chainer-info": "Wanneer de speler sterren-kracht heeft, geef nog een Super Ster in plaats van de item in het blok.",
@@ -1079,6 +1122,8 @@
                     "protective-flames": "Aanval-werende vlammen",
                     "projectile-count": "Aantal projectielen",
                     "extra-random-projectiles": "Extra willekeurige projectilen",
+                    "dash-duration": "Dashtijd (in seconden)",
+                    "random-dash-duration": "Extra willekeuige dashtijd",
                     "ring-count": "Aantal ringen",
                     "on-defeated": "Wanneer verslagen"
                 },
@@ -1098,7 +1143,7 @@
                     "hp-info": "HP (Health Points / Levens Punten) zijn het aantal keer dat {0} geraakt moet worden om te verslaan.",
                     "hp-info-fireball": "Let op: 5 vuurballen is gelijk aan 1 HP",
                     "attack-delay-info": "Tijd (in seconden) tussen aanvallen.",
-                    "attack-cycle-info": "Wanneer meerdere aanvallen zijn ingeschakeld, gaat Koning Boo door zijn aanvallen op een willekeurige volgorde. Daarna begint een nieuwe cyclus, met een nieuwe willekeuige volgorde.\n\n[sub]Met de 'aanvalsfrequencie' optie, kan je een or meerdere aanvallen meer laten voorkomen in een cyclus![/sub]",
+                    "attack-cycle-info": "Wanneer meerdere aanvallen zijn ingeschakeld, gaat {0} door zijn aanvallen op een willekeurige volgorde. Daarna begint een nieuwe cyclus, met een nieuwe willekeuige volgorde.\n\n[sub]Met de 'aanvalsfrequencie' optie, kan je een or meerdere aanvallen meer laten voorkomen in een cyclus![/sub]",
                     "bb-attack-phase": "Boom Boom kan of zijn aanvalsfase automatisch laten veranderen tijdens het gevecht, of hij kan blijven bij een bepaalde aanvalsfase.",
                     "bb-attack-frequency": "Vaker voorkomende aanvallen kunnen het gevecht moeilijker maken, en de speler heeft minder kans om Boom Boom te stompen.\n[sub]Let op: bij de dash-aanval en de 'Bijna onmiddellijk'-optie, heeft de speler nog steeds een mogelijkheid van 1-seconde om de eindbaas te stompen.[/sub]",
                     "bb-movement-speed": "Maximale bewegingssnelheid, in pixels / sec.\n[sub]In de laatste fase (Paniek-modus), is de snelheid vergroot met 50%[/sub]",
@@ -1138,9 +1183,17 @@
                     "kb-attack-desc-pepper": "Spuugt pompoenen en een peper. Gooi de peper terug om Koning Boo kwetsbaar te maken voor pompoenen!",
                     "kb-attack-desc-ring": "Creëer een ring van vlammen rondom koning Boo, die hem beschermt tegen projectielen",
                     "boss-intro-anim-info": "{0} kan zich laten zien in stijl! Kies een intro-animatie die je leuk vind.",
-                    "disguised-enemy": "Een vijand kan zich als Bowser vermommen! De ware aard zal ontekt worden bij het verslaan."
+                    "disguised-enemy": "Een vijand kan zich als Bowser vermommen! De ware aard zal ontekt worden bij het verslaan.",
+                    "intro-anim-unavailable": "Intro animaties voor deze eindbaas zijn momenteel niet beschikbaar in deze gamestijl."
                 }
-            }
+            },
+			"mapsnap":{
+				"info": "MapSnap Tool - Resolutie Opties",
+				"default-button": "Standard",
+				"fixed-button": "Vast",
+				"default-info": "Minder fouten, maar heeft een grotere resolutie en bestandsgrootte. \n\n Afbeeldingen van mappen met meer dan 510 tegels breed of hoog zullen niet alle data bevatten.",
+				"fixed-info": "Meer kans op fouten, maar heeft meestal een lagere resolutie en bestandsgrootte. \n\n Afbeeldingen van mappen meet meer dan 1020 tegels breed of hoog zullen verminderde kwaliteit hebben."
+			}
         },
         "pause-options": {
             "labels": {
@@ -1250,15 +1303,15 @@
                 "palette": "De palet of kleur van het effect. Dit is puur cosmetisch."
             },
             "palettes": {
-                "1_rain": "Standaard Regen",
+                "1_rain": "Standaard Regen|Radioactief afval|Slushy Slurry|Oerwoud's Sap|Riool-mengelmoes|Diepe Duisternis",
                 "2_rain": "Standaard Regen|Giftig Zuur|Kleverigge Modder|IJzige Cryofluid|Chocoladedrank|Olielek|Gouden Douche|Metaalgesmolten|Giftige Substantie|Zwart-wit mengsel",
                 "1_snow": "Standaard Sneeuw",
                 "2_snow": "Standaard Sneeuw|Munt van Winter|Pure Kou|Ijskoud Wit|Aardbei-rood|Sneeuwstormnacht|Ijslimonade",
-                "1_sand": "Standaard Zandstorm",
+                "1_sand": "Standaard Zandstorm|Branderige Specerijen|Dusty-Draft|Golden Gal|Somber Zand|Een heleboel as",
                 "2_sand": "Standaard Zandstorm|Geelzonnig|Sneeuwwit|Chocobruin|Moerasmodder|Paarslaat",
-                "1_embers": "Standaard Sintels",
+                "1_embers": "Standaard Sintels|Gloeiende Plaag|Vacuüm-Violet|Schroei-Saffier|Karmozijnrood|Zwaar Zwart",
                 "2_embers": "Standaard Sintels|Duisterdonker|Venijnig Violet|Substantie van Leegheid|Inktblauw|Koninklijk Goud",
-                "1_leaf": "Standaard Groen",
+                "1_leaf": "Standaard Groen|Herfst-rood|Zon-geel|Winters-wit|Zomers-groen|Limoen Lente",
                 "2_leaf": "Standaard Groen|Standard Herst|Buitengewone Blaadjes|Illusiegrijs|Knapperige Chocolade|Hip & Paars|Asachtig Blad|Opvallend Grijs|Duister Moeras|Gouden Genot|Vroege Winter|Krokant & Cacao|Zonsondergangrust"
             }
         },
