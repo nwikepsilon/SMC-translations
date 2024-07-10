@@ -2,8 +2,6 @@
     "locale": "ru-RU",
     "strings": {
         "constants": {
-            "1_power-ups": "Супергриб|Огненный цветок|Суперлист|[!]Hammer Flower|Ледяной цветок|Маленький Огненный Цветок|Цветок Пузырь",
-            "2_power-ups": "Супергриб|Огненный цветок|Суперлист|[!]Hammer Flower|Ледяной цветок|[!]Carrot|Цветок Пузырь",
             "1_map-palettes": "Обычная/Внешний мир|Подземелье (Тёмно-синий)|Замок (Серый)|Подводный мир (Тёмно-зелёный)|Небо (Светло-зелёный)|Лёд (Голубой)|Вулкан (Красный)|Дом с привидениями (Фиолетовый)|Бонус (Жёлтый)|Пляж (Светло-коричневый)|Мир звёзд (Пастельный синий)|Лес(Земляной)",
             "2_map-palettes": "Обычная"
         },
@@ -15,6 +13,8 @@
                 "download": "Скачать",
                 "next": "Далее",
                 "confirm": "Подтвердить",
+                "confirm-click": "Нажмите ещё раз для подтверждения",
+                "proceed": "Готово",
                 "cancel": "Отмена",
                 "play": "Играть",
                 "load": "Загрузить",
@@ -27,41 +27,39 @@
                 "view": "Показать",
                 "create": "Создать",
                 "edit": "Редактировать",
+                "remove": "Удалить",
                 "exit": "Выйти",
                 "editor": "Редактор",
-                "confirm-click": "Нажмите ещё раз для подтверждения",
-                "proceed": "Готово",
-                "click-configure": "Нажмите для настройки",
-                "remove": "Удалить"
+                "click-configure": "Нажмите для настройки"
             },
             "time": {
                 "days": {
-                    "few": "[!]days",
-                    "many": "[!]days",
                     "one": "д.",
-                    "other": "д."
+                    "other": "д.",
+                    "few": "[!]days",
+                    "many": "[!]days"
                 },
                 "hours": {
-                    "few": "[!]hours",
-                    "many": "[!]hours",
                     "one": "ч.",
-                    "other": "ч."
+                    "other": "ч.",
+                    "few": "[!]hours",
+                    "many": "[!]hours"
                 },
                 "minutes": {
-                    "few": "[!]minutes",
-                    "many": "[!]minutes",
                     "one": "мин.",
-                    "other": "мин."
+                    "other": "мин.",
+                    "few": "[!]minutes",
+                    "many": "[!]minutes"
                 },
                 "seconds": {
-                    "few": "[!]seconds",
-                    "many": "[!]seconds",
                     "one": "сек.",
-                    "other": "сек."
+                    "other": "сек.",
+                    "few": "[!]seconds",
+                    "many": "[!]seconds"
                 },
                 "ago": "назад",
-                "notation": "{0} {1}",
-                "just-now": "Прямо сейчас"
+                "just-now": "Прямо сейчас",
+                "notation": "{0} {1}"
             },
             "words": {
                 "keyboard": "клавиатура",
@@ -73,6 +71,11 @@
                 "volume": "громкость",
                 "frequency": "частота",
                 "rotation": "поворот",
+                "movement": "движение",
+                "active": "активно",
+                "inactive": "неактивно",
+                "unavailable": "недоступно",
+                "paused": "пауза",
                 "name": "название",
                 "wait": "ждать",
                 "main": "главный",
@@ -84,73 +87,80 @@
                 "down": "низ",
                 "width": "ширина",
                 "height": "длина",
+                "opacity": "непрозрачность",
+                "stationary": "статичный",
                 "layers": {
-                    "few": "[!]layers",
-                    "many": "[!]layers",
                     "one": "слой",
-                    "other": "слои"
+                    "other": "слои",
+                    "few": "[!]layers",
+                    "many": "[!]layers"
                 },
                 "effects": {
-                    "few": "[!]effects",
-                    "many": "[!]effects",
                     "one": "эффект",
-                    "other": "эффекты"
+                    "other": "эффекты",
+                    "few": "[!]effects",
+                    "many": "[!]effects"
+                },
+                "filters": {
+                    "one": "[!]filter",
+                    "other": "[!]filters",
+                    "few": "[!]filters",
+                    "many": "[!]filters"
+                },
+                "generators": {
+                    "one": "[!]generator",
+                    "other": "[!]generators",
+                    "few": "[!]generators",
+                    "many": "[!]generators"
                 },
                 "objects": {
-                    "few": "[!]objects",
-                    "many": "[!]objects",
                     "one": "объект",
-                    "other": "объекты"
+                    "other": "объекты",
+                    "few": "[!]objects",
+                    "many": "[!]objects"
                 },
                 "tiles": {
-                    "few": "[!]tiles",
-                    "many": "[!]tiles",
                     "one": "тайл",
-                    "other": "тайлы"
+                    "other": "тайлы",
+                    "few": "[!]tiles",
+                    "many": "[!]tiles"
                 },
                 "destination": {
-                    "few": "[!]destination",
-                    "many": "[!]destination",
                     "one": "направление",
-                    "other": "направления"
+                    "other": "направления",
+                    "few": "[!]destination",
+                    "many": "[!]destination"
                 },
                 "entryway": {
-                    "few": "[!]entryway",
-                    "many": "[!]entryway",
                     "one": "вход",
-                    "other": "входы"
+                    "other": "входы",
+                    "few": "[!]entryway",
+                    "many": "[!]entryway"
                 },
                 "maps": {
-                    "few": "[!]maps",
-                    "many": "[!]maps",
                     "one": "карта",
-                    "other": "карты"
+                    "other": "карты",
+                    "few": "[!]maps",
+                    "many": "[!]maps"
                 },
                 "themes": {
-                    "few": "[!]themes",
-                    "many": "[!]themes",
                     "one": "тема",
-                    "other": "темы"
+                    "other": "темы",
+                    "few": "[!]themes",
+                    "many": "[!]themes"
                 },
                 "tags": {
-                    "few": "[!]tags",
-                    "many": "[!]tags",
                     "one": "тег",
-                    "other": "теги"
+                    "other": "теги",
+                    "few": "[!]tags",
+                    "many": "[!]tags"
                 },
                 "degrees": {
-                    "few": "[!]degrees",
-                    "many": "[!]degrees",
                     "one": "градус",
-                    "other": "градусов"
-                },
-                "active": "активно",
-                "inactive": "неактивно",
-                "paused": "пауза",
-                "unavailable": "недоступно",
-                "movement": "движение",
-                "opacity": "непрозрачность",
-                "stationary": "статичный"
+                    "other": "градусов",
+                    "few": "[!]degrees",
+                    "many": "[!]degrees"
+                }
             },
             "labels": {
                 "press-again-to-confirm": "Нажмите ещё раз для подтверждения",
@@ -171,15 +181,17 @@
                 "min-tiles": "Минимальный размер - {0}",
                 "current-map-size": "Текущий размер карты",
                 "select-x": "Выбрать {0}",
+                "mode": "Режим",
                 "appearance": "Вид",
                 "activity": "Активность",
                 "activation": "Активация",
                 "advanced": "Дополнительно",
                 "tagging": "Теги",
                 "behavior": "Поведение",
-                "other": "Другое",
                 "how-it-works": "Справка",
-                "mode": "Режим"
+                "duration": "[!]Duration",
+                "repeats": "[!]Repeats",
+                "other": "Другое"
             },
             "menu-options": {
                 "default": "По умолчанию",
@@ -294,7 +306,7 @@
                 "goals": "Финиш и контрольные точки",
                 "advanced": "Дополнительные тайлы",
                 "mainEnemies": "Общие враги",
-                "koopas": "Враги в панцирях",
+                "shellEnemies": "[!]Shell enemies",
                 "waterEnemies": "Водные враги",
                 "castleEnemies": "Враги замка",
                 "ghostEnemies": "Враги-призраки",
@@ -302,6 +314,8 @@
                 "plantEnemies": "Враги-растения",
                 "dinoEnemies": "Враги-динозавры",
                 "fieryEnemies": "Огненные и электрические враги",
+                "yiEnemies": "[!]Yoshi's Island enemies",
+                "poweredEnemies": "[!]Powered-up enemies",
                 "bosses": "Боссы и связанные с ними враги",
                 "general-level-settings": "Общие параметры уровня",
                 "map-settings": "Параметры карты",
@@ -368,13 +382,13 @@
                 "trail-tool-frame-count": "[offsety=-8][scale=0.85]Инструмент следа\nкадров[/scale][/offsety]",
                 "autosave-header": "Параметры автосохранения",
                 "autosave-interval": "Сохранять каждые 5 мин.",
-                "restore-point-header": "Параметры точек восстановления",
-                "restore-point-info": "[scale=0.5][color=#CCCCCC]Точки восстановления - резервные копии вашего уровня, которые создаются автоматически в момент сохранения.\nЗдесь вы можете восстановить уровень из точек восстановления. [/background][/scale]",
-                "restore-point-interval": "[scale=0.75]Интервал до создания точки восстановления[/scale]",
                 "lss-level-sync": "Облачная синхронизация с LSS",
                 "sync-on-exit": "Синхронизация при выходе",
                 "currently-offline": "Не в сети",
-                "not-logged-in": "Не вошёл в аккаунт"
+                "not-logged-in": "Не вошёл в аккаунт",
+                "restore-point-header": "Параметры точек восстановления",
+                "restore-point-info": "[scale=0.5][color=#CCCCCC]Точки восстановления - резервные копии вашего уровня, которые создаются автоматически в момент сохранения.\nЗдесь вы можете восстановить уровень из точек восстановления. [/background][/scale]",
+                "restore-point-interval": "[scale=0.75]Интервал до создания точки восстановления[/scale]"
             },
             "buttons": {
                 "new-destination": "Нажмите для добавления направления",
@@ -407,11 +421,11 @@
                 "cursor-coords-toggle": "Показывать координаты курсора",
                 "autosave-toggle": "Включить автосохранение",
                 "autosave-notif": "Напоминать мне о\nавтосохранениях",
+                "edit-sync-settings": "Параметры синхронизации",
                 "prompt-backup-notice": "[scale=0.75]Напоминать раз в ... о резервной копии[/scale]\n[scale=0.5][color=#CCCCCC](Рекомендуется для Web версии игры)[/color][/scale]",
                 "create-restore-point": "[scale=0.75]Создать точку восстановления\nвручную[/scale]",
                 "view-restore-points": "[scale=0.75]Показать/использовать\nточки восстановления[/scale]",
-                "download-level": "[scale=0.75]Скачать текущий уровень[/scale]",
-                "edit-sync-settings": "Параметры синхронизации"
+                "download-level": "[scale=0.75]Скачать текущий уровень[/scale]"
             },
             "tooltips": {
                 "add-entryway": "Добавить вход",
@@ -435,8 +449,8 @@
                 "mini-toolbar": "Эта маленькая панель видна, когда включена. Она даёт возможность быстрого переключения между слоями.\n[scale=0.75][color=#CCCCCC]Горячая клавиша для отключения/включения: M[/color][/scale]",
                 "inactive-layer-opacity": "Во время редактирования слоя, остальные становятся прозрачными. Значение 100 уберёт прозрачность, 0 сделает их полностью невидимыми.",
                 "trail-tool-frame-count": "Во время проверки уровня, Марио может оставлять след, видимый в редакторе. Это означет то, сколько кадров Марио прошёл.\nДанная функция находится в панели в левом нижнем углу (во время проверки).",
-                "backup-interval-notice": "Примечание: это не настоящие минуты, а время, проведённое в редакторе.",
-                "last-sync": "Последняя синхронизация"
+                "last-sync": "Последняя синхронизация",
+                "backup-interval-notice": "Примечание: это не настоящие минуты, а время, проведённое в редакторе."
             },
             "html": {
                 "destination-name-example": "Пример: 'выход из пещеры'",
@@ -464,6 +478,7 @@
                 "current-gen": "Создать воздушный поток, который сдувает объекты",
                 "tag-block": "Блокирует тег на вкл/выкл",
                 "cheep-cheeps": "Чип-Чипы\n[scale=0.75]У Чип-Чипов имеются различные варианты ИИ. Наведи на них мышь, чтобы узнать![/scale]",
+                "more-aquatic-enemies": "[!]More aquatic enemies",
                 "stretch-tiles": "[scale=0.75]Внизу ещё больше растягивающихся тайлов![/scale]",
                 "artillery-tiles": "Дополнительные связанные тайлы\n[scale=0.75]Дополнительные тайлы, похожие на те, что снизу.[/scale]",
                 "king-bill": "Король Билл\n[scale=0.75]Этот огромный Билл-пуля уничтожает любые блоки на своём пути и его невозможно уничтожить![/scale]",
@@ -562,6 +577,12 @@
                 "yellow-palace-switch": "Жёлтая кнопка дворца",
                 "red-palace-switch": "Красная кнопка дворца",
                 "blue-palace-switch": "Синяя кнопка дворца",
+                "magic-bottle": "Магическая бутылка[s]67% шанс огня | 33% шанс феи",
+                "cursed-bottle": "Проклятая бутылка",
+                "fairy-bottle": "Бутылка с феей",
+                "grab-block": "Перетаскиваемый блок",
+                "object-sign": "Табличка",
+                "circling-platform": "[!]Circling Platform",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -634,6 +655,8 @@
                 "fire-flame": "Пламя огня",
                 "ice-flame": "Ледяное пламя",
                 "ghost-flame": "Призрачное пламя",
+                "firebar": "Огненное препятствие",
+                "icebar": "Ледяное препятствие",
                 "eerie": "Жуткий",
                 "ember-eerie": "Огненный Жуткий",
                 "boo": "Бу",
@@ -714,8 +737,11 @@
                 "pokey-nsmb": "Поки[s]Линейно движется",
                 "snow-pokey-smw": "Снежный Поки[s]Преследует игрока",
                 "snow-pokey-nsmb": "Снежный Поки[s]Линейно движется",
+                "spike": "Спайк",
+                "spike-ball": "Шар Спайка",
                 "dino-torch": "Дино-факел",
                 "dino-rhino": "Дино-носорог",
+                "chain-chomp": "Кусалкин на цепи",
                 "ball-n-chain": "Шар на цепи",
                 "grinder": "Пила",
                 "grinder-stationary": "Пила (Стоит на месте)",
@@ -743,9 +769,9 @@
                 "crowber": "Ворона",
                 "stretch": "Тянучка",
                 "green-bubble": "Зелёный пузырь",
-                "fishbone-smw": "Рыба-скелет[s]ИИ как в SMW",
-                "fishbone-nsmb": "Рыба-скелет[s]ИИ как в NSMB",
-                "fishbone-leaping": "Рыба-скелет[s]Прыгающий ИИ",
+                "fishbone-linear": "[!]Fishbone[s]Swims linearly",
+                "fishbone-chase": "[!]Fishbone[s]Chases player if spotted",
+                "fishbone-leap": "[!]Fishbone[s]Leaps like a Podoboo",
                 "falling-flame": "Падающий огонь",
                 "falling-ghost-flame": "Падающий призрачный огонь",
                 "nipper-plant-patrolling": "Грызоцвет[s]Патрулирует",
@@ -760,6 +786,24 @@
                 "small-falling-icicle": "Маленькая падающая сосулька",
                 "big-falling-stalactite": "Большой падающий сталактит",
                 "small-falling-stalactite": "Маленький падающий сталактит",
+                "amp": "Ампер",
+                "fire-snake": "Огненный змей",
+                "bounding-fire": "Скачущий огонь",
+                "small-flame": "Огонёк",
+                "angry-sun": "[!]Angry Sun",
+                "goonie": "[!]Goonie",
+                "flightless-goonie": "[!]Flightless Goonie",
+                "hefty-goonie": "[!]Hefty Goonie",
+                "bowling-goonie": "[!]Bowling Goonie",
+                "skeleton-goonie": "[!]Skeleton Goonie",
+                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
+                "para-beetle": "[!]Para-Beetle",
+                "heavy-para-beetle": "[!]Heavy Para-Beetle",
+                "flame-chomp": "[!]Flame Chomp",
+                "paragoomba": "[!]Paragoomba",
+                "paragaloomba": "[!]Paragaloomba",
+                "paragoombrat": "[!]Paragoombrat",
+                "paragoombud": "[!]Paragoombud",
                 "boom-boom": "Бум-бум",
                 "bowser": "Боузер",
                 "king-boo": "Король Бу",
@@ -767,8 +811,10 @@
                 "fire-flower": "Огненный цветок",
                 "super-leaf": "Суперлист",
                 "hammer-flower": "Цветок-молот",
+                "hammer-suit": "Костюм молота",
+                "cloud-flower": "[!]Cloud Flower",
                 "ice-flower": "Ледяной цветок",
-                "carrot": "[!]Carrot",
+                "carrot": "Морковь",
                 "small-fire-flower": "Маленький огненный цветок",
                 "bubble-flower": "Цветок-пузырь",
                 "super-star": "Суперзвезда",
@@ -801,22 +847,6 @@
                 "small-one-way-wall-right": "Маленькая односторонняя стена (Право)",
                 "small-one-way-wall-down": "Маленькая односторонняя стена (Низ)",
                 "small-one-way-wall-left": "Маленькая односторонняя стена (Лево)",
-                "spike": "Спайк",
-                "spike-ball": "Шар Спайка",
-                "chain-chomp": "Кусалкин на цепи",
-                "amp": "Ампер",
-                "magic-bottle": "Магическая бутылка[s]67% шанс огня | 33% шанс феи",
-                "cursed-bottle": "Проклятая бутылка",
-                "fairy-bottle": "Бутылка с феей",
-                "grab-block": "Перетаскиваемый блок",
-                "object-sign": "Табличка",
-                "firebar": "Огненное препятствие",
-                "icebar": "Ледяное препятствие",
-                "fire-snake": "Огненный змей",
-                "bounding-fire": "Скачущий огонь",
-                "small-flame": "Огонёк",
-                "hammer-suit": "Костюм молота",
-                "carrot": "Морковь",
                 "mount-blockade": "Блокада"
             },
             "tile-tooltips": {
@@ -836,20 +866,10 @@
                 "donut-block-wood-semi": "Деревянный блок-пончик[s]Непрозрачен, не восстанавливается, его падение можно остановить",
                 "donut-block-metal-semi": "Металлический блок-пончик[s]Непрозрачен, не восстанавливается, нельзя остановить падение",
                 "chomp-post": "Столбик Кусалкина[s]Поставьте над ним Кусалкина, чтобы прикрепить его к столбику"
-
             }
         },
         "customizers": {
             "shared": {
-                "buttons": {
-                    "change-initial-direction": "Изменить начальное направление",
-                    "playtest-from-here": "Проверить уровень отсюда",
-                    "preview": "Предварительный просмотр",
-                    "edit-range": "Изменить расстояние",
-                    "edit-palette": "Изменить палитру",
-                    "edit-item": "Изменить предмет",
-                    "enable-sinewave-motion": "Включить движение волной"
-                },
                 "labels": {
                     "object-cap": "Максимум объектов",
                     "spawn-delay": "Задержка перед спауном",
@@ -871,14 +891,23 @@
                     "grow-and-shrink": "Рост и уменьшение",
                     "sinewave-movement": "Движение волны"
                 },
+                "buttons": {
+                    "change-initial-direction": "Изменить начальное направление",
+                    "playtest-from-here": "Проверить уровень отсюда",
+                    "preview": "Предварительный просмотр",
+                    "edit-range": "Изменить расстояние",
+                    "edit-palette": "Изменить палитру",
+                    "edit-item": "Изменить предмет",
+                    "enable-sinewave-motion": "Включить движение волной"
+                },
                 "tooltips": {
+                    "movement-speed": "Скорость перемещения в пикс / сек.\n[sub]Одна клетка равна 16ти пикселям.[/sub]",
                     "jump-strength": "Начальная вертикальная скорость в пикс/сек.",
                     "blend-modes": "ДОБАВКА\n[sub]Добавляет цвет от {0} поверх перекрывающих пикселей[/sub]\n\nНАД ОБЪЕКТАМИ\n[sub]{0} появится только над объектами, которые под ним (например на слое позади него)[/sub]\n\nМАСКИРОВКА\n[sub]То же самое, но полностью невидимый и \"прорезается\" через спрайты![/sub]",
                     "expanding-obj-cycle-info": "Растёт и уменьшается через промежуток времени, можно настроить",
                     "expanding-obj-size-change-tiles": "Количество тайлов для роста/уменьшения.",
                     "expanding-obj-size-change-duration": "Время (в секундах), необходимое для полного уменьшения/роста.",
                     "expanding-obj-size-change-delay": "Промежуток между циклами роста/уменьшения",
-                    "movement-speed": "Скорость перемещения в пикс / сек.\n[sub]Одна клетка равна 16ти пикселям.[/sub]",
                     "period": "Время (в секундах) для полного цикла волны.",
                     "opacity": "Меньшая непрозрачность сделает объект труднозаметным."
                 },
@@ -909,15 +938,15 @@
                 }
             },
             "warps": {
-                "buttons": {
-                    "warp-type": "[scale=0.75]Изменить тип варпа[/scale]",
-                    "reset-warp-toggle": "Сбросить текущую карту при входе на неё"
-                },
                 "labels": {
                     "destination-own-layer": "[scale=0.65]Свой[/scale]\nслой",
                     "destination-output-layer": "[scale=0.65]Слой[/scale]\nвыход",
                     "door-type": "Тип двери",
                     "door-type-list": "Обычная|Закрытая|Дверь P|Закрытая дверь P"
+                },
+                "buttons": {
+                    "warp-type": "[scale=0.75]Изменить тип варпа[/scale]",
+                    "reset-warp-toggle": "Сбросить текущую карту при входе на неё"
                 },
                 "tooltips": {
                     "warp-name-tips": "Дайте этому {0} название, которое вы хотите. Это позволит вам с лёгкостью отличить несколько {1}.",
@@ -986,15 +1015,14 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Количество объектов в блоке.",
-                    "amount-in-block-optional": "[!]If the block has an object assigned, it will store a maximum of this value inside.",
+                    "amount-in-block-optional": "Если объект прикреплён к блоку, то он будет хранить максимум значения.",
                     "timer-info": "Начинает обратный отсчёт при ударе. Когда он достигнет 0, в блоке останется только один объект.\n[scale=0.75][color=#CCCCCC]Оставьте 0 для отключения таймера[/color][/scale]",
                     "progressive-info": "Если Марио маленький, всегда выдавать гриб.",
                     "star-chainer-info": "Если в момент удара по блоку игрок имеет Суперзвезду, будет выдана именно она.",
                     "invisible-info": "Этот блок нельзя сразу увидеть, но он появится при ударе.",
                     "coins-before-item-info": "Количество монет, которые выдаст блок перед выдачей предмета.",
                     "object-breaks-nearby-player-info": "Когда игрок подходит к блоку, объект внутри выберется наружу. Когда [color=#4CFF00]отмечено[/color], таймер будет считать длительность анимации появления.",
-                    "tag-block-toggle": "При ударе по блоку, указанные теги будут включаться/выключаться.\n[scale=0.75][color=#CCCCCC]К примеру, можно управлять потоком воздуха тегом '[color=#58A8F0]switchCurrent[/color]', введя '[color=#58A8F0]switchCurrent[/color]' в поле.[/color][/scale]",
-                    "amount-in-block-optional": "Если объект прикреплён к блоку, то он будет хранить максимум значения."
+                    "tag-block-toggle": "При ударе по блоку, указанные теги будут включаться/выключаться.\n[scale=0.75][color=#CCCCCC]К примеру, можно управлять потоком воздуха тегом '[color=#58A8F0]switchCurrent[/color]', введя '[color=#58A8F0]switchCurrent[/color]' в поле.[/color][/scale]"
                 }
             },
             "objects": {
@@ -1129,6 +1157,11 @@
                     "traction": "Тяга",
                     "takeoff-strength": "Сила взлёта",
                     "wings": "Крылья",
+                    "walking-mode": "Режим ходьбы",
+                    "attacking": "Атака",
+                    "min-attacks-for-jump": "Минимум атак перед прыжком",
+                    "chance-of-jumping-minimum": "Шанс прыжка(после минимума прыжков)",
+                    "attack-speed": "Скорость атаки",
                     "invincibility-period": "Период невидимости",
                     "attack-delay": "Задержка перед атакой",
                     "base-speed": "Базовая скорость",
@@ -1138,26 +1171,19 @@
                     "viewing-attack": "Просмотр атаки",
                     "attack-frequency-info": "Одна атака может повторяться чаще! Проверь меня:",
                     "spew-flame": "Стрельба огнём",
-                    "homing-dash": "Рывок с наведением",
-                    "pumpkins-and-pepper": "Тыквы и перцы",
-                    "protective-flames": "Защитные огни",
-                    "kb-attack-descriptions": "Стреляет призрачным огнём в игрока | Наводится на игрока и летит в него | Выстреливает тыквами и перцем. Перец нужно кинуть Королю Буу в рот, чтобы он стал уязвим для тыкв! | Создаёт кольцо огня вокруг Короля Буу, которое защищает его от снарядов",
-                    "ring-count": "Количество колец",
-                    "kb-intro-anim-info": "Король Буу может появиться красиво! Выбери анимацию по желанию.",
-                    "walking-mode": "Режим ходьбы",
-                    "attacking": "Атака",
-                    "min-attacks-for-jump": "Минимум атак перед прыжком",
-                    "chance-of-jumping-minimum": "Шанс прыжка(после минимума прыжков)",
-                    "attack-speed": "Скорость атаки",
                     "rocking-hammer": "Молотки",
                     "blazing-hammer": "Горящие молотки",
                     "mecha-wand": "Меха-посох",
                     "shell-dash": "Рывок панцирем",
+                    "homing-dash": "Рывок с наведением",
+                    "pumpkins-and-pepper": "Тыквы и перцы",
                     "magic-bottles": "Магические бутылки",
+                    "protective-flames": "Защитные огни",
                     "projectile-count": "Количество снарядов",
                     "extra-random-projectiles": "Доп. случайные снаряды",
                     "dash-duration": "Длительность рывка (в секундах)",
                     "random-dash-duration": "Дополнительная случайная длительность",
+                    "ring-count": "Количество колец",
                     "on-defeated": "Когда будет побеждён"
                 },
                 "separators": {
@@ -1183,26 +1209,26 @@
                     "bb-traction": "Более высокая тяга заставляет Бум-бума быстрее поворачивать, а низкая - наоборот.",
                     "bb-takeoff-strength": "Сила прыжка, когда он взлетает.\n[sub]Используется только в режиме с крыльями.[/sub]",
                     "bb-wings": "С крыльями, Бум-бум может летать и делать рывок в игрока.\n[sub]Когда задано 'Менять атаки когда получит урон', Бум бум будет сменять формы с крыльями и без каждый раз, когда он теряет очки здоровья.[/sub]",
-                    "kb-invincibility-period": "Время в секундах, через которое Король Буу снова станет уязвим к атакам. Король Буу становится прозрачным на время неуязвимости.\n[sub]Введите 0 для пропуска периода невидимости.[/sub]",
-                    "kb-base-speed": "Базовая (минимальная) скорость движения, в пикс./сек.\n\n[sub]Король Буу может ускоряться в темноте, в зависимости от числа справа.[/sub]",
-                    "kb-darkness-boost": "Максимальная дополнительная скорость, которая добавлятся Королю Буу, когда он попадает в темноту, в пикселях в секунду.\n\n[sub]Данное число определяется уровнем темноты, которая закрывает глаза Короля Буу: если уровень темноты 50%, то будет добавлено 50% скорости к базовой.[/sub]",
                     "bw-defeat-events": "Когда Боузер будет побеждён, произойдёт это действие (необязательно).",
                     "bw-movement-speed": "Скорость передвижения Боузера между атаками, пикс./сек.",
                     "bw-walking-mode": "Боузер может как ходить, так и стоять на месте. Зона патрулированияя полезна, чтобы, например, заставить его остаться на мосту, а последняя опция подойдёт для больших арен.",
                     "bw-minimum-jumps": "[Количество атак Боузера перед прыжком, шанс которого можно задать ниже.",
                     "bw-jumping-chance": "Шанс совершить прыжок от  0% до 100%.\n[sub]0% полностью отключает прыжки, а 100% гарантирует их совершение.[/sub]",
-                    "bw-attack-speed": "Скорость атак Боузера, от медленных плевков огнём до безумного размахивания молотами!"
+                    "bw-attack-speed": "Скорость атак Боузера, от медленных плевков огнём до безумного размахивания молотами!",
+                    "kb-invincibility-period": "Время в секундах, через которое Король Буу снова станет уязвим к атакам. Король Буу становится прозрачным на время неуязвимости.\n[sub]Введите 0 для пропуска периода невидимости.[/sub]",
+                    "kb-base-speed": "Базовая (минимальная) скорость движения, в пикс./сек.\n\n[sub]Король Буу может ускоряться в темноте, в зависимости от числа справа.[/sub]",
+                    "kb-darkness-boost": "Максимальная дополнительная скорость, которая добавлятся Королю Буу, когда он попадает в темноту, в пикселях в секунду.\n\n[sub]Данное число определяется уровнем темноты, которая закрывает глаза Короля Буу: если уровень темноты 50%, то будет добавлено 50% скорости к базовой.[/sub]"
                 },
                 "html": {
                     "bb-attack-phases": "Авто|Фаза 1 (Рывок)|Фаза 2 (Прыжки)|Фаза 3 (Ярость)",
                     "bb-attack-frequencies": "(Почти) мгновенно|Часто|Обычно|Долгая задержка",
                     "switch-when-hit": "Переключать фазы при получении урона",
-                    "kb-intro-animations": "Нет|Раздавиться и растянуться|Появление в пыли|Буу-манекен",
                     "bw-modes": "Классический (SMB 1)",
                     "bw-defeat-events": "Ничего|Завершить уровень|Идти к ближайшему НИП",
                     "bw-walk-modes": "Стоять|Патрулировать|Идти к игроку",
                     "bw-attack-speeds": "Увеличивается|Медленно|Средне|Быстро",
-                    "bw-intro-animations": "Без анимации|Прыжок снизу|Выпрыгнуть из клоуномобиля|Замаскироваться под Пич"
+                    "bw-intro-animations": "Без анимации|Прыжок снизу|Выпрыгнуть из клоуномобиля|Замаскироваться под Пич",
+                    "kb-intro-animations": "Нет|Раздавиться и растянуться|Появление в пыли|Буу-манекен"
                 },
                 "text": {
                     "bw-attack-desc-flame": "Выстреливает огнём в игрока",
@@ -1228,6 +1254,57 @@
                 "fixed-info": "Больше ошибок, но меньшее разрешение изображения и меньший размер файла. \n\n Изображения карт больше чем 1200 блоков в ширину/высоту могут иметь плохое качество изображения."
             }
         },
+        "pause-options": {
+            "labels": {
+                "game-paused": "ИГРА НА ПАУЗЕ",
+                "close-menu-to-return": "Закройте меню, чтобы вернуться",
+                "editing-control-keybinds": "Управление с клавиатуры редактируется",
+                "viewing-debugger": "Просмотр отладчика",
+                "control-config-k": "Настройка управления",
+                "control-config-g": "Настройка управления\n[scale=0.65][color=#CCCCCC]Кнопки на геймпаде используют разные ID[/color][/scale]",
+                "graphics-settings": "Производительность и настройки графики",
+                "in-game-username": "Имя пользователя в игре (Только латиница)",
+                "fullscreen-scaling": "Разрешение в полном экране",
+                "fill-screen": "Полный экран",
+                "perfect-resolution": "Идеальное разрешение",
+                "account-settings": "Привязка аккаунта Level Share Square",
+                "email": "Эл. почта",
+                "password": "Пароль",
+                "logout": "Выйти из аккаунта",
+                "logged-in-as": "В сети как {0}",
+                "x-levels-on-lss": "{0} уровней опубликовано",
+                "log-out-confirmation": "Вы действительно хотите выйти из аккаунта?",
+                "offline-notice": "Вы не в сети, функции LSS недоступны",
+                "accessibility": "Для людей с ограниченными возможностями"
+            },
+            "buttons": {
+                "restart": "Начать заново",
+                "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
+                "extra-options-tools": "Дополнительные возможности",
+                "main-menu": "Главное меню",
+                "frame-skip": "Пропуск кадров",
+                "reduced-particles": "Меньше частиц",
+                "crt-filter": "Эффект ЭЛТ монитора",
+                "smooth-lighting": "Гладкое освещение",
+                "log-in": "Войти",
+                "lss-profile": "LSS профиль",
+                "colorblind-mode": "Режим дальтонизма",
+                "disable-screenshake": "Отключить тряску экрана",
+                "visualized-timers": "Визуализация таймеров"
+            },
+            "tooltips": {
+                "enable-fullscreen": "Включить полный экран",
+                "disable-fullscreen": "Отключить полный экран",
+                "skip-death-anim": "Пропуск анимации смерти",
+                "play-death-anim": "Проигрывать анимации смерти",
+                "edit-keybinds": "Назначение клавиш",
+                "graphics-settings": "Настройки графики",
+                "account-settings": "Настройки аккаунта LSS",
+                "accessibility-options": "Настройки для людей с ограниченными возможностями",
+                "frame-skip": "Пропуск кадров при низком FPS позволит избежать торможения.\n[scale=0.75][color=#CCCCCC]Примечание: при слишком низкой частоте кадров возможны проблемы с физикой. При выключенном параметре, торможение будет возникать при частоте кадров ниже 60-ти к/сек.[/color][/scale=0.75]",
+                "reduced-particles": "Уменьшает количество частиц для предотвращения лагов."
+            }
+        },
         "themes": {
             "menu": {
                 "pick-theme": "Нажмите для выбора темы",
@@ -1236,17 +1313,21 @@
         },
         "effects": {
             "names": {
-                "rain": "Дождь",
-                "snow": "Снег",
-                "sand": "Песчаная буря",
-                "embers": "Угли",
-                "heat": "Тепловая рябь",
-                "dark": "Темнота",
-                "echo": "Эхо звуков",
-                "flash": "Вспышка",
-                "fog": "Туман",
-                "leaf": "Листья",
-                "sil": "Силуэты"
+                "rain-f": "[!]Rain",
+                "snow-f": "[!]Snow",
+                "sand-f": "[!]Sandstorm",
+                "embers-f": "[!]Embers",
+                "heat-f": "[!]Heat ripples",
+                "dark-f": "[!]Darkness",
+                "echo-f": "[!]SFX Echo",
+                "flash-f": "[!]Flash",
+                "fog-f": "[!]Fog",
+                "leaf-f": "[!]Leaves",
+                "sil-f": "[!]Silhouette",
+                "current-f": "[!]Current",
+                "fish-f": "[!]Fish",
+                "color-f": "[!]Color overlay",
+                "wind-g": "[!]Wind generator"
             },
             "properties": {
                 "intensity": "Интенсивность",
@@ -1260,15 +1341,21 @@
                 "fade-duration": "[scale=0.8]Длительность появления/затухания[/scale]",
                 "additive-blend": "Адиттивное смешение",
                 "color-hex": "Польз. цвет",
-                "palette": "Палитра"
+                "palette": "Палитра",
+                "two-way-movement": "[!]Two-way movement",
+                "water-check": "[!]Check for water",
+                "play-wind-sfx": "[!]Play wind SFX",
+                "buildup": "[!]Buildup"
             },
             "html": {
                 "intensity": "Низко|Средне|Высоко",
                 "tilt-options": "Лево|Нет|Право",
                 "flash-type": "Только на заднем фоне|На всех слоях",
-                "opacity-options": "25% (Окружающий)|50%|75%|100% (Непрозрачный)"
+                "opacity-options": "25% (Окружающий)|50%|75%|100% (Непрозрачный)",
+                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
             },
             "tooltips": {
+                "name": "[!]A name to identify this effect, purely inside the editor.",
                 "tags": "Дополнительный тег или теги (разделены пробелами), используемые для ссылки на этот эффект. Наприме, вы можете использовать блоки тегов для переключения этого эффекта.",
                 "intensity": "Интенсивность эффекта, бОльшее значение обычно вызывает бОльшее количество частиц.[/color]",
                 "movement-angle": "Угол/градус движения.",
@@ -1282,7 +1369,13 @@
                 "fade-duration": "Время (в секундах), которое необходимо эффекту для завершения/начала, когда его тег активен/неактивен.",
                 "additive-blend": "Аддитивное смешивание добавляет цвет наложения поверх пикселей, которые оно покрывает. Этот эффект гораздо заметнее при использовании ярких цветов.",
                 "color-hex": "Пользовательский цвет в HEX формате.\n\nПримеры:\n[scale=0.75][color=#C8C8C8]C8C8C8 для светло-серого[/color]\n[color=#F8C0F0]F8C0F0 для пастельного розового[/color][scale=0.5][/scale]\n\nРекомендуется использовать колесо подбора цвета для определения его HEX.[/scale]",
-                "palette": "Палитра эффекта, для красоты."
+                "palette": "Палитра эффекта, для красоты.",
+                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
+                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
+                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
+                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
+                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
+                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {
                 "1_rain": "Обычный дождь|Радиоактивные отходы|Слякотная жижа|Сок джунглей|Канализационное месиво|Глубокая темнота",
@@ -1294,7 +1387,11 @@
                 "1_embers": "Обычные угли|Яркое свечение|Жестокая пустота|Сапфир|Багрянец|Коварная смола",
                 "2_embers": "Обычные угли|Мрачный чёрный|Ядовитый фиолетовый|Пустотная субстанция|Чернильный синий|Королевский золотой",
                 "1_leaf": "Обычный зелёный|Красная осень|Сухой жёлтый|Белоснежная зима|Зелёное лето|Лаймовая весна",
-                "2_leaf": "Обычный зелёный|Обычная осень|Возмутительная листва|Иллюзорный серый|Хрустящий шоколад|Фанк-фиолетовый|Пепельная кисть|Гариш Грей|Мрачное болото|Золотое наслаждение|Ранняя зима|Хрустящий какао|Безмятежный закат"
+                "2_leaf": "Обычный зелёный|Обычная осень|Возмутительная листва|Иллюзорный серый|Хрустящий шоколад|Фанк-фиолетовый|Пепельная кисть|Гариш Грей|Мрачное болото|Золотое наслаждение|Ранняя зима|Хрустящий какао|Безмятежный закат",
+                "current": "[!]Bubbles|Air particles"
+            },
+            "text": {
+                "duplicate-name": "[!]This effect name is already in use. Try another name."
             }
         },
         "screen-menus": {
@@ -1364,57 +1461,6 @@
                 "clock": "Замедление времени",
                 "frameadvance": "Покадровое движение",
                 "debug": "Информация для отладки"
-            }
-        },
-        "pause-options": {
-            "labels": {
-                "game-paused": "ИГРА НА ПАУЗЕ",
-                "close-menu-to-return": "Закройте меню, чтобы вернуться",
-                "editing-control-keybinds": "Управление с клавиатуры редактируется",
-                "viewing-debugger": "Просмотр отладчика",
-                "control-config-k": "Настройка управления",
-                "control-config-g": "Настройка управления\n[scale=0.65][color=#CCCCCC]Кнопки на геймпаде используют разные ID[/color][/scale]",
-                "graphics-settings": "Производительность и настройки графики",
-                "fullscreen-scaling": "Разрешение в полном экране",
-                "fill-screen": "Полный экран",
-                "perfect-resolution": "Идеальное разрешение",
-                "account-settings": "Привязка аккаунта Level Share Square",
-                "email": "Эл. почта",
-                "password": "Пароль",
-                "logout": "Выйти из аккаунта",
-                "logged-in-as": "В сети как {0}",
-                "x-levels-on-lss": "{0} уровней опубликовано",
-                "log-out-confirmation": "Вы действительно хотите выйти из аккаунта?",
-                "offline-notice": "Вы не в сети, функции LSS недоступны",
-                "accessibility": "Для людей с ограниченными возможностями",
-                "in-game-username": "Имя пользователя в игре (Только латиница)"
-            },
-            "buttons": {
-                "restart": "Начать заново",
-                "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
-                "extra-options-tools": "Дополнительные возможности",
-                "main-menu": "Главное меню",
-                "frame-skip": "Пропуск кадров",
-                "reduced-particles": "Меньше частиц",
-                "crt-filter": "Эффект ЭЛТ монитора",
-                "smooth-lighting": "Гладкое освещение",
-                "log-in": "Войти",
-                "lss-profile": "LSS профиль",
-                "colorblind-mode": "Режим дальтонизма",
-                "disable-screenshake": "Отключить тряску экрана",
-                "visualized-timers": "Визуализация таймеров"
-            },
-            "tooltips": {
-                "enable-fullscreen": "Включить полный экран",
-                "disable-fullscreen": "Отключить полный экран",
-                "skip-death-anim": "Пропуск анимации смерти",
-                "play-death-anim": "Проигрывать анимации смерти",
-                "edit-keybinds": "Назначение клавиш",
-                "graphics-settings": "Настройки графики",
-                "account-settings": "Настройки аккаунта LSS",
-                "accessibility-options": "Настройки для людей с ограниченными возможностями",
-                "frame-skip": "Пропуск кадров при низком FPS позволит избежать торможения.\n[scale=0.75][color=#CCCCCC]Примечание: при слишком низкой частоте кадров возможны проблемы с физикой. При выключенном параметре, торможение будет возникать при частоте кадров ниже 60-ти к/сек.[/color][/scale=0.75]",
-                "reduced-particles": "Уменьшает количество частиц для предотвращения лагов."
             }
         }
     }

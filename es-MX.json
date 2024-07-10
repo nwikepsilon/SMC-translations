@@ -2,8 +2,6 @@
     "locale": "es-MX",
     "strings": {
         "constants": {
-            "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor Martillo|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
-            "2_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor Martillo|Flor de Hielo|Zanahoria|Flor Burbuja",
             "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|Playa (marrón claro)|Mundo Estelar (azul pastel)|Bosque (café terroso)",
             "2_map-palettes": "Estándar"
         },
@@ -15,6 +13,8 @@
                 "download": "Descargar",
                 "next": "Siguiente",
                 "confirm": "Confirmar",
+                "confirm-click": "Haz clic de nuevo para confirmar",
+                "proceed": "Continuar",
                 "cancel": "Cancelar",
                 "play": "Jugar",
                 "load": "Cargar",
@@ -27,116 +27,124 @@
                 "view": "Mostrar",
                 "create": "Crear",
                 "edit": "Editar",
+                "remove": "Eliminar",
                 "exit": "Salir",
                 "editor": "Editor",
-                "confirm-click": "Haz clic de nuevo para confirmar",
-                "proceed": "Continuar",
-                "click-configure": "Haz clic para configurar",
-                "remove": "Eliminar"
+                "click-configure": "Haz clic para configurar"
             },
             "time": {
                 "days": {
-                    "many": "días",
                     "one": "día",
-                    "other": "días"
+                    "other": "días",
+                    "many": "días"
                 },
                 "hours": {
-                    "many": "horas",
                     "one": "hora",
-                    "other": "horas"
+                    "other": "horas",
+                    "many": "horas"
                 },
                 "minutes": {
-                    "many": "minutos",
                     "one": "minuto",
-                    "other": "minutos"
+                    "other": "minutos",
+                    "many": "minutos"
+                },
+                "seconds": {
+                    "one": "segundo",
+                    "other": "segundos",
+                    "many": "segundos"
                 },
                 "ago": "hace",
-                "notation": "{1} {0}",
-                "seconds": {
-                    "many": "segundos",
-                    "one": "segundo",
-                    "other": "segundos"
-                },
-                "just-now": "Ahora mismo"
+                "just-now": "Ahora mismo",
+                "notation": "{1} {0}"
             },
             "words": {
                 "keyboard": "teclado",
                 "controller": "mando",
                 "language": "idioma",
                 "characters": "carácteres",
+                "music": "música",
                 "decibels": "decibeles",
                 "volume": "volumen",
-                "name": "nombre",
-                "custom": "personalizado",
-                "width": "anchura",
-                "height": "altura",
-                "layers": {
-                    "many": "capas",
-                    "one": "capa",
-                    "other": "capas"
-                },
-                "effects": {
-                    "many": "efectos",
-                    "one": "efecto",
-                    "other": "efectos"
-                },
-                "objects": {
-                    "many": "objetos",
-                    "one": "objeto",
-                    "other": "objetos"
-                },
-                "tiles": {
-                    "many": "bloques",
-                    "one": "bloque",
-                    "other": "bloques"
-                },
-                "destination": {
-                    "many": "destinos",
-                    "one": "destino",
-                    "other": "destinos"
-                },
-                "entryway": {
-                    "many": "entradas",
-                    "one": "entrada",
-                    "other": "entradas"
-                },
-                "maps": {
-                    "many": "mapas",
-                    "one": "mapa",
-                    "other": "mapas"
-                },
-                "themes": {
-                    "many": "temas",
-                    "one": "tema",
-                    "other": "temas"
-                },
-                "music": "música",
                 "frequency": "frecuencia",
                 "rotation": "rotación",
+                "movement": "movimiento",
+                "active": "activo(a)",
+                "inactive": "inactivo(a)",
+                "unavailable": "no disponible",
+                "paused": "en pausa",
+                "name": "nombre",
                 "wait": "esperar",
                 "main": "principal",
+                "custom": "personalizado",
                 "left": "izquierda",
                 "middle": "centro",
                 "right": "derecha",
                 "up": "arriba",
                 "down": "abajo",
+                "width": "anchura",
+                "height": "altura",
+                "opacity": "opacidad",
+                "stationary": "inmóvil",
+                "layers": {
+                    "one": "capa",
+                    "other": "capas",
+                    "many": "capas"
+                },
+                "effects": {
+                    "one": "efecto",
+                    "other": "efectos",
+                    "many": "efectos"
+                },
+                "filters": {
+                    "one": "[!]filter",
+                    "other": "[!]filters",
+                    "many": "[!]filters"
+                },
+                "generators": {
+                    "one": "[!]generator",
+                    "other": "[!]generators",
+                    "many": "[!]generators"
+                },
+                "objects": {
+                    "one": "objeto",
+                    "other": "objetos",
+                    "many": "objetos"
+                },
+                "tiles": {
+                    "one": "bloque",
+                    "other": "bloques",
+                    "many": "bloques"
+                },
+                "destination": {
+                    "one": "destino",
+                    "other": "destinos",
+                    "many": "destinos"
+                },
+                "entryway": {
+                    "one": "entrada",
+                    "other": "entradas",
+                    "many": "entradas"
+                },
+                "maps": {
+                    "one": "mapa",
+                    "other": "mapas",
+                    "many": "mapas"
+                },
+                "themes": {
+                    "one": "tema",
+                    "other": "temas",
+                    "many": "temas"
+                },
                 "tags": {
-                    "many": "etiquetas",
                     "one": "etiqueta",
-                    "other": "etiquetas"
+                    "other": "etiquetas",
+					"many": "etiquetas"
                 },
                 "degrees": {
-                    "many": "grados",
                     "one": "grado",
-                    "other": "grados"
-                },
-                "active": "activo(a)",
-                "inactive": "inactivo(a)",
-                "paused": "en pausa",
-                "unavailable": "no disponible",
-                "movement": "movimiento",
-                "opacity": "opacidad",
-                "stationary": "inmóvil"
+                    "other": "grados",
+                    "many": "grados"
+                }
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -157,19 +165,22 @@
                 "min-tiles": "el tamaño mínimo es {0}",
                 "current-map-size": "Tamaño actual del mapa",
                 "select-x": "Seleccionar {0}",
+                "mode": "Modo",
                 "appearance": "Apariencia",
                 "activity": "Actividad",
                 "activation": "Activación",
                 "advanced": "Avanzado",
                 "tagging": "Etiquetado",
                 "behavior": "Acción",
-                "other": "Otro",
                 "how-it-works": "Cómo funciona",
-                "mode": "Modo"
+                "duration": "[!]Duration",
+                "repeats": "[!]Repeats",
+                "other": "Otro"
             },
             "menu-options": {
                 "default": "Por defecto",
                 "no-power-up": "Sin potenciador",
+                "enabled": "Activado",
                 "disabled": "Desactivado",
                 "empty": "Vacío",
                 "none": "Ninguno",
@@ -180,7 +191,6 @@
                 "custom-music-url": "Enlace de música personalizada",
                 "more-buttons": "Más botones",
                 "reset-to-default": "Restablecer valores por defecto",
-                "enabled": "Activado",
                 "unapplicable": "No aplicable"
             }
         },
@@ -280,13 +290,16 @@
                 "goals": "Metas y puntos de control",
                 "advanced": "Bloques avanzados",
                 "mainEnemies": "Enemigos comunes",
-                "koopas": "Enemigos con caparazón",
+                "shellEnemies": "Enemigos con caparazón",
                 "waterEnemies": "Enemigos marítimos",
                 "castleEnemies": "Enemigos de castillos",
                 "ghostEnemies": "Enemigos de casa encantada",
                 "artillery": "Artillería",
                 "plantEnemies": "Plantas",
                 "dinoEnemies": "Dinosaurios",
+                "fieryEnemies": "Enemigos de fuego y eléctricos",
+                "yiEnemies": "[!]Yoshi's Island enemies",
+                "poweredEnemies": "[!]Powered-up enemies",
                 "bosses": "Jefes y enemigos relacionados",
                 "general-level-settings": "Ajustes generales del nivel",
                 "map-settings": "Ajustes del mapa",
@@ -296,8 +309,7 @@
                 "level-desc": "Editar descripción del nivel",
                 "level-stats": "Información y estadísticas del nivel",
                 "toolbar-settings": "Ajustes de la barra de herramientas",
-                "backup-settings": "Autoguardado y copia de seguridad",
-                "fieryEnemies": "Enemigos de fuego y eléctricos"
+                "backup-settings": "Autoguardado y copia de seguridad"
             },
             "tileset-menu": {
                 "footer": "Haz clic sobre el ícono de un conjunto para abrir su página.[scale=0.5]\n\n[/scale]Arrastra el ícono de una colección a la barra de favoritos para acceder a ella desde cualquier parte del editor.",
@@ -354,13 +366,13 @@
                 "trail-tool-frame-count": "[offsety=-8][scale=0.6]Recuento de fotogramas\nde herramienta de rastreo[/scale][/offsety]",
                 "autosave-header": "Opciones de autoguardado",
                 "autosave-interval": "Los autoguardados se producen cada 5 min.",
-                "restore-point-header": "Opciones de punto de restauración",
-                "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
-                "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
                 "lss-level-sync": "Sincronización con la nube de LSS",
                 "sync-on-exit": "Sincroniza al salir",
                 "currently-offline": "Actualmente desconectado",
-                "not-logged-in": "No conectado"
+                "not-logged-in": "No conectado",
+                "restore-point-header": "Opciones de punto de restauración",
+                "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
+                "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]"
             },
             "buttons": {
                 "new-destination": "Haz clic para añadir un nuevo destino",
@@ -393,11 +405,11 @@
                 "cursor-coords-toggle": "Mostrar coordenadas del cursor",
                 "autosave-toggle": "Habilitar autoguardado",
                 "autosave-notif": "[scale=0.9]Notificarme los\nautoguardados[/scale]",
+                "edit-sync-settings": "Editar los ajustes de sincronización",
                 "prompt-backup-notice": "[scale=0.75]Preguntar cada ... para descargar copia de seguridad[/scale]\n[scale=0.5][color=#CCCCCC](Recomendado en versión web de SMC)[/color][/scale]",
                 "create-restore-point": "[scale=0.4]Crear manualmente\npunto de restauración[/scale]",
                 "view-restore-points": "[scale=0.5]Mostrar/Usar\npuntos de restauración[/scale]",
-                "download-level": "[scale=0.75]Descargar nivel actual[/scale]",
-                "edit-sync-settings": "Editar los ajustes de sincronización"
+                "download-level": "[scale=0.75]Descargar nivel actual[/scale]"
             },
             "tooltips": {
                 "add-entryway": "Agregar entrada",
@@ -421,8 +433,8 @@
                 "mini-toolbar": "Esta barra de herramientas pequeña siempre se mostrará cuando esté activada, y permite principalmente cambiar de capa rápidamente.\n[scale=0.75][color=#CCCCCC]Tecla de acceso directo para activar/desactivar: M[/color][/scale]",
                 "inactive-layer-opacity": "Al editar una capa de bloques, otras capas se volverán translúcidas. Si introduces 100 las capas serán completamente visibles, y si introduces 0 las capas serán totalmente invisibles.",
                 "trail-tool-frame-count": "Al probar el nivel, Mario dejará un rastro visible en el editor. Este es el número de fotogramas que dejará Mario.\nLa función de rastro se encuentra en la caja de herramientas de la parte inferior izquierda (durante la prueba de nivel).",
-                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor",
-                "last-sync": "Última sincronización"
+                "last-sync": "Última sincronización",
+                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor"
             },
             "html": {
                 "destination-name-example": "Ejemplo 'salida de la cueva'",
@@ -431,8 +443,8 @@
                 "1_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua (clásica)|Capa de agua (moderna)",
                 "2_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua",
                 "bg-loop-methods": "Desactivado|Bucle horizontal|Bucle vertical|Bucle en ambos lados|Bucle en ninguno|Sólo horizontalmente|Sólo verticalmente",
-                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido",
-                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido",
+                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido|[!]→ Fast|[!]→→ VERY fast",
+                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido|[!]↓ Fast|[!]↓↓ VERY fast",
                 "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que ele jugador deba saber y que le resulte últil",
                 "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -450,6 +462,7 @@
                 "current-gen": "Crear una corriente que sople o succione",
                 "tag-block": "[scale=0.4]Bloque que activa o desactiva acciones de objetos de las etiquetas indicadas al tocarlo[/scale]",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Los Cheep Cheeps tienen varios movimientos de IA. ¡Pasa el ratón por encima de ellos para saber más![/scale]",
+                "more-aquatic-enemies": "[!]More aquatic enemies",
                 "stretch-tiles": "[scale=0.75]¡Desplázate hacia abajo para ver más bloques de Bú Estirado![/scale]",
                 "artillery-tiles": "Bloques adicionales relacionados\n[scale=0.75]Éstos son bloques opcionales que se asemejan a partes de los objetos de arriba.[/scale]",
                 "king-bill": "Rey Bill Bala\n[scale=0.75]¡Este Bill Bala colosal puede romper bloques duros en su camino con facilidad, y es completamente invencible![/scale]",
@@ -551,6 +564,9 @@
                 "magic-bottle": "Frasco Mágico[s]67% fuego | 33% hada",
                 "cursed-bottle": "Frasco Maldito",
                 "fairy-bottle": "Frasco de Hada",
+                "grab-block": "Bloque arrojadizo",
+                "object-sign": "Signo",
+                "circling-platform": "[!]Circling Platform",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -623,6 +639,8 @@
                 "fire-flame": "Llama Ardiente",
                 "ice-flame": "Llama Gélida",
                 "ghost-flame": "Llama Fantasma",
+                "firebar": "Barrera de Fuego",
+                "icebar": "Barrera de Hielo",
                 "eerie": "Espectro",
                 "ember-eerie": "Especto Brasa",
                 "boo": "Bú",
@@ -703,8 +721,11 @@
                 "pokey-nsmb": "Pokey[s]Se mueve linealmente",
                 "snow-pokey-smw": "Pokey de Nieve[s]Persigue al jugador",
                 "snow-pokey-nsmb": "Pokey de Nieve[s]Se mueve linealmente",
+                "spike": "Escupicos",
+                "spike-ball": "Bola de Picos",
                 "dino-torch": "Dino-Antorcha",
                 "dino-rhino": "Dino-Rino",
+                "chain-chomp": "Chomp Cadenas",
                 "ball-n-chain": "Gigamaza",
                 "grinder": "Sierra",
                 "grinder-stationary": "Sierra (Inmóvil)",
@@ -732,9 +753,9 @@
                 "crowber": "Cuervajo",
                 "stretch": "Bú Estirado",
                 "green-bubble": "Burbuja Gigante",
-                "fishbone-smw": "Pezueso[s]IA de SMW",
-                "fishbone-nsmb": "Pezueso[s]IA de NSMB",
-                "fishbone-leaping": "Pezueso[s]IA de Salto",
+                "fishbone-linear": "Pezueso[s][!]Swims linearly",
+                "fishbone-chase": "Pezueso[s][!]Chases player if spotted",
+                "fishbone-leap": "Pezueso[s][!]Leaps like a Podoboo",
                 "falling-flame": "Llama Descendiente",
                 "falling-ghost-flame": "Llama Fantásma Descendiente",
                 "nipper-plant-patrolling": "Blantita[s]Patrullando",
@@ -749,6 +770,24 @@
                 "small-falling-icicle": "Carámbano Chico Descendiente",
                 "big-falling-stalactite": "Estalactita Grande Descendiente",
                 "small-falling-stalactite": "Estalactita Chica Descendiente",
+                "amp": "Chispayaso",
+                "fire-snake": "Serpiente de Fuego",
+                "bounding-fire": "Boundin' Fire",
+                "small-flame": "Llama pequeña",
+                "angry-sun": "[!]Angry Sun",
+                "goonie": "[!]Goonie",
+                "flightless-goonie": "[!]Flightless Goonie",
+                "hefty-goonie": "[!]Hefty Goonie",
+                "bowling-goonie": "[!]Bowling Goonie",
+                "skeleton-goonie": "[!]Skeleton Goonie",
+                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
+                "para-beetle": "[!]Para-Beetle",
+                "heavy-para-beetle": "[!]Heavy Para-Beetle",
+                "flame-chomp": "[!]Flame Chomp",
+                "paragoomba": "[!]Paragoomba",
+                "paragaloomba": "[!]Paragaloomba",
+                "paragoombrat": "[!]Paragoombrat",
+                "paragoombud": "[!]Paragoombud",
                 "boom-boom": "Bum Bum",
                 "bowser": "Bowser",
                 "king-boo": "Rey Bú",
@@ -756,7 +795,10 @@
                 "fire-flower": "Flor de Fuego",
                 "super-leaf": "Superhoja",
                 "hammer-flower": "Flor Martillo",
+                "hammer-suit": "Traje de Martillo",
+                "cloud-flower": "[!]Cloud Flower",
                 "ice-flower": "Flor de Hielo",
+                "carrot": "Zanahoria",
                 "small-fire-flower": "Flor de Fuego Chica",
                 "bubble-flower": "Flor Burbuja",
                 "super-star": "Superestrella",
@@ -789,19 +831,6 @@
                 "small-one-way-wall-right": "Muro Unidireccional Chico (Derecha)",
                 "small-one-way-wall-down": "Muro Unidireccional Chico (Abajo)",
                 "small-one-way-wall-left": "Muro Unidireccional Chico (Izquierda)",
-                "spike": "Escupicos",
-                "spike-ball": "Bola de Picos",
-                "chain-chomp": "Chomp Cadenas",
-                "amp": "Chispayaso",
-                "grab-block": "Bloque arrojadizo",
-                "object-sign": "Signo",
-                "firebar": "Barrera de Fuego",
-                "icebar": "Barrera de Hielo",
-                "fire-snake": "Serpiente de Fuego",
-                "bounding-fire": "Boundin' Fire",
-                "small-flame": "Llama pequeña",
-                "hammer-suit": "Traje de Martillo",
-                "carrot": "Zanahoria",
                 "mount-blockade": "Mount Blockade"
             },
             "tile-tooltips": {
@@ -825,15 +854,6 @@
         },
         "customizers": {
             "shared": {
-                "buttons": {
-                    "change-initial-direction": "Cambiar dirección incial",
-                    "playtest-from-here": "Probar nivel aquí",
-                    "preview": "Vista previa",
-                    "edit-range": "Editar rango",
-                    "edit-palette": "Editar paleta",
-                    "edit-item": "Editar objeto",
-                    "enable-sinewave-motion": "Activar movimiento sinusoidal"
-                },
                 "labels": {
                     "object-cap": "Tope de objetos",
                     "spawn-delay": "[scale=0.8]Demora de generación[/scale]",
@@ -855,14 +875,23 @@
                     "grow-and-shrink": "Creicimiento y encogimiento",
                     "sinewave-movement": "Movimiento sinusoidal"
                 },
+                "buttons": {
+                    "change-initial-direction": "Cambiar dirección incial",
+                    "playtest-from-here": "Probar nivel aquí",
+                    "preview": "Vista previa",
+                    "edit-range": "Editar rango",
+                    "edit-palette": "Editar paleta",
+                    "edit-item": "Editar objeto",
+                    "enable-sinewave-motion": "Activar movimiento sinusoidal"
+                },
                 "tooltips": {
+                    "movement-speed": "Velocidad de desplazamiento en píxeles / seg.\n[sub]Un bloque equivale a 16 píxeles.[/sub]",
                     "jump-strength": "La velocidad vertical inicial, en píxeles/segundos, al inicio del salto.",
                     "blend-modes": "ADITIVO\n[sub]Añade los colores de {0} sobre otros píxeles superpuestos[/sub]\n\nAPARECER POR ENCIMA DE OBJETOS\n[sub]{0} aparecerá sólo en los objetos que estén detrás de él (por ejemplo, en una capa inferior.)[/sub]\n\nCAMUFLAJE\n[sub]Lo mismo, ¡Pero es completamente invisible y 'atraviesa' los bloques y sprites![/sub]",
                     "expanding-obj-cycle-info": "Expansión y reducción con el tiempo, con opciones de personalización de la longitud y la duración.",
                     "expanding-obj-size-change-tiles": "La cantidad de bloques a expandir/encoger.",
                     "expanding-obj-size-change-duration": "El tiempo (en segundos) que tarda en completarse la expansión/encogimiento.",
                     "expanding-obj-size-change-delay": "Cuando haya crecido o encogido, espera este tiempo antes de volver a crecer/encoger",
-                    "movement-speed": "Velocidad de desplazamiento en píxeles / seg.\n[sub]Un bloque equivale a 16 píxeles.[/sub]",
                     "period": "Tiempo (en segundos) para un ciclo completo de onda senoidal.",
                     "opacity": "Las opacidades más bajas pueden hacer que el sprite sea menos obvio de detectar."
                 },
@@ -893,15 +922,15 @@
                 }
             },
             "warps": {
-                "buttons": {
-                    "warp-type": "[scale=0.75]Editar tipo de teletransportador[/scale]",
-                    "reset-warp-toggle": "Restablecer el mapa actual al entrar"
-                },
                 "labels": {
                     "destination-own-layer": "[scale=0.65]Propia[/scale]\ncapa",
                     "destination-output-layer": "[scale=0.65]Capa[/scale]\nde salida",
                     "door-type": "Tipo de puerta",
                     "door-type-list": "Estándar|Cerrada|Puerta de Teletransporte P|Puerta Cerrada de Teletransporte P"
+                },
+                "buttons": {
+                    "warp-type": "[scale=0.75]Editar tipo de teletransportador[/scale]",
+                    "reset-warp-toggle": "Restablecer el mapa actual al entrar"
                 },
                 "tooltips": {
                     "warp-name-tips": "Dale a esta {0} un nombre de tu elección. Esto te ayudara a identificar fácilmente diferentes {1}.",
@@ -970,14 +999,14 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Número de objetos en el bloque.",
+                    "amount-in-block-optional": "Si el bloque tiene un objeto asignado, almacenará un máximo de este valor en su interior.",
                     "timer-info": "Inicia un temporizador cuando se golpe por primera vez. Cuando este llegue a 0, el bloque sólo sacará 1 objeto.\n[scale=0.75][color=#CCCCCC]Deja en 0 para desactivar el temporizador.[/color][/scale]",
                     "progressive-info": "Si Mario es Peque Mario, hace que el bloque siempre dé un champiñón, independientemente del objeto contenido.",
                     "star-chainer-info": "Cuando se golpee el bloque tieniendo poder de invencibilidad por superestrella, el bloque siempre dará una superestrella independientemente del objeto que contenga.",
                     "invisible-info": "El bloque no es visible al inicio, pero aparecerá cuando se golpee.",
                     "coins-before-item-info": "Libera esta cantidad de monedas del bloque antes de que éste dispense el objeto contenido.",
                     "object-breaks-nearby-player-info": "Cuando el jugador se acerque al bloque, el objeto de su interior aparecerá. Cuando la casilla se [color=#4CFF00]marque[/color], el valor de la propiedad de temporizador se usará para la duración de la animación de aparición.",
-                    "tag-block-toggle": "Cuando se golpee este bloque, las etiquetas se activarán o desactivarán.\n[scale=0.75][color=#CCCCCC]Por ejemplo, puedes alternar las corrientes submarinas con la etiqueta '[color=#58A8F0]interruptorCorriente[/color]' introduciendo también '[color=#58A8F0]interruptorCorriente[/color]' en este campo.[/color][/scale]",
-                    "amount-in-block-optional": "Si el bloque tiene un objeto asignado, almacenará un máximo de este valor en su interior."
+                    "tag-block-toggle": "Cuando se golpee este bloque, las etiquetas se activarán o desactivarán.\n[scale=0.75][color=#CCCCCC]Por ejemplo, puedes alternar las corrientes submarinas con la etiqueta '[color=#58A8F0]interruptorCorriente[/color]' introduciendo también '[color=#58A8F0]interruptorCorriente[/color]' en este campo.[/color][/scale]"
                 }
             },
             "objects": {
@@ -1112,6 +1141,11 @@
                     "traction": "Tracción",
                     "takeoff-strength": "Fuerza de despegue",
                     "wings": "Alas",
+                    "walking-mode": "Tipo de caminata",
+                    "attacking": "Ataque",
+                    "min-attacks-for-jump": "Ataques mínimos antes de saltar",
+                    "chance-of-jumping-minimum": "Posibilidad de saltar (tras saltos mínimos)",
+                    "attack-speed": "Velocidad de ataque",
                     "invincibility-period": "Periodo de invencibilidad",
                     "attack-delay": "Demora en el ataque",
                     "base-speed": "Velocidad base",
@@ -1121,25 +1155,20 @@
                     "viewing-attack": "Mostrando ataque",
                     "attack-frequency-info": "¡Es posible que un ataque ocurra más a menudo! Mírame:",
                     "spew-flame": "Arrojar Flamas",
-                    "homing-dash": "Embestida",
-                    "magic-bottles": "Frascos Mágicos",
-                    "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
-                    "protective-flames": "Generar Flamas Protectoras",
-                    "ring-count": "Número de Llamas en el anillo",
-                    "walking-mode": "Tipo de caminata",
-                    "attacking": "Ataque",
-                    "min-attacks-for-jump": "Ataques mínimos antes de saltar",
-                    "chance-of-jumping-minimum": "Posibilidad de saltar (tras saltos mínimos)",
-                    "attack-speed": "Velocidad de ataque",
                     "rocking-hammer": "Martillos de Piedra",
                     "blazing-hammer": "Martillos Candentes",
                     "mecha-wand": "Cetro de Invocación",
                     "shell-dash": "Embestida de Caparazón",
+                    "homing-dash": "Embestida",
+                    "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
+                    "magic-bottles": "Frascos Mágicos",
+                    "protective-flames": "Generar Flamas Protectoras",
                     "projectile-count": "Número de proyectiles",
                     "extra-random-projectiles": "Proyectiles aleatorios adicionales",
-                    "on-defeated": "Al derrotar",
                     "dash-duration": "Duración de la embestida (en segundos)",
-                    "random-dash-duration": "Duración aleatoria extra"
+                    "random-dash-duration": "Duración aleatoria extra",
+                    "ring-count": "Número de Llamas en el anillo",
+                    "on-defeated": "Al derrotar"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1164,26 +1193,26 @@
                     "bb-traction": "Los valores de tracciones altos hacen que Bum Bum pueda girar más rápido, mientras que los susodichos bajos hacen que le sea más difícil girar.",
                     "bb-takeoff-strength": "Fuerza de salto al brincar al aire.\n[sub]Nota: sólo se utiliza en el modo con alas.[/sub]",
                     "bb-wings": "Si se le dan alas, Bum Bum será capaz de volar y lanzarse sobre el jugador.\n[sub]Si se estableció la opción de 'Alternar al golpear', Bum Bum cambiará de modo terrestre a modo con alas (y viceversa) cada vez que pierda HP.[/sub]",
-                    "kb-invincibility-period": "Tiempo en segundos antes de que el Rey Bú vuelva a ser vulnerable a los ataques, después de ser golpeado. El Rey Bú se volverá transparente durante esta fase de invencibilidad.\n[sub]Escribe 0 para quitar el periodo de invencibilidad.[/sub]",
-                    "kb-base-speed": "Velocidad de movimiento base (mínima), en píxeles/segundos.\n\n[sub]La velocidad con la que el Rey Bú se mueve puede opcionalmente acelerarse en la oscuridad con el valor definido a la derecha.[/sub]",
-                    "kb-darkness-boost": "Velocidad máxima extra que se añade al Rey Bú cuando se sumerge en la oscuridad, en píxeles/segundo.\n\n[sub]Ten en cuenta que este valor se divide por el nivel de oscuridad que está cubriendo los ojos del Rey Bú: si el nivel de oscuridad es del 50%, por ejemplo, añadirá el 50% de este valor de velocidad además de la velocidad base.[/sub]",
                     "bw-defeat-events": "Cuando Bowser es derrotado, este evento (opcional) se realiza automáticamente.",
                     "bw-movement-speed": "Velocidad de movimiento de Bowser cuando camina entre ataques, en píxeles / seg.",
                     "bw-walking-mode": "Bowser puede quedarse quieto o pasearse. La opción de patrullar zona es útil para, por ejemplo, mantener a Bowser en un puente, mientras que la opción final está pensada para arenas grandes.",
                     "bw-minimum-jumps": "La cantidad de ataques que Bowser tiene que realizar antes de tener una oportunidad de saltar, la probabilidad de que se puede establecer en la opción de abajo.",
                     "bw-jumping-chance": "La probabilidad de saltar oscila entre 0% y 100%.\n[sub]0% desactiva el salto por completo, mientras que 100% garantiza un salto en todo momento.[/sub]",
-                    "bw-attack-speed": "La velocidad de los ataques de Bowser, ¡Desde escupir fuego tranquilamente hasta lanzar martillos de forma salvaje!"
+                    "bw-attack-speed": "La velocidad de los ataques de Bowser, ¡Desde escupir fuego tranquilamente hasta lanzar martillos de forma salvaje!",
+                    "kb-invincibility-period": "Tiempo en segundos antes de que el Rey Bú vuelva a ser vulnerable a los ataques, después de ser golpeado. El Rey Bú se volverá transparente durante esta fase de invencibilidad.\n[sub]Escribe 0 para quitar el periodo de invencibilidad.[/sub]",
+                    "kb-base-speed": "Velocidad de movimiento base (mínima), en píxeles/segundos.\n\n[sub]La velocidad con la que el Rey Bú se mueve puede opcionalmente acelerarse en la oscuridad con el valor definido a la derecha.[/sub]",
+                    "kb-darkness-boost": "Velocidad máxima extra que se añade al Rey Bú cuando se sumerge en la oscuridad, en píxeles/segundo.\n\n[sub]Ten en cuenta que este valor se divide por el nivel de oscuridad que está cubriendo los ojos del Rey Bú: si el nivel de oscuridad es del 50%, por ejemplo, añadirá el 50% de este valor de velocidad además de la velocidad base.[/sub]"
                 },
                 "html": {
                     "bb-attack-phases": "Incrementar automáticamente|Fase 1 (Embestida)|Fase 2 (Brinco)|Fase 3 (Persecución)",
                     "bb-attack-frequencies": "(Casi) instantáneo|Frecuente|Estándar|Con demoras largas",
                     "switch-when-hit": "Alternar al golpear",
-                    "kb-intro-animations": "Ninguna|Susto Repentino|Formación de Polvo|Bú Sorpresivo",
                     "bw-modes": "Clásico (SMB1)",
                     "bw-defeat-events": "Sin evento especial|Terminar nivel|Caminar al PNJ más cercano",
                     "bw-walk-modes": "Quedarse quieto|Patrullar zona|Caminar hasta el jugador",
                     "bw-attack-speeds": "Incremento automático|Lento|Medio|Rápido",
-                    "bw-intro-animations": "Ninguno|Saltar desde abajo|Saltar del Koopayaso|Disfrazarse de Peach"
+                    "bw-intro-animations": "Ninguno|Saltar desde abajo|Saltar del Koopayaso|Disfrazarse de Peach",
+                    "kb-intro-animations": "Ninguna|Susto Repentino|Formación de Polvo|Bú Sorpresivo"
                 },
                 "text": {
                     "bw-attack-desc-flame": "Lanza una o varias llamas en dirección al jugador",
@@ -1209,6 +1238,57 @@
                 "fixed-info": "Más errores, pero normalmente tiene una resolución de imagen y un tamaño de archivo menores. \n\n Las imágenes tomadas de mapas con una anchura de nivel o una altura de nivel superior a 1020 bloques tendrán una calidad de imagen reducida."
             }
         },
+        "pause-options": {
+            "labels": {
+                "game-paused": "JUEGO EN PAUSA",
+                "close-menu-to-return": "Cierra el menú para volver",
+                "editing-control-keybinds": "Editando combinaciones de teclas de control",
+                "viewing-debugger": "Viendo el depurador",
+                "control-config-k": "Configuración del teclado",
+                "control-config-g": "Configuración del mando\n[scale=0.65][color=#CCCCCC]Los botones del mando usan identificadores numéricos[/color][/scale]",
+                "graphics-settings": "Ajustes de rendimiento y gráficos",
+                "in-game-username": "Nombre de usuario en el juego",
+                "fullscreen-scaling": "Escalado a pantalla completa",
+                "fill-screen": "Rellenar pantalla",
+                "perfect-resolution": "Resolución perfecta",
+                "account-settings": "Vinculación a cuenta de Level Share Square",
+                "email": "Correo electrónico",
+                "password": "Contraseña",
+                "logout": "Cerrar sesión",
+                "logged-in-as": "Conectado/a como {0}",
+                "x-levels-on-lss": "{0} niveles en Level Share Square",
+                "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
+                "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
+                "accessibility": "accesibilidad"
+            },
+            "buttons": {
+                "restart": "[scale=0.9]Reiniciar[/scale]",
+                "restart-c": "[scale=0.5]Reiniciar\n(desde último puesto de control)[/scale]",
+                "extra-options-tools": "Opciones adicionales",
+                "main-menu": "Menú principal",
+                "frame-skip": "Salto de fotogramas",
+                "reduced-particles": "Reducción de artículas",
+                "crt-filter": "Filtro TRC",
+                "smooth-lighting": "Iluminación suave",
+                "log-in": "Iniciar sesión",
+                "lss-profile": "Perfil de LSS",
+                "colorblind-mode": "Modo daltónico",
+                "disable-screenshake": "Desactivar vibración de pantalla",
+                "visualized-timers": "Mostrar temporizadores"
+            },
+            "tooltips": {
+                "enable-fullscreen": "Activar pantalla completa",
+                "disable-fullscreen": "Desactivar pantalla completa",
+                "skip-death-anim": "Omitir animación de muerte",
+                "play-death-anim": "Reproducir animación de muerte",
+                "edit-keybinds": "Editar combinaciones de teclas",
+                "graphics-settings": "Ajustes gráficos",
+                "account-settings": "Configuración de la cuenta de LSS",
+                "accessibility-options": "Opciones de accesibilidad",
+                "frame-skip": "Omite fotogramas cuando el framerate es bajo para evitar ralentizarse.\n[scale=0.75][color=#CCCCCC]Nota: a frecuencias de cuadro muy bajas, se pueden empezar a producir problemas de colisión. Sin la omisión en fotogramas, se producirá ralentización por debajo de 60 FPS.[/color][/scale=0.75]",
+                "reduced-particles": "Aplicar un límite más estricto a las partículas con física (32 en lugar de 128)."
+            }
+        },
         "themes": {
             "menu": {
                 "pick-theme": "Haz clic aquí para seleccionar un tema",
@@ -1217,17 +1297,21 @@
         },
         "effects": {
             "names": {
-                "rain": "Lluvia",
-                "snow": "Nieve",
-                "sand": "Tormenta de arena",
-                "embers": "Brasas",
-                "heat": "Ondas de calor",
-                "dark": "Oscuridad",
-                "echo": "Efecto de Eco",
-                "flash": "Destello",
-                "fog": "Niebla",
-                "leaf": "Hojas",
-                "sil": "Silueta"
+                "rain-f": "Lluvia",
+                "snow-f": "Nieve",
+                "sand-f": "Tormenta de arena",
+                "embers-f": "Brasas",
+                "heat-f": "Ondas de calor",
+                "dark-f": "Oscuridad",
+                "echo-f": "Efecto de Eco",
+                "flash-f": "Destello",
+                "fog-f": "Niebla",
+                "leaf-f": "Hojas",
+                "sil-f": "Silueta",
+                "current-f": "[!]Current",
+                "fish-f": "[!]Fish",
+                "color-f": "[!]Color overlay",
+                "wind-g": "[!]Wind generator"
             },
             "properties": {
                 "intensity": "Intensidad",
@@ -1241,15 +1325,21 @@
                 "fade-duration": "[scale=0.8]Duración de fundido/fundido a negro[/scale]",
                 "additive-blend": "Mezcla de aditivos",
                 "color-hex": "Color personalizado",
-                "palette": "Paleta"
+                "palette": "Paleta",
+                "two-way-movement": "[!]Two-way movement",
+                "water-check": "[!]Check for water",
+                "play-wind-sfx": "[!]Play wind SFX",
+                "buildup": "[!]Buildup"
             },
             "html": {
                 "intensity": "Leve|Mediana|Fuerte",
                 "tilt-options": "A la izquierda|Ninguna|A la derecha",
                 "flash-type": "Solamente en el fondo|En todas las capas",
-                "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)"
+                "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
+                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
             },
             "tooltips": {
+                "name": "[!]A name to identify this effect, purely inside the editor.",
                 "tags": "Etiqueta(s) opcional(es)(separadas por espacios) usadas para referir a este efecto. Puedes, por ejemplo, usar Bloques de Configuración de Etiqueta para alternar este efecto.",
                 "intensity": "Intensidad del efecto, por lo general resultando en más partículas en las opciones más fuertes.[/color]",
                 "movement-angle": "Ángulo/grado del movimiento.",
@@ -1263,7 +1353,13 @@
                 "fade-duration": "El tiempo (en segundos) que el toma al efecto aparecerse o desvanecerse cuando una de sus etiquetas se alterna.",
                 "additive-blend": "La mezcla de aditivos añade el color de la superposición sobre los píxeles que cubre. Este efecto es mucho más notable con colores brillantes.",
                 "color-hex": "Color personalizado en código hex.\n\nEjemplos:\n[scale=0.75][color=#C8C8C8]C8C8C8 para gris claro[/color]\n[color=#F8C0F0]F8C0F0 para rosa pastel[/color][scale=0.5][/scale]\n\nSe recomienda que uses un selector de color para hallar tus valores hex preferidos.[/scale]",
-                "palette": "Paleta del efecto, que es puramente cosmética."
+                "palette": "Paleta del efecto, que es puramente cosmética.",
+                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
+                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
+                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
+                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
+                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
+                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {
                 "1_rain": "Lluvia Predeterminada|Desechos Radioactivos|Lodo Líquido|Lluvia de Jungla|Aguas Residuales|Negro Profundo",
@@ -1275,7 +1371,11 @@
                 "1_embers": "Brasas predeterminadas|Deterioro Brillante|Vacío Violeta|Zafiro Abrasador|Carmesí Incesante|Alquitrán ascendente",
                 "2_embers": "Brasas predeterminadas|Negras Tenebrosas|Violetas Venenosas|Esencia del Vacío|Azul Tinta|Oro Realeza",
                 "1_leaf": "Hojas Verdes predeterminadas|Otoño Rojo|Amarillo Reseco|Invierno Blanco|Verano Verde|Primavera Lima",
-                "2_leaf": "Hojas Verdes predeterminadas|Hojas de Otoño predeterminadas|Hojas Extravagantes|Gris Ilusorio|Chocolate Crujiente|Violeta Vibrante|Pincel Ceniciento|Gris Llamativo|Ciénaga Turbia|Delicia Dorada|Principios de Invierno|Cacao Crujiente|Sereno Atardecer"
+                "2_leaf": "Hojas Verdes predeterminadas|Hojas de Otoño predeterminadas|Hojas Extravagantes|Gris Ilusorio|Chocolate Crujiente|Violeta Vibrante|Pincel Ceniciento|Gris Llamativo|Ciénaga Turbia|Delicia Dorada|Principios de Invierno|Cacao Crujiente|Sereno Atardecer",
+                "current": "[!]Bubbles|Air particles"
+            },
+            "text": {
+                "duplicate-name": "[!]This effect name is already in use. Try another name."
             }
         },
         "screen-menus": {
@@ -1345,57 +1445,6 @@
                 "clock": "Cámara lenta",
                 "frameadvance": "Mostrar fotograma",
                 "debug": "Depurador"
-            }
-        },
-        "pause-options": {
-            "labels": {
-                "game-paused": "JUEGO EN PAUSA",
-                "close-menu-to-return": "Cierra el menú para volver",
-                "editing-control-keybinds": "Editando combinaciones de teclas de control",
-                "viewing-debugger": "Viendo el depurador",
-                "control-config-k": "Configuración del teclado",
-                "control-config-g": "Configuración del mando\n[scale=0.65][color=#CCCCCC]Los botones del mando usan identificadores numéricos[/color][/scale]",
-                "graphics-settings": "Ajustes de rendimiento y gráficos",
-                "fullscreen-scaling": "Escalado a pantalla completa",
-                "fill-screen": "Rellenar pantalla",
-                "perfect-resolution": "Resolución perfecta",
-                "account-settings": "Vinculación a cuenta de Level Share Square",
-                "email": "Correo electrónico",
-                "password": "Contraseña",
-                "logged-in-as": "Conectado/a como {0}",
-                "x-levels-on-lss": "{0} niveles en Level Share Square",
-                "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
-                "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
-                "accessibility": "accesibilidad",
-                "logout": "Cerrar sesión",
-                "in-game-username": "Nombre de usuario en el juego"
-            },
-            "buttons": {
-                "restart": "[scale=0.9]Reiniciar[/scale]",
-                "restart-c": "[scale=0.5]Reiniciar\n(desde último puesto de control)[/scale]",
-                "extra-options-tools": "Opciones adicionales",
-                "main-menu": "Menú principal",
-                "frame-skip": "Salto de fotogramas",
-                "reduced-particles": "Reducción de artículas",
-                "crt-filter": "Filtro TRC",
-                "smooth-lighting": "Iluminación suave",
-                "log-in": "Iniciar sesión",
-                "lss-profile": "Perfil de LSS",
-                "colorblind-mode": "Modo daltónico",
-                "disable-screenshake": "Desactivar vibración de pantalla",
-                "visualized-timers": "Mostrar temporizadores"
-            },
-            "tooltips": {
-                "enable-fullscreen": "Activar pantalla completa",
-                "disable-fullscreen": "Desactivar pantalla completa",
-                "skip-death-anim": "Omitir animación de muerte",
-                "play-death-anim": "Reproducir animación de muerte",
-                "edit-keybinds": "Editar combinaciones de teclas",
-                "graphics-settings": "Ajustes gráficos",
-                "account-settings": "Configuración de la cuenta de LSS",
-                "accessibility-options": "Opciones de accesibilidad",
-                "frame-skip": "Omite fotogramas cuando el framerate es bajo para evitar ralentizarse.\n[scale=0.75][color=#CCCCCC]Nota: a frecuencias de cuadro muy bajas, se pueden empezar a producir problemas de colisión. Sin la omisión en fotogramas, se producirá ralentización por debajo de 60 FPS.[/color][/scale=0.75]",
-                "reduced-particles": "Aplicar un límite más estricto a las partículas con física (32 en lugar de 128)."
             }
         }
     }
