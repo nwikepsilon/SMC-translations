@@ -96,14 +96,14 @@
                     "many": "efectos"
                 },
                 "filters": {
-                    "one": "[!]filter",
-                    "other": "[!]filters",
-                    "many": "[!]filters"
+                    "one": "filtro",
+                    "other": "filtros",
+                    "many": "filtros"
                 },
                 "generators": {
-                    "one": "[!]generator",
-                    "other": "[!]generators",
-                    "many": "[!]generators"
+                    "one": "generador",
+                    "other": "generadores",
+                    "many": "generadores"
                 },
                 "objects": {
                     "one": "objeto",
@@ -173,8 +173,8 @@
                 "tagging": "Etiquetado",
                 "behavior": "Acción",
                 "how-it-works": "Cómo funciona",
-                "duration": "[!]Duration",
-                "repeats": "[!]Repeats",
+                "duration": "Duración",
+                "repeats": "Repeticiones",
                 "other": "Otro"
             },
             "menu-options": {
@@ -298,8 +298,8 @@
                 "plantEnemies": "Plantas",
                 "dinoEnemies": "Dinosaurios",
                 "fieryEnemies": "Enemigos de fuego y eléctricos",
-                "yiEnemies": "[!]Yoshi's Island enemies",
-                "poweredEnemies": "[!]Powered-up enemies",
+                "yiEnemies": "Enemigos de Yoshi's Island",
+                "poweredEnemies": "Enemigos potenciados",
                 "bosses": "Jefes y enemigos relacionados",
                 "general-level-settings": "Ajustes generales del nivel",
                 "map-settings": "Ajustes del mapa",
@@ -443,8 +443,8 @@
                 "1_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua (clásica)|Capa de agua (moderna)",
                 "2_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua",
                 "bg-loop-methods": "Desactivado|Bucle horizontal|Bucle vertical|Bucle en ambos lados|Bucle en ninguno|Sólo horizontalmente|Sólo verticalmente",
-                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido|[!]→ Fast|[!]→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido|[!]↓ Fast|[!]↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido",
+                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido",
                 "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que ele jugador deba saber y que le resulte últil",
                 "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -462,7 +462,7 @@
                 "current-gen": "Crear una corriente que sople o succione",
                 "tag-block": "[scale=0.4]Bloque que activa o desactiva acciones de objetos de las etiquetas indicadas al tocarlo[/scale]",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Los Cheep Cheeps tienen varios movimientos de IA. ¡Pasa el ratón por encima de ellos para saber más![/scale]",
-                "more-aquatic-enemies": "[!]More aquatic enemies",
+                "more-aquatic-enemies": "Más enemigos acúaticos",
                 "stretch-tiles": "[scale=0.75]¡Desplázate hacia abajo para ver más bloques de Bú Estirado![/scale]",
                 "artillery-tiles": "Bloques adicionales relacionados\n[scale=0.75]Éstos son bloques opcionales que se asemejan a partes de los objetos de arriba.[/scale]",
                 "king-bill": "Rey Bill Bala\n[scale=0.75]¡Este Bill Bala colosal puede romper bloques duros en su camino con facilidad, y es completamente invencible![/scale]",
@@ -566,7 +566,7 @@
                 "fairy-bottle": "Frasco de Hada",
                 "grab-block": "Bloque arrojadizo",
                 "object-sign": "Signo",
-                "circling-platform": "[!]Circling Platform",
+                "circling-platform": "Plataforma giratoria",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -753,9 +753,9 @@
                 "crowber": "Cuervajo",
                 "stretch": "Bú Estirado",
                 "green-bubble": "Burbuja Gigante",
-                "fishbone-linear": "Pezueso[s][!]Swims linearly",
-                "fishbone-chase": "Pezueso[s][!]Chases player if spotted",
-                "fishbone-leap": "Pezueso[s][!]Leaps like a Podoboo",
+                "fishbone-linear": "Pezueso[s]Nada de forma linear",
+                "fishbone-chase": "Pezueso[s]Persigue al jugador si lo detecta",
+                "fishbone-leap": "Pezueso[s]Salta como la Burbuja de Lava",
                 "falling-flame": "Llama Descendiente",
                 "falling-ghost-flame": "Llama Fantásma Descendiente",
                 "nipper-plant-patrolling": "Blantita[s]Patrullando",
@@ -774,20 +774,20 @@
                 "fire-snake": "Serpiente de Fuego",
                 "bounding-fire": "Boundin' Fire",
                 "small-flame": "Llama pequeña",
-                "angry-sun": "[!]Angry Sun",
-                "goonie": "[!]Goonie",
-                "flightless-goonie": "[!]Flightless Goonie",
-                "hefty-goonie": "[!]Hefty Goonie",
-                "bowling-goonie": "[!]Bowling Goonie",
-                "skeleton-goonie": "[!]Skeleton Goonie",
-                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
-                "para-beetle": "[!]Para-Beetle",
-                "heavy-para-beetle": "[!]Heavy Para-Beetle",
-                "flame-chomp": "[!]Flame Chomp",
-                "paragoomba": "[!]Paragoomba",
-                "paragaloomba": "[!]Paragaloomba",
-                "paragoombrat": "[!]Paragoombrat",
-                "paragoombud": "[!]Paragoombud",
+                "angry-sun": "Sol",
+                "goonie": "Gavión",
+                "flightless-goonie": "Gavión Cabezón",
+                "hefty-goonie": "Gavionzote",
+                "bowling-goonie": "Gavionzote Rodante",
+                "skeleton-goonie": "Gavión Esqueleto",
+                "flightless-skeleton-goonie": "Gavión Calavera",
+                "para-beetle": "Parabuzzy",
+                "heavy-para-beetle": "Parabuzzy Regordete",
+                "flame-chomp": "Chomp Llamas",
+                "paragoomba": "Goomba Alado",
+                "paragaloomba": "Goombaya Alado",
+                "paragoombrat": "Goombiño Alado",
+                "paragoombud": "Goombiñito Alado",
                 "boom-boom": "Bum Bum",
                 "bowser": "Bowser",
                 "king-boo": "Rey Bú",
@@ -796,7 +796,7 @@
                 "super-leaf": "Superhoja",
                 "hammer-flower": "Flor Martillo",
                 "hammer-suit": "Traje de Martillo",
-                "cloud-flower": "[!]Cloud Flower",
+                "cloud-flower": "Flor de nubes",
                 "ice-flower": "Flor de Hielo",
                 "carrot": "Zanahoria",
                 "small-fire-flower": "Flor de Fuego Chica",
@@ -1308,10 +1308,10 @@
                 "fog-f": "Niebla",
                 "leaf-f": "Hojas",
                 "sil-f": "Silueta",
-                "current-f": "[!]Current",
-                "fish-f": "[!]Fish",
-                "color-f": "[!]Color overlay",
-                "wind-g": "[!]Wind generator"
+                "current-f": "Corriente",
+                "fish-f": "Peces",
+                "color-f": "Superposición de color",
+                "wind-g": "Generador de viento"
             },
             "properties": {
                 "intensity": "Intensidad",
@@ -1326,20 +1326,20 @@
                 "additive-blend": "Mezcla de aditivos",
                 "color-hex": "Color personalizado",
                 "palette": "Paleta",
-                "two-way-movement": "[!]Two-way movement",
-                "water-check": "[!]Check for water",
-                "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "two-way-movement": "Desplazamiento de partículas",
+                "water-check": "Comprobar si hay agua",
+                "play-wind-sfx": "Sonido de viento",
+                "buildup": "Formación"
             },
             "html": {
                 "intensity": "Leve|Mediana|Fuerte",
                 "tilt-options": "A la izquierda|Ninguna|A la derecha",
                 "flash-type": "Solamente en el fondo|En todas las capas",
                 "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-intensity": "Leve|Normal|Fuerte|Turbonada"
             },
             "tooltips": {
-                "name": "[!]A name to identify this effect, purely inside the editor.",
+                "name": "Nombre para identificar este efecto, únicamente en el editor.",
                 "tags": "Etiqueta(s) opcional(es)(separadas por espacios) usadas para referir a este efecto. Puedes, por ejemplo, usar Bloques de Configuración de Etiqueta para alternar este efecto.",
                 "intensity": "Intensidad del efecto, por lo general resultando en más partículas en las opciones más fuertes.[/color]",
                 "movement-angle": "Ángulo/grado del movimiento.",
@@ -1354,12 +1354,12 @@
                 "additive-blend": "La mezcla de aditivos añade el color de la superposición sobre los píxeles que cubre. Este efecto es mucho más notable con colores brillantes.",
                 "color-hex": "Color personalizado en código hex.\n\nEjemplos:\n[scale=0.75][color=#C8C8C8]C8C8C8 para gris claro[/color]\n[color=#F8C0F0]F8C0F0 para rosa pastel[/color][scale=0.5][/scale]\n\nSe recomienda que uses un selector de color para hallar tus valores hex preferidos.[/scale]",
                 "palette": "Paleta del efecto, que es puramente cosmética.",
-                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
-                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
-                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
-                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
-                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
-                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
+                "two-way-movement": "Permite que las partículas se desplacen también hacia el ángulo opuesto.",
+                "water-check": "Cada partícula de efecto comprobará si está dentro del agua. Si no lo está, puede desaparecer o empezar a moverse a otro lugar.",
+                "wind-strength": "La fuerza del viento, las fuerzas más fuertes harán que los objetos sean empujados más rápido.",
+                "wind-buildup": "El tiempo en segundos que tarda el viento en alcanzar la velocidad máxima (y viceversa).",
+                "wind-duration": "La duración del viento que sopla (nota: esto no incluye el tiempo de formación).",
+                "wind-repeats": "La cantidad de tiempo que el viento repetirá su ciclo. El lapso entre vientos es igual a la duración."
             },
             "palettes": {
                 "1_rain": "Lluvia Predeterminada|Desechos Radioactivos|Lodo Líquido|Lluvia de Jungla|Aguas Residuales|Negro Profundo",
@@ -1372,10 +1372,10 @@
                 "2_embers": "Brasas predeterminadas|Negras Tenebrosas|Violetas Venenosas|Esencia del Vacío|Azul Tinta|Oro Realeza",
                 "1_leaf": "Hojas Verdes predeterminadas|Otoño Rojo|Amarillo Reseco|Invierno Blanco|Verano Verde|Primavera Lima",
                 "2_leaf": "Hojas Verdes predeterminadas|Hojas de Otoño predeterminadas|Hojas Extravagantes|Gris Ilusorio|Chocolate Crujiente|Violeta Vibrante|Pincel Ceniciento|Gris Llamativo|Ciénaga Turbia|Delicia Dorada|Principios de Invierno|Cacao Crujiente|Sereno Atardecer",
-                "current": "[!]Bubbles|Air particles"
+                "current": "Burbújas|Partículas de aire"
             },
             "text": {
-                "duplicate-name": "[!]This effect name is already in use. Try another name."
+                "duplicate-name": "Este nombre de efecto ya está en uso. Intenta con cualquier otro nombre."
             }
         },
         "screen-menus": {
