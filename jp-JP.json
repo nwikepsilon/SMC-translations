@@ -90,12 +90,12 @@
                     "other": "効果"
                 },
                 "filters": {
-                    "one": "[!]filter",
-                    "other": "[!]filters"
+                    "one": "フィルター",
+                    "other": "フィルター"
                 },
                 "generators": {
-                    "one": "[!]generator",
-                    "other": "[!]generators"
+                    "one": "ジェネレーター",
+                    "other": "ジェネレーター"
                 },
                 "objects": {
                     "one": "物",
@@ -157,8 +157,8 @@
                 "tagging": "タギング",
                 "behavior": "動作",
                 "how-it-works": "動作のしくみ",
-                "duration": "[!]Duration",
-                "repeats": "[!]Repeats",
+                "duration": "持続時間",
+                "repeats": "くりかえし",
                 "other": "その他"
             },
             "menu-options": {
@@ -282,8 +282,8 @@
                 "plantEnemies": "フラワー",
                 "dinoEnemies": "きょうりゅう",
                 "fieryEnemies": "炎と電気の敵",
-                "yiEnemies": "[!]Yoshi's Island enemies",
-                "poweredEnemies": "[!]Powered-up enemies",
+                "yiEnemies": "ヨッシーアイランドの敵",
+                "poweredEnemies": "パワーアップした敵",
                 "bosses": "ボスと関連する敵",
                 "general-level-settings": "一般レベルの設定",
                 "map-settings": "マップ設定",
@@ -427,10 +427,10 @@
                 "1_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイリング（クラシック）|目に見える自動水タイリング（モダン）",
                 "2_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイル",
                 "bg-loop-methods": "OFF|水平にループ|垂直にループ|両側にループ|ループなし|水平のみ|垂直のみ",
-                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|OFF|→ 低速|→ 中速|→ 高速|→→ 非常に高速|[!]→ Fast|[!]→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|OFF|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速|[!]↓ Fast|[!]↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|OFF|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
+                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|OFF|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
                 "level-desc-placeholder": "レベルの簡単な説明、ストーリー、またはプレイヤーが知っておくと便利なことを入力してください。",
-                "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
+                "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home（カスタムBGM #1）|♪ Morning Drive（カスタムBGM #2）|♪ Lunch Break（カスタムBGM #3）|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]このページの土管は（タイル [/scale]物[scale=0.75]であり（[/scale]タイル[scale=0.75]ではない）、物レイヤーに置かれている。 この土管（物）は、上ったり下りたりするようにカスタマイズできる。[/scale]",
@@ -446,7 +446,7 @@
                 "current-gen": "スプライトを吹き飛ばしたり、吸い込んだりする風を起こす",
                 "tag-block": "タグのオン・オフを切り替えるブロック",
                 "cheep-cheeps": "プクプク\n[scale=0.75]プクプクはいろいろな動きをします。マウスオーバーでもっと見ることができます！[/scale]",
-                "more-aquatic-enemies": "[!]More aquatic enemies",
+                "more-aquatic-enemies": "その他の水の敵",
                 "stretch-tiles": "[scale=0.75]ネッチーの他のタイルは下にスクロール！[/scale]",
                 "artillery-tiles": "その他のタイル\n[scale=0.75]これらは、上記の物の一部のように見えるオプションのタイルである。[/scale]",
                 "king-bill": "キングキラー\n[scale=0.75]この大きなキラーは、途中にある硬いブロックを簡単に壊すことができ、まったく無敵だ！[/scale]",
@@ -550,7 +550,7 @@
                 "fairy-bottle": "妖精のビン",
                 "grab-block": "ブルブルブロック",
                 "object-sign": "サイン",
-                "circling-platform": "[!]Circling Platform",
+                "circling-platform": "回転リフト",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -737,9 +737,9 @@
                 "crowber": "クロスケー",
                 "stretch": "ネッチー",
                 "green-bubble": "ビッグバブル",
-                "fishbone-linear": "[!]Fishbone[s]Swims linearly",
-                "fishbone-chase": "[!]Fishbone[s]Chases player if spotted",
-                "fishbone-leap": "[!]Fishbone[s]Leaps like a Podoboo",
+                "fishbone-linear": "フィッシュボーン[s]前方に泳ぐ",
+                "fishbone-chase": "フィッシュボーン[s]プレーヤーを見つけると追いかける",
+                "fishbone-leap": "フィッシュボーン[s]バブルのようなジャンプ",
                 "falling-flame": "炎",
                 "falling-ghost-flame": "オニビ",
                 "nipper-plant-patrolling": "プチパックン[s]動く",
@@ -758,20 +758,20 @@
                 "fire-snake": "ファイアスネーク",
                 "bounding-fire": "バウンドファイア",
                 "small-flame": "ボヤ",
-                "angry-sun": "[!]Angry Sun",
-                "goonie": "[!]Goonie",
-                "flightless-goonie": "[!]Flightless Goonie",
-                "hefty-goonie": "[!]Hefty Goonie",
-                "bowling-goonie": "[!]Bowling Goonie",
-                "skeleton-goonie": "[!]Skeleton Goonie",
-                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
-                "para-beetle": "[!]Para-Beetle",
-                "heavy-para-beetle": "[!]Heavy Para-Beetle",
-                "flame-chomp": "[!]Flame Chomp",
-                "paragoomba": "[!]Paragoomba",
-                "paragaloomba": "[!]Paragaloomba",
-                "paragoombrat": "[!]Paragoombrat",
-                "paragoombud": "[!]Paragoombud",
+                "angry-sun": "太陽",
+                "goonie": "あほーどり",
+                "flightless-goonie": "あほーむし",
+                "hefty-goonie": "でぶあほーどり",
+                "bowling-goonie": "でぶあほーどり（転がる）",
+                "skeleton-goonie": "ホネあほーどり",
+                "flightless-skeleton-goonie": "ホネあほーむし",
+                "para-beetle": "パタメット",
+                "heavy-para-beetle": "メガパタメット",
+                "flame-chomp": "ケロンパ",
+                "paragoomba": "パタクリボー",
+                "paragaloomba": "パタクリ",
+                "paragoombrat": "パタカキボー",
+                "paragoombud": "パタカキボン",
                 "boom-boom": "ブンブン",
                 "bowser": "クッパ",
                 "king-boo": "キングテレサ",
@@ -780,7 +780,7 @@
                 "super-leaf": "スーパーこのは",
                 "hammer-flower": "ハンマーフラワー",
                 "hammer-suit": "ハンマースーツ",
-                "cloud-flower": "[!]Cloud Flower",
+                "cloud-flower": "雲フラワー",
                 "ice-flower": "アイスフラワー",
                 "carrot": "ニンジン",
                 "small-fire-flower": "ちびファイアフラワー",
@@ -1292,10 +1292,10 @@
                 "fog-f": "きり",
                 "leaf-f": "葉",
                 "sil-f": "シルエット",
-                "current-f": "[!]Current",
-                "fish-f": "[!]Fish",
-                "color-f": "[!]Color overlay",
-                "wind-g": "[!]Wind generator"
+                "current-f": "水流・気流",
+                "fish-f": "魚",
+                "color-f": "色オーバーレイ",
+                "wind-g": "風効果"
             },
             "properties": {
                 "intensity": "強度",
@@ -1310,20 +1310,20 @@
                 "additive-blend": "明るさを増す",
                 "color-hex": "カスタム色",
                 "palette": "カラーパレット",
-                "two-way-movement": "[!]Two-way movement",
-                "water-check": "[!]Check for water",
-                "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "two-way-movement": "パーティクルの動き",
+                "water-check": "水のチェック",
+                "play-wind-sfx": "風の音を再生する",
+                "buildup": "増強"
             },
             "html": {
-                "intensity": "弱|中|強",
+                "intensity": "弱|常|強",
                 "tilt-options": "左に傾く|傾かない|右に傾く",
                 "flash-type": "背景色のみに適用する|すべてのレイヤーの上に",
                 "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-intensity": "弱|常|強|スコール"
             },
             "tooltips": {
-                "name": "[!]A name to identify this effect, purely inside the editor.",
+                "name": "この効果の名前（エディター上でのみ）",
                 "tags": "この効果を参照するためのタグ（スペースで区切られたもの）。例えば、「ON／OFFタグブロック」でこの効果を変更することができます。",
                 "intensity": "効果の強さ。例えば、雨を選択した場合、オプションの「強」は大雨のように見せる。[/color]",
                 "movement-angle": "動きの角度／度合い。",
@@ -1338,12 +1338,12 @@
                 "additive-blend": "「明るさを増す」 は、ほぼとうめいで明るい選択色をオーバーレイレイヤーの上に追加します。",
                 "color-hex": "HEXフォーマットのカスタム色\n\n例えば：\n[scale=0.75][color=#C8C8C8]C8C8C8はライトグレー[/color]\n[color=#F8C0F0]F8C0F0はパステルピンク[/color][scale=0.5][/scale]\n\nカラーピッカーを使用して、好みのHEX値を見つけることをおすすめします。[/scale]",
                 "palette": "効果のカラーパレット（ゲームプレイにはえいきょうしない）",
-                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
-                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
-                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
-                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
-                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
-                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
+                "two-way-movement": "パーティクルが反対方向へも移動できるようにする。",
+                "water-check": "各効果パーティクルは、それが水の中にあるかどうかをチェックします。そうでない場合は、消えてしまうか、別の場所に移動し始めるかもしれない。",
+                "wind-strength": "風の強さで、強ければ強いほどスプライトは速く押される。",
+                "wind-buildup": "風がフルスピードになるまでの時間（秒）。",
+                "wind-duration": "風が吹いている時間（注：増強時間は含まない）。",
+                "wind-repeats": "風がサイクルをくり返す時間。風と風の間の遅れは持続時間と同じ。"
             },
             "palettes": {
                 "1_rain": "通常の雨|放射能雨|液体スラッジ|ジャングルの雨|廃水（はいすい）|真黒",
@@ -1356,10 +1356,10 @@
                 "2_embers": "普通のおきび|マーキー・ブラック|毒パープル|ちょうくうどう|インキー・ブルー|ロイヤル・ゴールド",
                 "1_leaf": "普通の葉|紅葉|黄色のかんそう|白い冬|緑の夏|ライム色の春",
                 "2_leaf": "普通の葉|紅葉|豪華な葉（読み：ごうかなは）|イリュージョナリー・グレー|サクサク・チョコレート|ファンキー・パープル|アッシュブラシ|ガーリッシュ・グレー|どろぬま|黄金の喜び|冬来たる|サクサク・ココア|穏やかな夕焼け（読み：おだやかなゆうやけ）",
-                "current": "[!]Bubbles|Air particles"
+                "current": "バブル|空気パーティクル"
             },
             "text": {
-                "duplicate-name": "[!]This effect name is already in use. Try another name."
+                "duplicate-name": "この効果名はすでに使用されています。別の名前を試してください。"
             }
         },
         "screen-menus": {
