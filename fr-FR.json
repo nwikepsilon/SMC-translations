@@ -36,22 +36,22 @@
                 "days": {
                     "one": "jour",
                     "other": "jours",
-                    "many": "[!]days"
+                    "many": "jours"
                 },
                 "hours": {
                     "one": "heure",
                     "other": "heures",
-                    "many": "[!]hours"
+                    "many": "heures"
                 },
                 "minutes": {
                     "one": "minute",
                     "other": "minutes",
-                    "many": "[!]minutes"
+                    "many": "minutes"
                 },
                 "seconds": {
                     "one": "seconde",
                     "other": "secondes",
-                    "many": "[!]seconds"
+                    "many": "secondes"
                 },
                 "ago": "il y a",
                 "just-now": "À l'instant",
@@ -88,62 +88,62 @@
                 "layers": {
                     "one": "couche",
                     "other": "couches",
-                    "many": "[!]layers"
+                    "many": "couches"
                 },
                 "effects": {
                     "one": "effet",
                     "other": "effets",
-                    "many": "[!]effects"
+                    "many": "effets"
                 },
                 "filters": {
-                    "one": "[!]filter",
-                    "other": "[!]filters",
-                    "many": "[!]filters"
+                    "one": "filtre",
+                    "other": "filtres",
+                    "many": "filtres"
                 },
                 "generators": {
-                    "one": "[!]generator",
-                    "other": "[!]generators",
-                    "many": "[!]generators"
+                    "one": "générateur",
+                    "other": "générateurs",
+                    "many": "générateurs"
                 },
                 "objects": {
                     "one": "objet",
                     "other": "objets",
-                    "many": "[!]objects"
+                    "many": "objets"
                 },
                 "tiles": {
                     "one": "bloc",
                     "other": "blocs",
-                    "many": "[!]tiles"
+                    "many": "blocs"
                 },
                 "destination": {
                     "one": "destination",
                     "other": "destinations",
-                    "many": "[!]destinations"
+                    "many": "destinations"
                 },
                 "entryway": {
                     "one": "entrée",
                     "other": "entrées",
-                    "many": "[!]entryways"
+                    "many": "entrées"
                 },
                 "maps": {
                     "one": "carte",
                     "other": "cartes",
-                    "many": "[!]maps"
+                    "many": "cartes"
                 },
                 "themes": {
                     "one": "thème",
                     "other": "thèmes",
-                    "many": "[!]themes"
+                    "many": "thèmes"
                 },
                 "tags": {
                     "one": "étiquette",
                     "other": "étiquettes",
-					"many": "[!]tags"
+					"many": "étiquettes"
                 },
                 "degrees": {
                     "one": "degré",
                     "other": "degrés",
-                    "many": "[!]degrees"
+                    "many": "degrés"
                 }
             },
             "labels": {
@@ -173,8 +173,8 @@
                 "tagging": "Étiquetage",
                 "behavior": "Action",
                 "how-it-works": "Comment ça marche ?",
-                "duration": "[!]Duration",
-                "repeats": "[!]Repeats",
+                "duration": "Duration",
+                "repeats": "Répéter",
                 "other": "Autre"
             },
             "menu-options": {
@@ -298,8 +298,8 @@
                 "plantEnemies": "Ennemis végétaux",
                 "dinoEnemies": "Dinosaures",
                 "fieryEnemies": "Ennemis ardents et électriques",
-                "yiEnemies": "[!]Yoshi's Island enemies",
-                "poweredEnemies": "[!]Powered-up enemies",
+                "yiEnemies": "Ennemis de Yoshi's Island",
+                "poweredEnemies": "Ennemis boostés",
                 "bosses": "Chefs et ennemis connexes",
                 "general-level-settings": "Paramètres généraux du niveau",
                 "map-settings": "Paramètres de la carte",
@@ -443,8 +443,8 @@
                 "1_water-modes": "Désactivé|Toujours (pas besoin de blocs d'eau)|Couche d'eau (classique)|Couche d'eau (moderne)",
                 "2_water-modes": "Désactivé|Toujours (pas besoin de blocs d'eau)|Couche d'eau",
                 "bg-loop-methods": "Désactivé|Boucle horizontale|Boucle verticale|Boucler toute|Boucler aucune|Seulement horizontale|Seulement verticale",
-                "bg-scroll-speed-h": "←← TRÈS rapide|← Rapide|← Moyenne|← Lente|Éteint|→ Lente|→ Moyenne|→ Rapide|→→ TRÈS rapide|[!]→ Fast|[!]→→ VERY fast",
-                "bg-scroll-speed-v": "↑↑ TRÈS rapide|↑ Rapide|↑ Moyenne|↑ Lente|Éteint|↓ Lente|↓ Moyenne|↓ Rapide|↓↓ TRÈS rapide|[!]↓ Fast|[!]↓↓ VERY fast",
+                "bg-scroll-speed-h": "←← TRÈS rapide|← Rapide|← Moyenne|← Lente|Éteint|→ Lente|→ Moyenne|→ Rapide|→→ TRÈS rapide|→ Rapide|→→ TRÈS rapide",
+                "bg-scroll-speed-v": "↑↑ TRÈS rapide|↑ Rapide|↑ Moyenne|↑ Lente|Éteint|↓ Lente|↓ Moyenne|↓ Rapide|↓↓ TRÈS rapide|↓ Rapide|↓↓ TRÈS rapide",
                 "level-desc-placeholder": "Ajoute un court résumé (facultatif) de ton niveau, de son histoire, ou toute autre chose que le joueur devrait savoir et qui pourrait s'avérer utile.",
                 "editor-music": "Aucune (silencieuse)|Musique du niveau|Musique du niveau (Atténuée)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
@@ -462,7 +462,7 @@
                 "current-gen": "Créer un courant qui emporte ou aspire",
                 "tag-block": "[scale=0.50]Bloc qui active ou désactive les étiquettes lorsqu'il est frappé[/scale]",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Les Cheep Cheeps ont plusieurs mouvements d'IA. Passe ta souris au-dessus d'eux pour vérifier ![/scale]",
-                "more-aquatic-enemies": "[!]More aquatic enemies",
+                "more-aquatic-enemies": "Plus d'ennemis aquatiques",
                 "stretch-tiles": "[scale=0.75]Fais défiler vers le bas pour voir encore plus blocs de Flexcible[/scale]",
                 "artillery-tiles": "Blocs connexes supplémentaires\n[scale=0.75]Ces blocs sont facultatifs et ressemblent à des parties des objets ci-dessus.[/scale]",
                 "king-bill": "Roi Bill Balle\n[scale=0.75]Ce Bill Balle collosal peut briser les blocs durs sur son chemin avec facilité, et est tout à fait invincible ![/scale]",
@@ -566,7 +566,7 @@
                 "fairy-bottle": "Bocal de Fée",
                 "grab-block": "Bloc à empoigner",
                 "object-sign": "Panneau",
-                "circling-platform": "[!]Circling Platform",
+                "circling-platform": "Plateforme tournante",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goomin",
@@ -753,9 +753,9 @@
                 "crowber": "Corbek",
                 "stretch": "Flexcible",
                 "green-bubble": "Bulle Géante",
-                "fishbone-linear": "Ossec[s][!]Swims linearly",
-                "fishbone-chase": "Ossec[s][!]Chases player if spotted",
-                "fishbone-leap": "Ossec[s][!]Leaps like a Podoboo",
+                "fishbone-linear": "Ossec[s]Nage de façon linéaire",
+                "fishbone-chase": "Ossec[s]Poursuit le joueur s'il est repéré",
+                "fishbone-leap": "Ossec[s]Saute comme une Bulle de Lave",
                 "falling-flame": "Flamme Tombante",
                 "falling-ghost-flame": "Flamme Fantôme Tombante",
                 "nipper-plant-patrolling": "Nipper[s]Patrouillant",
@@ -774,20 +774,20 @@
                 "fire-snake": "Serpenflamme",
                 "bounding-fire": "Boundin' Fire",
                 "small-flame": "Petite flamme",
-                "angry-sun": "[!]Angry Sun",
-                "goonie": "[!]Goonie",
-                "flightless-goonie": "[!]Flightless Goonie",
-                "hefty-goonie": "[!]Hefty Goonie",
-                "bowling-goonie": "[!]Bowling Goonie",
-                "skeleton-goonie": "[!]Skeleton Goonie",
-                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
-                "para-beetle": "[!]Para-Beetle",
-                "heavy-para-beetle": "[!]Heavy Para-Beetle",
-                "flame-chomp": "[!]Flame Chomp",
-                "paragoomba": "[!]Paragoomba",
-                "paragaloomba": "[!]Paragaloomba",
-                "paragoombrat": "[!]Paragoombrat",
-                "paragoombud": "[!]Paragoombud",
+                "angry-sun": "Soleil",
+                "goonie": "Albatros",
+                "flightless-goonie": "Albatrosol",
+                "hefty-goonie": "Albatro-Gros",
+                "bowling-goonie": "Albatro-Gros (roulant)",
+                "skeleton-goonie": "Albatr'osseux",
+                "flightless-skeleton-goonie": "Albatrosol-Osseux",
+                "para-beetle": "Parabruyinsecte",
+                "heavy-para-beetle": "Parabruyinsecte potelé",
+                "flame-chomp": "Chomp Pyro",
+                "paragoomba": "Paragoomba",
+                "paragaloomba": "Paragaloomba",
+                "paragoombrat": "Paragoomin",
+                "paragoombud": "Paragaloomin",
                 "boom-boom": "Boum Boum",
                 "bowser": "Bowser",
                 "king-boo": "Roi Boo",
@@ -796,7 +796,7 @@
                 "super-leaf": "Super Feuille",
                 "hammer-flower": "Fleur à Marteau",
                 "hammer-suit": "Tenue Marteau",
-                "cloud-flower": "[!]Cloud Flower",
+                "cloud-flower": "Fleur Nuage",
                 "ice-flower": "Fleur Glaciale",
                 "carrot": "Carotte",
                 "small-fire-flower": "Petite Fleur de Feu",
@@ -1308,10 +1308,10 @@
                 "fog-f": "Brouillard",
                 "leaf-f": "Feuilles",
                 "sil-f": "Silhouette",
-                "current-f": "[!]Current",
-                "fish-f": "[!]Fish",
-                "color-f": "[!]Color overlay",
-                "wind-g": "[!]Wind generator"
+                "current-f": "Courant",
+                "fish-f": "Poissons",
+                "color-f": "Recouvrement de couleur",
+                "wind-g": "Générateur de vent"
             },
             "properties": {
                 "intensity": "Intensité",
@@ -1326,20 +1326,20 @@
                 "additive-blend": "Mélange d'additifs",
                 "color-hex": "Couleur personnalisée",
                 "palette": "Palette",
-                "two-way-movement": "[!]Two-way movement",
-                "water-check": "[!]Check for water",
-                "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "two-way-movement": "Déplacement des particules",
+                "water-check": "Vérifier la présence d'eau",
+                "play-wind-sfx": "Jouer le bruit du vent",
+                "buildup": "Formation"
             },
             "html": {
                 "intensity": "Faible|Moyenne|Haute",
                 "tilt-options": "Gauche|Aucune|Droit",
                 "flash-type": "Sur le fond seulement|Sur tous les couches",
                 "opacity-options": "25% (ambiant)|50%|75%|100% (opaque)",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-intensity": "Faible|Normal|Fort|Grain"
             },
             "tooltips": {
-                "name": "[!]A name to identify this effect, purely inside the editor.",
+                "name": "Un nom pour identifier cet effet, uniquement dans l'éditeur.",
                 "tags": "Étiquette(s) facultative(s) (séparée(s) par des espaces) utilisée(s) pour référencer cet effet. Tu peux par exemple utiliser des blocs d'étiquettes pour activer cet effet.",
                 "intensity": "Intensité de l'effet, qui se traduit généralement par une augmentation du nombre de particules lorsque les paramètres sont élevés.[/color]",
                 "movement-angle": "Angle/degré du mouvement.",
@@ -1354,12 +1354,12 @@
                 "additive-blend": "Le mélange d'additifs ajoute la couleur de l'incrustation aux pixels qu'elle recouvre. Cet effet est beaucoup plus visible avec les couleurs vives.",
                 "color-hex": "Couleur personnalisée au format HEX.\n\nExemples:\n[scale=0.75][color=#C8C8C8]C8C8C8 pour le gris clair[/color]\n[color=#F8C0F0]F8C0F0 pour le rose pastel[/color][scale=0.5][/scale]\n\nIl est recommandé d'utiliser un sélecteur de couleurs pour trouver les valeurs HEX souhaitées.[/scale]",
                 "palette": "Palette de l'effet, qui est purement cosmétique.",
-                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
-                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
-                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
-                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
-                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
-                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
+                "two-way-movement": "Permet aux particules de se déplacer également vers l'angle opposé.",
+                "water-check": "Chaque particule d'effet vérifie si elle se trouve dans l'eau. Si ce n'est pas le cas, elle peut disparaître ou se déplacer ailleurs.",
+                "wind-strength": "La force du vent, plus elle est forte, plus les sprites sont poussés rapidement.",
+                "wind-buildup": "Le temps en secondes pour que le vent atteigne sa vitesse maximale (et vice-versa).",
+                "wind-duration": "La durée du vent qui souffle (note : ceci n'inclut pas le temps de formation).",
+                "wind-repeats": "Durée pendant laquelle le vent répète son cycle. Le délai entre les vents est identique à la durée."
             },
             "palettes": {
                 "1_rain": "Pluie Ordinaire|Rebuts Radioactifs|Béton Boueux|Sauce Selvatique|Fange Fichue|Carbone Chargé",
@@ -1372,10 +1372,10 @@
                 "2_embers": "Braises Ordinaires|Trace Ténébreuse|Violette Venimeuse|Spectacle Surnaturel|Indigo Intemporel|Sauna Solaire",
                 "1_leaf": "Feuilles Vertes Ordinaires|[Amarante Automne|Sécheresse du Safran|Feuilles Frappés|Vert Vif|Printemps Pâle",
                 "2_leaf": "Feuilles Vertes Ordinaires|Feuilles d'Automne Ordinaires|Feuillage Fantastique|Feuilles Fantasmagoriques|Chocolat Croquant|Améthyste Apaisante|Restes Recuits|Vétusté Voyante|Marais Sombre|Délicatesse Dorée|Hiver Prématuré|Cacao Croustillant|Crépuscule Sérénissime",
-                "current": "[!]Bubbles|Air particles"
+                "current": "Bulles|Particules d'air"
             },
             "text": {
-                "duplicate-name": "[!]This effect name is already in use. Try another name."
+                "duplicate-name": "Ce nom d'effet est déjà utilisé. Essaie un autre nom."
             }
         },
         "screen-menus": {
