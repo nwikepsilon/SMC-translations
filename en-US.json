@@ -2,8 +2,6 @@
     "locale": "en-US",
     "strings": {
         "constants": {
-            "1_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Small Fire Flower|Bubble Flower",
-            "2_power-ups": "Mushroom|Fire Flower|Super Leaf|Hammer Flower|Ice Flower|Carrot|Bubble Flower",
             "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (gray)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)",
             "2_map-palettes": "Standard"
         },
@@ -91,6 +89,14 @@
                     "one": "effect",
                     "other": "effects"
                 },
+				"filters": {
+                    "one": "filter",
+                    "other": "filters"
+                },
+				"generators": {
+                    "one": "generator",
+                    "other": "generators"
+                },
                 "objects": {
                     "one": "object",
                     "other": "objects"
@@ -151,6 +157,8 @@
                 "tagging": "Tagging",
                 "behavior": "Behavior",
                 "how-it-works": "How it works",
+                "duration": "Duration",
+                "repeats": "Repeats",
                 "other": "Other"
             },
             "menu-options": {
@@ -266,7 +274,7 @@
                 "goals": "Goals & checkpoints",
                 "advanced": "Advanced tiles",
                 "mainEnemies": "Common enemies",
-                "koopas": "Shell enemies",
+                "shellEnemies": "Shell enemies",
                 "waterEnemies": "Aquatic enemies",
                 "castleEnemies": "Castle enemies",
                 "ghostEnemies": "Ghost enemies",
@@ -274,6 +282,8 @@
                 "plantEnemies": "Plant enemies",
                 "dinoEnemies": "Dinosaur enemies",
                 "fieryEnemies": "Fiery & electric enemies",
+				"yiEnemies": "Yoshi's Island enemies",
+				"poweredEnemies": "Powered-up enemies",
                 "bosses": "Bosses & related enemies",
 				"general-level-settings": "General level settings",
 				"map-settings": "Map settings",
@@ -436,6 +446,7 @@
                 "current-gen": "Create a current that blows away or sucks sprites in",
                 "tag-block": "Block that toggles tags on or off when hit",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Cheep Cheeps have various AI movements. Hover your mouse over them to check![/scale]",
+				"more-aquatic-enemies": "More aquatic enemies",
                 "stretch-tiles": "[scale=0.75]Scroll down for more Stretch tiles![/scale]",
                 "artillery-tiles": "Extra related tiles\n[scale=0.75]These are optional tiles to use that resemble parts of the objects above.[/scale]",
                 "king-bill": "King Bill\n[scale=0.75]This collosal Bullet Bill can break hard blocks on its way with ease, and is utterly undefeatable![/scale]",
@@ -539,13 +550,14 @@
                 "fairy-bottle": "Fairy Bottle",
 				"grab-block": "Grab Block",
 				"object-sign": "Object Sign",
+				"circling-platform": "Circling Platform",
 				"goomba": "Goomba",
 				"galoomba": "Galoomba",
 				"goombrat": "Goombrat",
 				"goombud": "Goombud",
 				"green-koopa": "Green Koopa Troopa",
-				"green-koopa-shell": "Green Koopa shell",
-				"green-koopa-shell-moving": "Green Koopa shell[s]Already moving",
+				"green-koopa-shell": "Green Koopa Shell",
+				"green-koopa-shell-moving": "Green Koopa Shell[s]Already moving",
 				"green-koopa-jumping": "Green Jumping Paratroopa",
 				"green-koopa-flying": "Green Flying Paratroopa",
 				"green-koopa-flying-no-turn": "Green Flying Paratroopa[s]Doesn't turn on their own",
@@ -558,7 +570,7 @@
 				"red-koopa-flying-no-turn": "Red Flying Paratroopa[s]Doesn't turn on their own",
 				"red-koopa-flying-static": "Red Stationary Paratroopa[s]Hovers in place",
 				"blue-koopa": "Blue Koopa Troopa",
-				"blue-koopa-shell": "Blue Koopa sSell",
+				"blue-koopa-shell": "Blue Koopa Shell",
 				"blue-koopa-shell-moving": "Blue Koopa Shell[s]Already moving",
 				"blue-koopa-jumping": "Blue Jumping Paratroopa",
 				"blue-koopa-flying": "Blue Flying Paratroopa[s]Chases player, relentlessly",
@@ -725,9 +737,9 @@
 				"crowber": "Crowber",
 				"stretch": "Stretch",
 				"green-bubble": "Green Bubble",
-				"fishbone-smw": "Fishbone[s]SMW AI",
-				"fishbone-nsmb": "Fishbone[s]NSMB AI",
-				"fishbone-leaping": "Fishbone[s]Leaping AI",
+				"fishbone-linear": "Fishbone[s]Swims linearly",
+				"fishbone-chase": "Fishbone[s]Chases player if spotted",
+				"fishbone-leap": "Fishbone[s]Leaps like a Podoboo",
 				"falling-flame": "Falling Flame",
 				"falling-ghost-flame": "Falling Ghost Flame",
 				"nipper-plant-patrolling": "Nipper Plant[s]Patrolling",
@@ -746,6 +758,20 @@
                 "fire-snake": "Fire Snake",
 				"bounding-fire": "Boundin' Fire",
 				"small-flame": "Small flame",
+				"angry-sun": "Angry Sun",
+				"goonie": "Goonie",
+				"flightless-goonie": "Flightless Goonie",
+				"hefty-goonie": "Hefty Goonie",
+				"bowling-goonie": "Bowling Goonie",
+				"skeleton-goonie": "Skeleton Goonie",
+				"flightless-skeleton-goonie": "Flightless Skeleton Goonie",
+				"para-beetle": "Para-Beetle",
+				"heavy-para-beetle": "Heavy Para-Beetle",
+				"flame-chomp": "Flame Chomp",
+				"paragoomba": "Paragoomba",
+				"paragaloomba": "Paragaloomba",
+				"paragoombrat": "Paragoombrat",
+				"paragoombud": "Paragoombud",
 				"boom-boom": "Boom Boom",
 				"bowser": "Bowser",
 				"king-boo": "King Boo",
@@ -754,6 +780,7 @@
 				"super-leaf": "Super Leaf",
 				"hammer-flower": "Hammer Flower",
 				"hammer-suit": "Hammer Suit",
+				"cloud-flower": "Cloud Flower",
 				"ice-flower": "Ice Flower",
 				"carrot": "Carrot",
 				"small-fire-flower": "Small Fire Flower",
@@ -1254,17 +1281,21 @@
         },
         "effects": {
             "names": {
-                "rain": "Rain",
-                "snow": "Snow",
-                "sand": "Sandstorm",
-                "embers": "Embers",
-                "heat": "Heat ripples",
-                "dark": "Darkness",
-                "echo": "SFX Echo",
-                "flash": "Flash",
-                "fog": "Fog",
-                "leaf": "Leaves",
-                "sil": "Silhouette"
+                "rain-f": "Rain",
+                "snow-f": "Snow",
+                "sand-f": "Sandstorm",
+                "embers-f": "Embers",
+                "heat-f": "Heat ripples",
+                "dark-f": "Darkness",
+                "echo-f": "SFX Echo",
+                "flash-f": "Flash",
+                "fog-f": "Fog",
+                "leaf-f": "Leaves",
+                "sil-f": "Silhouette",
+				"current-f": "Current",
+				"fish-f": "Fish",
+				"color-f": "Color overlay",
+				"wind-g": "Wind generator"
             },
             "properties": {
                 "intensity": "Intensity",
@@ -1278,15 +1309,21 @@
                 "fade-duration": "[scale=0.8]Fade-in/out duration[/scale]",
                 "additive-blend": "Additive blending",
                 "color-hex": "Custom color",
-                "palette": "Palette"
+                "palette": "Palette",
+				"two-way-movement": "Two-way movement",
+				"water-check": "Check for water",
+                "play-wind-sfx": "Play wind SFX",
+                "buildup": "Buildup"
             },
             "html": {
                 "intensity": "Low|Medium|High",
                 "tilt-options": "Left|None|Right",
                 "flash-type": "Background only|All layers",
-                "opacity-options": "25% (Ambient)|50%|75%|100% (Opaque)"
+                "opacity-options": "25% (Ambient)|50%|75%|100% (Opaque)",
+                "wind-intensity": "Weak|Normal|Strong|Turbo"
             },
             "tooltips": {
+				"name": "A name to identify this effect, purely inside the editor.",
                 "tags": "Optional tag or tags (separated by spaces) used to reference this effect. You can for example use Tag Blocks to toggle this effect.",
                 "intensity": "Intensity of the effect, usually resulting in more particles at higher settings.[/color]",
                 "movement-angle": "Angle/degree of the movement.",
@@ -1300,7 +1337,13 @@
                 "fade-duration": "The time (in seconds) it takes for the effect to fade-in/out when one of its tags are toggled.",
                 "additive-blend": "Additive blending adds the color of the overlay on top of the pixels the overlay is covering. This effect is much more noticeable with bright colors.",
                 "color-hex": "Custom color in HEX format.\n\nExamples:\n[scale=0.75][color=#C8C8C8]C8C8C8 for light gray[/color]\n[color=#F8C0F0]F8C0F0 for pastel pink[/color][scale=0.5][/scale]\n\nIt is recommended to use a color picker to find your preferred HEX values.[/scale]",
-                "palette": "Palette of the effect, which is purely cosmetic."
+                "palette": "Palette of the effect, which is purely cosmetic.",
+				"two-way-movement": "Allows particles to also move towards the opposite angle.",
+				"water-check": "Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
+                "wind-strength": "The strength of the wind, stronger strengths will make sprites get pushed faster.",
+                "wind-buildup": "The time in seconds for the wind to build up to full speed (and vice-versa).",
+                "wind-duration": "The duration of the wind blowing (note: this does not include buildup time).",
+                "wind-repeats": "The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {
                 "1_rain": "Default Rain|Radioactive Waste|Slushy Slurry|Jungle Juice|Sewage Soup|Deep Dark",
@@ -1312,8 +1355,12 @@
                 "1_embers": "Default Embers|Glowing Blight|Violet Void|Searing Sapphire|Ceaseless Crimson|Treacherous Tar",
                 "2_embers": "Default Embers|Murky Black|Venomous Purple|Void Substance|Inky Blue|Royal Gold",
                 "1_leaf": "Default Green|Red Autumn|Yellow Dryness|White Winter|Green Summer|Lime Spring",
-                "2_leaf": "Default Green|Default Autumn|Outrageous Leafage|Illusionary Grey|Chrunchy Chocolate|Funky Purple|Ashy Brush|Garish Grey|Murky Swamp|Golden Delight|Winter's Early|Crispy Cocoa|Serene Sunset"
-            }
+                "2_leaf": "Default Green|Default Autumn|Outrageous Leafage|Illusionary Grey|Chrunchy Chocolate|Funky Purple|Ashy Brush|Garish Grey|Murky Swamp|Golden Delight|Winter's Early|Crispy Cocoa|Serene Sunset",
+				"current": "Bubbles|Air particles"
+            },
+			"text": {
+				"duplicate-name": "This effect name is already in use. Try another name."
+			}
         },
         "screen-menus": {
             "restore-points": {
@@ -1333,7 +1380,7 @@
                 "enter-link": "Enter the link to your level on Level Share Square that you want to synchronize the level code with.",
                 "info-label-1": "With this feature enabled, when you save your level in-game, it will also be updated on the Level Share Square website automatically.",
                 "info-label-2": "When opening up the editor, the game will also alert you if the level code on the site is newer, which is useful when editing on multiple devices.",
-                "sync-success": "Your level is synchronized with its entry on Level Share Square! Hoozah!"
+                "sync-success": "Your level is synchronized with its entry on Level Share Square! Huzzah!"
             },
             "level-sync-edit": {
                 "sync-select": "Select when you want to synchronize.",

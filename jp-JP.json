@@ -2,8 +2,6 @@
     "locale": "jp-JP",
     "strings": {
         "constants": {
-            "1_power-ups": "キノコ|ファイアフラワー|スーパーこのは|アイスフラワー|ちびファイアフラワー|アワフラワー",
-            "2_power-ups": "キノコ|ファイアフラワー|スーパーこのは|アイスフラワー|アワフラワー",
             "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）",
             "2_map-palettes": "デフォルト"
         },
@@ -81,6 +79,8 @@
                 "down": "下",
                 "width": "はば",
                 "height": "高さ",
+                "opacity": "ふとうめいせい",
+                "stationary": "固定",
                 "layers": {
                     "one": "レイヤー",
                     "other": "レイヤー"
@@ -88,6 +88,14 @@
                 "effects": {
                     "one": "効果",
                     "other": "効果"
+                },
+                "filters": {
+                    "one": "フィルター",
+                    "other": "フィルター"
+                },
+                "generators": {
+                    "one": "ジェネレーター",
+                    "other": "ジェネレーター"
                 },
                 "objects": {
                     "one": "物",
@@ -120,9 +128,7 @@
                 "degrees": {
                     "one": "度",
                     "other": "度"
-                },
-                "opacity": "ふとうめいせい",
-                "stationary": "固定"
+                }
             },
             "labels": {
                 "press-again-to-confirm": "もう一度押して確認します。",
@@ -151,6 +157,8 @@
                 "tagging": "タギング",
                 "behavior": "動作",
                 "how-it-works": "動作のしくみ",
+                "duration": "持続時間",
+                "repeats": "くりかえし",
                 "other": "その他"
             },
             "menu-options": {
@@ -266,7 +274,7 @@
                 "goals": "ゴールとチェックポイント",
                 "advanced": "上級タイル",
                 "mainEnemies": "一般敵",
-                "koopas": "こうらを持った敵",
+                "shellEnemies": "こうらを持った敵",
                 "waterEnemies": "水に見つかる敵",
                 "castleEnemies": "お城に見つかる敵",
                 "ghostEnemies": "お化け敵",
@@ -274,6 +282,8 @@
                 "plantEnemies": "フラワー",
                 "dinoEnemies": "きょうりゅう",
                 "fieryEnemies": "炎と電気の敵",
+                "yiEnemies": "ヨッシーアイランドの敵",
+                "poweredEnemies": "パワーアップした敵",
                 "bosses": "ボスと関連する敵",
                 "general-level-settings": "一般レベルの設定",
                 "map-settings": "マップ設定",
@@ -420,7 +430,7 @@
                 "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|OFF|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
                 "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|OFF|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
                 "level-desc-placeholder": "レベルの簡単な説明、ストーリー、またはプレイヤーが知っておくと便利なことを入力してください。",
-                "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
+                "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home（カスタムBGM #1）|♪ Morning Drive（カスタムBGM #2）|♪ Lunch Break（カスタムBGM #3）|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]このページの土管は（タイル [/scale]物[scale=0.75]であり（[/scale]タイル[scale=0.75]ではない）、物レイヤーに置かれている。 この土管（物）は、上ったり下りたりするようにカスタマイズできる。[/scale]",
@@ -436,6 +446,7 @@
                 "current-gen": "スプライトを吹き飛ばしたり、吸い込んだりする風を起こす",
                 "tag-block": "タグのオン・オフを切り替えるブロック",
                 "cheep-cheeps": "プクプク\n[scale=0.75]プクプクはいろいろな動きをします。マウスオーバーでもっと見ることができます！[/scale]",
+                "more-aquatic-enemies": "その他の水の敵",
                 "stretch-tiles": "[scale=0.75]ネッチーの他のタイルは下にスクロール！[/scale]",
                 "artillery-tiles": "その他のタイル\n[scale=0.75]これらは、上記の物の一部のように見えるオプションのタイルである。[/scale]",
                 "king-bill": "キングキラー\n[scale=0.75]この大きなキラーは、途中にある硬いブロックを簡単に壊すことができ、まったく無敵だ！[/scale]",
@@ -537,6 +548,9 @@
                 "magic-bottle": "マジックビン[s]67％が呪われている|33％は妖精のビン",
                 "cursed-bottle": "呪いのビン",
                 "fairy-bottle": "妖精のビン",
+                "grab-block": "ブルブルブロック",
+                "object-sign": "サイン",
+                "circling-platform": "回転リフト",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -609,6 +623,8 @@
                 "fire-flame": "クッパブレス",
                 "ice-flame": "クッパブレス（アイス）",
                 "ghost-flame": "オニビ",
+                "firebar": "ファイアバー",
+                "icebar": "アイスバー",
                 "eerie": "テレサウルス",
                 "ember-eerie": "エルモス・テレサウルス",
                 "boo": "テレサ",
@@ -721,9 +737,9 @@
                 "crowber": "クロスケー",
                 "stretch": "ネッチー",
                 "green-bubble": "ビッグバブル",
-                "fishbone-smw": "フィッシュボーン[s]SMWのAI",
-                "fishbone-nsmb": "フィッシュボーン[s]NSMBのAI",
-                "fishbone-leaping": "フィッシュボーン[s]ジャンピングAI",
+                "fishbone-linear": "フィッシュボーン[s]前方に泳ぐ",
+                "fishbone-chase": "フィッシュボーン[s]プレーヤーを見つけると追いかける",
+                "fishbone-leap": "フィッシュボーン[s]バブルのようなジャンプ",
                 "falling-flame": "炎",
                 "falling-ghost-flame": "オニビ",
                 "nipper-plant-patrolling": "プチパックン[s]動く",
@@ -739,6 +755,23 @@
                 "big-falling-stalactite": "しょうにゅうせき（大きい、落ちる）",
                 "small-falling-stalactite": "しょうにゅうせき（小さい、落ちる）",
                 "amp": "ビリキュー",
+                "fire-snake": "ファイアスネーク",
+                "bounding-fire": "バウンドファイア",
+                "small-flame": "ボヤ",
+                "angry-sun": "太陽",
+                "goonie": "あほーどり",
+                "flightless-goonie": "あほーむし",
+                "hefty-goonie": "でぶあほーどり",
+                "bowling-goonie": "でぶあほーどり（転がる）",
+                "skeleton-goonie": "ホネあほーどり",
+                "flightless-skeleton-goonie": "ホネあほーむし",
+                "para-beetle": "パタメット",
+                "heavy-para-beetle": "メガパタメット",
+                "flame-chomp": "ケロンパ",
+                "paragoomba": "パタクリボー",
+                "paragaloomba": "パタクリ",
+                "paragoombrat": "パタカキボー",
+                "paragoombud": "パタカキボン",
                 "boom-boom": "ブンブン",
                 "bowser": "クッパ",
                 "king-boo": "キングテレサ",
@@ -746,7 +779,10 @@
                 "fire-flower": "ファイアフラワー",
                 "super-leaf": "スーパーこのは",
                 "hammer-flower": "ハンマーフラワー",
+                "hammer-suit": "ハンマースーツ",
+                "cloud-flower": "雲フラワー",
                 "ice-flower": "アイスフラワー",
+                "carrot": "ニンジン",
                 "small-fire-flower": "ちびファイアフラワー",
                 "bubble-flower": "アワフラワー",
                 "super-star": "スター",
@@ -779,15 +815,6 @@
                 "small-one-way-wall-right": "小さな一方通行カベ（右向き）",
                 "small-one-way-wall-down": "小さな一方通行カベ（下向き）",
                 "small-one-way-wall-left": "小さな一方通行カベ（左向き）",
-                "grab-block": "ブルブルブロック",
-                "object-sign": "サイン",
-                "firebar": "ファイアバー",
-                "icebar": "アイスバー",
-                "fire-snake": "ファイアスネーク",
-                "bounding-fire": "バウンドファイア",
-                "small-flame": "ボヤ",
-                "hammer-suit": "ハンマースーツ",
-                "carrot": "ニンジン",
                 "mount-blockade": "Mount Blockade"
             },
             "tile-tooltips": {
@@ -842,13 +869,13 @@
                     "enable-sinewave-motion": "正弦波モーションを有効にする"
                 },
                 "tooltips": {
+                    "movement-speed": "移動速度（ピクセル/秒）\n[sub]1タイルは16ピクセル。[/sub]",
                     "jump-strength": "ジャンプ開始時の垂直方向の初速（ピクセル/秒）。",
                     "blend-modes": "透明体（まだ見える）：\n[sub]{0}の色を他の重なっているピクセルの上に追加する。[/sub]\n\n物の上に現れる：\n[sub]{0}は彼の後ろにある物（例：下のレイヤー）にのみ表示される。[/sub]\n\nカモフラージュ：\n[sub]同じだが、完全に見えなくなり、タイルやスプライトを「きりさく」！[/sub]",
                     "expanding-obj-cycle-info": "長さと期間のカスタムオプションで、伸びと縮み。",
                     "expanding-obj-size-change-tiles": "サイズ変更のためのタイルの量。",
                     "expanding-obj-size-change-duration": "伸び縮みが起こるまでの時間（秒）。",
                     "expanding-obj-size-change-delay": "伸びたり縮んだりした場合は、この時間をおいてから再び伸びたり縮んだりする。",
-                    "movement-speed": "移動速度（ピクセル/秒）\n[sub]1タイルは16ピクセル。[/sub]",
                     "period": "完全な正弦波サイクルの時間（秒）。",
                     "opacity": "不透明度が低いと、スプライトが目立ちにくくなる。"
                 },
@@ -956,14 +983,14 @@
                 },
                 "tooltips": {
                     "amount-in-block": "ブロック内の物の量。",
+                    "amount-in-block-optional": "ブロックにオブジェクトが割り当てられている場合、この値の最大値がブロック内に格納される。",
                     "timer-info": "初回ヒット時にタイマーをスタートさせる。タイマーが０になると、ブロックには１つの物しか残らない。\n[scale=0.75][color=#CCCCCC]タイマーを無効にするには０のままにする。[/color][/scale]",
                     "progressive-info": "マリオが「ちびマリオ」の場合、ブロックの中のアイテムに関係なく、必ずキノコが出る。",
                     "star-chainer-info": "マリオが「無敵マリオ」のとき、ブロックに当たると、ブロックの中身に関係なく、必ずスターをもらえる。",
                     "invisible-info": "ブロックは最初は見えないが、当たると現れる。",
                     "coins-before-item-info": "アイテムを放出する前に、ブロックからこの量のコインを放出する。",
                     "object-breaks-nearby-player-info": "プレイヤーがブロックに近づくと、中の物が飛び出す。[color=#4CFF00]チェック[/color]した場合、「タイマー」フィールドは揺れアニメーションの持続時間に使用されます。",
-                    "tag-block-toggle": "このブロックを打つと、タグがONまたはOFFになる。\n[scale=0.75][color=#CCCCCC]例えば、このフィールドに「[color=#58A8F0]switchCurrent[/color]」と入力すれば、「[color=#58A8F0]switchCurrent[/color]」というタグをON・OFFすることで、海流をON・OFFすることができる。[/color][/scale]",
-                    "amount-in-block-optional": "ブロックにオブジェクトが割り当てられている場合、この値の最大値がブロック内に格納される。"
+                    "tag-block-toggle": "このブロックを打つと、タグがONまたはOFFになる。\n[scale=0.75][color=#CCCCCC]例えば、このフィールドに「[color=#58A8F0]switchCurrent[/color]」と入力すれば、「[color=#58A8F0]switchCurrent[/color]」というタグをON・OFFすることで、海流をON・OFFすることができる。[/color][/scale]"
                 }
             },
             "objects": {
@@ -1254,17 +1281,21 @@
         },
         "effects": {
             "names": {
-                "rain": "雨",
-                "snow": "雪",
-                "sand": "すなあらし",
-                "embers": "おきび",
-                "heat": "熱波",
-                "dark": "暗闇",
-                "echo": "SFXはんきょう",
-                "flash": "かみなり",
-                "fog": "きり",
-                "leaf": "葉",
-                "sil": "シルエット"
+                "rain-f": "雨",
+                "snow-f": "雪",
+                "sand-f": "すなあらし",
+                "embers-f": "おきび",
+                "heat-f": "熱波",
+                "dark-f": "暗闇",
+                "echo-f": "SFXはんきょう",
+                "flash-f": "かみなり",
+                "fog-f": "きり",
+                "leaf-f": "葉",
+                "sil-f": "シルエット",
+                "current-f": "水流・気流",
+                "fish-f": "魚",
+                "color-f": "色オーバーレイ",
+                "wind-g": "風効果"
             },
             "properties": {
                 "intensity": "強度",
@@ -1278,15 +1309,21 @@
                 "fade-duration": "[scale=0.8]フェードイン／フェードアウトの時間[/scale]",
                 "additive-blend": "明るさを増す",
                 "color-hex": "カスタム色",
-                "palette": "カラーパレット"
+                "palette": "カラーパレット",
+                "two-way-movement": "パーティクルの動き",
+                "water-check": "水のチェック",
+                "play-wind-sfx": "風の音を再生する",
+                "buildup": "増強"
             },
             "html": {
-                "intensity": "弱|中|強",
+                "intensity": "弱|常|強",
                 "tilt-options": "左に傾く|傾かない|右に傾く",
                 "flash-type": "背景色のみに適用する|すべてのレイヤーの上に",
-                "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）"
+                "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）",
+                "wind-intensity": "弱|常|強|スコール"
             },
             "tooltips": {
+                "name": "この効果の名前（エディター上でのみ）",
                 "tags": "この効果を参照するためのタグ（スペースで区切られたもの）。例えば、「ON／OFFタグブロック」でこの効果を変更することができます。",
                 "intensity": "効果の強さ。例えば、雨を選択した場合、オプションの「強」は大雨のように見せる。[/color]",
                 "movement-angle": "動きの角度／度合い。",
@@ -1300,7 +1337,13 @@
                 "fade-duration": "タグのいずれかがトグルされたときに、効果がフェードイン／フェードアウトするまでの時間（秒）。",
                 "additive-blend": "「明るさを増す」 は、ほぼとうめいで明るい選択色をオーバーレイレイヤーの上に追加します。",
                 "color-hex": "HEXフォーマットのカスタム色\n\n例えば：\n[scale=0.75][color=#C8C8C8]C8C8C8はライトグレー[/color]\n[color=#F8C0F0]F8C0F0はパステルピンク[/color][scale=0.5][/scale]\n\nカラーピッカーを使用して、好みのHEX値を見つけることをおすすめします。[/scale]",
-                "palette": "効果のカラーパレット（ゲームプレイにはえいきょうしない）"
+                "palette": "効果のカラーパレット（ゲームプレイにはえいきょうしない）",
+                "two-way-movement": "パーティクルが反対方向へも移動できるようにする。",
+                "water-check": "各効果パーティクルは、それが水の中にあるかどうかをチェックします。そうでない場合は、消えてしまうか、別の場所に移動し始めるかもしれない。",
+                "wind-strength": "風の強さで、強ければ強いほどスプライトは速く押される。",
+                "wind-buildup": "風がフルスピードになるまでの時間（秒）。",
+                "wind-duration": "風が吹いている時間（注：増強時間は含まない）。",
+                "wind-repeats": "風がサイクルをくり返す時間。風と風の間の遅れは持続時間と同じ。"
             },
             "palettes": {
                 "1_rain": "通常の雨|放射能雨|液体スラッジ|ジャングルの雨|廃水（はいすい）|真黒",
@@ -1312,7 +1355,11 @@
                 "1_embers": "普通のおきび|グローイングブライト|ヴァイオレット・ヴォイド|シアリングサファイア|シーレス・クリムゾン|上昇タール（読み：じょうしょうタール）",
                 "2_embers": "普通のおきび|マーキー・ブラック|毒パープル|ちょうくうどう|インキー・ブルー|ロイヤル・ゴールド",
                 "1_leaf": "普通の葉|紅葉|黄色のかんそう|白い冬|緑の夏|ライム色の春",
-                "2_leaf": "普通の葉|紅葉|豪華な葉（読み：ごうかなは）|イリュージョナリー・グレー|サクサク・チョコレート|ファンキー・パープル|アッシュブラシ|ガーリッシュ・グレー|どろぬま|黄金の喜び|冬来たる|サクサク・ココア|穏やかな夕焼け（読み：おだやかなゆうやけ）"
+                "2_leaf": "普通の葉|紅葉|豪華な葉（読み：ごうかなは）|イリュージョナリー・グレー|サクサク・チョコレート|ファンキー・パープル|アッシュブラシ|ガーリッシュ・グレー|どろぬま|黄金の喜び|冬来たる|サクサク・ココア|穏やかな夕焼け（読み：おだやかなゆうやけ）",
+                "current": "バブル|空気パーティクル"
+            },
+            "text": {
+                "duplicate-name": "この効果名はすでに使用されています。別の名前を試してください。"
             }
         },
         "screen-menus": {

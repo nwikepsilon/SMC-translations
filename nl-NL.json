@@ -2,8 +2,6 @@
     "locale": "nl-NL",
     "strings": {
         "constants": {
-            "1_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Hamerbloem|Ijsbloem|Kleine Vuurbloem|Bubbelbloem",
-            "2_power-ups": "Paddenstoel|Vuurbloem|Superblaadje|Hamerbloem|Ijsbloem|Wortel|Bubbelbloem",
             "1_map-palettes": "Standaard/Bovenwereld|Ondergronds (donkerblauw)|Kasteel (grijs)|Onderwater (donkergroen)|In de wolken (lightgroen)|Ijs (lichtblauw)|Vulkaan (rood)|Spookhuis (paars)|Bonus (geel)|Strand (lichtbruin)|Sterrewereld (pastel-blauw)|Bos (aards-bruin)",
             "2_map-palettes": "Standaard"
         },
@@ -91,6 +89,14 @@
                     "one": "effect",
                     "other": "effecten"
                 },
+				"filters": {
+                    "one": "filter",
+                    "other": "filters"
+                },
+				"generators": {
+                    "one": "generator",
+                    "other": "generatoren"
+                },
                 "objects": {
                     "one": "object",
                     "other": "objecten"
@@ -151,6 +157,8 @@
                 "tagging": "Tagging",
                 "behavior": "Gedrag",
                 "how-it-works": "Hoe het werkt",
+                "duration": "Looptijd",
+                "repeats": "Herhalingen",
                 "other": "Overig"
             },
             "menu-options": {
@@ -266,7 +274,7 @@
                 "goals": "Goal & checkpunten",
                 "advanced": "Geavanceerde tegels",
                 "mainEnemies": "Algemene vijanden",
-                "koopas": "Vijanden met schilden",
+                "shellEnemies": "Vijanden met schilden",
                 "waterEnemies": "Aquatische vijanden",
                 "castleEnemies": "Kasteel vijanden",
                 "ghostEnemies": "Spookachtige vijanden",
@@ -274,6 +282,8 @@
                 "plantEnemies": "Plantaardige vijanden",
                 "dinoEnemies": "Dinosaurus vijanden",
                 "fieryEnemies": "Vurige & electrische vijanden",
+				"yiEnemies": "Vijanden van Yoshi's Island",
+				"poweredEnemies": "Powered-up vijanden",
                 "bosses": "Eindbazen & gerelateede vijanden",
                 "general-level-settings": "Algemene level instellingen",
                 "map-settings": "Map instellingen",
@@ -436,6 +446,7 @@
                 "current-gen": "Maakt een weg-blazende of zuigende stroming",
                 "tag-block": "Een blok dat tags aan/uit kan zetten",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Cheep Cheeps hebben verschilende bewegings-gedrag. Hou je muis over ze voor meer info![/scale]",
+				"more-aquatic-enemies": "Meer aquatische vijanden",
                 "stretch-tiles": "[scale=0.75]Scroll naar beneden voor meer Stretch tiles![/scale]",
                 "artillery-tiles": "Extra gerelateerde tiles\n[scale=0.75]Dit zijn optionele tegels die net zo lijken als de artillerie-objecten boven.[/scale]",
                 "king-bill": "Koning Bill\n[scale=0.75]Deze reusachtige Bullet Bill kan harde blokken moeiteloos vernielen, en is zowat onsterfelijk![/scale]",
@@ -537,6 +548,7 @@
                 "magic-bottle": "Magische Fles[s]67% vuur | 33% fee",
 				"grab-block": "Oppak-blok",
 				"object-sign": "Object bord",
+				"circling-platform": "Cirkelend Platform",
                 "cursed-bottle": "Vervloekte Fles",
                 "fairy-bottle": "Fles met Fee",
 				"goomba": "Goomba",
@@ -725,9 +737,9 @@
 				"crowber": "Kraai",
 				"stretch": "Stretch",
 				"green-bubble": "Groene Bubbel",
-				"fishbone-smw": "Fishbone[s]SMW AI",
-				"fishbone-nsmb": "Fishbone[s]NSMB AI",
-				"fishbone-leaping": "Fishbone[s]Leaping AI",
+				"fishbone-linear": "Fishbone[s]Zwemt lineair",
+				"fishbone-chase": "Fishbone[s]Jaagt op gespotte spelers",
+				"fishbone-leap": "Fishbone[s]Springt als een Podoboo",
 				"falling-flame": "Vallende Vlam",
 				"falling-ghost-flame": "Geestelijke Vallende Vlam",
 				"nipper-plant-patrolling": "Nipper Plant[s]Patrolling",
@@ -746,6 +758,20 @@
                 "fire-snake": "Vuurslang",
 				"bounding-fire": "Springvlam",
 				"small-flame": "Klein vlammetje",
+				"angry-sun": "Boze Zon",
+				"goonie": "Goonie",
+				"flightless-goonie": "Vliegloze Goonie",
+				"hefty-goonie": "Flinke Goonie",
+				"bowling-goonie": "Bowlende Goonie",
+				"skeleton-goonie": "Schedel-Goonie",
+				"flightless-skeleton-goonie": "Vliegloze Schedel-Goonie",
+				"para-beetle": "Para-Beetle",
+				"heavy-para-beetle": "Zware Para-Beetle",
+				"flame-chomp": "Flame Chomp",
+				"paragoomba": "Paragoomba",
+				"paragaloomba": "Paragaloomba",
+				"paragoombrat": "Paragoombrat",
+				"paragoombud": "Paragoombud",
 				"boom-boom": "Boom Boom",
 				"bowser": "Bowser",
 				"king-boo": "Koning Boo",
@@ -754,6 +780,7 @@
 				"super-leaf": "Superblaadje",
 				"hammer-flower": "Hamerbloem",
 				"hammer-suit": "Hamer Outfit",
+				"cloud-flower": "Wolkenbloem",
 				"ice-flower": "Ijsbloem",
 				"carrot": "Wortel",
 				"small-fire-flower": "Kleine Vuurbloem",
@@ -1254,17 +1281,21 @@
         },
         "effects": {
             "names": {
-                "rain": "Regen",
-                "snow": "Sneeuw",
-                "sand": "Zandstorm",
-                "embers": "Sintels",
-                "heat": "Hitte rimpelingen",
-                "dark": "Duisternis",
-                "echo": "Echo",
-                "flash": "Flits",
-                "fog": "Mist",
-                "leaf": "Blaadjes",
-                "sil": "Silhouet"
+                "rain-f": "Regen",
+                "snow-f": "Sneeuw",
+                "sand-f": "Zandstorm",
+                "embers-f": "Sintels",
+                "heat-f": "Hitte rimpelingen",
+                "dark-f": "Duisternis",
+                "echo-f": "Echo",
+                "flash-f": "Flits",
+                "fog-f": "Mist",
+                "leaf-f": "Blaadjes",
+                "sil-f": "Silhouet",
+				"current-f": "Stroming",
+				"fish-f": "Vissen",
+				"color-f": "Kleur-bedekking",
+				"wind-g": "Wind-generator"
             },
             "properties": {
                 "intensity": "Intensiteit",
@@ -1278,15 +1309,21 @@
                 "fade-duration": "[scale=0.8]Tijd van in/uit vervagen[/scale]",
                 "additive-blend": "Additieve vermenging",
                 "color-hex": "Aangepaste kleur",
-                "palette": "Palet/Kleur"
+                "palette": "Palet/Kleur",
+				"two-way-movement": "Beweeg in twee richtingen",
+				"water-check": "Blijf op water controleren",
+                "play-wind-sfx": "Maak waai geluiden",
+                "buildup": "Opbouwtijd"
             },
             "html": {
                 "intensity": "Laag|Middelmatig|Hoog",
                 "tilt-options": "Links|Geen|Rechts",
                 "flash-type": "Alleen achtergronden|Alle lagen",
-                "opacity-options": "25% (Atmosferisch)|50%|75%|100% (Ondoorzichtig)"
+                "opacity-options": "25% (Atmosferisch)|50%|75%|100% (Ondoorzichtig)",
+                "wind-intensity": "Zwak|Normaal|Sterk|Turbo"
             },
             "tooltips": {
+				"name": "Een naam om dit effect te identificeren, puur in de editor.",
                 "tags": "Optionele tag of tags (uit elkaar gehouden door spaties) om naar dit effect te verwijzen. Je kan bijvoorbeeld Tag Blokken gebruiken om deze tag aan/uit te zetten.",
                 "intensity": "Intensiteit van het effect, een hogere intensiteit betekend vaak meer deeltjes in de lucht.",
                 "movement-angle": "De hoek (in graden) waar de deeltjes zich naartoe bewegen.",
@@ -1300,7 +1337,13 @@
                 "fade-duration": "De tijd (in seconden) dat het effect nodig heeft in om te vervagen wanneer een van de tag van de effecten is ge-updated.",
                 "additive-blend": "Additieve vermenging voegd de kleur van de effect-overlap boven de pixels dat het effect-overlap bedekt. Dit effect is duidelijker op te merken met lichte/felle kleuren.",
                 "color-hex": "Voer een eigen kleur in via de HEX-formaat.\n\nVoorbeelden:\n[scale=0.75][color=#C8C8C8]C8C8C8 voor licht grijs[/color]\n[color=#F8C0F0]F8C0F0 for pastel roze[/color][scale=0.5][/scale]\n\nHet is aangeraden om een 'color picker' te gebruiken om je HEX-codes te vinden.[/scale]",
-                "palette": "De palet of kleur van het effect. Dit is puur cosmetisch."
+                "palette": "De palet of kleur van het effect. Dit is puur cosmetisch.",
+				"two-way-movement": "Particles kunnen ook de andere richting op reizen.",
+				"water-check": "Elk effect particle zal erop letten of het nog in water is - zo niet, kan het verdwijnen of een andere kant op gaan.",
+                "wind-strength": "De sterkte van de wind, sterkerende winden zullen sprites sneller wegblazen.",
+                "wind-buildup": "Tijd (in seconden) dat de wind nodig heeft om top-sterkte te berijken.",
+                "wind-duration": "De tijd dat de wind blaast (op volle sterkte).",
+                "wind-repeats": "Het aantal keren dat de wind-cyclus zich herhaalt. De tijd tussen elke wind is hetzelfde als de looptijd."
             },
             "palettes": {
                 "1_rain": "Standaard Regen|Radioactief afval|Slushy Slurry|Oerwoud's Sap|Riool-mengelmoes|Diepe Duisternis",
@@ -1312,8 +1355,12 @@
                 "1_embers": "Standaard Sintels|Gloeiende Plaag|Vacuüm-Violet|Schroei-Saffier|Karmozijnrood|Zwaar Zwart",
                 "2_embers": "Standaard Sintels|Duisterdonker|Venijnig Violet|Substantie van Leegheid|Inktblauw|Koninklijk Goud",
                 "1_leaf": "Standaard Groen|Herfst-rood|Zon-geel|Winters-wit|Zomers-groen|Limoen Lente",
-                "2_leaf": "Standaard Groen|Standard Herst|Buitengewone Blaadjes|Illusiegrijs|Knapperige Chocolade|Hip & Paars|Asachtig Blad|Opvallend Grijs|Duister Moeras|Gouden Genot|Vroege Winter|Krokant & Cacao|Zonsondergangrust"
-            }
+                "2_leaf": "Standaard Groen|Standard Herst|Buitengewone Blaadjes|Illusiegrijs|Knapperige Chocolade|Hip & Paars|Asachtig Blad|Opvallend Grijs|Duister Moeras|Gouden Genot|Vroege Winter|Krokant & Cacao|Zonsondergangrust",
+				"current": "Bubbels|Lucht deeltjes"
+            },
+			"text": {
+				"duplicate-name": "Deze effect-naam is al in gebruik. Probeer een andere naam."
+			}
         },
         "screen-menus": {
             "restore-points": {
