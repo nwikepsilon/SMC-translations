@@ -469,7 +469,7 @@
             "text": {
                 "obj-pipe": "[scale=0.75]Трубы на этой странице являются [/scale]объектами,[scale=0.75] (а не [/scale]сегментами[scale=0.75]), и размещаются на слое объектов. Эти трубы можно растягивать/сжимать и настраивать, чтобы они растягивались/сжимались автоматически.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Это невидимый спавнер врагов. Чтобы сделать спавнер в трубе, просто переместите его в трубу! Перед этим настройте спавнер.[/scale]",
-                "electric-tiles": "Электрические сегменты могут уничтожить почти любых органических существ. При помощи Ститана игрок может накапливать заряд, чтобы наносить урон врагам.",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Примечание: эти двери - декорация. Если Вы ищите двери, в которые можно войти, зайдите в меню \"Перемещения\", нажав на иконку трубы.",
                 "advanced-platform": "Расширенные платформы\n[scale=0.75]Эти платформы можно настраивать! Особые сегменты, расположенные рядом с ними, влияют на их поведение.[/scale]",
                 "persistent-area-tile": "Сохранять сегменты загруженными в одной зоне",
@@ -717,6 +717,7 @@
                 "green-beach-koopa": "Зелёный пляжный купа",
                 "red-beach-koopa": "Красный пляжный купа",
                 "blue-beach-koopa": "Синий пляжный купа",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "Жёлтый пляжный купа",
                 "bombshell-beach-koopa": "Взрывной пляжный купа",
                 "fast-goomba": "Быстрый Гумба",
@@ -760,6 +761,7 @@
                 "urchin-back-and-forth": "Ёж[s]Плывёт вперёд и назад",
                 "urchin-walled": "Ёж[s]Движется вдоль стен",
                 "big-bertha": "Большая Берта",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Иглорыба-толстяк",
                 "cheep-chomp": "Чип-кусь",
                 "spike-bass": "Шипо-окунь",
@@ -1355,7 +1357,8 @@
                 "intensity": "Низко|Средне|Высоко",
                 "tilt-options": "Лево|Нет|Право",
                 "flash-type": "Только на заднем фоне|На всех слоях",
-                "opacity-options": "25% (Окружающий)|50%|75%|100% (Непрозрачный)"
+                "opacity-options": "25% (Окружающий)|50%|75%|100% (Непрозрачный)",
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "Имя для идентефикации эффекта, нужно только при редактировании.",

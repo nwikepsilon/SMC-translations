@@ -175,6 +175,7 @@
                 "how-it-works": "[!]How it works",
                 "duration": "[!]Duration",
                 "repeats": "[!]Repeats",
+                "delay": "[!]Delay",
                 "other": "[!]Other"
             },
             "menu-options": {
@@ -282,6 +283,7 @@
                 "cryo": "Crio",
                 "spikes": "Picos & blocos mortíferos",
                 "climbables": "Objetos escaláveis",
+                "electricity": "[!]Electricity",
                 "doors": "Portas de decoração",
                 "mainObjects": "Objetos comuns",
                 "powerUps": "Items & montáveis",
@@ -397,7 +399,7 @@
                 "object-stats": "[scale=0.8]Objetos[/scale]",
                 "tilemap-stats": "[scale=0.8]Mapas de blocos[/scale]",
                 "misc-stats": "[scale=0.9]Outros[/scale]",
-                "grid-toggle": "[scale=0.75]Grelha[/scale]\n[scale=0.5](G)[/scale]",
+                "grid-toggle": "Grelha\n[scale=0.5](G)[/scale]",
                 "favorites-bar-toggle": "Barra de favoritos",
                 "mini-toolbar-toggle": "[scale=0.5]Mini\n[/scale]barra de ferramentas",
                 "toolbar-animations-toggle": "Animações da barra de ferramentas",
@@ -451,6 +453,7 @@
             "text": {
                 "obj-pipe": "[scale=0.75]Os tubos nesta página são considerados objetos (não como blocos), e irão estar numa camada de objetos. Estes tubos podem ser estendidos e personalizados para estenderem ou encolherem ao longo do tempo.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Este objeto é um gerador de sprites invisível. Se quiser fazer um tubo gerador, simplesmente arraste este objeto para dentro de um tubo! Certifique-se que define suas propriedades primeiro.[/scale]",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Nota: estas são portas de decoração. Se está procurando para portas interagíveis, dirija-se ao menu de Teletransporte ao carregar no ícone com tubos no fundo do editor.",
                 "advanced-platform": "Plataforma avançada\n[scale=0.75]Estas plataformas são altamente personalizaveis! Os blocos ao seu lado podem influenciar seu movimento.[/scale]",
                 "persistent-area-tile": "Manter sprites carregador numa só área",
@@ -698,6 +701,7 @@
                 "green-beach-koopa": "[!]Beach Koopa Verde",
                 "red-beach-koopa": "[!]Beach Koopa Vermelho",
                 "blue-beach-koopa": "[!]Beach Koopa Azul",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "[!]Beach Koopa Amarelo",
                 "bombshell-beach-koopa": "[!]Beach Koopa do Casco Explosivo",
                 "fast-goomba": "Goomba Rápido",
@@ -741,6 +745,7 @@
                 "urchin-back-and-forth": "Ouriço[s][!]Vai e volta",
                 "urchin-walled": "Ouriço[s][!]Preso à paredes",
                 "big-bertha": "Big Bertha",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Balão Cheep",
                 "cheep-chomp": "Come Cheep",
                 "spike-bass": "Boss Bass",
@@ -1329,14 +1334,15 @@
                 "two-way-movement": "[!]Two-way movement",
                 "water-check": "[!]Check for water",
                 "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "buildup": "[!]Buildup",
+                "cooldown": "[!]Cooldown"
             },
             "html": {
                 "intensity": "Baixa|Média|Alta",
                 "tilt-options": "Esquerda|Nenhuma|Direita",
                 "flash-type": "Somente no plano de fundo|Todas as camadas",
                 "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "[!]A name to identify this effect, purely inside the editor.",
@@ -1359,6 +1365,8 @@
                 "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
                 "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
                 "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
+                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
                 "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {

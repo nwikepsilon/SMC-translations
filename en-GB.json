@@ -159,6 +159,7 @@
                 "how-it-works": "How it works",
                 "duration": "Duration",
                 "repeats": "Repeats",
+                "delay": "Delay",
                 "other": "Other"
             },
             "menu-options": {
@@ -266,6 +267,7 @@
                 "cryo": "Cryo",
                 "spikes": "Spike & deadly tiles",
                 "climbables": "Climbable objects",
+                "electricity": "Electricity",
                 "doors": "Scenery doors",
                 "mainObjects": "Common objects",
                 "powerUps": "Power-ups & mounts",
@@ -381,7 +383,7 @@
                 "object-stats": "[scale=0.8]Objects[/scale]",
                 "tilemap-stats": "[scale=0.8]Tilemaps[/scale]",
                 "misc-stats": "[scale=0.9]Other[/scale]",
-                "grid-toggle": "[scale=0.75]Grid[/scale]\n[scale=0.5](G)[/scale]",
+                "grid-toggle": "Grid\n[scale=0.5](G)[/scale]",
                 "favorites-bar-toggle": "Favourites bar",
                 "mini-toolbar-toggle": "[scale=0.5]Mini\n[/scale]toolbar",
                 "toolbar-animations-toggle": "Toolbar animations",
@@ -435,6 +437,7 @@
             "text": {
                 "obj-pipe": "[scale=0.75]The pipes on this pages are treated as [/scale]objects[scale=0.75] (not [/scale]tiles[scale=0.75]), and go on object layers. These pipes can be extended and customised to expand and shrink over time.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]This object is an invisible sprite spawner. If you want to make a pipe spawner, just drag it into a pipe! Be sure to set it up first.[/scale]",
+                "electric-tiles": "These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Note: these are scenery doors. If you're looking for enterable doors, head over to the Warps menu by pressing the Pipes icon at the bottom.",
                 "advanced-platform": "Advanced Platform\n[scale=0.75]These platforms are highly customisable! The tiles next to them can influence their behavior.[/scale]",
                 "persistent-area-tile": "Keep sprites loaded in one area",
@@ -682,6 +685,7 @@
                 "green-beach-koopa": "Green Beach Koopa",
                 "red-beach-koopa": "Red Beach Koopa",
                 "blue-beach-koopa": "Blue Beach Koopa",
+                "blue-beach-koopa-sliding": "Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "Yellow Beach Koopa",
                 "bombshell-beach-koopa": "Bombshell Beach Koopa",
                 "fast-goomba": "Fast Goomba",
@@ -725,6 +729,7 @@
                 "urchin-back-and-forth": "Urchin[s]Swims back-and-forth",
                 "urchin-walled": "Urchin[s]Walled",
                 "big-bertha": "Big Bertha",
+                "big-bertha-passive": "Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Porcupuffer",
                 "cheep-chomp": "Cheep Chomp",
                 "spike-bass": "Spike Bass",
@@ -1313,14 +1318,15 @@
                 "two-way-movement": "Two-way movement",
                 "water-check": "Check for water",
                 "play-wind-sfx": "Play wind SFX",
-                "buildup": "Buildup"
+                "buildup": "Buildup",
+                "cooldown": "Cooldown"
             },
             "html": {
                 "intensity": "Low|Medium|High",
                 "tilt-options": "Left|None|Right",
                 "flash-type": "Background only|All layers",
                 "opacity-options": "25% (Ambient)|50%|75%|100% (Opaque)",
-                "wind-intensity": "Weak|Normal|Strong|Turbo"
+                "wind-types": "Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "A name to identify this effect, purely inside the editor.",
@@ -1341,9 +1347,11 @@
                 "two-way-movement": "Allows particles to also move towards the opposite angle.",
                 "water-check": "Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
                 "wind-strength": "The strength of the wind, stronger strengths will make sprites get pushed faster.",
-                "wind-buildup": "The time in seconds for the wind to build up to full speed (and vice-versa).",
+                "wind-buildup": "The time in seconds for the wind to build up to full speed.",
                 "wind-duration": "The duration of the wind blowing (note: this does not include buildup time).",
-                "wind-repeats": "The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
+                "wind-cooldown": "Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "Time in seconds between a wind cycle (cooldown end - buildup start).",
+                "wind-repeats": "The amount of times the wind will repeat its cycle. The delay between cycles can be defined below."
             },
             "palettes": {
                 "1_rain": "Default Rain|Radioactive Waste|Slushy Slurry|Jungle Juice|Sewage Soup|Deep Dark",

@@ -2,7 +2,7 @@
     "locale": "pl-PL",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standardowa/Overworld|Podziemia (ciemny niebieski)|Zamek (szary)|Podwodna (ciemny zielony)|Niebo (jasny zielony)|Lód (jasny niebieski)|Wulkan (czerwony)|Dom Duchów (fioletowy)|Bonus (żółty)|[!]Beach (light brown)|[!]Star World (pastel blue)|[!]Forest (earthy brown)",
+            "1_map-palettes": "Standardowa/Overworld|Podziemia (ciemny niebieski)|Zamek (szary)|Podwodna (ciemny zielony)|Niebo (jasny zielony)|Lód (jasny niebieski)|Wulkan (czerwony)|Dom Duchów (fioletowy)|Bonus (żółty)|Plaża (jasny brązowy)|Gwiezdny Świat (pastelowy niebieski)|Las (beżowy)",
             "2_map-palettes": "Standardowa"
         },
         "common": {
@@ -71,7 +71,7 @@
                 "volume": "głośność",
                 "frequency": "częstotliwość",
                 "rotation": "rotacja",
-                "movement": "[!]movement",
+                "movement": "ruch",
                 "active": "aktywny",
                 "inactive": "nieaktywny",
                 "unavailable": "niedostępne",
@@ -87,8 +87,8 @@
                 "down": "dół",
                 "width": "szerokość",
                 "height": "wysokość",
-                "opacity": "[!]opacity",
-                "stationary": "[!]stationary",
+                "opacity": "przezroczystość",
+                "stationary": "stacjonarny",
                 "layers": {
                     "one": "warstwa",
                     "other": "warstwy",
@@ -97,21 +97,21 @@
                 },
                 "effects": {
                     "one": "efekt",
-                    "other": "[!]effects",
+                    "other": "efekty",
                     "few": "efekty",
                     "many": "efekty"
                 },
                 "filters": {
-                    "one": "[!]filter",
-                    "other": "[!]filters",
-                    "few": "[!]filters",
-                    "many": "[!]filters"
+                    "one": "filtr",
+                    "other": "filtry",
+                    "few": "filtry",
+                    "many": "filtry"
                 },
                 "generators": {
-                    "one": "[!]generator",
-                    "other": "[!]generators",
-                    "few": "[!]generators",
-                    "many": "[!]generators"
+                    "one": "generator",
+                    "other": "generatory",
+                    "few": "generatory",
+                    "many": "generatory"
                 },
                 "objects": {
                     "one": "obiekt",
@@ -152,8 +152,8 @@
                 "tags": {
                     "one": "tag",
                     "other": "tagi",
-					"few": "tagi",
-					"many": "tagi"
+                    "few": "tagi",
+                    "many": "tagi"
                 },
                 "degrees": {
                     "one": "stopień",
@@ -181,7 +181,7 @@
                 "min-tiles": "Minimalny rozmiar wynosi {0}",
                 "current-map-size": "Obecny rozmiar mapy",
                 "select-x": "Wybierz {0}",
-                "mode": "[!]Mode",
+                "mode": "Tryb",
                 "appearance": "Pojawienie się",
                 "activity": "Aktywność",
                 "activation": "Aktywacja",
@@ -189,8 +189,9 @@
                 "tagging": "Otagowanie",
                 "behavior": "Zachowanie",
                 "how-it-works": "Jak to działa",
-                "duration": "[!]Duration",
-                "repeats": "[!]Repeats",
+                "duration": "Czas trwania",
+                "repeats": "Powtórzenia",
+                "delay": "[!]Delay",
                 "other": "Inne"
             },
             "menu-options": {
@@ -298,6 +299,7 @@
                 "cryo": "Cryo",
                 "spikes": "Kolce i śmiertelne bloki",
                 "climbables": "Obiekty do wspinania",
+                "electricity": "[!]Electricity",
                 "doors": "Ozdobne drzwi",
                 "mainObjects": "Powszechne obiekty",
                 "powerUps": "Power-up'y & mount'y",
@@ -314,8 +316,8 @@
                 "plantEnemies": "Roślinni wrogowie",
                 "dinoEnemies": "Dinozaury",
                 "fieryEnemies": "Płomienni i elektryczni wrogowie",
-                "yiEnemies": "[!]Yoshi's Island enemies",
-                "poweredEnemies": "[!]Powered-up enemies",
+                "yiEnemies": "Wrogowie z Yoshi's Island",
+                "poweredEnemies": "Wrogowie z power-up'ami",
                 "bosses": "Bossowie i powiązani wrogowie",
                 "general-level-settings": "Główne ustawienia poziomu",
                 "map-settings": "Ustawienia mapy",
@@ -467,6 +469,7 @@
             "text": {
                 "obj-pipe": "[scale=0.75]Rury na tej stronie są traktowane jako [/scale]obiekty[scale=0.75] (nie [/scale]płytki[scale=0.75]), i znajdą się na warstwie obiektów. Te rury mogą być modyfikowane. Można też sprawić żeby rozszerzały się i kurczyły.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Ten obiekt to niewidzialny spawner obiektów. Aby sprawić by obiekty/wrogowie wychodzili z rury, należy przeciągnąć ten obiekt do modyfikowalnej rury! Upewnij się by najpierw go skonfigurować.[/scale]",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Uwaga: to są dekoracyjne drzwi. Jeśli szukasz drzwi użytkowych, przejdź do menu Przejść wciskając ikonkę Rur na dole.",
                 "advanced-platform": "Zaawansowana Platforma\n[scale=0.75]Te platformy są konfigurowalne! Te płytki koło nich wpływają na ich zachowanie.[/scale]",
                 "persistent-area-tile": "Pozostaw obiekty wczytane w jednym obszarze",
@@ -478,7 +481,7 @@
                 "current-gen": "Obiekt który odrzuca lub zasysa obiekty",
                 "tag-block": "Obiekt który włącza lub wyłącza tagi po użyciu",
                 "cheep-cheeps": "Cheep Cheep'y\n[scale=0.75]Cheep Cheep'y mają różne ruchy AI. Najedź na nie kursorem by sprawdzić![/scale]",
-                "more-aquatic-enemies": "[!]More aquatic enemies",
+                "more-aquatic-enemies": "Więcej wodnych wrogów",
                 "stretch-tiles": "[scale=0.75]Przewiń w dół by zobaczyć więcej obiektów![/scale]",
                 "artillery-tiles": "Dodatkowe powiązane płytki\n[scale=0.75]To są płytki do użycia z obiektami powyżej.[/scale]",
                 "king-bill": "King Bill\n[scale=0.75]Ten ogromny Bullet Bill może niszczyć twarde bloki na swojej drodze z łatwością i nie da się go pokonać![/scale]",
@@ -577,12 +580,12 @@
                 "yellow-palace-switch": "Żółty Przełącznik",
                 "red-palace-switch": "Czerwony Przełącznik",
                 "blue-palace-switch": "Niebieski Przełącznik",
-                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
-                "cursed-bottle": "[!]Cursed Bottle",
-                "fairy-bottle": "[!]Fairy Bottle",
-                "grab-block": "[!]Grab Block",
-                "object-sign": "[!]Object Sign",
-                "circling-platform": "[!]Circling Platform",
+                "magic-bottle": "Magiczna butla 67% płomień | 33% wróżka",
+                "cursed-bottle": "Przeklęta butla",
+                "fairy-bottle": "Butla z wróżką",
+                "grab-block": "Grab Blok",
+                "object-sign": "Znak",
+                "circling-platform": "Kręcąca się platforma",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -655,8 +658,8 @@
                 "fire-flame": "Płomień",
                 "ice-flame": "Lodowy Płomień",
                 "ghost-flame": "Nawiedzony Płomień",
-                "firebar": "[!]Fire Bar",
-                "icebar": "[!]Ice Bar",
+                "firebar": "Słup ognia",
+                "icebar": "Lodowy słup",
                 "eerie": "Eerie",
                 "ember-eerie": "Płonący Eerie",
                 "boo": "Boo",
@@ -714,6 +717,7 @@
                 "green-beach-koopa": "Zielony Beach Koopa",
                 "red-beach-koopa": "Czerwony Beach Koopa",
                 "blue-beach-koopa": "Niebieski Beach Koopa",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "Żółty Beach Koopa",
                 "bombshell-beach-koopa": "Szary Beach Koopa",
                 "fast-goomba": "Szybki Goomba",
@@ -757,6 +761,7 @@
                 "urchin-back-and-forth": "Urchin - Pływa w tę i z powrotem",
                 "urchin-walled": "Urchin - Porusza się przy Ścianach",
                 "big-bertha": "Big Bertha",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Porcupuffer",
                 "cheep-chomp": "Cheep Chomp",
                 "spike-bass": "Spike Bass",
@@ -769,9 +774,9 @@
                 "crowber": "Crowber",
                 "stretch": "Stretch",
                 "green-bubble": "Zielony Bąbel",
-                "fishbone-linear": "Fishbone[s][!]Swims linearly",
-                "fishbone-chase": "Fishbone[s][!]Chases player if spotted",
-                "fishbone-leap": "Fishbone[s][!]Leaps like a Podoboo",
+                "fishbone-linear": "Fishbone - Pływa linearnie",
+                "fishbone-chase": "Fishbone - goni gracza gdy go zauważy",
+                "fishbone-leap": "Fishbone - skacze jak Podoboo",
                 "falling-flame": "Spadający Płomień",
                 "falling-ghost-flame": "Spadający Płomień Duch",
                 "nipper-plant-patrolling": "Nipper Plant - Patrolujący",
@@ -787,23 +792,23 @@
                 "big-falling-stalactite": "Duży Spadający Stalaktyt",
                 "small-falling-stalactite": "Mały Spadający Stalaktyt",
                 "amp": "Amp",
-                "fire-snake": "[!]Fire Snake",
-                "bounding-fire": "[!]Boundin' Fire",
-                "small-flame": "[!]Small flame",
-                "angry-sun": "[!]Angry Sun",
-                "goonie": "[!]Goonie",
-                "flightless-goonie": "[!]Flightless Goonie",
-                "hefty-goonie": "[!]Hefty Goonie",
-                "bowling-goonie": "[!]Bowling Goonie",
-                "skeleton-goonie": "[!]Skeleton Goonie",
-                "flightless-skeleton-goonie": "[!]Flightless Skeleton Goonie",
-                "para-beetle": "[!]Para-Beetle",
-                "heavy-para-beetle": "[!]Heavy Para-Beetle",
-                "flame-chomp": "[!]Flame Chomp",
-                "paragoomba": "[!]Paragoomba",
-                "paragaloomba": "[!]Paragaloomba",
-                "paragoombrat": "[!]Paragoombrat",
-                "paragoombud": "[!]Paragoombud",
+                "fire-snake": "Fire Snake",
+                "bounding-fire": "Boundin' Fire",
+                "small-flame": "Mały płomień",
+                "angry-sun": "Angry Sun",
+                "goonie": "Goonie",
+                "flightless-goonie": "Nielotny Goonie",
+                "hefty-goonie": "Masywny Goonie",
+                "bowling-goonie": "Bowling Goonie",
+                "skeleton-goonie": "Skeleton Goonie",
+                "flightless-skeleton-goonie": "Nielotny Skeleton Goonie",
+                "para-beetle": "Para-Beetle",
+                "heavy-para-beetle": "Ciężki Para-Beetle",
+                "flame-chomp": "Płomienny Chomp",
+                "paragoomba": "Paragoomba",
+                "paragaloomba": "Paragaloomba",
+                "paragoombrat": "Paragoombrat",
+                "paragoombud": "Paragoombud",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "King Boo",
@@ -811,10 +816,10 @@
                 "fire-flower": "Fire Flower",
                 "super-leaf": "Super Leaf",
                 "hammer-flower": "Hammer Flower",
-                "hammer-suit": "[!]Hammer Suit",
-                "cloud-flower": "[!]Cloud Flower",
+                "hammer-suit": "Hammer Suit",
+                "cloud-flower": "Cloud Flower",
                 "ice-flower": "Ice Flower",
-                "carrot": "[!]Carrot",
+                "carrot": "Marchew",
                 "small-fire-flower": "Mały Fire Flower",
                 "bubble-flower": "Bubble Flower",
                 "super-star": "Super Star",
@@ -828,7 +833,7 @@
                 "bombshell-yoshi": "Wybuchowy Yoshi",
                 "lakitus-cloud": "Chmura Lakitu",
                 "persistant-area-tile": "Płytka długotrwałości obiektów",
-                "area-object-loader": "Loader obiektów w arenie",
+                "area-object-loader": "Pre-loader obiektów w arenie",
                 "tag-tile": "Płytka Tagów",
                 "light-caster": "Źródło Światła",
                 "darkness-caster": "Źródło Ciemności",
@@ -847,25 +852,25 @@
                 "small-one-way-wall-right": "Mała Jednokierunkowa Bramka (W Prawo)",
                 "small-one-way-wall-down": "Mała Jednokierunkowa Bramka (W Dół)",
                 "small-one-way-wall-left": "Mała Jednokierunkowa Bramka (W Lewo)",
-                "mount-blockade": "[!]Mount Blockade"
+                "mount-blockade": "Blokada mountów"
             },
             "tile-tooltips": {
-                "invisible-solid-tile": "[!]Invisible solid tile[s]Not visible during gameplay",
-                "solid-player-tile": "[!]Solid player tile[s]Only tangible to players",
-                "solid-sprite-tile": "[!]Solid sprite tile[s]Only tangible to sprites",
-                "semisolid-player-tile": "[!]Semi-solid player tile[s]Only tangible to players",
-                "semisolid-sprite-tile": "[!]Semi-solid sprite tile[s]Only tangible to sprites",
-                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
-                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
-                "donut-block": "[!]Standard Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-red": "[!]Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-wood": "[!]Wooden Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-metal": "[!]Metal Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-semi": "[!]Standard Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-red-semi": "[!]Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-wood-semi": "[!]Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-metal-semi": "[!]Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
-                "chomp-post": "[!]Chomp Post[s]Place a Chain Chomp on top to attach"
+                "invisible-solid-tile": "Niewidzialna płytka - niewidoczna podczas rozgrywki",
+                "solid-player-tile": "Pełna płytka gracza[s]Działa tylko na gracza",
+                "solid-sprite-tile": "Pełna płytka obiektów[s]Działa tylko na obiekty",
+                "semisolid-player-tile": "Niepełna płytka gracza[s]Działa tylko na gracza",
+                "semisolid-sprite-tile": "Niepełna płytka obiektów[s]Działa tylko na obiekty",
+                "boss-gate": "Płytka bossa[s]Pojawia się podczas walki z bossem",
+                "boss-bridge": "Most bossa[s]Zapada się gdy gracz dotknie siekiery",
+                "donut-block": "Standardowy Donut Block[s]Pełny, respawnuje się & może być ustabilizowany",
+                "donut-block-red": "Niestabilny Donut Block[s]Pełny, respawnuje się, zatrzęsie się i spadnie",
+                "donut-block-wood": "Drewniany Donut Block[s]Pełny, nie respawnuje się, może być ustabilizowany",
+                "donut-block-metal": "Metalowy Donut Block[s]Pełny, nie respawnuje się, zatrzęsie się i spadnie",
+                "donut-block-semi": "Standardowy Donut Block[s]Niepełny, respawnuje się & może być ustabilizowany",
+                "donut-block-red-semi": "Niestabilny Donut Block[s]Niepełny, respawnuje się, will fall after shaking",
+                "donut-block-wood-semi": "Drewniany Donut Block[s]Niepełny, nie respawnuje się, może być ustabilizowany",
+                "donut-block-metal-semi": "Metalowy Donut Block[s]Niepełny, nie respawnuje się, zatrzęsie się i spadnie",
+                "chomp-post": "Słupek Chompa[s]Ustaw Chain Chompa na wierzchołku by go przyczepić"
             }
         },
         "customizers": {
@@ -883,13 +888,13 @@
                     "grow-shrink-duration": "Czas trwania powiększania/kurczenia",
                     "attached-to": "Przymocowany do",
                     "tag-is-active": "Tag jest aktywny na starcie",
-                    "period": "[!]Period",
-                    "movement-mode-sinewave-independent": "[!]Movement mode\n[scale=0.5](Independent from sinewave)[/scale]"
+                    "period": "Okres",
+                    "movement-mode-sinewave-independent": "Typ ruchu\n[scale=0.5](Niezależny od sinusoidy)[/scale]"
                 },
                 "separators": {
                     "spawn-intervals": "Interwały pojawiania się",
                     "grow-and-shrink": "Powiększanie & kurczenie",
-                    "sinewave-movement": "[!]Sinewave movement"
+                    "sinewave-movement": "Sinusoidalny ruch"
                 },
                 "buttons": {
                     "change-initial-direction": "Zmień początkowy kierunek",
@@ -898,18 +903,18 @@
                     "edit-range": "Edytuj zakres",
                     "edit-palette": "Edytuj paletę",
                     "edit-item": "Edytuj obiekt",
-                    "enable-sinewave-motion": "[!]Enable sinewave motion"
+                    "enable-sinewave-motion": "Zezwól na sinusoidalny ruch"
                 },
                 "tooltips": {
-                    "movement-speed": "[!]Travel speed in pixels / sec.\n[sub]One tile equals 16 pixels.[/sub]",
+                    "movement-speed": "Prędkość ruchu w pikselach / sek.\n[sub]Jeden blok to 16 pikseli.[/sub]",
                     "jump-strength": "Początkowa prędkość pionowa, w pikselach / sek, na początku skoku.",
                     "blend-modes": "Dodatkowe\n[sub]Dodaje {0} kolory na wierzchu pokrywających się pikseli[/sub]\n\nPOJAWIAJĄ SIĘ NAD OBIEKTAMI\n[sub]{0} pojawią się tylko na obiektach, które są za nim (n.p. na niższej warstwie.)[/sub]\n\nKAMUFLARZ\n[sub]To samo, lecz jest kompletnie niewidzalny i przenika przez płytki i obiekty![/sub]",
                     "expanding-obj-cycle-info": "Rozszerzanie i kurczenie się z czasem z opcjami konfiguracji długości i czasów trwania.",
                     "expanding-obj-size-change-tiles": "Ilość klocków do rozszerzenia/kurczenia się.",
                     "expanding-obj-size-change-duration": "Czas trwania rozszerzania/kurczenia się(w sekundach).",
                     "expanding-obj-size-change-delay": "Po rozszerzeniu lub skurczeniu, odczekaj tyle czsu przed ponownym rozszerzeniem lub skurczeniem się",
-                    "period": "[!]Time (in seconds) for a complete sine-wave cycle.",
-                    "opacity": "[!]Lower opacities can make the sprite less obvious to spot."
+                    "period": "Czas (w sekundach) potrzebny do wykonania pełnego cyklu.",
+                    "opacity": "Niższe krycie może sprawić, że obiekt będzie mniej widoczny."
                 },
                 "html": {
                     "additive": "Dodatkowe",
@@ -917,14 +922,14 @@
                     "camouflage": "Kamuflaż",
                     "size-change-modes": "Nieaktywny|Rozszerz|Skurcz",
                     "attachment-options": "Nic|Podłoga|Lewa ściana|Sufit|Prawa ściana",
-                    "linear": "[!]Linear",
-                    "linear-dynamic": "[!]Linear (dynamic)",
-                    "chase-player": "[!]Chase player",
-                    "evade-player": "[!]Evade player"
+                    "linear": "Linearny",
+                    "linear-dynamic": "Linearny (dynamiczny)",
+                    "chase-player": "Goń gracza",
+                    "evade-player": "Unikaj gracza"
                 },
                 "text": {
                     "tagging-notice": "Gdy odznaczone, spawner może być uruchomiony przy użyciu tagów (n.p. przy użyciu płytki tagów).",
-                    "sinewave-tool": "[!]The sinewave angle & amplitude can be set up by dragging the \\[---] tool."
+                    "sinewave-tool": "Kąd sinusoidalny & amplitudę można ustawić przeciągając \\[---] narzędzie."
                 }
             },
             "startpoint": {
@@ -1015,7 +1020,7 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Ilość obiektów w bloku.",
-                    "amount-in-block-optional": "[!]If the block has an object assigned, it will store a maximum of this value inside.",
+                    "amount-in-block-optional": "Jeśli blok ma przypisany obiekt, będzie on przechowywał maksymalną ilość obiektów w środku.",
                     "timer-info": "Uruchom czasomierz podczas pierwszego uderzenia. Gdy osiągnie 0, blok będzie zawierał tylko 1 obiekt.\n[scale=0.75][color=#CCCCCC]Pozostaw 0 by wyłączyć czasomierz.[/color][/scale]",
                     "progressive-info": "Gdy Mario jest mały, zawsze dostanie grzyba, bez względu na wybrany power-up.",
                     "star-chainer-info": "Gdy Mario uderzy blok będąc niezniszczalnym (star power-up), dostanie kolejny star power-up, bez względu na to co jest w bloku.",
@@ -1155,13 +1160,13 @@
                     "attack-phase": "Faza ataku",
                     "attack-frequency": "Częstotliwość ataków",
                     "traction": "Trakcja",
-                    "takeoff-strength": "Siła zbicia się",
+                    "takeoff-strength": "Siła wzbicia się",
                     "wings": "Skrzydła",
-                    "walking-mode": "[!]Walking mode",
-                    "attacking": "[!]Attacking",
-                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
-                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
-                    "attack-speed": "[!]Attack speed",
+                    "walking-mode": "Tryb chodzenia",
+                    "attacking": "Atakowanie",
+                    "min-attacks-for-jump": "Minimalna ilość ataków przed skokiem",
+                    "chance-of-jumping-minimum": "Szansa wykonania skoku (po minimalnej liczbie skoków)",
+                    "attack-speed": "Szybkość ataku",
                     "invincibility-period": "Długość niezniszczalności",
                     "attack-delay": "Opóźnienie ataku",
                     "base-speed": "Prędkość bazowa",
@@ -1171,20 +1176,20 @@
                     "viewing-attack": "Viewing attack",
                     "attack-frequency-info": "Jeden typ ataku może występować częściej niż inne! Sprawdź:",
                     "spew-flame": "Wyrzucanie płomieni",
-                    "rocking-hammer": "[!]Rockin' Hammers",
-                    "blazing-hammer": "[!]Blazin' Hammers",
-                    "mecha-wand": "[!]Mecha Wand",
-                    "shell-dash": "[!]Shell Dash",
+                    "rocking-hammer": "Atak Młotkami",
+                    "blazing-hammer": "Płonące Młoty",
+                    "mecha-wand": "Różdżka",
+                    "shell-dash": "Atak Skorupą",
                     "homing-dash": "Pęd naprowadzający",
                     "pumpkins-and-pepper": "Dynie & Papryka",
                     "magic-bottles": "Magiczne butle",
                     "protective-flames": "Ochronne płomienie",
-                    "projectile-count": "[!]Projectile count",
-                    "extra-random-projectiles": "[!]Extra random projectiles",
-                    "dash-duration": "[!]Dash duration (in sec)",
-                    "random-dash-duration": "[!]Extra random duration",
+                    "projectile-count": "Liczba pocisków",
+                    "extra-random-projectiles": "Dodatkowe losowe pociski",
+                    "dash-duration": "Czas trwania pędu (w sek)",
+                    "random-dash-duration": "Dodatkowy losowy czas trwania",
                     "ring-count": "Ilość płomieni w pierścieniu",
-                    "on-defeated": "[!]On defeated"
+                    "on-defeated": "Po pokonaniu"
                 },
                 "separators": {
                     "chase-stats": "Statystyki pościgów",
@@ -1193,7 +1198,7 @@
                     "attack-info": "Informacje o ataku",
                     "browse-attacks": "Przeglądaj ataki",
                     "set-animation": "Ustaw animację",
-                    "disguised-enemy": "[!]Disguised enemy"
+                    "disguised-enemy": "Wróg udający bossa"
                 },
                 "buttons": {
                     "attacks": "Ataki"
@@ -1209,12 +1214,12 @@
                     "bb-traction": "Większa trakcja sprawia, że Boom Boom może zawracać szybciej, natomiast niska trakcja sprawia, że będzie zawracał wolniej.",
                     "bb-takeoff-strength": "Siła skoku podczas wyskoku w powietrze.\n[sub]Uwaga: dotyczy tylko opcji ze skrzydłami.[/sub]",
                     "bb-wings": "Jeśli włączy się skrzydła, Boom Boom będzie mógł latać i atakować gracza z góry.\n[sub]Gdy 'Zmień po uderzeniu' jest zaznaczone, Boom Boom będzie atakował raz z ziemi a raz z powietrza (i vice versa) po każdej stracie HP.[/sub]",
-                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
-                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
-                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
-                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
-                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
-                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!",
+                    "bw-defeat-events": "Gdy Bowser zostanie pokonany, to (opcjonalne) wydarzenie zostanie pokazane.",
+                    "bw-movement-speed": "Prędkośc poruszania się Bowsera pomiędzy atakami, w pikselach / sek.",
+                    "bw-walking-mode": "Bowser może stać w miejscu lub chodzić. Opcja patrolowania terenu jest przydatna n.p. by Bowser pozostał na moście, podczas gdy ostatnia opcja nadaje się na większe tereny.",
+                    "bw-minimum-jumps": "Ilość ataków, po których Bowser będzie miał szansę skoczyć. Szansa na skoczenie może być ustaiona w opcji poniżej.",
+                    "bw-jumping-chance": "Szansa na skoczenie od 0% do 100%.\n[sub]0% wyłącza skakanie całkowicie, a 100% gwarantuje skok po każdym ataku.[/sub]",
+                    "bw-attack-speed": "Szybkość ataków Bowsera, od rekreacyjnego zionięcia ogniem do szaleńczego ciskania młotami!",
                     "kb-invincibility-period": "Czas w sekundach zanim Król Boo z powrotem stanie się podatny na ataki, po zostaniu uderzonym. Król Boo stanie się przezroczysty podczas fazy niezniszczalności.\n[sub]Wprowadź 0 by pomijać tę fazę.[/sub]",
                     "kb-base-speed": "Bazowa (minimalna) prędkość ruchu w pikselach / sek.\n\n[sub]Król Boo może opcjonalnie zwiększać prędkość w ciemności po ustawieniu wartości po prawej stronie.[/sub]",
                     "kb-darkness-boost": "Maksymalna dodatkowa prędkość Króla Boo gdy jest on zanurzony w ciemności, w pikselach / sek.\n\n[sub]Ta wartość jest podzielona przez poziom ciemności pokrywającej oczy Króla Boo: jeśli poziom ciemności wynosi na przykład 50%, doda 50% wartości jego prędkości do prędkości bazowej.[/sub]"
@@ -1223,35 +1228,35 @@
                     "bb-attack-phases": "Automatyczne zwiększanie|Faza 1 (Pęd)|Faza 2 (Skok)|Faza 3 (Latanie)",
                     "bb-attack-frequencies": "Niemal natychmiastowa|Częsta|Standardowa|Długie opóźnienia",
                     "switch-when-hit": "Zmień po uderzeniu",
-                    "bw-modes": "[!]Classic (SMB1)",
-                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
-                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
-                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
-                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach",
-                    "kb-intro-animations": "Brak|Squash 'N' Stretch|Dust Introduction|Dummy Boo"
+                    "bw-modes": "Klasyczny (SMB1)",
+                    "bw-defeat-events": "Bez specialnych efektów|Poziom ukończony|Podejdź do najbliższego NPC",
+                    "bw-walk-modes": "Pozostaje na miejscu|Patroluje teren|Idź w stronę gracza",
+                    "bw-attack-speeds": "Automatyczne zwiększanie|Powoli|Przeciętnie|Szybko",
+                    "bw-intro-animations": "Brak|Wyskok z dołu|Wyskok z Clown Coptera|Udawanie księżniczki",
+                    "kb-intro-animations": "Brak|Rozciągnięcie|Dust Introduction|Udawanie małego duszka"
                 },
                 "text": {
-                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
-                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
-                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
-                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
-                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
-                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
-                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
-                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
-                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
-                    "boss-intro-anim-info": "[!]{0} can enter in style! Pick an intro animation of your liking.",
-                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat.",
-                    "intro-anim-unavailable": "[!]Intro animations for this boss are currently unavailable in this gamestyle."
+                    "bw-attack-desc-flame": "Wyrzuca jeden albo więcej płomieni w kierunku gracza",
+                    "bw-attack-desc-rocking-hammers": "Wyrzuca wiele młotków w krótkim odstępie czasu",
+                    "bw-attack-desc-blazing-hammers": "Rzuca płonącymi młotami w kierunku gracza",
+                    "bw-attack-desc-mecha-wand": "Bowser używa różdżki do spawnowania Mechakoopa'ów. Ale ty możesz użyć ich przeciwko niemu!",
+                    "bw-attack-desc-shell-dash": "Bowser chowa się w swojej skorupie, która następnie zaczyna się toczyć. Patrz pod nogi!",
+                    "kb-attack-desc-flame": "Wyrzuca nawiedzony płomień w kierunku gracza",
+                    "kb-attack-desc-dash": "Celuje i pędzi naprowadzająco w kierunku gracza",
+                    "kb-attack-desc-bottle": "Wyrzuca kilka magicznych butli. Z niektórych pojawią się płomienie, jedna, po rozbiciu przez gracza, wypuści wróżkę, która ogłuszy Króla Boo!",
+                    "kb-attack-desc-pepper": "Wyrzuca dynie i papryczkę chili. Rzuć papryczkę w stronę paszczy Króla Boo by stał się on podatny na ataki dyniami!",
+                    "kb-attack-desc-ring": "Stwórz pierścień płomieni wokół Króla Boo, które będą go chronić przed pociskami",
+                    "boss-intro-anim-info": "{0} może pojawić się stylowo! Wybierz animację pojawiania się.",
+                    "disguised-enemy": "Wrogowie mogą udawać Bowsera! Po wygranej walce pojawi się wybrany wróg.",
+                    "intro-anim-unavailable": "Animacje pojawiania się dla tego bossa są chwilowo niedostępne w tym stylu gry."
                 }
             },
             "mapsnap": {
-                "info": "[!]MapSnap Tool - Resolution Options",
-                "default-button": "[!]Default",
-                "fixed-button": "[!]Fixed",
-                "default-info": "[!]Less errors, but usually has a larger image resolution and a larger filesize. \n\n Images taken of maps with a level width or level height above 510 blocks will have incomplete data.",
-                "fixed-info": "[!]More errors, but usually has a smaller image resolution and a smaller filesize. \n\n Images taken of maps with a level width or level height above 1020 blocks will have reduced image quality."
+                "info": "MapSnap Tool - Opcje Rozdzielczości",
+                "default-button": "Domyślna",
+                "fixed-button": "Ustalona",
+                "default-info": "Mniej błędów, zwykle większa rozdzielczość obrazu i większy rozmiar pliku. \n\n Obrazy map z szerokością lub wysokością większą niż 510 bloków będą miały niekompletne dane.",
+                "fixed-info": "Więcej błędów, zwykle mniejsza rozdzielczość obrazu i mniejszy rozmiar pliku. \n\n Obrazy map z szerokością lub wysokością większą niż 1020 bloków będą miały zredukowaną jakość."
             }
         },
         "pause-options": {
@@ -1324,10 +1329,10 @@
                 "fog-f": "Mgła",
                 "leaf-f": "Liście",
                 "sil-f": "Sylwetka",
-                "current-f": "[!]Current",
-                "fish-f": "[!]Fish",
-                "color-f": "[!]Color overlay",
-                "wind-g": "[!]Wind generator"
+                "current-f": "Prądy",
+                "fish-f": "Ryby",
+                "color-f": "Kolorowa nakładka",
+                "wind-g": "Generator wiatru"
             },
             "properties": {
                 "intensity": "Intensywność",
@@ -1342,20 +1347,21 @@
                 "additive-blend": "Dodatkowy blending",
                 "color-hex": "Własny kolor",
                 "palette": "Paleta",
-                "two-way-movement": "[!]Two-way movement",
-                "water-check": "[!]Check for water",
-                "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "two-way-movement": "Ruch w oby kierunkach",
+                "water-check": "Sprawdź czy jest woda",
+                "play-wind-sfx": "Odtwórz SFX wiatru",
+                "buildup": "Nagromadzenie",
+                "cooldown": "[!]Cooldown"
             },
             "html": {
                 "intensity": "Słaba|Średnia|Mocna",
                 "tilt-options": "Lewo|Brak|Prawo",
                 "flash-type": "Tylko w tle|Na wszystkich warstwach",
                 "opacity-options": "25% (Ambientowy)|50%|75%|100% (Nieprzezroczysty)",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
-                "name": "[!]A name to identify this effect, purely inside the editor.",
+                "name": "Nazwa tego efektu (ważna tylko w celu edycji).",
                 "tags": "Opcjonaly tag lub tagi (oddzielone spacjami) wpływające na ten efekt. Można na przykład użyć Bloków Tagów by uruchomić ten efekt.",
                 "intensity": "Intensywność efektu - zwykle tworzy więcej cząstek na wyższych ustawieniach.[/color]",
                 "movement-angle": "Kąt/stopień ruchu.",
@@ -1370,28 +1376,30 @@
                 "additive-blend": "Dodatkowy blending dodaje kolor nakładki na wierzchu pikseli nakrytych przez tę nakładkę. Ten efekt jest bardziej widoczny z jasnymi kolorami.",
                 "color-hex": "Własny kolor w formacie HEX.\n\nPrzykłady:\n[scale=0.75][color=#C8C8C8]C8C8C8 jasny szary[/color]\n[color=#F8C0F0]F8C0F0 pastelowy róż[/color][scale=0.5][/scale]\n\nZaleca się użycia kolor pickera do znalezienia odpowiadającego koloru.[/scale]",
                 "palette": "Paleta efektu - kosmetyczne ustawienie.",
-                "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
-                "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
-                "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
-                "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
-                "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
-                "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
+                "two-way-movement": "Zezwala cząsteczkom na ruch także w przeciwnym kierunku.",
+                "water-check": "Każda cząsteczka efektu sprawdzi czy znajduje się w wodzie. Jeśli nie jest, zniknie lub zacznie poruszać się gdzie indziej.",
+                "wind-strength": "Siła wiatru. Mocniejszy wiatr będzie popychał obiekty mocniej.",
+                "wind-buildup": "Czas w sekundach potrzebny wiatrowi na osiągnięcie pełnej prędkości (i vice-versa).",
+                "wind-duration": "Czas trwania podmuchu wiatru (uwaga: nie nalicza się w tym czas nagromadzenia).",
+                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
+                "wind-repeats": "Ilość powtórzeń cyklu wiatru. Opóźnienie pomiędzy podmuchami jest takie samo jak czas trwania."
             },
             "palettes": {
-                "1_rain": "Domyślny deszcz|[!]Radioactive Waste|[!]Slushy Slurry|[!]Jungle Juice|[!]Sewage Soup|[!]Deep Dark",
-                "2_rain": "Domyślny deszcz|Toksyczny kwas|Lepki szlam|Lodowaty Cryofluid|Czekoladowy Napój|Plamy Oleju|Złoty Deszcz|Stopiony Metal|[!]Poisonous Ooze|[!]Monochrome Mixture",
+                "1_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki Szlam|Jungle Juice|Zupa Nieczystości|Głęboka Czerń",
+                "2_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki szlam|Lodowaty Cryofluid|Czekoladowy Napój|Plamy Oleju|Złoty Deszcz|Stopiony Metal|Trująca Maź|Monochroniczna Mikstura",
                 "1_snow": "Domyślny śnieg",
                 "2_snow": "Domyślny śnieg|Zimowa Mięta|Lodowato|Lodowata Biel|Truskawkowa Czerwień|Nocna Zamieć|Mrożona Lemoniada",
-                "1_sand": "Domyślna Burza Piaskowa|[!]Scorching Spice|[!]Dusty Draft|[!]Golden Gale|[!]Somber Sand|[!]Abundant Ashes",
+                "1_sand": "Domyślna Burza Piaskowa|Ostra Przyprawa|Kurzący Ciąg|Złota Wichura|Mroczne Piaski|Obfity Popiół",
                 "2_sand": "Domyślna Burza Piaskowa|Słoneczna Żółć|Śnieżna Biel|Czekoladowy Brąz|Bagienny Szlam|Północny Fiolet",
-                "1_embers": "Domyślny Żar|[!]Glowing Blight|[!]Violet Void|[!]Searing Sapphire|[!]Ceaseless Crimson|[!]Treacherous Tar",
+                "1_embers": "Domyślny Żar|Świecąca Plaga|Fioletowa Próżnia|Piekący Szafir|Karmazyn|Zdradliwa Smoła",
                 "2_embers": "Domyślny Żar|Mroczna Czerń|Jadowity Filoet|Cząstka Próżni|Atramentowy Niebieski|Królewski Złoty",
-                "1_leaf": "Domyślne Zielone|[!]Red Autumn|[!]Yellow Dryness|[!]White Winter|[!]Green Summer|[!]Lime Spring",
-                "2_leaf": "Domyślne Zielone|Domyślne Jesienne|Szokujący|Iluzoryczna Szarość|Chrupiąca Czekolada|Modny Fiolet|Popielaty Pędzel|Jaskrawy Szary|Mętne Bagno|Złota Rozkosz|Wczesna Zima|Chrupiące Kakao|Pogodny Zachód Słońca",
-                "current": "[!]Bubbles|Air particles"
+                "1_leaf": "Domyślne Zielone|Czerwone Jesienne|Suche Żółte|Białe Zimowe|Letnia Zieleń|Wiosenny Limonkowy",
+                "2_leaf": "Domyślne Zielone|Domyślne Jesienne|Szokujące|Iluzoryczna Szarość|Krucha Czekolada|Modny Fiolet|Popielaty Pędzel|Jaskrawy Szary|Mętne Bagno|Złota Rozkosz|Wczesna Zima|Kakao|Pogodny Zachód Słońca",
+                "current": "Bąbelki|Cząsteczki powietrza"
             },
             "text": {
-                "duplicate-name": "[!]This effect name is already in use. Try another name."
+                "duplicate-name": "Ta nazwa jest już w użyciu. Ustaw inną nazwę."
             }
         },
         "screen-menus": {
@@ -1399,8 +1407,8 @@
                 "code-size": "Rozmiar kodu",
                 "restore": "Przywróć",
                 "download": "Pobierz przywrócony\nkod poziomu",
-                "header": "W tym Menu możesz przywrócić lub pobrać backup starych wersji swojego poiziomu.",
-                "none-found": "Nie ma jeszcze punktów przywracania dla tego poziomu.\nPodczas pracy nad swoim poziomem, punkty przywracania będą automatycznie ttorzone.",
+                "header": "W tym menu możesz przywrócić lub pobrać backup starych wersji swojego poiziomu.",
+                "none-found": "Nie ma jeszcze punktów przywracania dla tego poziomu.\nPodczas pracy nad swoim poziomem, punkty przywracania będą automatycznie tworzone.",
                 "confirm-prompt": "Przywrócić poziom z tej daty?"
             },
             "startpoint-missing": {
@@ -1411,7 +1419,7 @@
             "level-sync-new": {
                 "enter-link": "Wprowadź link do swojego poziom z Level Share Square, który chcesz zsynchronizować z kodem poziomu.",
                 "info-label-1": "Po włączeniu tej funkcji, zapisanie poziomu w grze automatycznie zaktualizuje go na Level Share Square.",
-                "info-label-2": "Po włączeniu edytora, gra powiadomi cię gdy kod poziomu na stronie będzie nowszy, co jest przydatne przy edytowaniu na różnych urządzeniach.",
+                "info-label-2": "Po włączeniu edytora, gra powiadomi cię jeśli kod poziomu na stronie będzie nowszy, co jest przydatne przy edytowaniu na różnych urządzeniach.",
                 "sync-success": "Twój poziom jest zsynchronizowany z zapisem na Level Share Square! Hurra!"
             },
             "level-sync-edit": {
@@ -1421,12 +1429,12 @@
                 "desync": "Desynchronizuj",
                 "cancel-sync": "Zakończ synchronizację",
                 "cancel-notice-1": "Gdy zakończysz synchronizację, gra zakończy komunikację z Level Share Square dla tego poziomu.",
-                "cancel-notice-2": "Desynchronizacja nie usuwa twojego poziomu ani w grze, ani na Level Share Square. Zawsze można potem włączyć synchronizację z powrotem.",
+                "cancel-notice-2": "Desynchronizacja nie usuwa twojego poziomu ani w grze, ani na Level Share Square. Synchronizację zawsze można włączyć z powrotem.",
                 "sync-cancelled": "Ten poziom już nie jest synchronizowany z Level Share Square."
             },
             "level-sync-compare": {
-                "new-ver-on-site": "Wygląda na to, że intnieje nowsza wersja tego poziomu na Level Share Square. Synchronizować?",
-                "restore-point-notice": "Lokalny punkt przywracania zostanie utworzony dla możliwości powrotu do niego.",
+                "new-ver-on-site": "Wygląda na to, że intnieje nowsza wersja tego poziomu na Level Share Square. Czy chcesz zsynchronizować?",
+                "restore-point-notice": "Lokalny punkt przywracania zostanie utworzony co umożliwi ewentualny powrót do niego.",
                 "local-version": "Lokalna wersja",
                 "cloud-version": "Wersja z chmury",
                 "last-edited": "Ostatnio edytowany",
@@ -1440,7 +1448,7 @@
                 "move-left": "Ruch w lewo",
                 "move-right": "Ruch w prawo",
                 "jump": "Skok",
-                "duck": "Unik",
+                "duck": "Kucnięcie",
                 "spinjump": "Spinjump",
                 "hold": "Trzymanie przedmiotu",
                 "run": "Bieg",

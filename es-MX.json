@@ -138,7 +138,7 @@
                 "tags": {
                     "one": "etiqueta",
                     "other": "etiquetas",
-					"many": "etiquetas"
+                    "many": "etiquetas"
                 },
                 "degrees": {
                     "one": "grado",
@@ -175,6 +175,7 @@
                 "how-it-works": "Cómo funciona",
                 "duration": "Duración",
                 "repeats": "Repeticiones",
+                "delay": "[!]Delay",
                 "other": "Otro"
             },
             "menu-options": {
@@ -282,6 +283,7 @@
                 "cryo": "Criogenia",
                 "spikes": "Púas y bloques letales",
                 "climbables": "Objetos trepables",
+                "electricity": "[!]Electricity",
                 "doors": "Puertas de decorado",
                 "mainObjects": "Objetos comunes",
                 "powerUps": "Potenciadores y montables",
@@ -443,14 +445,15 @@
                 "1_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua (clásica)|Capa de agua (moderna)",
                 "2_water-modes": "Desactivado|Siempre (no se necesitan bloques de agua)|Capa de agua",
                 "bg-loop-methods": "Desactivado|Bucle horizontal|Bucle vertical|Bucle en ambos lados|Bucle en ninguno|Sólo horizontalmente|Sólo verticalmente",
-                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|Desactivar|→ Lento|→ Medio|→ Rápido|→→ MUY rápido",
-                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|Desactivar|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido",
+                "bg-scroll-speed-h": "←← MUY rápido|← Rápido|← Medio|← Lento|[!]← Minimal|Desactivar|[!]→ Minimal|→ Lento|→ Medio|→ Rápido|→→ MUY rápido",
+                "bg-scroll-speed-v": "↑↑ MUY rápido|↑ Rápido|↑ Medio|↑ Lento|[!]↑ Minimal|Desactivar|[!]↓ Minimal|↓ Lento|↓ Medio|↓ Rápido|↓↓ MUY rápido",
                 "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que ele jugador deba saber y que le resulte últil",
                 "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]Las tuberías de esta página se consideran [/scale]objetos[scale=0.75] (no [/scale]bloques[scale=0.75]), y se almacenan en capas de objetos. Estos tubos pueden ampliarse y personalizarse para expandirse y encogerse con el tiempo.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Este objeto es un generador de sprites invisible. Si quieres que una tubería actue como generador, ¡Sólo debes arrastrar este objeto a una! Asegúrate de configurarlo primero.[/scale]",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Nota: éstas son puertas de decorado. Si buscas puertas de acceso, ve al menú de teletransportadores al presionar el ícono de tuberías en la parte inferior.",
                 "advanced-platform": "Plataforma avanzada\n[scale=0.75]¡Estas plataformas son altamente personalizables! Los bloques junto a ellos pueden influir en su comportamiento.[/scale]",
                 "persistent-area-tile": "Mantener sprites cargados",
@@ -698,6 +701,7 @@
                 "green-beach-koopa": "Koopa Verde de Playa",
                 "red-beach-koopa": "Koopa Rojo de Playa",
                 "blue-beach-koopa": "Koopa Azul de Playa",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "Koopa Amarillo de Playa",
                 "bombshell-beach-koopa": "Koopa Caparazón de Bomba de Playa",
                 "fast-goomba": "Goomba Veloz",
@@ -741,6 +745,7 @@
                 "urchin-back-and-forth": "Ericín[s]Nada de un lado a otro",
                 "urchin-walled": "Ericín[s]De pared",
                 "big-bertha": "Gran Berta",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Cheep Globo",
                 "cheep-chomp": "Cheep Glotón",
                 "spike-bass": "Cheep Púa",
@@ -1329,14 +1334,15 @@
                 "two-way-movement": "Desplazamiento de partículas",
                 "water-check": "Comprobar si hay agua",
                 "play-wind-sfx": "Sonido de viento",
-                "buildup": "Formación"
+                "buildup": "Formación",
+                "cooldown": "[!]Cooldown"
             },
             "html": {
                 "intensity": "Leve|Mediana|Fuerte",
                 "tilt-options": "A la izquierda|Ninguna|A la derecha",
                 "flash-type": "Solamente en el fondo|En todas las capas",
                 "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
-                "wind-intensity": "Leve|Normal|Fuerte|Turbonada"
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "Nombre para identificar este efecto, únicamente en el editor.",
@@ -1359,6 +1365,8 @@
                 "wind-strength": "La fuerza del viento, las fuerzas más fuertes harán que los objetos sean empujados más rápido.",
                 "wind-buildup": "El tiempo en segundos que tarda el viento en alcanzar la velocidad máxima (y viceversa).",
                 "wind-duration": "La duración del viento que sopla (nota: esto no incluye el tiempo de formación).",
+                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
                 "wind-repeats": "La cantidad de tiempo que el viento repetirá su ciclo. El lapso entre vientos es igual a la duración."
             },
             "palettes": {
