@@ -381,7 +381,7 @@
                 "object-stats": "[scale=0.8]Objekte[/scale]",
                 "tilemap-stats": "[scale=0.8]Blockbausätze[/scale]",
                 "misc-stats": "[scale=0.9]Andere[/scale]",
-                "grid-toggle": "[scale=0.75]Gitter[/scale]\n[scale=0.5](G)[/scale]",
+                "grid-toggle": "Gitter\n[scale=0.5](G)[/scale]",
                 "favorites-bar-toggle": "Favoritenleiste",
                 "mini-toolbar-toggle": "[scale=0.5]Mini\n[/scale]Werkzeugleiste",
                 "toolbar-animations-toggle": "Werkzeugleisten Animationen",
@@ -1313,14 +1313,15 @@
                 "two-way-movement": "[!]Two-way movement",
                 "water-check": "[!]Check for water",
                 "play-wind-sfx": "[!]Play wind SFX",
-                "buildup": "[!]Buildup"
+                "buildup": "[!]Buildup",
+                "cooldown": "[!]Cooldown"
             },
             "html": {
                 "intensity": "Niedrig|Normal|Hoch",
                 "tilt-options": "Links|Geradeaus|Rechts",
                 "flash-type": "Nur Hintergrund|Alle Levelschichten",
                 "opacity-options": "25% (Ambient)|50%|75%|100% (Undurchsichtig)",
-                "wind-intensity": "[!]Weak|Normal|Strong|Turbo"
+                "wind-intensity": "[!]Weakest|Weak|Normal|Strong|Turbo"
             },
             "tooltips": {
                 "name": "[!]A name to identify this effect, purely inside the editor.",
@@ -1343,6 +1344,7 @@
                 "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
                 "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
                 "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
+                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
                 "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {
