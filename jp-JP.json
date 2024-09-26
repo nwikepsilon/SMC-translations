@@ -159,7 +159,7 @@
                 "how-it-works": "動作のしくみ",
                 "duration": "持続時間",
                 "repeats": "くりかえし",
-                "delay": "[!]Delay",
+                "delay": "遅れ",
                 "other": "その他"
             },
             "menu-options": {
@@ -267,7 +267,7 @@
                 "cryo": "氷水タイル",
                 "spikes": "トゲとそくしブロック",
                 "climbables": "登れるタイル",
-                "electricity": "[!]Electricity",
+                "electricity": "電流",
                 "doors": "ドア（景色）",
                 "mainObjects": "一般物",
                 "powerUps": "パワーアップと乗り物",
@@ -429,15 +429,15 @@
                 "1_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイリング（クラシック）|目に見える自動水タイリング（モダン）",
                 "2_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイル",
                 "bg-loop-methods": "OFF|水平にループ|垂直にループ|両側にループ|ループなし|水平のみ|垂直のみ",
-                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|[!]← Minimal|OFF|[!]→ Minimal|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
-                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|[!]↑ Minimal|OFF|[!]↓ Minimal|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
+                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|← 最低限|OFF|→ 最低限|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
+                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|↑ 最低限|OFF|↓ 最低限|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
                 "level-desc-placeholder": "レベルの簡単な説明、ストーリー、またはプレイヤーが知っておくと便利なことを入力してください。",
                 "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home（カスタムBGM #1）|♪ Morning Drive（カスタムBGM #2）|♪ Lunch Break（カスタムBGM #3）|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
             },
             "text": {
                 "obj-pipe": "[scale=0.75]このページの土管は（タイル [/scale]物[scale=0.75]であり（[/scale]タイル[scale=0.75]ではない）、物レイヤーに置かれている。 この土管（物）は、上ったり下りたりするようにカスタマイズできる。[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]この物はスプライトを生成する不可視の物である。スプライトを生成する土管を作りたい場合は、土管（物）の上にドラッグすればいい！必ず最初に編集してください。[/scale]",
-                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
+                "electric-tiles": "ほとんどの生物にダメージを与えることができる電気タイルだ。メタルマリオを含む金属系のスプライトは、一時的に電気を通すことができる！",
                 "scenery-doors": "注：これらは背景用のドアです。入り口のドアを探している場合は、下にある土管のアイコンを押して、ワープメニューに移動してください。",
                 "advanced-platform": "上級リフト\n[scale=0.75]これらのリフトは高度にカスタマイズ可能である！隣のタイルは行動を変えることができる。[/scale]",
                 "persistent-area-tile": "エリアにロードされたスプライトを保持する",
@@ -685,7 +685,7 @@
                 "green-beach-koopa": "緑はだかノコノコ",
                 "red-beach-koopa": "赤はだかノコノコ",
                 "blue-beach-koopa": "青はだかノコノコ",
-                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
+                "blue-beach-koopa-sliding": "青はだかノコノコ[s]斜面に置くと滑り落ちる",
                 "yellow-beach-koopa": "黄はだかノコノコ",
                 "bombshell-beach-koopa": "はだかノコノコ（ノコボン）",
                 "fast-goomba": "速クリボー",
@@ -729,7 +729,7 @@
                 "urchin-back-and-forth": "ウニラ[s]前後に泳ぐ",
                 "urchin-walled": "ウニラ[s]壁付け",
                 "big-bertha": "巨大プクプク",
-                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
+                "big-bertha-passive": "巨大プクプク[s]受動的、プクプク(子)を運ぶ",
                 "porcupuffer": "フグマンネン",
                 "cheep-chomp": "バクバク",
                 "spike-bass": "イガプク",
@@ -1319,14 +1319,14 @@
                 "water-check": "水のチェック",
                 "play-wind-sfx": "風の音を再生する",
                 "buildup": "増強",
-                "cooldown": "[!]Cooldown"
+                "cooldown": "クールダウン"
             },
             "html": {
                 "intensity": "弱|常|強",
                 "tilt-options": "左に傾く|傾かない|右に傾く",
                 "flash-type": "背景色のみに適用する|すべてのレイヤーの上に",
                 "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）",
-                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
+                "wind-types": "カテゴリー1|カテゴリー2|カテゴリー3|カテゴリー4|カテゴリー5"
             },
             "tooltips": {
                 "name": "この効果の名前（エディター上でのみ）",
@@ -1349,8 +1349,8 @@
                 "wind-strength": "風の強さで、強ければ強いほどスプライトは速く押される。",
                 "wind-buildup": "風がフルスピードになるまでの時間（秒）。",
                 "wind-duration": "風が吹いている時間（注：増強時間は含まない）。",
-                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
-                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
+                "wind-cooldown": "風が0秒までクールダウンするまでの時間（秒）。",
+                "wind-cycle-delay": "風のサイクル（クールダウン終了-ビルドアップ開始）間の時間（秒）。",
                 "wind-repeats": "風がサイクルをくり返す時間。風と風の間の遅れは持続時間と同じ。"
             },
             "palettes": {
