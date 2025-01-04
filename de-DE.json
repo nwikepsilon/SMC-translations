@@ -2,7 +2,7 @@
     "locale": "de-DE",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)",
+            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)|[!]Airship (brown-black)",
             "2_map-palettes": "Standard"
         },
         "common": {
@@ -13,8 +13,8 @@
                 "download": "Herunterladen",
                 "next": "Nächster",
                 "confirm": "Bestätigen",
-                "confirm-click": "[!]Click again to confirm",
-                "proceed": "[!]Proceed",
+                "confirm-click": "Klicke erneut zum Bestätigen",
+                "proceed": "Fortfahren",
                 "cancel": "Abbrechen",
                 "play": "Spielen",
                 "load": "Laden",
@@ -27,10 +27,10 @@
                 "view": "Betrachten",
                 "create": "Erschaffen",
                 "edit": "Editieren",
-                "remove": "[!]Remove",
+                "remove": "Entfernen",
                 "exit": "Verlassen",
                 "editor": "Editor",
-                "click-configure": "[!]Click to configure"
+                "click-configure": "Klicke zum Konfigurieren"
             },
             "time": {
                 "days": {
@@ -46,11 +46,11 @@
                     "other": "Minuten"
                 },
                 "seconds": {
-                    "one": "[!]second",
-                    "other": "[!]seconds"
+                    "one": "Sekunde",
+                    "other": "Sekunden"
                 },
                 "ago": "Vor",
-                "just-now": "[!]Just now",
+                "just-now": "Jetzt gerade",
                 "notation": "{1} {0}"
             },
             "words": {
@@ -59,18 +59,21 @@
                 "language": "Sprache",
                 "characters": "Charaktere",
                 "music": "Musik",
+                "remix": "[!]remix",
                 "decibels": "Dezibellen",
                 "volume": "Lautstärke",
-                "frequency": "[!]frequency",
-                "rotation": "[!]rotation",
-                "movement": "[!]movement",
-                "active": "[!]active",
-                "inactive": "[!]inactive",
-                "unavailable": "[!]unavailable",
-                "paused": "[!]paused",
+                "frequency": "Frequenz",
+                "rotation": "Drehung",
+                "movement": "Bewegung",
+                "active": "Aktiv",
+                "inactive": "Inaktiv",
+                "unavailable": "Nicht verfügbar",
+                "paused": "Pausiert",
+                "stop": "[!]stop",
+                "loop": "[!]loop",
                 "name": "Name",
-                "wait": "[!]wait",
-                "main": "[!]main",
+                "wait": "Warte",
+                "main": "Haupt",
                 "custom": "Benutzerdefiniert",
                 "left": "Links",
                 "middle": "Mitte",
@@ -79,8 +82,8 @@
                 "down": "Runter",
                 "width": "Weite",
                 "height": "Höhe",
-                "opacity": "[!]opacity",
-                "stationary": "[!]stationary",
+                "opacity": "Opazität",
+                "stationary": "Stationär",
                 "layers": {
                     "one": "Levelschicht",
                     "other": "Levelschichten"
@@ -90,12 +93,12 @@
                     "other": "Effekte"
                 },
                 "filters": {
-                    "one": "[!]filter",
-                    "other": "[!]filters"
+                    "one": "Filter",
+                    "other": "Filter"
                 },
                 "generators": {
-                    "one": "[!]generator",
-                    "other": "[!]generators"
+                    "one": "Generator",
+                    "other": "Generatoren"
                 },
                 "objects": {
                     "one": "Objekt",
@@ -126,13 +129,14 @@
                     "other": "Etiketten"
                 },
                 "degrees": {
-                    "one": "[!]degree",
-                    "other": "[!]degrees"
+                    "one": "Grad",
+                    "other": "Grad"
                 }
             },
             "labels": {
                 "press-again-to-confirm": "Drücke erneut zum Bestätigen",
                 "press-x-again-to-confirm": "Drücke {0} erneut um zu bestätigen",
+                "nothing-to-see": "[!]Nothing to see here!",
                 "x-settings": "{0} Einstellungen",
                 "x-tags": "{0} Etiketten",
                 "active-on-start": "Aktiv am Start",
@@ -149,17 +153,18 @@
                 "min-tiles": "Minimale Größe ist {0}",
                 "current-map-size": "Momentane Teilbereich Größe",
                 "select-x": "Wähle {0}",
-                "mode": "[!]Mode",
-                "appearance": "[!]Appearance",
-                "activity": "[!]Activity",
-                "activation": "[!]Activation",
-                "advanced": "[!]Advanced",
-                "tagging": "[!]Tagging",
-                "behavior": "[!]Behavior",
-                "how-it-works": "[!]How it works",
-                "duration": "[!]Duration",
-                "repeats": "[!]Repeats",
-                "other": "[!]Other"
+                "mode": "Modus",
+                "appearance": "Aussehen",
+                "activity": "Aktivität",
+                "activation": "Aktivierung",
+                "advanced": "Fortgeschritten",
+                "tagging": "Markieren",
+                "behavior": "Verhalten",
+                "how-it-works": "Wie es funkioniert",
+                "duration": "Dauer",
+                "repeats": "Wiederholungen",
+                "delay": "Verzögerung",
+                "other": "Andere"
             },
             "menu-options": {
                 "default": "Standard",
@@ -172,10 +177,9 @@
                 "vertical": "Vertikal",
                 "both-axes": "Beide Achsen",
                 "standard": "Standard",
-                "custom-music-url": "Benutzerdefinierte Musik URL",
                 "more-buttons": "Mehr Knöpfe",
                 "reset-to-default": "Setze zum Standard zurück",
-                "unapplicable": "[!]Unapplicable"
+                "unapplicable": "Nicht anwendbar"
             }
         },
         "title-screen": {
@@ -229,7 +233,8 @@
                 "import-code-notice": "Kopiere deinen Level Code hier, um dein Level in dem Spiel selbst zu speichern. Trotzdem sollten von dir reguläre Sicherungskopien erschaffen werden, welche separat auf deinem System oder auf Level Share Square gespeichert werden.",
                 "first-paste-code": "[!]You first have to paste in your level code.",
                 "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
-                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
+                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct.",
+                "missing-startpoint": "[!]The startpoint is invalid. Notify the creator to place a startpoint in an existing map."
             }
         },
         "regular-play": {
@@ -266,6 +271,7 @@
                 "cryo": "Kryoflüssigkeit",
                 "spikes": "Stachelige & Tödliche Blöcke",
                 "climbables": "Kletterbare Objekte",
+                "electricity": "[!]Electricity",
                 "doors": "Dekorative Türen",
                 "mainObjects": "Gemeine Objekte",
                 "powerUps": "Power-Ups & Reitbare Objekte",
@@ -273,6 +279,7 @@
                 "switches": "Schalter",
                 "goals": "Zielpunkte & Zwischenpunkte",
                 "advanced": "Fortgeschrittene Blöcke",
+                "envChangers": "[!]Environmental Changers",
                 "mainEnemies": "Gemeine Gegner",
                 "shellEnemies": "Gepanzerte Gegner",
                 "waterEnemies": "Aquatische Gegner",
@@ -342,7 +349,10 @@
                 "gradient-scale": "Skaliere[scale=0.5]\nLinienhöhe multipliziert mit:[/scale]",
                 "level-music-header": "Level Musik (Für diesen Teilbereich)",
                 "other-music-header": "Andere Musik (Für jeden Teilbereich)",
-                "loop-to": "Wiederhole\nab:",
+                "map-theme": "[!]Map theme",
+                "switch-theme": "[!]Switches",
+                "starman-theme": "[!]Starman",
+                "metal-theme": "[!]Steethan",
                 "loop-point-notice": "[scale=0.6]Halte SHIFT, um den Wiederholungspunkt zu testen[/scale]",
                 "text-formatting": "[scale=0.8]Text\nFormatierung[/scale]",
                 "inactive-layer-opacity": "[offsety=-8][scale=0.85]Opazität von inaktiven Levelschichten[/scale][/offsety]",
@@ -366,15 +376,14 @@
                 "rename-map": "Benenne Teilbereich",
                 "create-new-map": "Neuer Teilbereich",
                 "import-map": "Importiere Teilbereich",
+                "copy-current-layer-list": "[!]Copy current layer list",
+                "copy-current-theme": "[!]Copy current theme\n[scale=0.75](backgrounds, music & filters)[/scale]",
                 "reset-startpoint": "Setze Startpunkt zurück",
                 "foreground": "Vordergrund",
                 "middleground": "Mittelgrund",
                 "background": "Hintergrund",
                 "music-echo": "Echo Effekt",
                 "music-water-muffle": "[scale=0.65]Dämpfe Audio, falls \nder Spieler sich im Wasser befindet.[/scale]",
-                "switch-timer": "Schalter Zeit",
-                "starman-theme": "Super-Stern",
-                "metal-theme": "Stahlfried",
                 "editing": "Editieren",
                 "preview": "Vorschau",
                 "main-stats": "[scale=0.8]Hauptstatistiken[/scale]",
@@ -404,6 +413,7 @@
                 "layer-type": "{0} Levelschicht",
                 "layer-tags": "Optionale Etiketten, welche sich auf diese Levelschicht beziehen. Levelschichten können mehrere Etiketten haben (Getrennt von einem Leerzeichen) und auch welche miteinander teilen.",
                 "layer-darkness": "Fügt ein Dunkelheitsoverlay hinzu, welches die Levelschichten under dieser beeinflusst.\nGlobale Dunkelheit kann in den [color=#F7F76D]Teilbereich Effekten[/color] gefunden werden.",
+                "cannot-delete-only-map": "[!]Cannot delete only map",
                 "level-timer": "Levelzeit",
                 "start-lives": "Levelleben",
                 "water-mode": "Falls dies auf immer gestellt worden ist, dann werden Sprites sich so verhalten, als wären sie immer im Wasser.",
@@ -435,6 +445,7 @@
             "text": {
                 "obj-pipe": "[scale=0.75]Die Röhren auf dieser Seite werden als [/scale]Objekte[scale=0.75] behandelt (nicht als [/scale]Blöcke[scale=0.75]), und gehen somit auf die Objektlevelschicht. Diese Röhren können verlängert werden und außerdem kannst du sie über Zeit wachsen oder schrumpfen lassen.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Dieses unsichtbare Objekt kann Sprites kreieren. Falls du möchtest, dass es Sprites aus einer Röhre erschafft, dann ziehe das Objekt einfach in die Röhre rein! Du solltest alle notwendigen Einstellungen aber schon davor gesetzt haben.[/scale]",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
                 "scenery-doors": "Dies sind dekorative Türen. Falls du nach betretbaren Türen schaust, dann gehe zu dem Warppunkt Menü, indem du auf das Röhrensymbol in der unteren Leiste klickst.",
                 "advanced-platform": "Fortgeschrittene Platformen\n[scale=0.75]Diese Platformen sind sehr anpassbar! Die Blöcke neben ihnen können ihr Verhalten beeinflussen.[/scale]",
                 "persistent-area-tile": "Sprites bleiben in einer von dir ausgewählten Fläche geladen",
@@ -445,11 +456,14 @@
                 "invis-sprite-spawner": "Unsichtbares Objekt, welches Sprites hervorbringt und in Röhren platziert werden kann.",
                 "current-gen": "Erschaffe eine Strömung, welche Sprites zu sich hinzieht oder wegstößt.",
                 "tag-block": "Block, welcher Etikette an- oder ausschaltet.",
+                "music-changer": "[!]Change, start or stop the map's music, with optional fades",
                 "cheep-cheeps": "Cheep-Cheeps\n[scale=0.75]Cheep-Cheeps haben diverse AI Bewegungsmöglichkeiten. Ziehe deine Maus auf deren Symbol, um diese zu überprüfen![/scale]",
                 "more-aquatic-enemies": "[!]More aquatic enemies",
                 "stretch-tiles": "[scale=0.75]Scrolle nach unten, um weitere Buu-Lakenblöcke zu sehen![/scale]",
                 "artillery-tiles": "Verwandte Blöcke\n[scale=0.75]Dies sind optionale Blöcke, welche den Objekten oben ähneln.[/scale]",
                 "king-bill": "König Kugelwilli\n[scale=0.75]Dieser kolossale Kugelwilli kann harte Blöcke ohne Probleme zerstören. Außerdem ist er absolut unzerstörbar![/scale]",
+                "numeric-layer-name-error": "[!]Sorry, layer names cannot only consist of numbers.",
+                "duplicate-layer-name-error": "[!]Oops! Cannot have duplicate layer names.",
                 "view-map-code": "Dies ist dein Teilbereich Code: Er beinhaltet all die Daten zu jenem. Du kannst diesen Code benutzen, um eine identische Kopie von deinem Teilbereich zu einem anderen Level hinzuzufügen. Du kannst aber auch ein Duplikat davon zu diesem Level hinzufügen.",
                 "import-map-code": "Füge einen Teilbereich Code ein. Teilbereich Codes können erhalten werden, indem du den 'Teilen' Knopf auf einem Teilbereich Feld klickst."
             },
@@ -470,7 +484,7 @@
                 "green-dotted-line-block": "Grüner Umriss-Block",
                 "red-dotted-line-block": "Roter Umriss-Block",
                 "blue-dotted-line-block": "Blauer Umriss-Block",
-                "gray-brick-block": "Grauer Mauerstein",
+                "rock-block": "[!]Rock Block",
                 "standard-coin": "Münze",
                 "goal-orb": "?-Ball",
                 "yoshi-egg": "Yoshi-Ei",
@@ -551,6 +565,10 @@
                 "grab-block": "[!]Grab Block",
                 "object-sign": "[!]Object Sign",
                 "circling-platform": "[!]Circling Platform",
+                "floating-platform": "[!]Floating Platform",
+                "skull-raft": "[!]Skull Raft",
+                "skull-raft-fast": "[!]Skull Raft[s]Fast",
+                "skull-raft-slow": "[!]Skull Raft[s]Slow",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
                 "goombrat": "Gumbalg",
@@ -604,11 +622,14 @@
                 "red-piranha-plant": "Rote Piranha-Pflanze",
                 "venus-fire-trap": "Venus-Feuerfalle",
                 "red-venus-fire-trap": "Rote Venus-Feuerfalle",
+                "thorny-piranha-plant": "[!]Thorny Piranha Plant",
+                "thorny-venus-fire-trap": "[!]Thorny Venus Fire Trap",
                 "muncher": "Mampfer",
                 "poison-mushroom": "Giftpilz",
                 "bob-omb": "Bob-omb",
                 "bob-omb-no-key": "Bob-omb[s]Verfolgt dich & Explodiert",
                 "dry-bones": "Knochentrocken",
+                "fry-bones": "[!]Fry Bones",
                 "bone-throwing-dry-bones": "Knochenwerfender Knochentrocken",
                 "hammer-bro": "Hammer-Bruder",
                 "boomerang-bro": "Bumerang-Bruder",
@@ -679,12 +700,21 @@
                 "lakitu": "Lakitu",
                 "pipe-lakitu": "Röhren-Lakitu",
                 "bouncy-spiny-egg": "Hüpfendes Stachi-Ei",
+                "beach-koopa": "[!]Beach Koopa[s]Kicks sprites in its way",
+                "beach-koopa-sliding": "[!]Sliding Beach Koopa[s]Slides down if placed on slopes",
                 "green-beach-koopa": "Grüner Strand-Koopa",
                 "red-beach-koopa": "Rother Strand-Koopa",
                 "blue-beach-koopa": "Blauer Strand-Koopa",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "Gelber Strand-Koopa",
                 "bombshell-beach-koopa": "Strand-Koopeng",
                 "fast-goomba": "Schneller Gumba",
+                "brown-buzzy-beetle": "[!]Brown Buzzy Beetle",
+                "brown-buzzy-beetle-shell": "[!]Brown Buzzy Beetle Shell",
+                "brown-buzzy-beetle-shell-moving": "[!]Brown Buzzy Beetle Shell[s]Already moving",
+                "brown-buzzy-beetle-ceiling": "[!]Brown Buzzy Beetle on ceiling",
+                "brown-buzzy-beetle-shell-upsidedown": "[!]Brown Upside-down Buzzy Beetle Shell",
+                "brown-buzzy-beetle-shell-upsidedown-moving": "[!]Brown Upside-down Buzzy Beetle Shell[s]Already moving",
                 "gray-buzzy-beetle": "Grauer Käfer",
                 "gray-buzzy-beetle-shell": "Grauer Käfer-Panzer",
                 "gray-buzzy-beetle-shell-moving": "Grauer Käfer-Panzer[s]Bereits mobil",
@@ -725,6 +755,7 @@
                 "urchin-back-and-forth": "Igluck[s]Schwimmt vor und zurück",
                 "urchin-walled": "Igluck[s]Folgt der Wand",
                 "big-bertha": "Maxi-Cheep-Cheep",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "Stachelfisch",
                 "cheep-chomp": "Happ-Cheep",
                 "spike-bass": "Stachel-Barsch",
@@ -747,8 +778,10 @@
                 "nipper-plant-fiery": "Möchtegern-Pflanze[s]Feurig",
                 "jumping-piranha-plant": "Springende Piranha-Pflanze",
                 "red-jumping-piranha-plant": "Rote springende Piranha-Pflanze",
+                "thorny-jumping-piranha-plant": "[!]Thorny Jumping Piranha Plant",
                 "jumping-piranha-plant-fiery": "Springende Piranha-Pflanze[s]Feurig",
                 "red-jumping-piranha-plant-fiery": "Rote springende Piranha-Pflanze[s]Feurig",
+                "thorny-jumping-piranha-plant-fiery": "[!]Thorny Jumping Piranha Plant[s]Fiery",
                 "volcano-lotus": "Vulkan-Pflanze",
                 "big-falling-icicle": "Großer fallender Eiszapfen",
                 "small-falling-icicle": "Kleiner fallender Eiszapfen",
@@ -772,17 +805,22 @@
                 "paragaloomba": "[!]Paragaloomba",
                 "paragoombrat": "[!]Paragoombrat",
                 "paragoombud": "[!]Paragoombud",
+                "fast-paragoomba": "[!]Fast Paragoomba",
+                "blargg": "[!]Blargg",
+                "skeleblargg": "[!]Skeleblargg",
                 "boom-boom": "Bumm Bumm",
                 "bowser": "Bowser",
                 "king-boo": "König Buu Huu",
                 "super-mushroom": "Superpilz",
                 "fire-flower": "Feuerblume",
                 "super-leaf": "Superblatt",
-                "hammer-flower": "Hammerblume",
                 "hammer-suit": "[!]Hammer Suit",
+                "hammer-flower": "Hammerblume",
                 "cloud-flower": "[!]Cloud Flower",
                 "ice-flower": "Eisblume",
                 "carrot": "[!]Carrot",
+                "tanooki-suit": "[!]Tanooki Suit",
+                "statue-leaf": "[!]Statue Leaf",
                 "small-fire-flower": "Kleine Feuerblume",
                 "bubble-flower": "Seifenblasenblume",
                 "super-star": "Super-Stern",
@@ -795,7 +833,7 @@
                 "yellow-yoshi": "Gelber Yoshi",
                 "bombshell-yoshi": "Schwarzer Yoshi",
                 "lakitus-cloud": "Lakitus Wolke",
-                "persistant-area-tile": "[!]Persistant Area Tile",
+                "persistent-area-tile": "[!]Persistent Area Tile",
                 "area-object-loader": "[!]Area Object Loader",
                 "tag-tile": "[!]Tag Tile",
                 "light-caster": "[!]Light caster",
@@ -815,7 +853,8 @@
                 "small-one-way-wall-right": "Kleine Einbahnwand (Rechts)",
                 "small-one-way-wall-down": "Kleine Einbahnwand (Unten)",
                 "small-one-way-wall-left": "Kleine Einbahnwand (Links)",
-                "mount-blockade": "[!]Mount Blockade"
+                "mount-blockade": "[!]Mount Blockade",
+                "music-changer": "[!]Music Changer"
             },
             "tile-tooltips": {
                 "invisible-solid-tile": "[!]Invisible solid tile[s]Not visible during gameplay",
@@ -834,6 +873,47 @@
                 "donut-block-wood-semi": "[!]Wooden Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
                 "donut-block-metal-semi": "[!]Metal Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "[!]Chomp Post[s]Place a Chain Chomp on top to attach"
+            },
+            "tilemap-tooltips": {
+                "mainDeco": "[!]General Decorations",
+                "mushroom": "[!]Mushrooms",
+                "island": "[!]Islands",
+                "grass": "[!]Grass/Overworld",
+                "cave": "[!]Cave/Underground",
+                "castle": "[!]Caste/Fortress",
+                "snow": "[!]Snow",
+                "ice": "[!]Ice/Icy Cave",
+                "underwater": "[!]Underwater",
+                "desert": "[!]Desert",
+                "desertTemple": "[!]Desert Temple",
+                "beach": "[!]Beach",
+                "mountain": "[!]Mountain",
+                "lavaCave": "[!]Lava Cave",
+                "cloudAndBeanstalk": "[!]Cloud[s]Inc. Beanstalk",
+                "sky": "[!]Sky",
+                "ghostHouse": "[!]Ghost House",
+                "bonus": "[!]Bonus",
+                "starWorld": "[!]Star World",
+                "forest": "[!]Forest",
+                "hedge": "[!]Hedge",
+                "garden": "[!]Garden",
+                "ship": "[!]Airship/Tank",
+                "sewer": "[!]Sewer",
+                "global": "[!]Global/General Tiles",
+                "arch": "[!]Arches (Bridges)",
+                "turnip": "[!]Turnip",
+                "bunting": "[!]Bunting & Garland",
+                "foliage": "[!]Foliage[s]Trees & Big Bushes",
+                "ghBrick": "[!]Ghost House (Bricks)",
+                "ghMain": "[!]Ghost House (General)",
+                "ghOuter": "[!]Ghost House (Outside)",
+                "night": "[!]Nighttime Overworld",
+                "fall": "[!]Fall/Autumn",
+                "ashland": "[!]Ashland/Volcano",
+                "tipsyTurtle": "[!]Tipsy Turtle",
+                "cloud": "[!]Cloud",
+                "skyVariety": "[!]Sky Variety[s]Rainbow & Beanstalk",
+                "rope": "[!]Rope"
             }
         },
         "customizers": {
@@ -865,7 +945,9 @@
                     "preview": "Vorschau",
                     "edit-range": "[!]Edit range",
                     "edit-palette": "[!]Edit palette",
+                    "no-palettes-available": "[!]No palettes available",
                     "edit-item": "[!]Edit item",
+                    "copy-item": "[!]Copy item",
                     "enable-sinewave-motion": "[!]Enable sinewave motion"
                 },
                 "tooltips": {
@@ -927,7 +1009,8 @@
                 "headers": {
                     "boss-start-common": "[!]When the fight begins...\n[scale=0.75][color=#CCCCCC]This music will play as soon as {0} is on-screen[/color][/scale]",
                     "boss-start-kb": "[!]When the fight begins...\n[scale=0.75][color=#CCCCCC]This music will play after King Boo's appearance animation[/color][/scale]",
-                    "boss-defeat-common": "[!]When the fight is over\n[scale=0.75][color=#CCCCCC]Music to play once {0} is defeated[/color][/scale]"
+                    "boss-defeat-common": "[!]When the fight is over\n[scale=0.75][color=#CCCCCC]Music to play once {0} is defeated[/color][/scale]",
+                    "music-changer": "[!]When the player gets in range...\n[scale=0.75][color=#CCCCCC]This music will play[/color][/scale]"
                 },
                 "labels": {
                     "source-url": "[!]Source URL",
@@ -962,7 +1045,7 @@
                 "appearance-separator": "[!]Text appearance options",
                 "text-orientation": "[!]Text orientation",
                 "display-text-at": "[!]Display text at",
-                "text-area-options": "[!]Center of the screen|Customised area (range editor)"
+                "text-area-options": "[!]Center of the screen|Customized area (range editor)"
             },
             "blocks": {
                 "labels": {
@@ -1066,6 +1149,7 @@
                     "sines": "[!]Sines",
                     "actions": "[!]Actions",
                     "edit-platform-appearance": "[!]Edit platform appearance",
+                    "edit-platform-palette": "[!]Edit platform palette",
                     "platform-length": "[!]Platform length",
                     "platform-width-info": "[!]The width of the platform, in tiles.",
                     "linear-movement": "[!]Linear movement",
@@ -1231,14 +1315,15 @@
                 "control-config-k": "Tastenbelegungskonfiguration",
                 "control-config-g": "Tastenbelegungskonfiguration\n[scale=0.65][color=#CCCCCC]Gamepad Knöpfe benutzen numerische IDs[/color][/scale]",
                 "graphics-settings": "Leistungs & Grafik Einstellungen",
-                "in-game-username": "[!]In-game username",
+                "in-game-username": "Spiel Nutzername",
+                "in-game-username-colour": "Nutzername Farbe",
                 "fullscreen-scaling": "Vollbildschirm Skalierung",
                 "fill-screen": "Fülle Bildschirm",
                 "perfect-resolution": "Perfekte Auflösung",
                 "account-settings": " Verbinde Level Share Square Konto",
                 "email": "E-Mail",
                 "password": "Passwort",
-                "logout": "[!]Log out",
+                "logout": "Ausloggen",
                 "logged-in-as": "Eingeloggt als {0}",
                 "x-levels-on-lss": "{0} Level auf Level Share Square",
                 "log-out-confirmation": "Bist du sicher, dass du dich ausloggen möchtest?",
@@ -1287,7 +1372,7 @@
                 "embers-f": "Glut",
                 "heat-f": "Hitzewellen",
                 "dark-f": "Dunkelheit",
-                "echo-f": "SFX Echo",
+                "echo-f": "Echo",
                 "flash-f": "Blitz",
                 "fog-f": "Nebel",
                 "leaf-f": "Blätter",
@@ -1295,6 +1380,8 @@
                 "current-f": "[!]Current",
                 "fish-f": "[!]Fish",
                 "color-f": "[!]Color overlay",
+                "vol-f": "[!]Volume reduction",
+                "muffle-f": "[!]Muffled audio",
                 "wind-g": "[!]Wind generator"
             },
             "properties": {
@@ -1312,6 +1399,8 @@
                 "palette": "Palette",
                 "two-way-movement": "[!]Two-way movement",
                 "water-check": "[!]Check for water",
+                "affected-audio": "[!]Affected audio",
+                "volume-reduction": "[!]Volume reduction",
                 "play-wind-sfx": "[!]Play wind SFX",
                 "buildup": "[!]Buildup",
                 "cooldown": "[!]Cooldown"
@@ -1321,7 +1410,8 @@
                 "tilt-options": "Links|Geradeaus|Rechts",
                 "flash-type": "Nur Hintergrund|Alle Levelschichten",
                 "opacity-options": "25% (Ambient)|50%|75%|100% (Undurchsichtig)",
-                "wind-intensity": "[!]Weakest|Weak|Normal|Strong|Turbo"
+                "affected-audio": "[!]Only sounds|Only music|Both sounds & music",
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "[!]A name to identify this effect, purely inside the editor.",
@@ -1341,27 +1431,31 @@
                 "palette": "Palette dieses Effektes, welche rein kosmetisch ist.",
                 "two-way-movement": "[!]Allows particles to also move towards the opposite angle.",
                 "water-check": "[!]Each effect particle will check if it is inside water. If it isn't, it may disappear or start moving elsewhere.",
+                "water-check-player": "[!]The effect will differ depending on if the player is inside a liquid or not.",
+                "affected-audio": "[!]Whether to affect just sound effects, music, or both.",
+                "volume-reduction": "[!]The amount of decibells to lower the volume with.",
                 "wind-strength": "[!]The strength of the wind, stronger strengths will make sprites get pushed faster.",
                 "wind-buildup": "[!]The time in seconds for the wind to build up to full speed (and vice-versa).",
                 "wind-duration": "[!]The duration of the wind blowing (note: this does not include buildup time).",
                 "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
                 "wind-repeats": "[!]The amount of time the wind will repeat its cycle. The delay between winds is the same as the duration."
             },
             "palettes": {
-                "1_rain": "Standard Regen|Radioaktiver Abfall|Matschige Gülle|Dschungel Saft|Abwasser Suppe|Tiefe Dunkelheit",
+                "1_rain": "Standard Regen|Radioaktiver Abfall|Matschige Gülle|Dschungel Saft|Abwasser Suppe|Tiefe Dunkelheit|Silbener Fall|Träumerische Tropfen",
                 "2_rain": "Standard Regen|Toxische Säure|Zähflüssiger Schlamm|Frostige Kryoflüssigkeit|Schokoladengetränk|Ölpest|Goldene Dusche|Geschmolzenes Metal|Giftiger Modder|Monochrome Mischung",
                 "1_snow": "Standard Schnee",
                 "2_snow": "Standard Schnee|Winterminze|Pure Kälte|Eisiges Weiß|Erdbeerenrot|Blizzardnacht|Eisgekühlte Lemonade",
-                "1_sand": "Standard Sandsturm|Glühendes Gewürz|Staubiger Windzug|Goldener Sturm|Düstersand|Knochenasche",
-                "2_sand": "Standard Sandsturm|Sonnengelb|Schneeweiß|Schokoladenbraun|Sumpfiger Schlamm|Mitternachtsviolett",
-                "1_embers": "Standard Glut|Sengende Seuche|Lila Leere|Scharfer Saphir|Katastrophales Karmesin|Tödlicher Teer",
+                "1_sand": "Standard Sandsturm|Glühendes Gewürz|Staubiger Windzug|Goldener Sturm|Düstersand|Knochenasche|Sonnenuntergang|Windige Oase",
+                "2_sand": "Standard Sandsturm|Sonnengelb|Schneeweiß|Schokoladenbraun|Sumpfiger Schlamm|Mitternachtsviolett|Verblasste Erinnerung|Dämmernder Sand",
+                "1_embers": "Standard Glut|Sengende Seuche|Lila Leere|Scharfer Saphir|Katastrophales Karmesin|Tödlicher Teer|Goldene Gefahr|Grünes Gift",
                 "2_embers": "Standard Glut|Finsteres Schwarz|Giftiges Lila|Substanz der Nichtigkeit|Tintenblau|Royales Gold",
-                "1_leaf": "Standard Blätter|Roter Herbst|Gelbe Trockenheit|Weißer Winter|Grüner Sommer|Limettengrüner Frühling",
-                "2_leaf": "Standard Blätter|Standard Herbst|Outrageous Laubwerk|Illusionäres Grau|Knackige Schokolade|Funky Lila|Aschiger Pinsel|Grelles Grau|Finsterer Sumpf|Goldene Entzückung|Der frühe Winter|Knuspriger Kakao|Ruhiger Sonnenuntergang",
-                "current": "[!]Bubbles|Air particles"
+                "1_leaf": "Standard Blätter|Roter Herbst|Gelbe Trockenheit|Weißer Winter|Grüner Sommer|Limettengrüner Frühling|Violette Mitternacht|Brennende Blüte",
+                "2_leaf": "Standard Blätter|Standard Herbst|Outrageous Laubwerk|Illusionäres Grau|Knackige Schokolade|Funky Lila|Aschiger Pinsel|Grelles Grau|Finsterer Sumpf|Goldene Entzückung|Der frühe Winter|Knuspriger Kakao|Ruhiger Sonnenuntergang|Brütende Brise|Farblose Fauna",
+                "current": "Luftblasen|Luftpartikelchen"
             },
             "text": {
-                "duplicate-name": "[!]This effect name is already in use. Try another name."
+                "duplicate-name": "Dieser Effektname ist bereits in Benutzung. Versuche einen anderen Namen."
             }
         },
         "screen-menus": {
@@ -1431,6 +1525,56 @@
                 "clock": "Zeithalbierung",
                 "frameadvance": "Einzelbildvortschritt",
                 "debug": "Debugger"
+            },
+            "tip-notifs": {
+                "tile-rotation": "[!]This tileset supports tile rotation! Press CTRL to rotate tiles.",
+                "icy-palette": "[!]This palette is icy, sprites can have slippery physics!"
+            },
+            "music-manager": {
+                "music-selector": "[!]Music selector",
+                "manage-custom-music": "[!]Manage custom music",
+                "custom": "[!]Custom/external music",
+                "default-theme": "[!]Default theme",
+                "smc-1": "[!]Super Mario Construct (SMAS SMB1)",
+                "smc-2": "[!]Super Mario Construct (SMW)",
+                "smb1": "[!]Super Mario Bros 1",
+                "sml": "[!]Super Mario Land series",
+                "smw": "[!]Super Mario World",
+                "smw-v": "[!]Super Mario World (Vanilla)",
+                "smas1-v": "[!]Super Mario Bros. 1 (SMAS, Vanilla)",
+                "nsmb": "[!]New Super Mario Bros. series",
+                "ovw": "[!]Overworld",
+                "udg": "[!]Underground",
+                "udw": "[!]Underwater",
+                "des": "[!]Deserts",
+                "bch": "[!]Beaches",
+                "volc": "[!]Volcanoes & Lava",
+                "sky": "[!]Skies",
+                "space": "[!]Space",
+                "bz": "[!]Bonus Zones",
+                "fort": "[!]Castles & Fortresses",
+                "gh": "[!]Ghost Houses",
+                "ship": "[!]Ships & Tanks",
+                "mnt": "[!]Mountain",
+                "sew": "[!]Sewer",
+                "boss": "[!]Boss Battles",
+                "misc": "[!]Miscellaneous",
+                "sort-by-game-origin": "[!]Sort by game origin",
+                "sort-by-level-theme": "[!]Sort by level theme",
+                "use-default-music": "[!]Use default music",
+                "edit-music": "[!]Edit music",
+                "remove-music": "[!]Remove music",
+                "remove-music-warning": "[!]This will remove music only for this category.",
+                "npc-press-play": "[!]Press ▶️ to preview a track!",
+                "npc-play-prompts": "[!]Excellent choice!|I'm BOPPING to this!|This is my jam!",
+                "timed-custom-music-notice": "[!]If you add custom music, you'll able to pick them here.",
+                "add-custom-music": "[!]Add custom music",
+                "custom-music-tab-header": "[!]Here, you can add and manage your custom music for this level. You will find your custom music as pickable options in the prior tab.",
+                "custom-music-tab-help": "[!]The name of your music is purely for identification. The loop point is the time in seconds your music restarts at. Optionally, you can adjust your music's volume.",
+                "custom-music-delete-prompt": "[!]Press here to confirm you want to delete this custom music.\n[scale=0.5][color=#CCCCCC]Note: this will also remove it from maps and timers.[/color][/scale]",
+                "unnamed-music": "[!]Unnamed music",
+                "insert-url": "[!]Click to insert source URL",
+                "source-url": "[!]URL to external music source"
             }
         }
     }

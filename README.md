@@ -17,6 +17,7 @@ Below are the languages that have significantly enough translated strings to be 
 • _Polish / Polski_  
 • _Russian / Русский_  
 • _Japanese / 日本語_  
+• _Latin / Latina_  
 
 ## Currently work-in-progress languages
 These are the languages that have WIP translations, but are not yet ready to be in the game.  
